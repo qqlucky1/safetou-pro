@@ -555,43 +555,43 @@
 
 
 
-.notice{
+.notice-slider{
     width: inherit;
     height: inherit;
     background-color: #fff;
 }
 
-.notice .notice-title{
+.notice-slider .notice-title-slider{
     height: 40px;
     padding: 0 10px;
     box-sizing: border-box;
 }
 
-.notice .notice-title1{
+.notice-slider .notice-title1-slider{
     font-size:17px;
     color: #302f2b;
 }
-.notice .notice-title2{
+.notice-slider .notice-title2-slider{
     font-size: 16px;
     color: #999;
     text-align: right;
 }
 
-.notice .notice-item1{
+.notice-slider .notice-item1-slider{
     padding: 14px;
 }
 
-.notice .notice-item2{
+.notice-slider .notice-item2-slider{
     padding: 30px 0;
 }
 
-.notice .notice-title1,.notice .notice-title2{
+.notice-slider .notice-title1-slider,.notice-slider .notice-title2-slider{
     float: left;
     width: 50%;
     line-height: 40px;
 }
 
-.notice .notice-item1,.notice .notice-item2{
+.notice-slider .notice-item1-slider,.notice-slider .notice-item2-slider{
     float: left;
     font-size: 15px;
 }
