@@ -76,7 +76,7 @@
     }
 })(jQuery);
 $(function() {
-    var c = $('#processingbar');
+    var c = $('.processingbar');
     animateEle();
     $(window).scroll(function() {
         animateEle()
