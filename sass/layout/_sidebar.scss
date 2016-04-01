@@ -1,10 +1,27 @@
 @charset "UTF-8";
+.infor-con{
+
+}
+.video-img1{
+  position: absolute;
+  right: 0px;
+  z-index: 999;
+  top: 8px;
+}
+.video-img{
+  display: inline-block;
+  background:sprite($icons, play-img);
+  @include sprite-background-position($icons, play-img);
+  @include  sprite-dimensions($icons,play-img);
+  vertical-align: middle;
+}
 .i-mod-warp{
 
   border-bottom: 1px solid #e5e5e5;
   background: #fff;
 }
 .infor-box-c{
+  position: relative;
   width: 1200px;
   margin: 0 auto;
   padding: 20px 0;
@@ -92,4 +109,11 @@
 /*合作伙伴*/
 .coop-box{
   padding: 20px;
+}
+
+.pd-left-01{
+  padding: 30px 0px;
+}
+.infor-item1 li{
+  padding-right: 80px;
 }
