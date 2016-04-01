@@ -89,7 +89,7 @@
 }
 
 .categorys .cate-mt .title a.text:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mt a.cate-sur{
@@ -111,7 +111,7 @@
 }
 
 .categorys .cate-mt .extra a:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mt .extra, .categorys .cate-mt .title, .categorys .cate-mt .title .text {
@@ -169,7 +169,7 @@
 }
 
 .categorys .cate-mc .title .more:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mc .title .more:hover i {
@@ -201,7 +201,7 @@
 }
 
 .categorys .cate-mc .goods-list a:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mc .goods-list i {
@@ -258,7 +258,7 @@
 }
 
 .categorys .cate-title-list .current .cate-mt .title .text {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-title-list .current .cate-mc {
@@ -360,7 +360,7 @@
 .categorys .cate-act-list .cate-a-mt .title .type {
     float: left;
     height: 18px;
-    background-color: #ff5256;
+    background-color: #fcae26;
     padding: 0 8px;
     color: #fff
 }
@@ -541,7 +541,7 @@
 }
 
 .prime-slide .ps-trigger .ps-trigger-wrap .trigger-item.current em {
-    border-color: #ff5256
+    border-color: #fcae26
 }
 
 .prime-slide .ps-trigger:hover {
@@ -660,13 +660,13 @@
     height: 9px;
     margin-bottom: 20px;
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: 19px;
     overflow: hidden;
     background-color: #F7F7F7;
     background-image: linear-gradient(to bottom, #F5F5F5, #F9F9F9);
     background-repeat: repeat-x;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
-    width: 167px;
+    width: 200px;
     float: left;
     -moz-border-radius-bottomleft: 4px;
     -moz-border-radius-bottomright: 4px;
@@ -684,15 +684,15 @@
 }
 .pro-m-textpro {
     display: inline-block;
-    margin-left: 5px;
-    color: #fdb323;
+    margin-left: 25px;
+    color: #999;
     line-height: 26px;
 }
 
 .processingbar {
     text-align: center;
-    margin: 14px 28px 0 0;
-    position: relative;
+    margin: 3px 28px 0 0;
+    position: absolute;
     width: 150px;
 }
 .processingbar span {
@@ -711,20 +711,21 @@
 }
 
 .processingbar li {
-    height: 37px;
+    height: 34px;
+    width: 100%;
     line-height: 37px;
 }
 .processingbar .item1 ,.processingbar .item2{
     color: #fcae26;
 }
 .processingbar .item1{
-    font-size: 10px;
+    font-size: 14px;
 }
 .processingbar .item2{
-    font-size: 30px;
+    font-size: 36px;
 }
 .processingbar .item3{
-    font-size: 12px;
+    font-size: 14px;
 }
 a:hover, a:link, a:visited {
     text-decoration: none
