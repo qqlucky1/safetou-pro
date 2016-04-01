@@ -9,6 +9,8 @@
 }
 .g-foot .foot-nav>li{
   float: left;
+  padding-left: 50px;
+  color: #a0a0a0;
 }
 .g-foot .foot-nav>li:first-child{
   padding-left: 0;
@@ -20,10 +22,208 @@
   @include sprite-background-position($foot, ft-icon05);
   @include  sprite-dimensions($foot,ft-icon05);
  }
+.ft-icon2{
+  float: left;
+  display: inline-block;
+  background:sprite($foot, ft-icon06);
+  @include sprite-background-position($foot, ft-icon06);
+  @include  sprite-dimensions($foot,ft-icon06);
+}
+.ft-icon3{
+  float: left;
+  display: inline-block;
+  background:sprite($foot, ft-icon07);
+  @include sprite-background-position($foot, ft-icon07);
+  @include  sprite-dimensions($foot,ft-icon07);
+}
 .g-foot .foot-nav>li .ft-info{
   overflow: hidden;
   display: inline-block;
+  float: left;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+ .ft-info span{
+   color: #a0a0a0;
+  font-size: 20px;
 }
 .g-foot .foot-nav>li+li{
-  padding-left: 84px;
+  padding-left: 50px;
+}
+/*.ft-info span{
+  font-size: 20px;
+}*/
+.g-foot .foot-nav>li .ft-info>ul{
+  margin-top: 20px;
+}
+.foot-nav-item .nav-item1{
+  line-height: 30px;
+}
+.foot-nav-item .nav-item1 a{
+   font-size: 14px;
+  color: #a0a0a0;
+  text-decoration: none;
+}
+.foot-nav-item .nav-item1 a:hover{
+  color: #fff;
+}
+.foot-nav{
+  float: left;
+}
+.line-ft{
+  float: left;
+  display: inline-block;
+  background:sprite($foot, ft-line);
+  @include sprite-background-position($foot, ft-line);
+  @include  sprite-dimensions($foot,ft-line);
+  margin-left: 90px;
+}
+.ft-box2{
+  padding: 0  40px;
+  float: left;
+}
+.ft-title-h{
+color: #a0a0a0;
+font-size: 20px;}
+
+.er-img-ft li{
+  float: left;
+  padding: 30px 30px 0 0;
+  }
+.img-wx1{
+  display: inline-block;
+  background:sprite($foot, ft-icon02);
+  @include sprite-background-position($foot, ft-icon02);
+  @include  sprite-dimensions($foot,ft-icon02);
+
+}
+.img-wx2{
+  display: inline-block;
+  background:sprite($foot, ft-icon03);
+  @include sprite-background-position($foot, ft-icon03);
+  @include  sprite-dimensions($foot,ft-icon03);
+
+}
+.img-wx3{
+  display: inline-block;
+  background:sprite($foot, ft-icon04);
+  @include sprite-background-position($foot, ft-icon04);
+  @include  sprite-dimensions($foot,ft-icon04);
+
+}
+.er-item-text{
+  text-align: center;
+  width: 84px;
+  display: inline-block;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+.line-ft-right{
+  float: left;
+  display: inline-block;
+  background:sprite($foot, ft-line);
+  @include sprite-background-position($foot, ft-line);
+  @include  sprite-dimensions($foot,ft-line);
+}
+.ft-box3{
+  float: left;
+  padding: 0 0 0 45px;
+}
+.er-img-ft1>li{
+
+}
+.img-wx4{
+  display: inline-block;
+  background:sprite($foot, ft-icon09);
+  @include sprite-background-position($foot, ft-icon09);
+  @include  sprite-dimensions($foot,ft-icon09);
+  float: left;
+
+}
+.img-wx5{
+  float: left;
+  display: inline-block;
+  background:sprite($foot, ft-icon08);
+  @include sprite-background-position($foot, ft-icon08);
+  @include  sprite-dimensions($foot,ft-icon09);
+}
+.img-wx6{
+  float: left;
+  display: inline-block;
+  background:sprite($foot, ft-icon10);
+  @include sprite-background-position($foot, ft-icon10);
+  @include  sprite-dimensions($foot,ft-icon10);
+}
+.ft-box3 .zixu-gj{
+  display: inline;
+  margin-left: 15px;
+  color: #a0a0a0;
+  margin-top: 12px;
+  float: left;
+}
+.er-img-ft1{
+  margin-top: 20px;
+}
+.er-img-ft1 >div{
+  height: 50px;
+}
+.ft-line-middle{
+  display: inline-block;
+  background:sprite($foot, line-midle);
+  @include sprite-background-position($foot, line-midle);
+  @include  sprite-dimensions($foot,line-midle);
+}
+.lianjie-left p{
+  color: #a0a0a0;
+  font-size: 14px;
+  line-height: 25px;
+}
+.lianj-1{
+  display: inline-block;
+  background:sprite($foot, lianjie4);
+  @include sprite-background-position($foot, lianjie4);
+  @include  sprite-dimensions($foot,lianjie4);
+}
+.lianj-2{
+  display: inline-block;
+  background:sprite($foot, lianjie5);
+  @include sprite-background-position($foot, lianjie5);
+  @include  sprite-dimensions($foot,lianjie5);
+}
+.lianj-3{
+  display: inline-block;
+  background:sprite($foot, lianjie6);
+  @include sprite-background-position($foot, lianjie6);
+  @include  sprite-dimensions($foot,lianjie6);
+}
+.lianj-4{
+  display: inline-block;
+  background:sprite($foot, lianjie7);
+  @include sprite-background-position($foot, lianjie7);
+  @include  sprite-dimensions($foot,lianjie7);
+}
+.lianj-5{
+  display: inline-block;
+  background:sprite($foot, lianjie8);
+  @include sprite-background-position($foot, lianjie8);
+  @include  sprite-dimensions($foot,lianjie8);
+}
+.lianjie-left{
+  float: left;
+}
+.lianjie-right{
+  float: left;
+  margin-left: 20px;
+}
+.lianjie-right{
+  margin-left: 30px;
+}
+.lianjie-right a{
+  margin: 0 4px;
+}
+.pd-tb{
+  padding: 20px 0;
+}
+.lianjie-left i{
+  padding: 0px 5px;
 }
