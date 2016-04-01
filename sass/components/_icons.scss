@@ -20,6 +20,18 @@ $product:sprite-map("../images/product/*.png",$spacing:20px,$layout:smart);
 $product-sprite-dimensions:true;
 $disable-magic-sprite-selectors:true;
 
+@import "../images/notice/*.png";
+$notice:sprite-map("../images/notice/*.png",$spacing:20px,$layout:smart);
+.sprite{ background: transparent sprite-url($notice) no-repeat 0 0; display: inline-block; }
+$notice-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+
+@import "../images/foot/*.png";
+$foot:sprite-map("../images/foot/*.png",$spacing:20px,$layout:smart);
+.sprite{ background: transparent sprite-url($foot) no-repeat 0 0; display: inline-block; }
+$foot-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+
 
 
 
