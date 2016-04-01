@@ -1,0 +1,26 @@
+
+@import "compass/utilities/sprites";
+
+@import "../images/base/*.png";
+$base:sprite-map("../images/base/*.png",$spacing:20px,$layout:smart);
+.sprite{ background: transparent sprite-url($base) no-repeat 0 0; display: inline-block; }
+$base-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+$base-spacing:20px;
+
+@import "../images/icons/*.png";
+$icons:sprite-map("../images/icons/*.png",$spacing:20px,$layout:smart);
+.sprite{ background: transparent sprite-url($icons) no-repeat 0 0; display: inline-block; }
+$icons-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+
+@import "../images/product/*.png";
+$product:sprite-map("../images/product/*.png",$spacing:20px,$layout:smart);
+.sprite{ background: transparent sprite-url($product) no-repeat 0 0; display: inline-block; }
+$product-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+
+
+
+
+

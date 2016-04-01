@@ -1,0 +1,153 @@
+@import "components/buttons";
+/*产品*/
+.pr-w-x{
+  width: 1200px;
+  margin: 0 auto;
+  }
+.newcomer-vip{
+  width: 921px;
+  height: 168px;
+  margin-top: 30px;
+  border: 1px solid  $orcoolor;
+}
+.vip-img{
+  display: inline-block;
+  background:sprite($product, vip-img3);
+  @include sprite-background-position($product,  vip-img3);
+  @include  sprite-dimensions($product, vip-img3);
+  float: left;
+}
+.vip-details{
+  float: left;
+  padding: 23px 0 0 38px;
+}
+.vip-details-title{
+   font-size: 18px;
+  color: #302f2b;
+}
+.detail-text{
+  padding-top: 25px;
+}
+.detail-text li{
+  float: left;
+  padding-right: 60px;
+  color: #5e5e5e;
+  font-size: 14px;
+}
+.income-num{ color: $orcoolor; font-size: 36px;}
+.bill-table table{
+  width: 100%;
+  font-family: arial "microsoft yahei";
+  line-height: 50px;
+  font-size: 14px;
+}
+.bill-table .number {
+  color: $orcoolor;
+  font-size: 36px;
+  padding-left: 10px;
+}
+.bill-table .number2 {
+  color: #5e5e5e;
+  font-size: 24px;
+  padding-left: 7px;
+}
+.bill-table .number i {
+  font-size: 14px;
+  font-style: normal;
+}
+.bill-table table td{
+  padding: 0px 30px 0 0;
+}
+.ui-button{
+  display: inline-block;
+  margin: 0;
+  padding: 0 14px;
+  color: #fff;
+  border: none;
+  border: 1px solid #ff9933;
+  background-color: #fcae26;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(top,#fcae26,#ff9933);
+  background-image: -webkit-linear-gradient(top,#fcae26,#ff9933);
+  background-image: -o-linear-gradient(top,#fcae26,#ff9933);
+  background-image: linear-gradient(to bottom,#fcae26,#ff9933);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endColorstr='#ff5256', GradientType=0);
+  border-radius: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Microsoft Yahei';
+  line-height: 40px;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.rzb-img{
+  display: inline-block;
+  background:sprite($product, vip-img2);
+  @include sprite-background-position($product,  vip-img2);
+  @include  sprite-dimensions($product, vip-img2);
+  float: left;
+}
+.rab-con-w{
+  margin-top: 20px;
+  border-top: 1px solid #31b5fc;
+}
+.pro-name{
+  color: #302f2b;
+  font-size: 18px;
+
+}
+.pro-con-box{
+  float: left;
+ }
+.bq-bg-img1{
+  display: inline-block;
+  background: url("../images/bq-icon.png") no-repeat;
+  width: 54px;
+  height: 18px;
+  color: $orcoolor;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 4px;
+
+}
+.pro-box-item{
+  border-right: 1px solid #ccc;
+  padding: 29px 23px 0px 22px;
+}
+.pro-con-box li{
+  float: left;
+}
+.icom-def dl{
+  float: left;
+  border-right: 1px solid #ccc;
+
+}
+.icom-def dl dd{
+  font-size: 24px;
+  color: #5e5e5e;
+}
+.icom-def dl dt{
+  font-size: 14px;
+  color: #5e5e5e;
+}
+
+.left-dl-s{
+  padding: 0 20px 0 0;
+}
+.right-dl-s{
+  padding: 0px 0px 0 25px;
+}
+
+.btn-pro-l{
+  @extend %btn-i;
+  width: 244px;
+  height: 38px;
+  line-height: 38px;
+}
+.btn-pro{
+  margin-top: 25px;
+}

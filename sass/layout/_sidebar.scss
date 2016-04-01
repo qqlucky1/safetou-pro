@@ -1,0 +1,89 @@
+.i-mod-warp{
+
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+}
+.infor-box-c{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.infor-item li{ float: left; padding-right: 30px;  font-size: 14px;
+
+}
+.ifor-img1{
+  display: inline-block;
+  background:sprite($icons, icons8);
+  @include sprite-background-position($icons, icons8);
+  @include  sprite-dimensions($icons, icons8);
+  vertical-align: middle;
+}
+.ifor-img2{
+  display: inline-block;
+  background:sprite($icons, icons7);
+  @include sprite-background-position($icons, icons7);
+  @include  sprite-dimensions($icons, icons7);
+  vertical-align: middle;
+}
+.ifor-img3{
+  display: inline-block;
+  background:sprite($icons, icons6);
+  @include sprite-background-position($icons, icons6);
+  @include  sprite-dimensions($icons, icons6);
+  vertical-align: middle;
+}
+.ifor-img4{
+  display: inline-block;
+  background:sprite($icons, icons2);
+  @include sprite-background-position($icons, icons2);
+  @include  sprite-dimensions($icons, icons2);
+  vertical-align: middle;
+}
+.infor-item{
+
+}
+.ifor-foon{
+  line-height: 30px;
+  margin-left: 5px;
+}
+.ifor-num{
+  color: $orcoolor;
+  padding: 0 3px;
+  font-size: 18px;
+}
+.ifor-img5{
+  display: inline-block;
+  background:sprite($icons, icons3);
+  @include sprite-background-position($icons, icons3);
+  @include  sprite-dimensions($icons, icons3);
+  float: left;
+}
+.ifor-img6{
+  display: inline-block;
+  background:sprite($icons, icons5);
+  @include sprite-background-position($icons, icons5);
+  @include  sprite-dimensions($icons, icons5);
+  float: left;
+}
+.ifor-img7{
+  display: inline-block;
+  background:sprite($icons, icons4);
+  @include sprite-background-position($icons, icons4);
+  @include  sprite-dimensions($icons, icons4);
+  float: left;
+}
+.infor-item .item{
+  border-right: 1px solid #e5e5e5;
+}
+.infor-ff-c{
+  float: left;
+  padding: 25px 15px;
+  text-decoration: none;
+  color: #6f6f6f;
+}
+.infor-item .pd-item{
+  padding: 0px 30px;
+}
+.inf-item-pd{
+  padding: 16px 15px;
+}

@@ -1,0 +1,129 @@
+@import "compass";
+@import "utils/variables";
+
+.topbar{
+  width: $con-width;
+  margin: 0 auto;
+}
+.header{
+  background: $top-dcolor;
+  height: 40px;
+}
+.tel-img{
+  background: sprite($base,icon_03);
+  @include sprite-background-position($base,icon_03);
+  @include  sprite-dimensions($base,icon_03);
+  display: inline-block;
+}
+.left-bar{
+  line-height: 40px;float: left;
+}
+.left-bar i{ @extend %top-style;margin-left: 5px; }
+.ge-line{
+  display: inline-block;
+   background: sprite($base,sh-line);
+  @include sprite-background-position($base,sh-line);
+  @include  sprite-dimensions($base,sh-line);
+}
+.ft-left{
+  float: left;
+}
+.mn-left{ margin-left: 10px;}
+.left-fnt{
+  @extend %top-style;
+  float: left;
+  line-height: 40px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+.qq {
+  float: left;
+  margin-left: 13px;
+  line-height: 40px;
+}
+.top_com {
+  display: inline-block;
+
+}
+.top03{
+  background:sprite($base, weibo);
+  @include sprite-background-position($base,weibo);
+  @include  sprite-dimensions($base,weibo);
+}
+.top02{
+  background:sprite($base, weixin);
+  @include sprite-background-position($base,weixin);
+  @include  sprite-dimensions($base,weixin);
+}
+.top01{
+  background:sprite($base,qq);
+  @include sprite-background-position($base,qq);
+  @include  sprite-dimensions($base,qq);
+}
+.top03:hover{
+  @include sprite-background-position($base,weibo_hover);
+ }
+
+.top02:hover{
+  @include sprite-background-position($base,weixin_hover);
+}
+.top01:hover{
+  @include sprite-background-position($base,qq_hover);
+}
+.app-lay{
+  float: left;
+  width: 83px;
+  height: 27px;
+  border: 1px solid #a0a0a0;
+  @include border-radius(4px);
+ margin: 5px 15px 0 15px;
+ }
+.image-t1{
+  float: left;
+  display: inline-block;
+  background:sprite($base, iphone);
+  @include sprite-background-position($base,iphone);
+  @include  sprite-dimensions($base,iphone);
+    margin: 7px 0px 0 10px;
+  }
+.ip-text{
+  display: inline-block;
+  margin: 6px 0 0 5px;
+  color: #a0a0a0;
+  font-size: 12px;
+}
+/*右边*/
+.right-bar{ float: right; height: 40px;}
+.login-ig01{
+  display: inline-block;
+  background:sprite($base, icon_07);
+  @include sprite-background-position($base,icon_07);
+  @include  sprite-dimensions($base,icon_07);}
+
+.login-ig02{
+  display: inline-block;
+  background:sprite($base, icon_12);
+  @include sprite-background-position($base,icon_12);
+  @include  sprite-dimensions($base,icon_12);
+}
+.login-ig01:hover{
+  @include sprite-background-position($base,log_hover);
+}
+.login-ig02:hover{
+  @include sprite-background-position($base,bz-hover);
+}
+
+.dl-lay-item {
+  float: left;
+  line-height: 40px;
+  margin: 0px 14px;
+}
+.dl-lay-item a{
+  color: #a0a0a0;
+  font-size: 12px;
+  margin-left: 9px;
+}
+
+
+
+
