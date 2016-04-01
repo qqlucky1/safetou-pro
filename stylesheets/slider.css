@@ -691,8 +691,8 @@
 
 .processingbar {
     text-align: center;
-    margin: 14px 28px 0 0;
-    position: relative;
+    margin: 3px 28px 0 0;
+    position: absolute;
     width: 150px;
 }
 .processingbar span {
@@ -711,20 +711,21 @@
 }
 
 .processingbar li {
-    height: 37px;
+    height: 34px;
+    width: 100%;
     line-height: 37px;
 }
 .processingbar .item1 ,.processingbar .item2{
     color: #fcae26;
 }
 .processingbar .item1{
-    font-size: 10px;
+    font-size: 14px;
 }
 .processingbar .item2{
-    font-size: 30px;
+    font-size: 36px;
 }
 .processingbar .item3{
-    font-size: 12px;
+    font-size: 14px;
 }
 a:hover, a:link, a:visited {
     text-decoration: none
