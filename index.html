@@ -5,6 +5,21 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    
+    
+    <!--所有效果需要的css-->
+    <!--<link rel="stylesheet" type="text/css" href="stylesheets/base.css"/>-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/slider.css"/>
+
+    <!--jquery cdn加速-->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+
+    <!--轮播需要js-->
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <!--进度圆需要js-->
+    <script type="text/javascript" src="js/cycle.js"></script>
+    <script type="text/javascript" src="js/raphael.js"></script>
 </head>
 <body>
 <div class="warp-bg-mod">
@@ -81,60 +96,177 @@
     </div>
     </div>
     <div class="banner">
-        <ul class="g-bg-list"></ul>
-        <div class="g-banner cf">
+        <!--分类管理-->
+        <div class="categorys j_categorys">
             <div class="cate-wrap">
-                <div class="cate-list">
-                    <div class="cate-item" >
-                        <a href="#" >
-                            <h2>
-                                <span class="cate-hd orange">新手专享</span>
-                                <span class="cate-num primary-sbg">9</span>
-
+                <div class="cate-title-list">
+                    <div class="cate-m fore1">
+                        <div class="cate-mt">
+                            <h2 class="title">
+                                <a class="text" target="_blank" href="#" style="color: #fcae26;">新手专享<span class="num">1</span></a>
+                                <a class="arrow" target="_blank" href="#"></a>
                             </h2>
-                            <div class="cate-extra">每日付息 仅限新手</div>
-                        </a>
+                            <div class="extra">
+                                <a target="_blank" href="#">每日付息</a>
+                                <a target="_blank" href="#">只限新手</a>
+                            </div>
+                            <span class="angle"></span>
+                        </div>
                     </div>
-                    <div class="cate-item" >
-                        <a href="#" >
-                            <h2>
-                                <span class="cate-hd">融资宝</span>
-                                <span class="cate-num primary-sbg">9</span>
-
+                    <div class="cate-m fore2">
+                        <div class="cate-mt">
+                            <h2 class="title">
+                                <a class="text" target="_blank" href="#">融资宝<span class="num" style="width: 28px">13</span></a>
+                                <a class="arrow" target="_blank" href="#"></a>
                             </h2>
-                            <div class="cate-extra">定制有礼 每月付息</div>
-                        </a>
+                            <div class="extra">
+                                <a target="_blank" href="#" >产品众筹</a>
+                                <a target="_blank" href="#" >私募股权</a>
+                            </div>
+                            <span class="angle"></span>
+                        </div>
                     </div>
-                    <div class="cate-item" >
-                    <a href="#" >
-                        <h2>
-                            <span class="cate-hd">优选计划</span>
-                            <span class="cate-num primary-sbg">9</span>
-
-                        </h2>
-                        <div class="cate-extra">本息保障 优质资产</div>
-                    </a>
+                    <div class="cate-m fore3">
+                        <div class="cate-mt">
+                            <h2 class="title">
+                                <a class="text" target="_blank" href="#">优选计划<span class="num">5</span></a>
+                                <a class="arrow" target="_blank" href="#"></a>
+                            </h2>
+                            <div class="extra">
+                                <a target="_blank" href="#">本息保障</a>
+                                <a target="_blank" href="#">优质资产</a>
+                            </div>
+                            <span class="angle"></span>
+                        </div>
+                    </div>
+                    <div class="cate-m fore4">
+                        <div class="cate-mt">
+                            <h2 class="title">
+                                <a class="text" target="_blank" href="#">VIP专区</a>
+                                <a class="arrow" target="_blank" href="#"></a>
+                            </h2>
+                            <div class="extra">
+                                <a target="_blank" href="#">专项计划</a>
+                                <a target="_blank" href="#">更高收益</a>
+                            </div>
+                            <span class="angle"></span>
+                        </div>
+                    </div>
+                    <div class="cate-m fore5">
+                        <div class="cate-mt">
+                            <h2 class="title">
+                                <a class="text" target="_blank" href="#l">转入专区</a>
+                                <span class="arrow" ></span>
+                            </h2>
+                            <div class="extra">
+                                <a target="_blank" href="#" >专项计划</a>
+                                <a target="_blank" href="#" >更高收益</a>
+                            </div>
+                            <span class="angle"></span>
+                        </div>
+                    </div>
+                    <div class="cate-m fore6">
+                        <div class="cate-mt">
+                            <div class="img j_categorysPromotion6">
+                                <a href="#" target="_blank" class="cate-sur">
+                                    点击有惊喜>>>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                    <div class="cate-item" >
-                        <a href="#" >
-                            <h2>
-                                <span class="cate-hd">VIP专区</span>
-                                <span class="cate-num primary-sbg">9</span>
+            </div>
 
-                            </h2>
-                            <div class="cate-extra">专享计划 更高收益</div>
-                        </a>
+            <div class="right-item">
+                <div class="right-item1" >
+                    <div class="nhlv">
+                        <a class="btn-register" href="#">立即注册</a>
+                        <div class="btn-register-item">
+                            <span class="btn-register-item1">已有账号，</span>
+                            <span class="btn-register-item2"><a href="#" style="text-decoration: underline;">立即登录</a></span>
+                        </div>
                     </div>
-                    <div class="cate-item" >
-                        <a href="#"  class="btn-jx-box">
-                            点击有惊喜>>>
-                        </a>
+                </div>
+                <div class="right-item2" >
+                    <div class="notice">
+                        <div class="notice-title">
+                            <div class="notice-title1"><span>最新公告</span></div>
+                            <div class="notice-title2">
+                                <a href="#" style="color: #999;"><span>更多></span></a>
+                            </div>
+                        </div>
+                        <div class="notice-item">
+                            <div class="notice-item1"><img src="images/gonggao.png" alt="公告" width="80px" height="65" /></div>
+                            <div class="notice-item2"><a href="#" style="color: #5e5e5e">安全投3.0新版隆重上线</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-
+        <!--slider轮播图-->
+        <div class="prime-slide j_primeSlide">
+            <div class="ps-wrap">
+                <!-- 焦点图 list -->
+                <ul class="ps-bg-list">
+                    <li class="ps-bg-item init" style="z-index: 1; opacity: 1; background-image: url(images/bg1.jpg);"></li>
+                    <li class="ps-bg-item" style="z-index: 0; opacity: 0; background-image: url(images/bg2.jpg);"></li>
+                    <li class="ps-bg-item" style="z-index: 0; opacity: 0; background-image: url(images/bg3.jpg);"></li>
+                    <li class="ps-bg-item" style="z-index: 0; opacity: 0; background-image: url(images/bg4.jpg);"></li>
+                </ul>
+                <ul class="ps-list">
+                    <li class="ps-item" style="z-index: 5;">
+                        <div class="item-puzzle">
+                            <div class="puzzle-item item-1">
+                                <a href="#" target="_blank"
+                                   clstag="jr|keycount|jr_index|banner1" class="puzzle-item-block"
+                                   style="margin-left: 0px;">
+                                    <img src="images/slider-img1.jpg" width="700" height="440" alt=""
+                                         clstag="jr|keycount|jr_index|banner1">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps-item" style="z-index: 4;">
+                        <div class="item-puzzle">
+                            <div class="puzzle-item item-1">
+                                <a href="#" target="_blank" clstag="jr|keycount|jr_index|banner2" class="puzzle-item-block">
+                                    <img src="images/slider-img2.jpg" width="700" height="440" alt=""
+                                         clstag="jr|keycount|jr_index|banner2">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps-item" style="z-index: 4;">
+                        <div class="item-puzzle">
+                            <div class="puzzle-item item-1">
+                                <a href="#" target="_blank" clstag="jr|keycount|jr_index|banner3" class="puzzle-item-block">
+                                    <img src="images/slider-img3.jpg" width="700" height="440" alt=""
+                                         clstag="jr|keycount|jr_index|banner3">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="ps-item" style="z-index: 4;">
+                        <div class="item-puzzle">
+                            <div class="puzzle-item item-1">
+                                <a href="#" target="_blank"
+                                   clstag="jr|keycount|jr_index|banner4" class="puzzle-item-block">
+                                    <img src="images/slider-img4.jpg" width="700" height="440" alt=""
+                                         clstag="jr|keycount|jr_index|banner4">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 焦点图 list end -->
+                <div class="ps-trigger">
+                <span class="ps-trigger-wrap"><a class="trigger-item current"><em></em></a><a
+                        class="trigger-item"><em></em></a><a class="trigger-item"><em></em></a><a
+                        class="trigger-item"><em></em></a></span>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="infor-con i-mod-warp">
      <div class="infor-box-c">
