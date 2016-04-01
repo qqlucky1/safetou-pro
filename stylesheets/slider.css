@@ -89,7 +89,7 @@
 }
 
 .categorys .cate-mt .title a.text:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mt a.cate-sur{
@@ -111,7 +111,7 @@
 }
 
 .categorys .cate-mt .extra a:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mt .extra, .categorys .cate-mt .title, .categorys .cate-mt .title .text {
@@ -169,7 +169,7 @@
 }
 
 .categorys .cate-mc .title .more:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mc .title .more:hover i {
@@ -201,7 +201,7 @@
 }
 
 .categorys .cate-mc .goods-list a:hover {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-mc .goods-list i {
@@ -258,7 +258,7 @@
 }
 
 .categorys .cate-title-list .current .cate-mt .title .text {
-    color: #ff5256
+    color: #fcae26
 }
 
 .categorys .cate-title-list .current .cate-mc {
@@ -360,7 +360,7 @@
 .categorys .cate-act-list .cate-a-mt .title .type {
     float: left;
     height: 18px;
-    background-color: #ff5256;
+    background-color: #fcae26;
     padding: 0 8px;
     color: #fff
 }
@@ -541,7 +541,7 @@
 }
 
 .prime-slide .ps-trigger .ps-trigger-wrap .trigger-item.current em {
-    border-color: #ff5256
+    border-color: #fcae26
 }
 
 .prime-slide .ps-trigger:hover {
