@@ -660,13 +660,13 @@
     height: 9px;
     margin-bottom: 20px;
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: 19px;
     overflow: hidden;
     background-color: #F7F7F7;
     background-image: linear-gradient(to bottom, #F5F5F5, #F9F9F9);
     background-repeat: repeat-x;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
-    width: 167px;
+    width: 200px;
     float: left;
     -moz-border-radius-bottomleft: 4px;
     -moz-border-radius-bottomright: 4px;
@@ -684,8 +684,8 @@
 }
 .pro-m-textpro {
     display: inline-block;
-    margin-left: 5px;
-    color: #fdb323;
+    margin-left: 25px;
+    color: #999;
     line-height: 26px;
 }
 
