@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.g-foot-w{
+  background:#302f2b;
+  padding: 37px 0 0;
+}
+.g-foot{
+  width: 1200px;
+  margin: 0 auto;
+}
+.g-foot .foot-nav>li{
+  float: left;
+}
+.g-foot .foot-nav>li:first-child{
+  padding-left: 0;
+}
+.ft-icon1{
+  float: left;
+  display: inline-block;
+  background:sprite($foot, ft-icon05);
+  @include sprite-background-position($foot, ft-icon05);
+  @include  sprite-dimensions($foot,ft-icon05);
+ }
+.g-foot .foot-nav>li .ft-info{
+  overflow: hidden;
+  display: inline-block;
+}
+.g-foot .foot-nav>li+li{
+  padding-left: 84px;
+}
