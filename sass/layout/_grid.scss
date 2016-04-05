@@ -25,7 +25,7 @@ $gutter: 15px;
   float: none;
 }
 
-@mixin ST-containerCenter($bgColor:#f6f6f6,$conWidth:1200px){
+@mixin ST-containerCenter($bgColor:#f9f8fb,$conWidth:1200px){
   margin: 0 auto;
   background-color: $bgColor;
   width: $conWidth;

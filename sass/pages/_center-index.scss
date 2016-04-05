@@ -1,6 +1,9 @@
 @import "compass/layout";
+@import "compass/css3";
 
-/*********************** new module Name Start **************************************
+$boderColor:#e5e5e5;
+
+/*********************** other module Start **************************************
  *@moduleName: other module
  *@author:Administrator
  *@desc: other grid module and render
@@ -8,8 +11,25 @@
  **/
 .c-container{
   @include ST-containerCenter();
+  min-height: 1000px;
+  padding:10px 0 60px 0;
+  @include box-sizing(border-box);
 }
- /*********************** new module Name End **************************************/
+.c-container .c-header,.c-container .c-main{
+  margin-top: 20px;
+  border: 1px solid $boderColor;
+}
+
+.c-container .c-header{
+  height: 178px;
+}
+.c-container .c-main{
+  min-height: 960px;
+  height: auto;
+}
+
+
+ /*********************** other module End **************************************/
 
 
 
@@ -31,10 +51,27 @@
  *@desc:center menu use of sass write here
  *@time:2016/4/5 14:05
  **/
+.c-menu{
+  position: relative;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0px;
+  width: 210px;
+  height: 960px;
+  left: -1px;
+}
+
 aside{
+  position: relative;
+  top: -1px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  line-height: 48px;
+  width: 210px;
+
   ul{
     padding: 0px;
-    background-color: #e5e5e5;
+    background-color: #f8f9fb;
   }
 
   li:hover{
@@ -45,11 +82,7 @@ aside{
       color:#fff;
     }
   }
-  li{
-    //background-color: #eeeeee;
-  }
-  @include pretty-bullets("",12px,18px);
-  @include stretch(150px,50px,150px,50px);
+
   a{
     display: block;
     font-size: 14px;
@@ -62,9 +95,6 @@ aside{
     float: right;
     padding-right: 14px;
   }
-  line-height: 48px;
-  width: 180px;
-
 }
 /************************* cneter menu module End ***********************************/
 
