@@ -1,0 +1,27 @@
+// ================================================
+// Layout Mixins
+// ================================================
+
+// Set the Gutter size
+$gutter: 15px;
+
+//column mixin
+@mixin cols($cols, $totalCols){
+  width: ($cols/$totalCols)*100%;
+  padding: 0 $gutter;
+  float: left;
+}
+
+@mixin ST-cols($cols,$totalCols,$padd...,$marg...){
+  width: ($cols/$totalCols)*100%;
+  padding: $padd;
+  margin: $marg;
+  float: left;
+}
+
+
+@mixin no-cols(){
+  width: 100%;
+  padding: 0;
+  float: none;
+}
