@@ -1,4 +1,4 @@
-
+@import "compass/layout";
 
 /*********************** new module Name Start **************************************
  *@moduleName: other module
@@ -31,7 +31,41 @@
  *@desc:center menu use of sass write here
  *@time:2016/4/5 14:05
  **/
+aside{
+  ul{
+    padding: 0px;
+    background-color: #e5e5e5;
+  }
 
+  li:hover{
+    height: 48px;
+    background-color: #fdb323;
+    color: #fff;
+    a{
+      color:#fff;
+    }
+  }
+  li{
+    //background-color: #eeeeee;
+  }
+  @include pretty-bullets("",12px,18px);
+  @include stretch(150px,50px,150px,50px);
+  a{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #6f6f6f;
+  }
+  a:after{
+    content: ">";
+    display: block;
+    float: right;
+    padding-right: 14px;
+  }
+  line-height: 48px;
+  width: 180px;
+
+}
 /************************* cneter menu module End ***********************************/
 
 
