@@ -12,7 +12,8 @@
   border-left: 1px solid  #e5e5e5;
 }
 .newcomer-vip{
-  width: 921px;
+  float: left;
+  width: 916px;
   height: 168px;
   margin-top: 30px;
   border: 1px solid  $orcoolor;
@@ -99,6 +100,21 @@
   @include  sprite-dimensions($product, vip-img2);
   float: left;
 }
+.yxjh-img{
+  display: inline-block;
+  background:sprite($product, vip-img4);
+  @include sprite-background-position($product,  vip-img4);
+  @include  sprite-dimensions($product, vip-img4);
+  float: left;
+}
+.g-vip-img{
+  display: inline-block;
+  background:sprite($product, vip-img5);
+  @include sprite-background-position($product,  vip-img5);
+  @include  sprite-dimensions($product, vip-img5);
+  float: left;
+}
+
 .rab-con-w{
  }
 .pro-name{
@@ -124,6 +140,7 @@
 .pro-box-item{
   border-right: 1px solid #e5e5e5;
   padding: 20px 23px 0px 22px;
+  height: 340px;
 }
 .bq-layout{
   margin-top: 7px;
@@ -274,3 +291,15 @@
 .border-blue1{
   border-top: 1px solid #30b4fc;
 }
+.vip-r-img{
+  margin-left: 12px;
+  float: left;
+  margin-top: 30px;
+}
+.vip-r-img .img-vip-c{
+  display: inline-block;
+  background:sprite($product, avite-img);
+  @include sprite-background-position($product,  avite-img);
+  @include  sprite-dimensions($product, avite-img);
+}
+
