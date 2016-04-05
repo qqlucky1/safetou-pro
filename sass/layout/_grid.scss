@@ -12,16 +12,21 @@ $gutter: 15px;
   float: left;
 }
 
-@mixin ST-cols($cols,$totalCols,$padd...,$marg...){
-  width: ($cols/$totalCols)*100%;
-  padding: $padd;
-  margin: $marg;
-  float: left;
-}
-
+//@mixin ST-cols($cols,$totalCols,$padd...,$marg...){
+//  width: ($cols/$totalCols)*100%;
+//  padding: $padd;
+//  margin: $marg;
+//  float: left;
+//}
 
 @mixin no-cols(){
   width: 100%;
   padding: 0;
   float: none;
+}
+
+@mixin ST-containerCenter($bgColor:#f6f6f6,$conWidth:1200px){
+  margin: 0 auto;
+  background-color: $bgColor;
+  width: $conWidth;
 }
