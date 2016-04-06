@@ -317,6 +317,17 @@ th {
   padding: 0;
 }
 
+/* line 6, ../sass/base/_reset.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+a:active, a:focus {
+  outline: none;
+}
+
 /* line 224, ../images/base/*.png */
 .base-sprite {
   background-image: url('../images/base-sbf83bfc5e8.png');
@@ -383,9 +394,9 @@ th {
   background-repeat: no-repeat;
 }
 
-/* line 37, ../sass/components/_icons.scss */
+/* line 38, ../sass/components/_icons.scss */
 .sprite {
-  background: transparent url('../images/erweima-img-s6ca6c6b39e.png') no-repeat 0 0;
+  background: transparent url('../images/erweima-img-s18d014cf8a.png') no-repeat 0 0;
   display: inline-block;
 }
 
@@ -755,19 +766,19 @@ th {
   text-decoration: none;
 }
 
-/* line 6, ../sass/layout/_header.scss */
+/* line 5, ../sass/layout/_header.scss */
 .topbar {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 10, ../sass/layout/_header.scss */
+/* line 9, ../sass/layout/_header.scss */
 .header {
   background: #302f2b;
   height: 40px;
 }
 
-/* line 14, ../sass/layout/_header.scss */
+/* line 13, ../sass/layout/_header.scss */
 .tel-img {
   background: url('../images/base-s4a67ff6095.png') -223px -40px;
   background-position: -223px -40px;
@@ -776,18 +787,18 @@ th {
   display: inline-block;
 }
 
-/* line 20, ../sass/layout/_header.scss */
+/* line 19, ../sass/layout/_header.scss */
 .left-bar {
   line-height: 40px;
   float: left;
 }
 
-/* line 23, ../sass/layout/_header.scss */
+/* line 22, ../sass/layout/_header.scss */
 .left-bar i {
   margin-left: 5px;
 }
 
-/* line 24, ../sass/layout/_header.scss */
+/* line 23, ../sass/layout/_header.scss */
 .ge-line {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -98px 0;
@@ -796,17 +807,17 @@ th {
   width: 2px;
 }
 
-/* line 30, ../sass/layout/_header.scss */
+/* line 29, ../sass/layout/_header.scss */
 .ft-left {
   float: left;
 }
 
-/* line 33, ../sass/layout/_header.scss */
+/* line 32, ../sass/layout/_header.scss */
 .mn-left {
   margin-left: 10px;
 }
 
-/* line 34, ../sass/layout/_header.scss */
+/* line 33, ../sass/layout/_header.scss */
 .left-fnt {
   float: left;
   line-height: 40px;
@@ -814,7 +825,7 @@ th {
   cursor: pointer;
 }
 
-/* line 41, ../sass/layout/_header.scss */
+/* line 40, ../sass/layout/_header.scss */
 .qq {
   float: left;
   position: relative;
@@ -822,12 +833,12 @@ th {
   padding-top: 12px;
 }
 
-/* line 47, ../sass/layout/_header.scss */
+/* line 46, ../sass/layout/_header.scss */
 .top_com {
   display: inline-block;
 }
 
-/* line 51, ../sass/layout/_header.scss */
+/* line 50, ../sass/layout/_header.scss */
 .top03 {
   background: url('../images/base-s4a67ff6095.png') -72px 0;
   background-position: -72px 0;
@@ -835,7 +846,7 @@ th {
   width: 13px;
 }
 
-/* line 56, ../sass/layout/_header.scss */
+/* line 55, ../sass/layout/_header.scss */
 .top02 {
   position: relative;
   background: url('../images/base-s4a67ff6095.png') -216px -75px;
@@ -844,7 +855,7 @@ th {
   width: 18px;
 }
 
-/* line 62, ../sass/layout/_header.scss */
+/* line 61, ../sass/layout/_header.scss */
 .top01 {
   position: relative;
   background: url('../images/base-s4a67ff6095.png') -234px -75px;
@@ -854,34 +865,34 @@ th {
   position: relative;
 }
 
-/* line 69, ../sass/layout/_header.scss */
+/* line 68, ../sass/layout/_header.scss */
 .qq01 .weibo-img {
-  padding: 15px 15px 0px;
+  padding: 15px 15px 8px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 74, ../sass/layout/_header.scss */
+/* line 73, ../sass/layout/_header.scss */
 .qq01 .pd-img-w1 {
   padding: 15px 10px 0px;
 }
 
-/* line 77, ../sass/layout/_header.scss */
+/* line 76, ../sass/layout/_header.scss */
 .top03:hover {
   background-position: -59px 0;
 }
 
-/* line 81, ../sass/layout/_header.scss */
+/* line 80, ../sass/layout/_header.scss */
 .top02:hover {
   background-position: -192px -40px;
 }
 
-/* line 84, ../sass/layout/_header.scss */
+/* line 83, ../sass/layout/_header.scss */
 .top01:hover {
   background-position: -174px -40px;
 }
 
-/* line 87, ../sass/layout/_header.scss */
+/* line 86, ../sass/layout/_header.scss */
 .app-lay {
   position: relative;
   float: left;
@@ -889,23 +900,23 @@ th {
   background-position: 0 -40px;
   height: 26px;
   width: 82px;
-  margin: 5px 15px 0 15px;
+  margin: 7px 15px 0 15px;
 }
 
-/* line 95, ../sass/layout/_header.scss */
+/* line 94, ../sass/layout/_header.scss */
 .app-lay:hover {
   background-position: -100px 0;
   cursor: pointer;
 }
 
 /*右边*/
-/* line 101, ../sass/layout/_header.scss */
+/* line 100, ../sass/layout/_header.scss */
 .right-bar {
   float: right;
   height: 40px;
 }
 
-/* line 102, ../sass/layout/_header.scss */
+/* line 101, ../sass/layout/_header.scss */
 .login-ig01 {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -46px 0;
@@ -914,7 +925,7 @@ th {
   width: 13px;
 }
 
-/* line 108, ../sass/layout/_header.scss */
+/* line 107, ../sass/layout/_header.scss */
 .login-ig02 {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -16px 0;
@@ -923,17 +934,17 @@ th {
   width: 16px;
 }
 
-/* line 114, ../sass/layout/_header.scss */
+/* line 113, ../sass/layout/_header.scss */
 .login-ig01:hover {
   background-position: -85px 0;
 }
 
-/* line 117, ../sass/layout/_header.scss */
+/* line 116, ../sass/layout/_header.scss */
 .login-ig02:hover {
   background-position: 0 0;
 }
 
-/* line 121, ../sass/layout/_header.scss */
+/* line 120, ../sass/layout/_header.scss */
 .dl-lay-item {
   float: left;
   padding-top: 12px;
@@ -941,7 +952,7 @@ th {
   position: relative;
 }
 
-/* line 127, ../sass/layout/_header.scss */
+/* line 126, ../sass/layout/_header.scss */
 .dl-lay-item a {
   color: #a0a0a0;
   font-size: 12px;
@@ -949,32 +960,32 @@ th {
   cursor: pointer;
 }
 
-/* line 133, ../sass/layout/_header.scss */
+/* line 132, ../sass/layout/_header.scss */
 .dl-lay-item a:hover {
   color: #fff;
 }
 
 /*二维码*/
-/* line 137, ../sass/layout/_header.scss */
+/* line 136, ../sass/layout/_header.scss */
 .qq01 {
   display: inline-block;
   position: absolute;
   top: 34px;
   z-index: 9;
-  right: -64px;
-  background: url('../images/erweima-img-s6ca6c6b39e.png') -122px 0;
-  background-position: -122px 0;
+  right: -60px;
+  background: url('../images/erweima-img-s18d014cf8a.png') 0 -447px;
+  background-position: 0 -447px;
   height: 176px;
   width: 140px;
 }
 
-/* line 147, ../sass/layout/_header.scss */
+/* line 146, ../sass/layout/_header.scss */
 .btn-weibo {
   margin: 4px  auto;
   width: 100px;
 }
 
-/* line 151, ../sass/layout/_header.scss */
+/* line 150, ../sass/layout/_header.scss */
 .btn-weibo a {
   color: #fff;
   width: 98px;
@@ -988,27 +999,27 @@ th {
   border-radius: 4px / 4px;
 }
 
-/* line 161, ../sass/layout/_header.scss */
+/* line 160, ../sass/layout/_header.scss */
 .qq02 {
   display: inline-block;
   z-index: 111;
   position: absolute;
   top: 34px;
   right: -130px;
-  background: url('../images/erweima-img-s6ca6c6b39e.png') 0 -447px;
-  background-position: 0 -447px;
+  background: url('../images/erweima-img-s18d014cf8a.png') 0 -145px;
+  background-position: 0 -145px;
   height: 176px;
   width: 280px;
 }
 
-/* line 172, ../sass/layout/_header.scss */
+/* line 170, ../sass/layout/_header.scss */
 .qq02 .weibo-img {
   padding: 15px 15px 0px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 177, ../sass/layout/_header.scss */
+/* line 175, ../sass/layout/_header.scss */
 .qq03 {
   position: absolute;
   top: 29px;
@@ -1016,18 +1027,34 @@ th {
   z-index: 1003;
 }
 
-/* line 183, ../sass/layout/_header.scss */
+/* line 181, ../sass/layout/_header.scss */
 .btn-d {
   margin: 0px auto;
   width: 249px;
 }
 
-/* line 188, ../sass/layout/_header.scss */
+/* line 186, ../sass/layout/_header.scss */
 .qq02 .btn-d a {
   padding: 0px 6px;
 }
 
-/* line 191, ../sass/layout/_header.scss */
+/* line 189, ../sass/layout/_header.scss */
+.dl-lay-item .bz-bg-y1 {
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #ff9933;
+  border-radius: 50%;
+}
+
+/* line 199, ../sass/layout/_header.scss */
+.qq02 .btn-d a {
+  padding: 0px 6px;
+}
+
+/* line 202, ../sass/layout/_header.scss */
 .dl-lay-item .bz-bg-y1 {
   display: inline-block;
   position: absolute;
@@ -1088,15 +1115,16 @@ th {
   float: left;
   z-index: 1000;
   position: relative;
-  height: 40px;
+  height: 50px;
 }
 
 /* line 31, ../sass/layout/_navigation.scss */
 .nav-item-title > li > a {
-  padding: 0 30px;
+  padding: 0 28px;
   font-size: 16px;
   color: #413c2b;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* line 32, ../sass/layout/_navigation.scss */
@@ -1105,6 +1133,18 @@ th {
 }
 
 /* line 33, ../sass/layout/_navigation.scss */
+.nav-item-title li a:hover > img {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -moz-transform: rotate(90deg);
+  /* Firefox */
+  -webkit-transform: rotate(90deg);
+  /* Safari 和 Chrome */
+  -o-transform: rotate(90deg);
+}
+
+/* line 38, ../sass/layout/_navigation.scss */
 .user {
   float: left;
   height: 40px;
@@ -1113,7 +1153,7 @@ th {
   margin-top: -6px;
 }
 
-/* line 34, ../sass/layout/_navigation.scss */
+/* line 39, ../sass/layout/_navigation.scss */
 .user a {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -100px -75px;
@@ -1127,14 +1167,14 @@ th {
   text-decoration: none;
 }
 
-/* line 37, ../sass/layout/_navigation.scss */
+/* line 42, ../sass/layout/_navigation.scss */
 .user a:hover {
   background-position: 0 -75px;
   color: #fff;
 }
 
 /*二级导航*/
-/* line 40, ../sass/layout/_navigation.scss */
+/* line 45, ../sass/layout/_navigation.scss */
 .nav-dropdown {
   display: none;
   background: #FFF none repeat scroll 0% 0%;
@@ -1147,12 +1187,12 @@ th {
   left: 11px;
 }
 
-/* line 41, ../sass/layout/_navigation.scss */
+/* line 46, ../sass/layout/_navigation.scss */
 .hover .active {
   display: block !important;
 }
 
-/* line 42, ../sass/layout/_navigation.scss */
+/* line 47, ../sass/layout/_navigation.scss */
 .nav-dropdown span {
   display: block;
   width: 11px;
@@ -1162,14 +1202,14 @@ th {
   left: 52px;
 }
 
-/* line 43, ../sass/layout/_navigation.scss */
+/* line 48, ../sass/layout/_navigation.scss */
 .nav-dropdown-item {
   text-align: center;
   position: relative;
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 44, ../sass/layout/_navigation.scss */
+/* line 49, ../sass/layout/_navigation.scss */
 .nav-dropdown-item a {
   line-height: 30px;
   text-decoration: none;
@@ -1180,13 +1220,13 @@ th {
   border-bottom: 1px solid #FFF;
 }
 
-/* line 45, ../sass/layout/_navigation.scss */
+/* line 50, ../sass/layout/_navigation.scss */
 .nav-dropdown-item a:hover {
   color: #ffa200;
   border-bottom: 1px solid #FFF;
 }
 
-/* line 46, ../sass/layout/_navigation.scss */
+/* line 51, ../sass/layout/_navigation.scss */
 .dline {
   height: 1px;
   width: 0px;
@@ -1196,12 +1236,12 @@ th {
   left: 59px;
 }
 
-/* line 47, ../sass/layout/_navigation.scss */
+/* line 52, ../sass/layout/_navigation.scss */
 .nav-item-title li:hover > ul {
   display: block;
 }
 
-/* line 50, ../sass/layout/_navigation.scss */
+/* line 55, ../sass/layout/_navigation.scss */
 .nav-item-title .orange {
   color: #ff9933;
 }
@@ -1367,15 +1407,14 @@ th {
   padding-right: 80px;
 }
 
-/* line 1, ../sass/layout/_banner.scss */
+/* line 2, ../sass/layout/_banner.scss */
 .banner {
   width: 100%;
-  /*display: inline-block;*/
   height: 460px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 2, ../sass/layout/_banner.scss */
+/* line 3, ../sass/layout/_banner.scss */
 .banner .g-bg-list {
   position: absolute;
   /* top: 0;*/
@@ -1384,7 +1423,7 @@ th {
    height: 100%;*/
 }
 
-/* line 9, ../sass/layout/_banner.scss */
+/* line 10, ../sass/layout/_banner.scss */
 .g-banner {
   position: relative;
   width: 1200px;
@@ -1392,18 +1431,18 @@ th {
   padding: 9px 0;
 }
 
-/* line 15, ../sass/layout/_banner.scss */
+/* line 16, ../sass/layout/_banner.scss */
 .cate-wrap {
   float: left;
 }
 
-/* line 18, ../sass/layout/_banner.scss */
+/* line 19, ../sass/layout/_banner.scss */
 .cate-list {
   width: 201px;
   background: #fff;
 }
 
-/* line 22, ../sass/layout/_banner.scss */
+/* line 23, ../sass/layout/_banner.scss */
 .cate-list .cate-item {
   position: relative;
   margin: 0 20px;
@@ -1415,24 +1454,24 @@ th {
   border-bottom: 1px solid #e9e9e9;
 }
 
-/* line 32, ../sass/layout/_banner.scss */
+/* line 33, ../sass/layout/_banner.scss */
 .cate-item a {
   text-decoration: none;
 }
 
-/* line 35, ../sass/layout/_banner.scss */
+/* line 36, ../sass/layout/_banner.scss */
 .cate-list .cate-item .cate-hd {
   font-size: 16px;
   color: #302f2b;
   text-decoration: none;
 }
 
-/* line 40, ../sass/layout/_banner.scss */
+/* line 41, ../sass/layout/_banner.scss */
 .cate-list .cate-item .orange {
   color: #ff9933;
 }
 
-/* line 44, ../sass/layout/_banner.scss */
+/* line 45, ../sass/layout/_banner.scss */
 .cate-list .cate-item .cate-num {
   padding: 0 5px;
   border-radius: 10px;
@@ -1441,18 +1480,18 @@ th {
   margin-left: 5px;
 }
 
-/* line 51, ../sass/layout/_banner.scss */
+/* line 52, ../sass/layout/_banner.scss */
 .primary-sbg {
   background: #fcae26;
 }
 
-/* line 54, ../sass/layout/_banner.scss */
+/* line 55, ../sass/layout/_banner.scss */
 .cate-list .cate-item .cate-extra {
   color: #a0a0a0;
   font-size: 14px;
 }
 
-/* line 58, ../sass/layout/_banner.scss */
+/* line 59, ../sass/layout/_banner.scss */
 .btn-jx-box {
   display: inline-block;
   text-align: center;
@@ -1655,7 +1694,7 @@ th {
 
 /* line 145, ../sass/layout/_product.scss */
 .bq-layout {
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 /* line 148, ../sass/layout/_product.scss */
@@ -1691,37 +1730,37 @@ th {
   padding: 0px 0px 0 25px;
 }
 
-/* line 172, ../sass/layout/_product.scss */
+/* line 171, ../sass/layout/_product.scss */
 .btn-pro-l {
   width: 244px;
   height: 38px;
   line-height: 38px;
 }
 
-/* line 178, ../sass/layout/_product.scss */
+/* line 177, ../sass/layout/_product.scss */
 .btn-pro {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 /*网站公告*/
-/* line 182, ../sass/layout/_product.scss */
+/* line 181, ../sass/layout/_product.scss */
 .bg-pd {
   background: #fff;
 }
 
-/* line 186, ../sass/layout/_product.scss */
+/* line 185, ../sass/layout/_product.scss */
 .notice-con .notice-con-item {
   float: left;
 }
 
-/* line 189, ../sass/layout/_product.scss */
+/* line 188, ../sass/layout/_product.scss */
 .notice-item {
   padding: 20px 23px;
   height: 400px;
   border-right: 1px solid #e5e5e5;
 }
 
-/* line 194, ../sass/layout/_product.scss */
+/* line 193, ../sass/layout/_product.scss */
 .notice-img {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -174px;
@@ -1730,7 +1769,7 @@ th {
   width: 278px;
 }
 
-/* line 200, ../sass/layout/_product.scss */
+/* line 199, ../sass/layout/_product.scss */
 .notice-img1 {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -17px;
@@ -1739,32 +1778,37 @@ th {
   width: 266px;
 }
 
-/* line 206, ../sass/layout/_product.scss */
+/* line 205, ../sass/layout/_product.scss */
 .mn-img {
   margin-top: 30px;
 }
 
-/* line 209, ../sass/layout/_product.scss */
+/* line 208, ../sass/layout/_product.scss */
 .notice-list-item {
   height: 30px;
   line-height: 30px;
 }
 
-/* line 213, ../sass/layout/_product.scss */
+/* line 212, ../sass/layout/_product.scss */
 .notice-list .notice-list-item a {
   float: left;
   margin-right: 25px;
   text-decoration: none;
   color: #646464;
   font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 310px;
+  cursor: pointer;
 }
 
-/* line 220, ../sass/layout/_product.scss */
+/* line 224, ../sass/layout/_product.scss */
 .notice-list .notice-list-item a:hover {
   color: #ff9933;
 }
 
-/* line 223, ../sass/layout/_product.scss */
+/* line 227, ../sass/layout/_product.scss */
 .no-text-fn {
   float: right;
   margin-left: 50px;
@@ -1772,7 +1816,7 @@ th {
   font-size: 14px;
 }
 
-/* line 229, ../sass/layout/_product.scss */
+/* line 233, ../sass/layout/_product.scss */
 .notice-more {
   float: right;
   margin-top: 2px;
@@ -1781,7 +1825,7 @@ th {
   cursor: pointer;
 }
 
-/* line 236, ../sass/layout/_product.scss */
+/* line 240, ../sass/layout/_product.scss */
 .notice-yq {
   float: left;
   width: 4px;
@@ -1791,13 +1835,13 @@ th {
   margin: 12px 12px 0 0;
 }
 
-/* line 244, ../sass/layout/_product.scss */
+/* line 248, ../sass/layout/_product.scss */
 .notice-item .licai2 {
   font-size: 16px;
   color: #302f2b;
 }
 
-/* line 248, ../sass/layout/_product.scss */
+/* line 252, ../sass/layout/_product.scss */
 .notice-item .licai-text {
   font-size: 12px;
   line-height: 24px;
@@ -1805,12 +1849,12 @@ th {
   cursor: pointer;
 }
 
-/* line 254, ../sass/layout/_product.scss */
+/* line 258, ../sass/layout/_product.scss */
 .notice-item .li-text-detail {
   color: #30b4fc;
 }
 
-/* line 257, ../sass/layout/_product.scss */
+/* line 261, ../sass/layout/_product.scss */
 .img-text-by {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 0;
@@ -1819,7 +1863,7 @@ th {
   width: 123px;
 }
 
-/* line 263, ../sass/layout/_product.scss */
+/* line 267, ../sass/layout/_product.scss */
 .erwei-img {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -345px;
@@ -1829,70 +1873,60 @@ th {
   margin-top: 20px;
 }
 
-/* line 270, ../sass/layout/_product.scss */
+/* line 274, ../sass/layout/_product.scss */
 .right-item3 {
   border: medium none;
   width: 285px;
   margin: 0px auto;
 }
 
-/* line 275, ../sass/layout/_product.scss */
+/* line 279, ../sass/layout/_product.scss */
 .text_item-i {
   text-align: center;
 }
 
-/* line 278, ../sass/layout/_product.scss */
+/* line 282, ../sass/layout/_product.scss */
 .item3-title {
   font-size: 30px;
   color: #302f2b;
   line-height: 30px;
 }
 
-/* line 283, ../sass/layout/_product.scss */
+/* line 287, ../sass/layout/_product.scss */
 .or-fn-text {
   color: #ff9933;
   font-size: 14px;
   line-height: 50px;
 }
 
-/* line 288, ../sass/layout/_product.scss */
+/* line 292, ../sass/layout/_product.scss */
 .border-orange1 {
   border-top: 1px solid #ff9933;
 }
 
-/* line 291, ../sass/layout/_product.scss */
+/* line 295, ../sass/layout/_product.scss */
 .border-blue1 {
   border-top: 1px solid #30b4fc;
 }
 
-/* line 294, ../sass/layout/_product.scss */
+/* line 298, ../sass/layout/_product.scss */
 .border-lvs1 {
   border-top: 1px solid #44d7cd;
 }
 
-/* line 297, ../sass/layout/_product.scss */
+/* line 301, ../sass/layout/_product.scss */
 .border-block1 {
   border-top: 1px solid #615952;
 }
 
-/* line 300, ../sass/layout/_product.scss */
-.border-red1 {
-  border-top: 1px solid #ff5158;
-}
-
-/* line 303, ../sass/layout/_product.scss */
-.bo-right-01 {
-  border-right: 1px solid #e5e5e5;
-}
-
-/* line 307, ../sass/layout/_product.scss */
+/* line 304, ../sass/layout/_product.scss */
 .vip-r-img {
   margin-left: 12px;
   float: left;
   margin-top: 30px;
 }
 
-/* line 312, ../sass/layout/_product.scss */
+/* line 309, ../sass/layout/_product.scss */
 .vip-r-img .img-vip-c {
   display: inline-block;
   background: url('../images/product-sd6dd880f10.png') 0 0;
@@ -1901,6 +1935,118 @@ th {
   width: 270px;
 }
 
+/* line 315, ../sass/layout/_product.scss */
+.bg-pd {
+  border-right: 1px solid #e5e5e5;
+}
+
+/*********************** other module Start **************************************
+ *@moduleName: other module
+ *@author:Administrator
+ *@desc: other grid module and render
+ *@time:2016/4/5 15:11
+ **/
+/* line 12, ../sass/pages/_center-index.scss */
+.c-container {
+  margin: 0 auto;
+  background-color: #f9f8fb;
+  width: 1200px;
+  min-height: 1000px;
+  padding: 10px 0 60px 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 18, ../sass/pages/_center-index.scss */
+.c-container .c-header, .c-container .c-main {
+  margin-top: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 23, ../sass/pages/_center-index.scss */
+.c-container .c-header {
+  height: 178px;
+}
+
+/* line 26, ../sass/pages/_center-index.scss */
+.c-container .c-main {
+  min-height: 960px;
+  height: auto;
+}
+
+/*********************** other module End **************************************/
+/**************************** center header module start ****************************
+ *@moduleName:center header module
+ *@author:Administrator
+ *@desc: center header use of css write here
+ *@time:2016/4/5 14:04
+ **/
+/*************************** center header module End *******************************/
+/*************************** center menu module Start *******************************
+ *@moduleName:center menu module
+ *@author:Administrator
+ *@desc:center menu use of sass write here
+ *@time:2016/4/5 14:05
+ **/
+/* line 54, ../sass/pages/_center-index.scss */
+.c-menu {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  border-bottom: 0px;
+  width: 210px;
+  height: 960px;
+  left: -1px;
+}
+
+/* line 63, ../sass/pages/_center-index.scss */
+aside {
+  position: relative;
+  top: -1px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  line-height: 48px;
+  width: 210px;
+}
+/* line 72, ../sass/pages/_center-index.scss */
+aside ul {
+  padding: 0px;
+  background-color: #f8f9fb;
+}
+/* line 77, ../sass/pages/_center-index.scss */
+aside li:hover {
+  height: 48px;
+  background-color: #fdb323;
+  color: #fff;
+}
+/* line 81, ../sass/pages/_center-index.scss */
+aside li:hover a {
+  color: #fff;
+}
+/* line 86, ../sass/pages/_center-index.scss */
+aside a {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  color: #6f6f6f;
+}
+/* line 92, ../sass/pages/_center-index.scss */
+aside a:after {
+  content: ">";
+  display: block;
+  float: right;
+  padding-right: 14px;
+}
+
+/************************* cneter menu module End ***********************************/
+/************************* center pages module Start ********************************
+ *@moduleName:center pages module
+ *@author:Administrator
+ *@desc:center pages use of write here(import forms sass from forms mixin)
+ *@time:2016/4/5 14:10
+ **/
+/************************* center pages module End **********************************/
 /* line 1, ../sass/utils/_mixins.scss */
 .left-bar i, .left-fnt {
   color: #a0a0a0;
