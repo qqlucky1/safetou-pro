@@ -51,6 +51,7 @@
   font-size: 14px;
 }
 .bill-table .number {
+  position: relative;
   color: $orcoolor;
   font-size: 36px;
   padding-left: 10px;
@@ -315,4 +316,16 @@
 .bg-pd{
   border-right: 1px solid #e5e5e5;
 }
-
+.jx-position{
+  display: inline-block;
+  width: 62px;
+  height: 22px;
+  background: #ff9933;
+  position: absolute;
+  color: #fff;
+  line-height: 22px;
+  text-align: center;
+  top: -15px;
+  border-radius: 2px;
+  right: -53px;
+  }

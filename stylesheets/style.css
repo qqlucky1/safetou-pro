@@ -49,6 +49,13 @@ address, cite, code, em, th, i {
   background: #f8f9fb;
 }
 
+/*********************** new module Name Start **************************************
+ *@moduleName: public variable
+ *@author:Administrator
+ *@desc:
+ *@time:2016/4/6 11:35
+ **/
+/*********************** new module Name End **************************************/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 /* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
@@ -865,34 +872,34 @@ a:active, a:focus {
   position: relative;
 }
 
-/* line 68, ../sass/layout/_header.scss */
+/* line 69, ../sass/layout/_header.scss */
 .qq01 .weibo-img {
   padding: 15px 15px 8px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 73, ../sass/layout/_header.scss */
+/* line 74, ../sass/layout/_header.scss */
 .qq01 .pd-img-w1 {
   padding: 15px 10px 0px;
 }
 
-/* line 76, ../sass/layout/_header.scss */
+/* line 77, ../sass/layout/_header.scss */
 .top03:hover {
   background-position: -59px 0;
 }
 
-/* line 80, ../sass/layout/_header.scss */
+/* line 81, ../sass/layout/_header.scss */
 .top02:hover {
   background-position: -192px -40px;
 }
 
-/* line 83, ../sass/layout/_header.scss */
+/* line 84, ../sass/layout/_header.scss */
 .top01:hover {
   background-position: -174px -40px;
 }
 
-/* line 86, ../sass/layout/_header.scss */
+/* line 87, ../sass/layout/_header.scss */
 .app-lay {
   position: relative;
   float: left;
@@ -903,20 +910,20 @@ a:active, a:focus {
   margin: 7px 15px 0 15px;
 }
 
-/* line 94, ../sass/layout/_header.scss */
+/* line 95, ../sass/layout/_header.scss */
 .app-lay:hover {
   background-position: -100px 0;
   cursor: pointer;
 }
 
 /*右边*/
-/* line 100, ../sass/layout/_header.scss */
+/* line 101, ../sass/layout/_header.scss */
 .right-bar {
   float: right;
   height: 40px;
 }
 
-/* line 101, ../sass/layout/_header.scss */
+/* line 102, ../sass/layout/_header.scss */
 .login-ig01 {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -46px 0;
@@ -925,7 +932,7 @@ a:active, a:focus {
   width: 13px;
 }
 
-/* line 107, ../sass/layout/_header.scss */
+/* line 108, ../sass/layout/_header.scss */
 .login-ig02 {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -16px 0;
@@ -934,17 +941,17 @@ a:active, a:focus {
   width: 16px;
 }
 
-/* line 113, ../sass/layout/_header.scss */
+/* line 114, ../sass/layout/_header.scss */
 .login-ig01:hover {
   background-position: -85px 0;
 }
 
-/* line 116, ../sass/layout/_header.scss */
+/* line 117, ../sass/layout/_header.scss */
 .login-ig02:hover {
   background-position: 0 0;
 }
 
-/* line 120, ../sass/layout/_header.scss */
+/* line 121, ../sass/layout/_header.scss */
 .dl-lay-item {
   float: left;
   padding-top: 12px;
@@ -952,7 +959,7 @@ a:active, a:focus {
   position: relative;
 }
 
-/* line 126, ../sass/layout/_header.scss */
+/* line 127, ../sass/layout/_header.scss */
 .dl-lay-item a {
   color: #a0a0a0;
   font-size: 12px;
@@ -960,13 +967,13 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 132, ../sass/layout/_header.scss */
+/* line 133, ../sass/layout/_header.scss */
 .dl-lay-item a:hover {
   color: #fff;
 }
 
 /*二维码*/
-/* line 136, ../sass/layout/_header.scss */
+/* line 137, ../sass/layout/_header.scss */
 .qq01 {
   display: inline-block;
   position: absolute;
@@ -977,15 +984,16 @@ a:active, a:focus {
   background-position: 0 -447px;
   height: 176px;
   width: 140px;
+  display: none;
 }
 
-/* line 146, ../sass/layout/_header.scss */
+/* line 149, ../sass/layout/_header.scss */
 .btn-weibo {
   margin: 4px  auto;
   width: 100px;
 }
 
-/* line 150, ../sass/layout/_header.scss */
+/* line 153, ../sass/layout/_header.scss */
 .btn-weibo a {
   color: #fff;
   width: 98px;
@@ -999,7 +1007,7 @@ a:active, a:focus {
   border-radius: 4px / 4px;
 }
 
-/* line 160, ../sass/layout/_header.scss */
+/* line 163, ../sass/layout/_header.scss */
 .qq02 {
   display: inline-block;
   z-index: 111;
@@ -1010,35 +1018,36 @@ a:active, a:focus {
   background-position: 0 -145px;
   height: 176px;
   width: 280px;
+  display: none;
 }
 
-/* line 170, ../sass/layout/_header.scss */
+/* line 174, ../sass/layout/_header.scss */
 .qq02 .weibo-img {
   padding: 15px 15px 0px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 175, ../sass/layout/_header.scss */
+/* line 179, ../sass/layout/_header.scss */
 .qq03 {
   position: absolute;
-  top: 29px;
+  top: 27px;
   right: -96px;
   z-index: 1003;
 }
 
-/* line 181, ../sass/layout/_header.scss */
+/* line 185, ../sass/layout/_header.scss */
 .btn-d {
   margin: 0px auto;
   width: 249px;
 }
 
-/* line 186, ../sass/layout/_header.scss */
+/* line 190, ../sass/layout/_header.scss */
 .qq02 .btn-d a {
   padding: 0px 6px;
 }
 
-/* line 189, ../sass/layout/_header.scss */
+/* line 193, ../sass/layout/_header.scss */
 .dl-lay-item .bz-bg-y1 {
   display: inline-block;
   position: absolute;
@@ -1049,12 +1058,12 @@ a:active, a:focus {
   border-radius: 50%;
 }
 
-/* line 199, ../sass/layout/_header.scss */
+/* line 203, ../sass/layout/_header.scss */
 .qq02 .btn-d a {
   padding: 0px 6px;
 }
 
-/* line 202, ../sass/layout/_header.scss */
+/* line 206, ../sass/layout/_header.scss */
 .dl-lay-item .bz-bg-y1 {
   display: inline-block;
   position: absolute;
@@ -1063,6 +1072,21 @@ a:active, a:focus {
   height: 6px;
   background: #ff9933;
   border-radius: 50%;
+}
+
+/* line 216, ../sass/layout/_header.scss */
+.qq:hover > .qq01 {
+  display: block;
+}
+
+/* line 219, ../sass/layout/_header.scss */
+.qq:hover > .qq02 {
+  display: block;
+}
+
+/* line 222, ../sass/layout/_header.scss */
+.app-lay:hover > .qq02 {
+  display: block;
 }
 
 /*导航*/
@@ -1133,7 +1157,7 @@ a:active, a:focus {
 }
 
 /* line 33, ../sass/layout/_navigation.scss */
-.nav-item-title li a:hover > img {
+.nav-item-title > li > a:hover > img {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -1581,30 +1605,31 @@ a:active, a:focus {
 
 /* line 53, ../sass/layout/_product.scss */
 .bill-table .number {
+  position: relative;
   color: #ff9933;
   font-size: 36px;
   padding-left: 10px;
 }
 
-/* line 58, ../sass/layout/_product.scss */
+/* line 59, ../sass/layout/_product.scss */
 .bill-table .number2 {
   color: #5e5e5e;
   font-size: 24px;
   padding-left: 7px;
 }
 
-/* line 63, ../sass/layout/_product.scss */
+/* line 64, ../sass/layout/_product.scss */
 .bill-table .number i {
   font-size: 14px;
   font-style: normal;
 }
 
-/* line 67, ../sass/layout/_product.scss */
+/* line 68, ../sass/layout/_product.scss */
 .bill-table table td {
   padding: 0px 30px 0 0;
 }
 
-/* line 70, ../sass/layout/_product.scss */
+/* line 71, ../sass/layout/_product.scss */
 .ui-button {
   display: inline-block;
   margin: 0;
@@ -1631,7 +1656,7 @@ a:active, a:focus {
   text-decoration: none;
 }
 
-/* line 96, ../sass/layout/_product.scss */
+/* line 97, ../sass/layout/_product.scss */
 .rzb-img {
   display: inline-block;
   background: url('../images/product-sd6dd880f10.png') 0 -336px;
@@ -1641,7 +1666,7 @@ a:active, a:focus {
   float: left;
 }
 
-/* line 103, ../sass/layout/_product.scss */
+/* line 104, ../sass/layout/_product.scss */
 .yxjh-img {
   display: inline-block;
   background: url('../images/product-sd6dd880f10.png') 0 -696px;
@@ -1651,7 +1676,7 @@ a:active, a:focus {
   float: left;
 }
 
-/* line 110, ../sass/layout/_product.scss */
+/* line 111, ../sass/layout/_product.scss */
 .g-vip-img {
   display: inline-block;
   background: url('../images/product-sd6dd880f10.png') 0 -1056px;
@@ -1661,19 +1686,19 @@ a:active, a:focus {
   float: left;
 }
 
-/* line 120, ../sass/layout/_product.scss */
+/* line 121, ../sass/layout/_product.scss */
 .pro-name {
   color: #302f2b;
   font-size: 18px;
 }
 
-/* line 125, ../sass/layout/_product.scss */
+/* line 126, ../sass/layout/_product.scss */
 .pro-con-box {
   float: left;
   background: #fff;
 }
 
-/* line 129, ../sass/layout/_product.scss */
+/* line 130, ../sass/layout/_product.scss */
 .bq-bg-img1 {
   display: inline-block;
   background: url("../images/bq-icon.png") no-repeat;
@@ -1685,82 +1710,82 @@ a:active, a:focus {
   margin-right: 4px;
 }
 
-/* line 140, ../sass/layout/_product.scss */
+/* line 141, ../sass/layout/_product.scss */
 .pro-box-item {
   border-right: 1px solid #e5e5e5;
   padding: 20px 23px 0px 22px;
   height: 340px;
 }
 
-/* line 145, ../sass/layout/_product.scss */
+/* line 146, ../sass/layout/_product.scss */
 .bq-layout {
   margin-top: 5px;
 }
 
-/* line 148, ../sass/layout/_product.scss */
+/* line 149, ../sass/layout/_product.scss */
 .pro-con-box li {
   float: left;
 }
 
-/* line 151, ../sass/layout/_product.scss */
+/* line 152, ../sass/layout/_product.scss */
 .icom-def dl {
   float: left;
   border-right: 1px solid #e5e5e5;
 }
 
-/* line 156, ../sass/layout/_product.scss */
+/* line 157, ../sass/layout/_product.scss */
 .icom-def dl dd {
   font-size: 24px;
   color: #5e5e5e;
 }
 
-/* line 160, ../sass/layout/_product.scss */
+/* line 161, ../sass/layout/_product.scss */
 .icom-def dl dt {
   font-size: 14px;
   color: #5e5e5e;
 }
 
-/* line 165, ../sass/layout/_product.scss */
+/* line 166, ../sass/layout/_product.scss */
 .left-dl-s {
   padding: 0 40px 0 3px;
 }
 
-/* line 168, ../sass/layout/_product.scss */
+/* line 169, ../sass/layout/_product.scss */
 .right-dl-s {
   padding: 0px 0px 0 25px;
 }
 
-/* line 171, ../sass/layout/_product.scss */
+/* line 172, ../sass/layout/_product.scss */
 .btn-pro-l {
   width: 244px;
   height: 38px;
   line-height: 38px;
 }
 
-/* line 177, ../sass/layout/_product.scss */
+/* line 178, ../sass/layout/_product.scss */
 .btn-pro {
   margin-top: 20px;
 }
 
 /*网站公告*/
-/* line 181, ../sass/layout/_product.scss */
+/* line 182, ../sass/layout/_product.scss */
 .bg-pd {
   background: #fff;
 }
 
-/* line 185, ../sass/layout/_product.scss */
+/* line 186, ../sass/layout/_product.scss */
 .notice-con .notice-con-item {
   float: left;
 }
 
-/* line 188, ../sass/layout/_product.scss */
+/* line 189, ../sass/layout/_product.scss */
 .notice-item {
   padding: 20px 23px;
   height: 400px;
   border-right: 1px solid #e5e5e5;
 }
 
-/* line 193, ../sass/layout/_product.scss */
+/* line 194, ../sass/layout/_product.scss */
 .notice-img {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -174px;
@@ -1769,7 +1794,7 @@ a:active, a:focus {
   width: 278px;
 }
 
-/* line 199, ../sass/layout/_product.scss */
+/* line 200, ../sass/layout/_product.scss */
 .notice-img1 {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -17px;
@@ -1778,18 +1803,18 @@ a:active, a:focus {
   width: 266px;
 }
 
-/* line 205, ../sass/layout/_product.scss */
+/* line 206, ../sass/layout/_product.scss */
 .mn-img {
   margin-top: 30px;
 }
 
-/* line 208, ../sass/layout/_product.scss */
+/* line 209, ../sass/layout/_product.scss */
 .notice-list-item {
   height: 30px;
   line-height: 30px;
 }
 
-/* line 212, ../sass/layout/_product.scss */
+/* line 213, ../sass/layout/_product.scss */
 .notice-list .notice-list-item a {
   float: left;
   margin-right: 25px;
@@ -1803,12 +1828,12 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 224, ../sass/layout/_product.scss */
+/* line 225, ../sass/layout/_product.scss */
 .notice-list .notice-list-item a:hover {
   color: #ff9933;
 }
 
-/* line 227, ../sass/layout/_product.scss */
+/* line 228, ../sass/layout/_product.scss */
 .no-text-fn {
   float: right;
   margin-left: 50px;
@@ -1816,7 +1841,7 @@ a:active, a:focus {
   font-size: 14px;
 }
 
-/* line 233, ../sass/layout/_product.scss */
+/* line 234, ../sass/layout/_product.scss */
 .notice-more {
   float: right;
   margin-top: 2px;
@@ -1825,7 +1850,7 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 240, ../sass/layout/_product.scss */
+/* line 241, ../sass/layout/_product.scss */
 .notice-yq {
   float: left;
   width: 4px;
@@ -1835,13 +1860,13 @@ a:active, a:focus {
   margin: 12px 12px 0 0;
 }
 
-/* line 248, ../sass/layout/_product.scss */
+/* line 249, ../sass/layout/_product.scss */
 .notice-item .licai2 {
   font-size: 16px;
   color: #302f2b;
 }
 
-/* line 252, ../sass/layout/_product.scss */
+/* line 253, ../sass/layout/_product.scss */
 .notice-item .licai-text {
   font-size: 12px;
   line-height: 24px;
@@ -1849,12 +1874,12 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 258, ../sass/layout/_product.scss */
+/* line 259, ../sass/layout/_product.scss */
 .notice-item .li-text-detail {
   color: #30b4fc;
 }
 
-/* line 261, ../sass/layout/_product.scss */
+/* line 262, ../sass/layout/_product.scss */
 .img-text-by {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 0;
@@ -1863,7 +1888,7 @@ a:active, a:focus {
   width: 123px;
 }
 
-/* line 267, ../sass/layout/_product.scss */
+/* line 268, ../sass/layout/_product.scss */
 .erwei-img {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -345px;
@@ -1873,60 +1898,60 @@ a:active, a:focus {
   margin-top: 20px;
 }
 
-/* line 274, ../sass/layout/_product.scss */
+/* line 275, ../sass/layout/_product.scss */
 .right-item3 {
   border: medium none;
   width: 285px;
   margin: 0px auto;
 }
 
-/* line 279, ../sass/layout/_product.scss */
+/* line 280, ../sass/layout/_product.scss */
 .text_item-i {
   text-align: center;
 }
 
-/* line 282, ../sass/layout/_product.scss */
+/* line 283, ../sass/layout/_product.scss */
 .item3-title {
   font-size: 30px;
   color: #302f2b;
   line-height: 30px;
 }
 
-/* line 287, ../sass/layout/_product.scss */
+/* line 288, ../sass/layout/_product.scss */
 .or-fn-text {
   color: #ff9933;
   font-size: 14px;
   line-height: 50px;
 }
 
-/* line 292, ../sass/layout/_product.scss */
+/* line 293, ../sass/layout/_product.scss */
 .border-orange1 {
   border-top: 1px solid #ff9933;
 }
 
-/* line 295, ../sass/layout/_product.scss */
+/* line 296, ../sass/layout/_product.scss */
 .border-blue1 {
   border-top: 1px solid #30b4fc;
 }
 
-/* line 298, ../sass/layout/_product.scss */
+/* line 299, ../sass/layout/_product.scss */
 .border-lvs1 {
   border-top: 1px solid #44d7cd;
 }
 
-/* line 301, ../sass/layout/_product.scss */
+/* line 302, ../sass/layout/_product.scss */
 .border-block1 {
   border-top: 1px solid #615952;
 }
 
-/* line 304, ../sass/layout/_product.scss */
+/* line 305, ../sass/layout/_product.scss */
 .vip-r-img {
   margin-left: 12px;
   float: left;
   margin-top: 30px;
 }
 
-/* line 309, ../sass/layout/_product.scss */
+/* line 310, ../sass/layout/_product.scss */
 .vip-r-img .img-vip-c {
   display: inline-block;
   background: url('../images/product-sd6dd880f10.png') 0 0;
@@ -1935,9 +1960,24 @@ a:active, a:focus {
   width: 270px;
 }
 
-/* line 315, ../sass/layout/_product.scss */
+/* line 316, ../sass/layout/_product.scss */
 .bg-pd {
   border-right: 1px solid #e5e5e5;
+}
+
+/* line 319, ../sass/layout/_product.scss */
+.jx-position {
+  display: inline-block;
+  width: 62px;
+  height: 22px;
+  background: #ff9933;
+  position: absolute;
+  color: #fff;
+  line-height: 22px;
+  text-align: center;
+  top: -15px;
+  border-radius: 2px;
+  right: -53px;
 }
 
 /*********************** other module Start **************************************
@@ -1946,33 +1986,31 @@ a:active, a:focus {
  *@desc: other grid module and render
  *@time:2016/4/5 15:11
  **/
-/* line 12, ../sass/pages/_center-index.scss */
+/* line 10, ../sass/pages/_center-index.scss */
 .c-container {
   margin: 0 auto;
   background-color: #f9f8fb;
   width: 1200px;
-  min-height: 1000px;
   padding: 10px 0 60px 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 18, ../sass/pages/_center-index.scss */
+/* line 15, ../sass/pages/_center-index.scss */
 .c-container .c-header, .c-container .c-main {
   margin-top: 20px;
   border: 1px solid #e5e5e5;
 }
 
-/* line 23, ../sass/pages/_center-index.scss */
+/* line 20, ../sass/pages/_center-index.scss */
 .c-container .c-header {
   height: 178px;
 }
 
-/* line 26, ../sass/pages/_center-index.scss */
-.c-container .c-main {
-  min-height: 960px;
-  height: auto;
+/* line 25, ../sass/pages/_center-index.scss */
+.c-main, .c-menu, .c-pages {
+  float: left;
 }
 
 /*********************** other module End **************************************/
@@ -1990,49 +2028,38 @@ a:active, a:focus {
  *@time:2016/4/5 14:05
  **/
 /* line 54, ../sass/pages/_center-index.scss */
-.c-menu {
-  position: relative;
-  border: 1px solid #e5e5e5;
-  border-bottom: 0px;
-  width: 210px;
-  height: 960px;
-  left: -1px;
-}
-
-/* line 63, ../sass/pages/_center-index.scss */
-aside {
-  position: relative;
-  top: -1px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  line-height: 48px;
+.c-menu aside {
+  line-height: 50px;
   width: 210px;
 }
-/* line 72, ../sass/pages/_center-index.scss */
-aside ul {
+/* line 58, ../sass/pages/_center-index.scss */
+.c-menu aside ul {
   padding: 0px;
   background-color: #f8f9fb;
 }
-/* line 77, ../sass/pages/_center-index.scss */
-aside li:hover {
-  height: 48px;
+/* line 63, ../sass/pages/_center-index.scss */
+.c-menu aside li:hover {
+  height: 50px;
+  background-color: #e3e3e3;
+  color: #fff;
+}
+/* line 69, ../sass/pages/_center-index.scss */
+.c-menu aside li.c-mi-hover {
   background-color: #fdb323;
+}
+/* line 71, ../sass/pages/_center-index.scss */
+.c-menu aside li.c-mi-hover a {
   color: #fff;
 }
-/* line 81, ../sass/pages/_center-index.scss */
-aside li:hover a {
-  color: #fff;
-}
-/* line 86, ../sass/pages/_center-index.scss */
-aside a {
+/* line 76, ../sass/pages/_center-index.scss */
+.c-menu aside a {
   display: block;
   font-size: 14px;
   text-align: center;
   color: #6f6f6f;
 }
-/* line 92, ../sass/pages/_center-index.scss */
-aside a:after {
+/* line 82, ../sass/pages/_center-index.scss */
+.c-menu aside a:after {
   content: ">";
   display: block;
   float: right;
@@ -2046,6 +2073,34 @@ aside a:after {
  *@desc:center pages use of write here(import forms sass from forms mixin)
  *@time:2016/4/5 14:10
  **/
+/* line 99, ../sass/pages/_center-index.scss */
+.c-pages {
+  width: 986px;
+  height: auto;
+  border-left: 1px solid #e5e5e5;
+}
+
+/* line 105, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 {
+  height: 960px;
+  margin: 30px 20px;
+}
+
+/* line 110, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-item1 {
+  height: 130px;
+}
+
+/* line 114, ../sass/pages/_center-index.scss */
+.col1-4 {
+  width: 25%;
+  padding: 0 15px;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /************************* center pages module End **********************************/
 /* line 1, ../sass/utils/_mixins.scss */
 .left-bar i, .left-fnt {
