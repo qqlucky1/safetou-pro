@@ -1,8 +1,6 @@
 @import "compass/layout";
 @import "compass/css3";
 
-$boderColor:#e5e5e5;
-
 /*********************** other module Start **************************************
  *@moduleName: other module
  *@author:Administrator
@@ -11,23 +9,22 @@ $boderColor:#e5e5e5;
  **/
 .c-container{
   @include ST-containerCenter();
-  min-height: 1000px;
   padding:10px 0 60px 0;
   @include box-sizing(border-box);
 }
 .c-container .c-header,.c-container .c-main{
   margin-top: 20px;
-  border: 1px solid $boderColor;
+  @include ST-line();
 }
 
 .c-container .c-header{
   height: 178px;
 }
-.c-container .c-main{
-  min-height: 960px;
-  height: auto;
-}
 
+
+.c-main,.c-menu,.c-pages{
+  float: left;
+}
 
  /*********************** other module End **************************************/
 
@@ -52,21 +49,10 @@ $boderColor:#e5e5e5;
  *@time:2016/4/5 14:05
  **/
 .c-menu{
-  position: relative;
-  border: 1px solid #e5e5e5;
-  border-bottom: 0px;
-  width: 210px;
-  height: 960px;
-  left: -1px;
 }
 
-aside{
-  position: relative;
-  top: -1px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  line-height: 48px;
+.c-menu aside{
+  line-height: 50px;
   width: 210px;
 
   ul{
@@ -75,9 +61,13 @@ aside{
   }
 
   li:hover{
-    height: 48px;
-    background-color: #fdb323;
+    height: 50px;
+    background-color: #e3e3e3;
     color: #fff;
+  }
+
+  li.c-mi-hover{
+    background-color: #fdb323;
     a{
       color:#fff;
     }
@@ -106,5 +96,26 @@ aside{
  *@desc:center pages use of write here(import forms sass from forms mixin)
  *@time:2016/4/5 14:10
  **/
+.c-pages{
+  width: 986px;
+  height: auto;
+  border-left: 1px solid #e5e5e5;
+}
 
+.c-pages .c-page1{
+  height: 960px;
+  margin: 30px 20px;
+}
+
+.c-pages .c-page1 .c-page1-item1{
+  height: 130px;
+}
+
+.col1-4{
+  @include cols(1,4);
+  @include box-sizing(border-box);
+}
+
+.c-pages .c-page1 .c-page-pl{
+}
 /************************* center pages module End **********************************/
