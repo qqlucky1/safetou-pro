@@ -64,6 +64,7 @@
   @include sprite-background-position($base,weibo);
   @include  sprite-dimensions($base,weibo);
   position: relative;
+
 }
 .qq01 .weibo-img{
   padding: 15px 15px 8px;
@@ -141,7 +142,9 @@
   right: -60px;
   background:sprite($erweima-img, small);
   @include sprite-background-position($erweima-img, small);
-  @include  sprite-dimensions($erweima-img, small);}
+  @include  sprite-dimensions($erweima-img, small);
+  display: none;}
+
 
 .btn-weibo {
   margin: 4px  auto;
@@ -166,6 +169,7 @@
   background:sprite($erweima-img, big-box);
   @include sprite-background-position($erweima-img, big-box);
   @include  sprite-dimensions($erweima-img,big-box);
+  display: none;
 }
 .qq02 .weibo-img {
   padding: 15px 15px 0px;
@@ -174,7 +178,7 @@
 }
 .qq03{
   position: absolute;
-  top: 29px;
+  top: 27px;
   right: -96px;
   z-index: 1003;
 }
@@ -208,4 +212,15 @@
   background: #ff9933;
   border-radius: 50%;
 }
+
+.qq:hover > .qq01{
+   display: block;
+}
+.qq:hover > .qq02{
+  display: block;
+}
+.app-lay:hover > .qq02{
+  display: block;
+}
+
 
