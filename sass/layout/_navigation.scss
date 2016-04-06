@@ -27,9 +27,14 @@ $lte-ie:true !default;
 .logo-item-mn{ margin-top: 20px;}
 .logo-nav-item { float: left;margin: 35px 0px 0px 220px; }
 .nav-item-title{ float: left;}
-.nav-item-title > li { float: left; z-index: 1000;position: relative;height: 40px}
-.nav-item-title > li >a { padding:0 30px;font-size: 16px; color: #413c2b; text-decoration: none; }
+.nav-item-title > li { float: left; z-index: 1000;position: relative;height: 50px}
+.nav-item-title > li >a { padding:0 28px;font-size: 16px; color: #413c2b; text-decoration: none; cursor: pointer;   }
 .nav-item-title > li >a:hover { color: #ffa200; }
+.nav-item-title  li a:hover > img {transform:rotate(90deg);
+  -ms-transform:rotate(90deg); 	/* IE 9 */
+  -moz-transform:rotate(90deg); 	/* Firefox */
+  -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+  -o-transform:rotate(90deg); 	}
 .user { float: left; height: 40px; display:inline-block; margin-left: 25px; margin-top: -6px;}
 .user a { display: inline-block;  background: sprite($base,bg-y);
   @include sprite-background-position($base,bg-y);
