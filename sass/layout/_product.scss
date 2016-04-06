@@ -8,7 +8,7 @@
   width: 1200px;
   margin: 30px auto 30px;
   border-bottom: 1px solid  #e5e5e5;
-  border-right: 1px solid  #e5e5e5;
+ /* border-right: 1px solid  #e5e5e5;*/
   border-left: 1px solid  #e5e5e5;
 }
 .newcomer-vip{
@@ -143,7 +143,7 @@
   height: 340px;
 }
 .bq-layout{
-  margin-top: 7px;
+  margin-top: 5px;
 }
 .pro-con-box li{
   float: left;
@@ -176,7 +176,7 @@
   line-height: 38px;
 }
 .btn-pro{
-  margin-top: 25px;
+  margin-top: 20px;
 }
 /*网站公告*/
 .bg-pd{
@@ -216,6 +216,11 @@
   text-decoration: none;
   color: #646464;
   font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 310px;
+  cursor: pointer;
 }
 .notice-list .notice-list-item a:hover{
   color: $orcoolor;
@@ -291,6 +296,12 @@
 .border-blue1{
   border-top: 1px solid #30b4fc;
 }
+.border-lvs1{
+  border-top: 1px solid #44d7cd;
+}
+.border-block1{
+  border-top: 1px solid #615952;
+}
 .vip-r-img{
   margin-left: 12px;
   float: left;
@@ -299,7 +310,10 @@
 .vip-r-img .img-vip-c{
   display: inline-block;
   background:sprite($product, avite-img);
-  @include sprite-background-position($product,  avite-img);
+  @include sprite-background-position($product, avite-img);
   @include  sprite-dimensions($product, avite-img);
+}
+.bg-pd{
+  border-right: 1px solid #e5e5e5;
 }
 
