@@ -2,13 +2,12 @@
 // Layout Mixins
 // ================================================
 
-// Set the Gutter size
-$gutter: 15px;
+
 
 //column mixin
-@mixin cols($cols, $totalCols){
+@mixin cols($cols, $totalCols,$padd:15px){
   width: ($cols/$totalCols)*100%;
-  padding: 0 $gutter;
+  padding: 0 $padd;
   float: left;
 }
 
@@ -29,4 +28,8 @@ $gutter: 15px;
   margin: 0 auto;
   background-color: $bgColor;
   width: $conWidth;
+}
+
+@mixin ST-line(){
+  border: 1px solid $boderColor;
 }
