@@ -49,6 +49,13 @@ address, cite, code, em, th, i {
   background: #f8f9fb;
 }
 
+/*********************** new module Name Start **************************************
+ *@moduleName: public variable
+ *@author:Administrator
+ *@desc:
+ *@time:2016/4/6 11:35
+ **/
+/*********************** new module Name End **************************************/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 /* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
@@ -315,6 +322,17 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/* line 6, ../sass/base/_reset.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+a:active, a:focus {
+  outline: none;
 }
 
 /* line 208, ../images/base/*.png */
@@ -1756,6 +1774,128 @@ th {
   width: 270px;
 }
 
+/*********************** other module Start **************************************
+ *@moduleName: other module
+ *@author:Administrator
+ *@desc: other grid module and render
+ *@time:2016/4/5 15:11
+ **/
+/* line 10, ../sass/pages/_center-index.scss */
+.c-container {
+  margin: 0 auto;
+  background-color: #f9f8fb;
+  width: 1200px;
+  padding: 10px 0 60px 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, ../sass/pages/_center-index.scss */
+.c-container .c-header, .c-container .c-main {
+  margin-top: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 20, ../sass/pages/_center-index.scss */
+.c-container .c-header {
+  height: 178px;
+}
+
+/* line 25, ../sass/pages/_center-index.scss */
+.c-main, .c-menu, .c-pages {
+  float: left;
+}
+
+/*********************** other module End **************************************/
+/**************************** center header module start ****************************
+ *@moduleName:center header module
+ *@author:Administrator
+ *@desc: center header use of css write here
+ *@time:2016/4/5 14:04
+ **/
+/*************************** center header module End *******************************/
+/*************************** center menu module Start *******************************
+ *@moduleName:center menu module
+ *@author:Administrator
+ *@desc:center menu use of sass write here
+ *@time:2016/4/5 14:05
+ **/
+/* line 54, ../sass/pages/_center-index.scss */
+.c-menu aside {
+  line-height: 50px;
+  width: 210px;
+}
+/* line 58, ../sass/pages/_center-index.scss */
+.c-menu aside ul {
+  padding: 0px;
+  background-color: #f8f9fb;
+}
+/* line 63, ../sass/pages/_center-index.scss */
+.c-menu aside li:hover {
+  height: 50px;
+  background-color: #e3e3e3;
+  color: #fff;
+}
+/* line 69, ../sass/pages/_center-index.scss */
+.c-menu aside li.c-mi-hover {
+  background-color: #fdb323;
+}
+/* line 71, ../sass/pages/_center-index.scss */
+.c-menu aside li.c-mi-hover a {
+  color: #fff;
+}
+/* line 76, ../sass/pages/_center-index.scss */
+.c-menu aside a {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  color: #6f6f6f;
+}
+/* line 82, ../sass/pages/_center-index.scss */
+.c-menu aside a:after {
+  content: ">";
+  display: block;
+  float: right;
+  padding-right: 14px;
+}
+
+/************************* cneter menu module End ***********************************/
+/************************* center pages module Start ********************************
+ *@moduleName:center pages module
+ *@author:Administrator
+ *@desc:center pages use of write here(import forms sass from forms mixin)
+ *@time:2016/4/5 14:10
+ **/
+/* line 99, ../sass/pages/_center-index.scss */
+.c-pages {
+  width: 986px;
+  height: auto;
+  border-left: 1px solid #e5e5e5;
+}
+
+/* line 105, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 {
+  height: 960px;
+  margin: 30px 20px;
+}
+
+/* line 110, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-item1 {
+  height: 130px;
+}
+
+/* line 114, ../sass/pages/_center-index.scss */
+.col1-4 {
+  width: 25%;
+  padding: 0 15px;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/************************* center pages module End **********************************/
 /* line 1, ../sass/utils/_mixins.scss */
 .left-bar i, .left-fnt {
   color: #a0a0a0;
