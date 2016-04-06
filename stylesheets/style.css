@@ -49,7 +49,7 @@ address, cite, code, em, th, i {
   background: #f8f9fb;
 }
 
-/*********************** new module Name Start **************************************
+/*********************** public variable Name Start **************************************
  *@moduleName: public variable
  *@author:Administrator
  *@desc:
@@ -719,6 +719,15 @@ a:active, a:focus {
 /* line 227, ../sass/layout/_footer.scss */
 .lianjie-left i {
   padding: 0px 5px;
+}
+
+/* line 41, ../sass/layout/_grid.scss */
+.col1-4 {
+  width: 25%;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* line 4, ../sass/layout/_header.scss */
@@ -1873,26 +1882,26 @@ a:active, a:focus {
   height: auto;
   border-left: 1px solid #e5e5e5;
 }
-
-/* line 105, ../sass/pages/_center-index.scss */
+/* line 103, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 {
   height: 960px;
+}
+/* line 105, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-item1 {
+  height: 100px;
   margin: 30px 20px;
 }
-
 /* line 110, ../sass/pages/_center-index.scss */
-.c-pages .c-page1 .c-page1-item1 {
-  height: 130px;
+.c-pages .c-page1 .c-page1-pl {
+  height: 100px;
 }
-
-/* line 114, ../sass/pages/_center-index.scss */
-.col1-4 {
-  width: 25%;
-  padding: 0 15px;
-  float: left;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+/* line 115, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-pl1 {
+  font-size: 30px;
+}
+/* line 118, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-pl2 {
+  font-size: 18px;
 }
 
 /************************* center pages module End **********************************/
