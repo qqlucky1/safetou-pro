@@ -2,9 +2,6 @@
 @import "components/buttons";
 @import "utils/variables";
 @import "compass/css3/border-radius";
-
-
-
 .topbar{
   width: $con-width;
   margin: 0 auto;
@@ -169,7 +166,6 @@
   background:sprite($erweima-img, big-box);
   @include sprite-background-position($erweima-img, big-box);
   @include  sprite-dimensions($erweima-img,big-box);
-
 }
 .qq02 .weibo-img {
   padding: 15px 15px 0px;
@@ -200,4 +196,16 @@
   border-radius: 50%;
 }
 
+.qq02 .btn-d a{
+  padding: 0px 6px;
+}
+.dl-lay-item .bz-bg-y1{
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #ff9933;
+  border-radius: 50%;
+}
 

@@ -394,7 +394,7 @@ a:active, a:focus {
   background-repeat: no-repeat;
 }
 
-/* line 37, ../sass/components/_icons.scss */
+/* line 38, ../sass/components/_icons.scss */
 .sprite {
   background: transparent url('../images/erweima-img-s18d014cf8a.png') no-repeat 0 0;
   display: inline-block;
@@ -766,19 +766,19 @@ a:active, a:focus {
   text-decoration: none;
 }
 
-/* line 8, ../sass/layout/_header.scss */
+/* line 5, ../sass/layout/_header.scss */
 .topbar {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 12, ../sass/layout/_header.scss */
+/* line 9, ../sass/layout/_header.scss */
 .header {
   background: #302f2b;
   height: 40px;
 }
 
-/* line 16, ../sass/layout/_header.scss */
+/* line 13, ../sass/layout/_header.scss */
 .tel-img {
   background: url('../images/base-s4a67ff6095.png') -223px -40px;
   background-position: -223px -40px;
@@ -787,18 +787,18 @@ a:active, a:focus {
   display: inline-block;
 }
 
-/* line 22, ../sass/layout/_header.scss */
+/* line 19, ../sass/layout/_header.scss */
 .left-bar {
   line-height: 40px;
   float: left;
 }
 
-/* line 25, ../sass/layout/_header.scss */
+/* line 22, ../sass/layout/_header.scss */
 .left-bar i {
   margin-left: 5px;
 }
 
-/* line 26, ../sass/layout/_header.scss */
+/* line 23, ../sass/layout/_header.scss */
 .ge-line {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -98px 0;
@@ -807,17 +807,17 @@ a:active, a:focus {
   width: 2px;
 }
 
-/* line 32, ../sass/layout/_header.scss */
+/* line 29, ../sass/layout/_header.scss */
 .ft-left {
   float: left;
 }
 
-/* line 35, ../sass/layout/_header.scss */
+/* line 32, ../sass/layout/_header.scss */
 .mn-left {
   margin-left: 10px;
 }
 
-/* line 36, ../sass/layout/_header.scss */
+/* line 33, ../sass/layout/_header.scss */
 .left-fnt {
   float: left;
   line-height: 40px;
@@ -825,7 +825,7 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 43, ../sass/layout/_header.scss */
+/* line 40, ../sass/layout/_header.scss */
 .qq {
   float: left;
   position: relative;
@@ -833,12 +833,12 @@ a:active, a:focus {
   padding-top: 12px;
 }
 
-/* line 49, ../sass/layout/_header.scss */
+/* line 46, ../sass/layout/_header.scss */
 .top_com {
   display: inline-block;
 }
 
-/* line 53, ../sass/layout/_header.scss */
+/* line 50, ../sass/layout/_header.scss */
 .top03 {
   background: url('../images/base-s4a67ff6095.png') -72px 0;
   background-position: -72px 0;
@@ -846,7 +846,7 @@ a:active, a:focus {
   width: 13px;
 }
 
-/* line 58, ../sass/layout/_header.scss */
+/* line 55, ../sass/layout/_header.scss */
 .top02 {
   position: relative;
   background: url('../images/base-s4a67ff6095.png') -216px -75px;
@@ -855,7 +855,7 @@ a:active, a:focus {
   width: 18px;
 }
 
-/* line 64, ../sass/layout/_header.scss */
+/* line 61, ../sass/layout/_header.scss */
 .top01 {
   position: relative;
   background: url('../images/base-s4a67ff6095.png') -234px -75px;
@@ -865,34 +865,34 @@ a:active, a:focus {
   position: relative;
 }
 
-/* line 71, ../sass/layout/_header.scss */
+/* line 68, ../sass/layout/_header.scss */
 .qq01 .weibo-img {
   padding: 15px 15px 8px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 76, ../sass/layout/_header.scss */
+/* line 73, ../sass/layout/_header.scss */
 .qq01 .pd-img-w1 {
   padding: 15px 10px 0px;
 }
 
-/* line 79, ../sass/layout/_header.scss */
+/* line 76, ../sass/layout/_header.scss */
 .top03:hover {
   background-position: -59px 0;
 }
 
-/* line 83, ../sass/layout/_header.scss */
+/* line 80, ../sass/layout/_header.scss */
 .top02:hover {
   background-position: -192px -40px;
 }
 
-/* line 86, ../sass/layout/_header.scss */
+/* line 83, ../sass/layout/_header.scss */
 .top01:hover {
   background-position: -174px -40px;
 }
 
-/* line 89, ../sass/layout/_header.scss */
+/* line 86, ../sass/layout/_header.scss */
 .app-lay {
   position: relative;
   float: left;
@@ -903,20 +903,20 @@ a:active, a:focus {
   margin: 7px 15px 0 15px;
 }
 
-/* line 97, ../sass/layout/_header.scss */
+/* line 94, ../sass/layout/_header.scss */
 .app-lay:hover {
   background-position: -100px 0;
   cursor: pointer;
 }
 
 /*右边*/
-/* line 103, ../sass/layout/_header.scss */
+/* line 100, ../sass/layout/_header.scss */
 .right-bar {
   float: right;
   height: 40px;
 }
 
-/* line 104, ../sass/layout/_header.scss */
+/* line 101, ../sass/layout/_header.scss */
 .login-ig01 {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -46px 0;
@@ -925,7 +925,7 @@ a:active, a:focus {
   width: 13px;
 }
 
-/* line 110, ../sass/layout/_header.scss */
+/* line 107, ../sass/layout/_header.scss */
 .login-ig02 {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -16px 0;
@@ -934,17 +934,17 @@ a:active, a:focus {
   width: 16px;
 }
 
-/* line 116, ../sass/layout/_header.scss */
+/* line 113, ../sass/layout/_header.scss */
 .login-ig01:hover {
   background-position: -85px 0;
 }
 
-/* line 119, ../sass/layout/_header.scss */
+/* line 116, ../sass/layout/_header.scss */
 .login-ig02:hover {
   background-position: 0 0;
 }
 
-/* line 123, ../sass/layout/_header.scss */
+/* line 120, ../sass/layout/_header.scss */
 .dl-lay-item {
   float: left;
   padding-top: 12px;
@@ -952,7 +952,7 @@ a:active, a:focus {
   position: relative;
 }
 
-/* line 129, ../sass/layout/_header.scss */
+/* line 126, ../sass/layout/_header.scss */
 .dl-lay-item a {
   color: #a0a0a0;
   font-size: 12px;
@@ -960,13 +960,13 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 135, ../sass/layout/_header.scss */
+/* line 132, ../sass/layout/_header.scss */
 .dl-lay-item a:hover {
   color: #fff;
 }
 
 /*二维码*/
-/* line 139, ../sass/layout/_header.scss */
+/* line 136, ../sass/layout/_header.scss */
 .qq01 {
   display: inline-block;
   position: absolute;
@@ -979,13 +979,13 @@ a:active, a:focus {
   width: 140px;
 }
 
-/* line 149, ../sass/layout/_header.scss */
+/* line 146, ../sass/layout/_header.scss */
 .btn-weibo {
   margin: 4px  auto;
   width: 100px;
 }
 
-/* line 153, ../sass/layout/_header.scss */
+/* line 150, ../sass/layout/_header.scss */
 .btn-weibo a {
   color: #fff;
   width: 98px;
@@ -999,7 +999,7 @@ a:active, a:focus {
   border-radius: 4px / 4px;
 }
 
-/* line 163, ../sass/layout/_header.scss */
+/* line 160, ../sass/layout/_header.scss */
 .qq02 {
   display: inline-block;
   z-index: 111;
@@ -1012,14 +1012,14 @@ a:active, a:focus {
   width: 280px;
 }
 
-/* line 174, ../sass/layout/_header.scss */
+/* line 170, ../sass/layout/_header.scss */
 .qq02 .weibo-img {
   padding: 15px 15px 0px;
   display: inline-block;
   text-align: center;
 }
 
-/* line 179, ../sass/layout/_header.scss */
+/* line 175, ../sass/layout/_header.scss */
 .qq03 {
   position: absolute;
   top: 29px;
@@ -1027,18 +1027,34 @@ a:active, a:focus {
   z-index: 1003;
 }
 
-/* line 185, ../sass/layout/_header.scss */
+/* line 181, ../sass/layout/_header.scss */
 .btn-d {
   margin: 0px auto;
   width: 249px;
 }
 
-/* line 190, ../sass/layout/_header.scss */
+/* line 186, ../sass/layout/_header.scss */
 .qq02 .btn-d a {
   padding: 0px 6px;
 }
 
-/* line 193, ../sass/layout/_header.scss */
+/* line 189, ../sass/layout/_header.scss */
+.dl-lay-item .bz-bg-y1 {
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #ff9933;
+  border-radius: 50%;
+}
+
+/* line 199, ../sass/layout/_header.scss */
+.qq02 .btn-d a {
+  padding: 0px 6px;
+}
+
+/* line 202, ../sass/layout/_header.scss */
 .dl-lay-item .bz-bg-y1 {
   display: inline-block;
   position: absolute;
@@ -1391,14 +1407,14 @@ a:active, a:focus {
   padding-right: 80px;
 }
 
-/* line 1, ../sass/layout/_banner.scss */
+/* line 2, ../sass/layout/_banner.scss */
 .banner {
   width: 100%;
   height: 460px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 2, ../sass/layout/_banner.scss */
+/* line 3, ../sass/layout/_banner.scss */
 .banner .g-bg-list {
   position: absolute;
   /* top: 0;*/
@@ -1407,7 +1423,7 @@ a:active, a:focus {
    height: 100%;*/
 }
 
-/* line 9, ../sass/layout/_banner.scss */
+/* line 10, ../sass/layout/_banner.scss */
 .g-banner {
   position: relative;
   width: 1200px;
@@ -1415,18 +1431,18 @@ a:active, a:focus {
   padding: 9px 0;
 }
 
-/* line 15, ../sass/layout/_banner.scss */
+/* line 16, ../sass/layout/_banner.scss */
 .cate-wrap {
   float: left;
 }
 
-/* line 18, ../sass/layout/_banner.scss */
+/* line 19, ../sass/layout/_banner.scss */
 .cate-list {
   width: 201px;
   background: #fff;
 }
 
-/* line 22, ../sass/layout/_banner.scss */
+/* line 23, ../sass/layout/_banner.scss */
 .cate-list .cate-item {
   position: relative;
   margin: 0 20px;
@@ -1438,24 +1454,24 @@ a:active, a:focus {
   border-bottom: 1px solid #e9e9e9;
 }
 
-/* line 32, ../sass/layout/_banner.scss */
+/* line 33, ../sass/layout/_banner.scss */
 .cate-item a {
   text-decoration: none;
 }
 
-/* line 35, ../sass/layout/_banner.scss */
+/* line 36, ../sass/layout/_banner.scss */
 .cate-list .cate-item .cate-hd {
   font-size: 16px;
   color: #302f2b;
   text-decoration: none;
 }
 
-/* line 40, ../sass/layout/_banner.scss */
+/* line 41, ../sass/layout/_banner.scss */
 .cate-list .cate-item .orange {
   color: #ff9933;
 }
 
-/* line 44, ../sass/layout/_banner.scss */
+/* line 45, ../sass/layout/_banner.scss */
 .cate-list .cate-item .cate-num {
   padding: 0 5px;
   border-radius: 10px;
@@ -1464,18 +1480,18 @@ a:active, a:focus {
   margin-left: 5px;
 }
 
-/* line 51, ../sass/layout/_banner.scss */
+/* line 52, ../sass/layout/_banner.scss */
 .primary-sbg {
   background: #fcae26;
 }
 
-/* line 54, ../sass/layout/_banner.scss */
+/* line 55, ../sass/layout/_banner.scss */
 .cate-list .cate-item .cate-extra {
   color: #a0a0a0;
   font-size: 14px;
 }
 
-/* line 58, ../sass/layout/_banner.scss */
+/* line 59, ../sass/layout/_banner.scss */
 .btn-jx-box {
   display: inline-block;
   text-align: center;
@@ -1714,37 +1730,37 @@ a:active, a:focus {
   padding: 0px 0px 0 25px;
 }
 
-/* line 172, ../sass/layout/_product.scss */
+/* line 171, ../sass/layout/_product.scss */
 .btn-pro-l {
   width: 244px;
   height: 38px;
   line-height: 38px;
 }
 
-/* line 178, ../sass/layout/_product.scss */
+/* line 177, ../sass/layout/_product.scss */
 .btn-pro {
   margin-top: 20px;
 }
 
 /*网站公告*/
-/* line 182, ../sass/layout/_product.scss */
+/* line 181, ../sass/layout/_product.scss */
 .bg-pd {
   background: #fff;
 }
 
-/* line 186, ../sass/layout/_product.scss */
+/* line 185, ../sass/layout/_product.scss */
 .notice-con .notice-con-item {
   float: left;
 }
 
-/* line 189, ../sass/layout/_product.scss */
+/* line 188, ../sass/layout/_product.scss */
 .notice-item {
   padding: 20px 23px;
   height: 400px;
   border-right: 1px solid #e5e5e5;
 }
 
-/* line 194, ../sass/layout/_product.scss */
+/* line 193, ../sass/layout/_product.scss */
 .notice-img {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -174px;
@@ -1753,7 +1769,7 @@ a:active, a:focus {
   width: 278px;
 }
 
-/* line 200, ../sass/layout/_product.scss */
+/* line 199, ../sass/layout/_product.scss */
 .notice-img1 {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -17px;
@@ -1762,18 +1778,18 @@ a:active, a:focus {
   width: 266px;
 }
 
-/* line 206, ../sass/layout/_product.scss */
+/* line 205, ../sass/layout/_product.scss */
 .mn-img {
   margin-top: 30px;
 }
 
-/* line 209, ../sass/layout/_product.scss */
+/* line 208, ../sass/layout/_product.scss */
 .notice-list-item {
   height: 30px;
   line-height: 30px;
 }
 
-/* line 213, ../sass/layout/_product.scss */
+/* line 212, ../sass/layout/_product.scss */
 .notice-list .notice-list-item a {
   float: left;
   margin-right: 25px;
@@ -1787,12 +1803,12 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 225, ../sass/layout/_product.scss */
+/* line 224, ../sass/layout/_product.scss */
 .notice-list .notice-list-item a:hover {
   color: #ff9933;
 }
 
-/* line 228, ../sass/layout/_product.scss */
+/* line 227, ../sass/layout/_product.scss */
 .no-text-fn {
   float: right;
   margin-left: 50px;
@@ -1800,7 +1816,7 @@ a:active, a:focus {
   font-size: 14px;
 }
 
-/* line 234, ../sass/layout/_product.scss */
+/* line 233, ../sass/layout/_product.scss */
 .notice-more {
   float: right;
   margin-top: 2px;
@@ -1809,7 +1825,7 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 241, ../sass/layout/_product.scss */
+/* line 240, ../sass/layout/_product.scss */
 .notice-yq {
   float: left;
   width: 4px;
@@ -1819,13 +1835,13 @@ a:active, a:focus {
   margin: 12px 12px 0 0;
 }
 
-/* line 249, ../sass/layout/_product.scss */
+/* line 248, ../sass/layout/_product.scss */
 .notice-item .licai2 {
   font-size: 16px;
   color: #302f2b;
 }
 
-/* line 253, ../sass/layout/_product.scss */
+/* line 252, ../sass/layout/_product.scss */
 .notice-item .licai-text {
   font-size: 12px;
   line-height: 24px;
@@ -1833,12 +1849,12 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 259, ../sass/layout/_product.scss */
+/* line 258, ../sass/layout/_product.scss */
 .notice-item .li-text-detail {
   color: #30b4fc;
 }
 
-/* line 262, ../sass/layout/_product.scss */
+/* line 261, ../sass/layout/_product.scss */
 .img-text-by {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 0;
@@ -1847,7 +1863,7 @@ a:active, a:focus {
   width: 123px;
 }
 
-/* line 268, ../sass/layout/_product.scss */
+/* line 267, ../sass/layout/_product.scss */
 .erwei-img {
   display: inline-block;
   background: url('../images/notice-s0bc0d22406.png') 0 -345px;
@@ -1857,60 +1873,60 @@ a:active, a:focus {
   margin-top: 20px;
 }
 
-/* line 275, ../sass/layout/_product.scss */
+/* line 274, ../sass/layout/_product.scss */
 .right-item3 {
   border: medium none;
   width: 285px;
   margin: 0px auto;
 }
 
-/* line 280, ../sass/layout/_product.scss */
+/* line 279, ../sass/layout/_product.scss */
 .text_item-i {
   text-align: center;
 }
 
-/* line 283, ../sass/layout/_product.scss */
+/* line 282, ../sass/layout/_product.scss */
 .item3-title {
   font-size: 30px;
   color: #302f2b;
   line-height: 30px;
 }
 
-/* line 288, ../sass/layout/_product.scss */
+/* line 287, ../sass/layout/_product.scss */
 .or-fn-text {
   color: #ff9933;
   font-size: 14px;
   line-height: 50px;
 }
 
-/* line 293, ../sass/layout/_product.scss */
+/* line 292, ../sass/layout/_product.scss */
 .border-orange1 {
   border-top: 1px solid #ff9933;
 }
 
-/* line 296, ../sass/layout/_product.scss */
+/* line 295, ../sass/layout/_product.scss */
 .border-blue1 {
   border-top: 1px solid #30b4fc;
 }
 
-/* line 299, ../sass/layout/_product.scss */
+/* line 298, ../sass/layout/_product.scss */
 .border-lvs1 {
   border-top: 1px solid #44d7cd;
 }
 
-/* line 302, ../sass/layout/_product.scss */
+/* line 301, ../sass/layout/_product.scss */
 .border-block1 {
   border-top: 1px solid #615952;
 }
 
-/* line 305, ../sass/layout/_product.scss */
+/* line 304, ../sass/layout/_product.scss */
 .vip-r-img {
   margin-left: 12px;
   float: left;
   margin-top: 30px;
 }
 
-/* line 310, ../sass/layout/_product.scss */
+/* line 309, ../sass/layout/_product.scss */
 .vip-r-img .img-vip-c {
   display: inline-block;
   background: url('../images/product-sd6dd880f10.png') 0 0;
@@ -1919,7 +1935,7 @@ a:active, a:focus {
   width: 270px;
 }
 
-/* line 316, ../sass/layout/_product.scss */
+/* line 315, ../sass/layout/_product.scss */
 .bg-pd {
   border-right: 1px solid #e5e5e5;
 }
