@@ -1,11 +1,12 @@
 @charset "UTF-8";
 .g-foot-w{
   background:#302f2b;
-  padding: 37px 0 0;
+  padding: 40px 0 0;
 }
 .g-foot{
   width: 1200px;
   margin: 0 auto;
+  padding: 0px 0 25px;
 }
 .g-foot .foot-nav>li{
   float: left;
@@ -83,6 +84,7 @@
   float: left;
 }
 .ft-title-h{
+  margin-top: -7px;
 color: #a0a0a0;
 font-size: 20px;}
 
@@ -129,9 +131,7 @@ font-size: 20px;}
   float: left;
   padding: 0 0 0 45px;
 }
-.er-img-ft1>li{
 
-}
 .img-wx4{
   display: inline-block;
   background:sprite($foot, ft-icon09);
@@ -143,9 +143,12 @@ font-size: 20px;}
 .img-wx5{
   float: left;
   display: inline-block;
-  background:sprite($foot, ft-icon08);
-  @include sprite-background-position($foot, ft-icon08);
-  @include  sprite-dimensions($foot,ft-icon09);
+  background: url("../images/foot/ft-icon08.png") no-repeat;
+  width: 57px;
+  height: 40px;
+  padding-left: 54px;
+  line-height: 40px;
+  color: #a0a0a0;
 }
 .img-wx6{
   float: left;
@@ -162,7 +165,7 @@ font-size: 20px;}
   float: left;
 }
 .er-img-ft1{
-  margin-top: 20px;
+  margin-top:12px;
 }
 .er-img-ft1 >div{
   height: 50px;
@@ -227,3 +230,12 @@ font-size: 20px;}
 .lianjie-left i{
   padding: 0px 5px;
 }
+
+ .img-wx5:hover{
+ background: url("../images/foot/ft-icon08-hover.png") no-repeat;
+  color: #30b4fc;
+}
+ .time-right-fn1{
+   line-height: 40px;
+   color: #a0a0a0;
+ }
