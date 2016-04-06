@@ -22,10 +22,10 @@
 
 .categorys .cate-mt {
     border-top: 1px solid #fff;
-    border-bottom: 1px solid #f6f6f6;
+    border-bottom: 1px solid #e5e5e5;
     position: relative;
-    padding: 16px 0;
-    margin: 0 20px
+    padding: 20px 0;
+    margin: 0 20px;
 }
 
 .categorys .cate-mt .angle {
@@ -268,10 +268,13 @@
 
 
 .categorys .cate-title-list .fore6 {
+    position: absolute;
+    bottom: 20px;
     text-align: center;
     color: #5e5e5e;
     font-size: 14px;
-    font-family: arial "microsoft yahei"
+    font-family: arial "microsoft yahei";
+
 }
 
 .categorys .cate-title-list .fore6 .cate-mt {

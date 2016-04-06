@@ -33,11 +33,18 @@ $foot-sprite-dimensions:true;
 $disable-magic-sprite-selectors:true;
 
 @import "../images/erweima-img/*.png";
-
 $erweima-img:sprite-map("../images/erweima-img/*.png");
 .sprite{ background: transparent sprite-url($erweima-img) no-repeat 0 0; display: inline-block; }
 $erweima-img-sprite-dimensions:true;
 $disable-magic-sprite-selectors:true;
+
+@import "../images/banner1/*.png";
+$banner1:sprite-map("../images/banner1/*.png");
+.sprite{ background: transparent sprite-url($banner1) no-repeat 0 0; display: inline-block; }
+$banner1-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+
+
 
 
 

@@ -100,8 +100,10 @@
   @include sprite-background-position($product,  vip-img2);
   @include  sprite-dimensions($product, vip-img2);
   float: left;
+  position: relative;
 }
 .yxjh-img{
+  position: relative;
   display: inline-block;
   background:sprite($product, vip-img4);
   @include sprite-background-position($product,  vip-img4);
@@ -109,6 +111,7 @@
   float: left;
 }
 .g-vip-img{
+  position: relative;
   display: inline-block;
   background:sprite($product, vip-img5);
   @include sprite-background-position($product,  vip-img5);
@@ -178,7 +181,53 @@
 .btn-pro{
   margin-top: 20px;
 }
-/*网站公告*/
+.rab-con-w .rzb-img a{
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #fff;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  position: absolute;
+  top: 106px;
+  right: 59px;
+  background: transparent;
+}
+.rab-con-w .yxjh-img a{
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #fff;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  position: absolute;
+  top: 106px;
+  right: 59px;
+}
+.rab-con-w .g-vip-img a{
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #fff;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  position: absolute;
+  top: 106px;
+  right: 59px;
+}
+.rab-con-w .g-vip-img a:hover{
+   background: rgba(0,0,0,.5);
+}
+  /*网站公告*/
 .bg-pd{
   background: #fff;
 
