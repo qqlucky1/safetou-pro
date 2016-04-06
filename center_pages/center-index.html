@@ -5,13 +5,22 @@
     <title>个人中心首页</title>
     <link rel="stylesheet" href="../stylesheets/style.css" type="text/css" />
 
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <style>
+        /*html5*/
+        article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+    </style>
+    <![endif]-->
+
     <!--jquery cdn加速-->
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
 
 </head>
 <body>
 <div class="warp-bg-mod">
-    <div class="header clearfix">
+    <div class="header">
         <div class="topbar clearfix">
             <div class="ge-line ft-left"></div>
             <div class="left-bar mn-left">
@@ -21,16 +30,36 @@
             <a class="left-fnt">返回旧版</a>
 
             <div class="ge-line mn-left ft-left"></div>
-            <div class="qq">
+            <div class="qq" >
                 <a class="top_com top01"></a>
+                <div class="qq01 qq04" >
+                    <a href="#" class="weibo-img"> <img src="../images/erweima-img/weibo-simg.png"></a>
+                    <div class="btn-weibo">
+                        <a href="">+关注安全投</a>
+                    </div>
+                </div>
             </div>
             <div class="qq">
                 <a class="top_com top02"></a>
+                <div class="qq02">
+                    <a href="#" class="weibo-img"> <img src="../images/erweima-img/weinxin-simg1.png"></a>
+                </div>
             </div>
             <div class="qq">
                 <a class="top_com top03"></a>
+                <div class="qq01" >
+                    <a href="#" class="weibo-img pd-img-w1"> <img src="../images/erweima-img/QQ-qun.png"></a>
+                </div>
             </div>
-            <div class="app-lay"><span class="image-t1"></span><span class="ip-text">手机APP</span></div>
+            <div class="app-lay">
+                <div class="qq02 qq03" >
+                    <a href="#" class="weibo-img"> <img src="../images/erweima-img/cc.png"></a>
+                    <div class="btn-d">
+                        <a href="#"> <img src="../images/ios-btn.png"></a>
+                        <a href="#"> <img src="../images/anz-btn.png"></a>
+                    </div>
+                </div>
+            </div>
             <div class="ge-line ft-left"></div>
             <div class="right-bar" style="display: none">
                 <div class="ge-line ft-left"></div>
@@ -57,6 +86,35 @@
                 <div class="ge-line"></div>
             </div>
 
+        </div>
+    </div>
+    <div class="warp-nav-b">
+        <div class="in-nav clearfix ">
+            <a class="ft-left logo-item-mn" href=""><img src="../images/base/logo_img.png"> </a>
+
+            <div class="logo-nav-item">
+                <ul class="nav-item-title">
+                    <li class=""><a href="#">首页</a></li>
+                    <li class=""><a href="#" class="orange">投资理财
+                        <i> <img src="../images/arrow-down.png" style="vertical-align: middle;"></i>
+                    </a>
+                        <ul class="nav-dropdown active">
+                            <span></span>
+                            <li class="nav-dropdown-item"><a href="#">新手专享</a><i class="dline"></i></li>
+                            <li class="nav-dropdown-item"><a href="#">融资宝</a><i class="dline"></i></li>
+                            <li class="nav-dropdown-item"><a href="#">优选计划</a><i class="dline"></i></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#">融资合作</a>
+                    </li>
+                    <li class=""><a href="#">安全保障</a>
+                    </li>
+                    <li class=""><a href="#">关于我们</a></li>
+                </ul>
+                <div class="user">
+                    <a href="#" class="bg-img-u"><i class="bg-ge-u"></i></a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="c-container clearfix">
@@ -87,34 +145,43 @@
                     <div class="c-page1-item1">
                         <ul style="width: inherit;height: inherit">
                             <li class="c-page1-pl col1-4">
-                                <div class="c-page1-pl1">
+                                <div class="c-pl-box1">
+                                    <span class="c-page1-t1">
                                     | 88888888.00
-                                </div>
-                                <div class="c-page1-pl2">
-                                     代收本金（万元）
+                                    </span>
+                                    <span class="c-page1-t2">
+                                         代收本金（万元）
+                                    </span>
                                 </div>
                             </li>
                             <li class="c-page1-pl col1-4">
-                                <div class="c-page1-pl1">
-                                    | 275.00
-                                </div>
-                                <div class="c-page1-pl2">
-                                    代收收益（元）
+                                <div class="c-pl-box2">
+                                    <span class="c-page1-t1">
+                                    | 88888888.00
+                                    </span>
+                                    <span class="c-page1-t2">
+                                         代收本金（万元）
+                                    </span>
                                 </div>
                             </li>
                             <li class="c-page1-pl col1-4">
-                                <div class="c-page1-pl1">
-                                | 88888888.00
-                                </div>
-                                <div class="c-page1-pl2">
-                                    累计投资（万元）
-                                </div></li>
-                            <li class="c-page1-pl col1-4">
-                                <div class="c-page1-pl1">
+                                <div class="c-pl-box3">
+                                    <span class="c-page1-t1">
                                     | 88888888.00
+                                    </span>
+                                    <span class="c-page1-t2">
+                                         代收本金（万元）
+                                    </span>
                                 </div>
-                                <div class="c-page1-pl2">
-                                    累计收益（元）
+                            </li>
+                            <li class="c-page1-pl col1-4">
+                                <div class="c-pl-box4">
+                                    <span class="c-page1-t1">
+                                    | 88888888.00
+                                    </span>
+                                    <span class="c-page1-t2">
+                                         代收本金（万元）
+                                    </span>
                                 </div>
                             </li>
                         </ul>
@@ -188,7 +255,7 @@
                     <h3 class="ft-title-h">客服热线</h3>
                     <div class="er-img-ft1">
                         <div  class="clearfix"><i class="img-wx4"></i><span class="zixu-gj">4006 517 558</span></div>
-                        <div   class="clearfix"><i class="img-wx5"></i><span class="zixu-gj">在线咨询 09:00~18:30</span></div>
+                        <div   class="clearfix"><a href=""><i class="img-wx5"> 在线咨询</i> <span class="time-right-fn1"> 09:00~18:30</span></a></div>
                         <div class="clearfix"><i class="img-wx6"></i><span  class="zixu-gj">service@safetou.com</span></div>
                     </div>
                 </div>

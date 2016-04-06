@@ -14,6 +14,7 @@
 }
 .c-container .c-header,.c-container .c-main{
   margin-top: 20px;
+  background: #fff;
   @include ST-line();
 }
 
@@ -57,7 +58,6 @@
 
   ul{
     padding: 0px;
-    background-color: #f8f9fb;
   }
 
   li:hover{
@@ -104,18 +104,46 @@
     height: 960px;
     .c-page1-item1{
       height: 100px;
-      margin: 30px 20px;
+      margin: 30px 0;
     }
 
     .c-page1-pl{
       height: 100px;
+      padding: 0 20px;
     }
 
+    .c-pl-box1,.c-pl-box2,.c-pl-box3,.c-pl-box4{
+      height: 100px;
+      border-radius: 5px;
+    }
 
-    .c-page1-pl1{
+    .c-pl-box1,.c-pl-box2{
+      .c-page1-t1,.c-page1-t2{
+        color: #fff;
+      }
+    }
+
+    .c-pl-box1{
+      background-color: #30b4fc;
+
+    }
+
+    .c-pl-box2{
+      background-color: #e44b39;
+    }
+
+    .c-pl-box3{
+      background-color: #f9f9f9;
+    }
+
+    .c-pl-box4{
+      background-color: #f9f9f9;
+    }
+
+    .c-page1-t1{
       font-size: 30px;
     }
-    .c-page1-pl2{
+    .c-page1-t2{
       font-size: 18px;
     }
   }

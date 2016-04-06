@@ -49,7 +49,7 @@ address, cite, code, em, th, i {
   background: #f8f9fb;
 }
 
-/*********************** new module Name Start **************************************
+/*********************** public variable Name Start **************************************
  *@moduleName: public variable
  *@author:Administrator
  *@desc:
@@ -747,6 +747,15 @@ a:active, a:focus {
 .time-right-fn1 {
   line-height: 40px;
   color: #a0a0a0;
+}
+
+/* line 41, ../sass/layout/_grid.scss */
+.col1-4 {
+  width: 25%;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* line 1, ../sass/components/_buttons.scss */
@@ -2000,15 +2009,16 @@ a:active, a:focus {
 /* line 15, ../sass/pages/_center-index.scss */
 .c-container .c-header, .c-container .c-main {
   margin-top: 20px;
+  background: #fff;
   border: 1px solid #e5e5e5;
 }
 
-/* line 20, ../sass/pages/_center-index.scss */
+/* line 21, ../sass/pages/_center-index.scss */
 .c-container .c-header {
   height: 178px;
 }
 
-/* line 25, ../sass/pages/_center-index.scss */
+/* line 26, ../sass/pages/_center-index.scss */
 .c-main, .c-menu, .c-pages {
   float: left;
 }
@@ -2027,15 +2037,14 @@ a:active, a:focus {
  *@desc:center menu use of sass write here
  *@time:2016/4/5 14:05
  **/
-/* line 54, ../sass/pages/_center-index.scss */
+/* line 55, ../sass/pages/_center-index.scss */
 .c-menu aside {
   line-height: 50px;
   width: 210px;
 }
-/* line 58, ../sass/pages/_center-index.scss */
+/* line 59, ../sass/pages/_center-index.scss */
 .c-menu aside ul {
   padding: 0px;
-  background-color: #f8f9fb;
 }
 /* line 63, ../sass/pages/_center-index.scss */
 .c-menu aside li:hover {
@@ -2079,26 +2088,52 @@ a:active, a:focus {
   height: auto;
   border-left: 1px solid #e5e5e5;
 }
-
-/* line 105, ../sass/pages/_center-index.scss */
+/* line 103, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 {
   height: 960px;
-  margin: 30px 20px;
 }
-
-/* line 110, ../sass/pages/_center-index.scss */
+/* line 105, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-page1-item1 {
-  height: 130px;
+  height: 100px;
+  margin: 30px 0;
 }
-
-/* line 114, ../sass/pages/_center-index.scss */
-.col1-4 {
-  width: 25%;
-  padding: 0 15px;
-  float: left;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+/* line 110, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-pl {
+  height: 100px;
+  padding: 0 20px;
+}
+/* line 115, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1, .c-pages .c-page1 .c-pl-box2, .c-pages .c-page1 .c-pl-box3, .c-pages .c-page1 .c-pl-box4 {
+  height: 100px;
+  border-radius: 5px;
+}
+/* line 121, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 .c-page1-t1, .c-pages .c-page1 .c-pl-box1 .c-page1-t2, .c-pages .c-page1 .c-pl-box2 .c-page1-t1, .c-pages .c-page1 .c-pl-box2 .c-page1-t2 {
+  color: #fff;
+}
+/* line 126, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 {
+  background-color: #30b4fc;
+}
+/* line 131, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box2 {
+  background-color: #e44b39;
+}
+/* line 135, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 {
+  background-color: #f9f9f9;
+}
+/* line 139, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box4 {
+  background-color: #f9f9f9;
+}
+/* line 143, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-t1 {
+  font-size: 30px;
+}
+/* line 146, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-t2 {
+  font-size: 18px;
 }
 
 /************************* center pages module End **********************************/
