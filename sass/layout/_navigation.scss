@@ -25,26 +25,28 @@ $lte-ie:true !default;
   }
 }
 .logo-item-mn{ margin-top: 20px;}
-.logo-nav-item { float: left;margin: 40px 0px 0px 220px; }
+.logo-nav-item { float: left;margin: 35px 0px 0px 220px; }
 .nav-item-title{ float: left;}
 .nav-item-title > li { float: left; z-index: 1000;position: relative;height: 40px}
-.nav-item-title > li >a { padding:0 30px;font-size: 16px; color: #4c4c4c; text-decoration: none; }
+.nav-item-title > li >a { padding:0 30px;font-size: 16px; color: #413c2b; text-decoration: none; }
 .nav-item-title > li >a:hover { color: #ffa200; }
 .user { float: left; height: 40px; display:inline-block; margin-left: 25px; margin-top: -6px;}
 .user a { display: inline-block;  background: sprite($base,bg-y);
   @include sprite-background-position($base,bg-y);
-  @include  sprite-dimensions($base,bg-y);text-align: center; line-height: 36px; color: #4c4c4c; font-size: 16px; text-decoration: none; padding-left: 7px; }
-.user a:hover { @include sprite-background-position($base,bg-y-hover); color: #fff;padding-left: 7px; }
+  @include  sprite-dimensions($base,bg-y);text-align: center; line-height: 36px; color: #4c4c4c; font-size: 16px; text-decoration: none;  }
+.user a:hover { @include sprite-background-position($base,bg-y-hover); color: #fff;}
 
 /*二级导航*/
-.nav-dropdown {background: #FFF none repeat scroll 0% 0%; border-top: 2px solid #fcae26; margin-top: 40px; position: absolute; width: 100px; z-index:100;/*box-shadow:0px 0px 3px -1px #CCC*/ left:11px;}
+.nav-dropdown {  display:none;background: #FFF none repeat scroll 0% 0%; border-top: 2px solid #fcae26; margin-top: 25px; position: absolute; width: 100px; z-index:100;/*box-shadow:0px 0px 3px -1px #CCC*/ left:11px;}
 .hover .active{display:block !important}
 .nav-dropdown span {  display: block; width: 11px; height: 7px; position: absolute; top: -7px; left: 52px; }
 .nav-dropdown-item { text-align: center; position: relative;border-bottom: 1px solid #e5e5e5;}
 .nav-dropdown-item a { line-height: 30px; text-decoration: none; color: #6F6F6F; width: 100px; display: block; font-size: 14px; border-bottom: 1px solid #FFF; }
 .nav-dropdown-item a:hover { color: #ffa200; border-bottom: 1px solid #FFF; }
 .dline{height: 1px;width:0px;background-color: #fde6ba;position: absolute;top:30px;left:59px;}
-
+.nav-item-title li:hover > ul {
+  display: block;
+}
 .nav-item-title .orange{
   color: $orcoolor;
 }

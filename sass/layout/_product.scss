@@ -8,7 +8,7 @@
   width: 1200px;
   margin: 30px auto 30px;
   border-bottom: 1px solid  #e5e5e5;
-  border-right: 1px solid  #e5e5e5;
+ /* border-right: 1px solid  #e5e5e5;*/
   border-left: 1px solid  #e5e5e5;
 }
 .newcomer-vip{
@@ -291,6 +291,19 @@
 .border-blue1{
   border-top: 1px solid #30b4fc;
 }
+.border-lvs1{
+  border-top: 1px solid #44d7cd;
+}
+.border-block1{
+  border-top: 1px solid #615952;
+}
+.border-red1{
+  border-top: 1px solid #ff5158;
+}
+.bo-right-01{
+  border-right: 1px solid #e5e5e5;
+}
+
 .vip-r-img{
   margin-left: 12px;
   float: left;

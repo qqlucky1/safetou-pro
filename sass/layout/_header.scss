@@ -1,5 +1,7 @@
 @import "compass";
+@import "components/buttons";
 @import "utils/variables";
+@import "compass/css3/border-radius";
 
 .topbar{
   width: $con-width;
@@ -38,60 +40,63 @@
 }
 .qq {
   float: left;
+  position: relative;
   margin-left: 13px;
-  line-height: 40px;
+  padding-top: 12px;
 }
 .top_com {
   display: inline-block;
 
 }
 .top03{
-  background:sprite($base, weibo);
-  @include sprite-background-position($base,weibo);
-  @include  sprite-dimensions($base,weibo);
+  background:sprite($base, qq);
+  @include sprite-background-position($base,qq);
+  @include  sprite-dimensions($base,qq);
 }
 .top02{
+  position: relative;
   background:sprite($base, weixin);
   @include sprite-background-position($base,weixin);
   @include  sprite-dimensions($base,weixin);
 }
 .top01{
-  background:sprite($base,qq);
-  @include sprite-background-position($base,qq);
-  @include  sprite-dimensions($base,qq);
+  position: relative;
+   background:sprite($base,weibo);
+  @include sprite-background-position($base,weibo);
+  @include  sprite-dimensions($base,weibo);
+  position: relative;
+}
+.qq01 .weibo-img{
+  padding: 15px 15px 0px;
+  display: inline-block;
+  text-align: center;
+}
+.qq01 .pd-img-w1{
+  padding: 15px 10px 0px;
 }
 .top03:hover{
-  @include sprite-background-position($base,weibo_hover);
+  @include sprite-background-position($base,qq_hover);
  }
 
 .top02:hover{
   @include sprite-background-position($base,weixin_hover);
 }
 .top01:hover{
-  @include sprite-background-position($base,qq_hover);
+  @include sprite-background-position($base,weibo_hover);
 }
 .app-lay{
+  position: relative;
   float: left;
-  width: 83px;
-  height: 27px;
-  border: 1px solid #a0a0a0;
-  @include border-radius(4px);
+  background:sprite($base, APPimage);
+  @include sprite-background-position($base,APPimage);
+  @include  sprite-dimensions($base,APPimage);
  margin: 5px 15px 0 15px;
  }
-.image-t1{
-  float: left;
-  display: inline-block;
-  background:sprite($base, iphone);
-  @include sprite-background-position($base,iphone);
-  @include  sprite-dimensions($base,iphone);
-    margin: 7px 0px 0 10px;
-  }
-.ip-text{
-  display: inline-block;
-  margin: 6px 0 0 5px;
-  color: #a0a0a0;
-  font-size: 12px;
+.app-lay:hover{
+  @include sprite-background-position($base,APPimage-hover);
+  cursor: pointer;
 }
+
 /*右边*/
 .right-bar{ float: right; height: 40px;}
 .login-ig01{
@@ -115,15 +120,81 @@
 
 .dl-lay-item {
   float: left;
-  line-height: 40px;
+  padding-top: 12px;
   margin: 0px 14px;
+  position: relative;
 }
 .dl-lay-item a{
   color: #a0a0a0;
   font-size: 12px;
   margin-left: 9px;
+  cursor: pointer;
+}
+.dl-lay-item a:hover{
+  color: #fff;
+}
+/*二维码*/
+.qq01{
+  display: inline-block;
+  position: absolute;
+  top: 34px;
+  z-index: 9;
+  right: -64px;
+  background:sprite($erweima-img, small);
+  @include sprite-background-position($erweima-img, small);
+  @include  sprite-dimensions($erweima-img, small);}
+
+.btn-weibo {
+  margin: 4px  auto;
+  width: 100px;
+  }
+.btn-weibo a{
+  color: #fff;
+  width: 98px;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  background-color: $orcoolor;
+  text-align: center;
+  @include border-radius(4px, 4px);
+}
+.qq02{
+  display: inline-block;
+  z-index: 111;
+  position: absolute;
+  top: 34px;
+  right: -130px;
+  background:sprite($erweima-img, big-box);
+  @include sprite-background-position($erweima-img, big-box);
+  @include  sprite-dimensions($erweima-img,big-box);
+
+}
+.qq02 .weibo-img {
+  padding: 15px 15px 0px;
+  display: inline-block;
+  text-align: center;
+}
+.qq03{
+  position: absolute;
+  top: 29px;
+  right: -96px;
+  z-index: 1003;
+}
+.btn-d{
+  margin: 0px auto;
+  width: 249px;
 }
 
-
-
+.qq02 .btn-d a{
+  padding: 0px 6px;
+}
+.dl-lay-item .bz-bg-y1{
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #ff9933;
+  border-radius: 50%;
+}
 
