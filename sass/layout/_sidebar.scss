@@ -69,27 +69,72 @@
   padding: 0 3px;
   font-size: 18px;
 }
+
 .ifor-img5{
+  position: relative;
+  display: inline-block;
+  background:sprite($icons, icons9);
+  @include sprite-background-position($icons, icons9);
+  @include  sprite-dimensions($icons, icons9);
+  float: left;
+}
+.ifor-img5 u{
+  /*animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  transition: .4s top ease;*/
+}
+.ifor-img5 .h-spin01{
   display: inline-block;
   background:sprite($icons, icons3);
   @include sprite-background-position($icons, icons3);
   @include  sprite-dimensions($icons, icons3);
   float: left;
+  animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  transition: .4s top ease;
+  position: absolute;
+  top: 9px;
+  right: 7px;
 }
-.ifor-img6{
-  display: inline-block;
-  background:sprite($icons, icons5);
-  @include sprite-background-position($icons, icons5);
-  @include  sprite-dimensions($icons, icons5);
-  float: left;
+.item .ifor-img5 > u:hover{
+  top: -3px;
 }
-.ifor-img7{
+.ifor-img5 .h-spin02{
   display: inline-block;
   background:sprite($icons, icons4);
   @include sprite-background-position($icons, icons4);
   @include  sprite-dimensions($icons, icons4);
   float: left;
+  animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  transition: .4s top ease;
+  position: absolute;
+  top: 22px;
+  right: 19px;
 }
+.ifor-img5 .h-spin03{
+  display: inline-block;
+  background:sprite($icons, icons5);
+  @include sprite-background-position($icons, icons5);
+  @include  sprite-dimensions($icons, icons5);
+  float: left;
+  animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  transition: .4s top ease;
+  position: absolute;
+  top: 18px;
+  right: 8px;
+}
+
+
 .infor-item .item{
   border-right: 1px solid #e5e5e5;
 }

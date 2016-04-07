@@ -2,7 +2,7 @@
     position: relative;
     width: 1200px;
     margin: 0 auto;
-    z-index: 10
+    z-index: 8;
 }
 
 .categorys .cate-wrap {
@@ -96,11 +96,12 @@
     width: 172px;
     height: 26px;
     color: #fff;
-    background-color: #fcae26;
+    background-color: #ff9933;
     display: inline-block;
     margin-top: 10px;
     border-radius: 4px;
     line-height: 25px;
+    cursor: pointer;
 }
 
 .categorys .cate-mt .extra a {
@@ -604,13 +605,24 @@
     position: absolute;
     top: 210px;
     left: 35px;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #fcae26;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top,#fcae26,#ff9933);
+    background-image: -webkit-linear-gradient(top,#fcae26,#ff9933);
+    background-image: -o-linear-gradient(top,#fcae26,#ff9933);
+    background-image: linear-gradient(to bottom,#fcae26,#ff9933);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endColorstr='#ff5256', GradientType=0);
     width: 200px;
     height: 38px;
     line-height: 38px;
     font-size: 16px;
     text-align: center;
+    cursor: pointer;
+}
+.btn-register:hover{
+    background: #ff9933;
+
 }
 
 .btn-register-item{
