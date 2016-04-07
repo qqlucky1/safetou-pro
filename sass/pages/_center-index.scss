@@ -23,7 +23,7 @@
 }
 
 
-.c-main,.c-menu,.c-pages{
+.c-main,.c-menu,.c-pages,.c-user-card-box1,.c-user-card-box2{
   float: left;
 }
 
@@ -38,6 +38,26 @@
  *@desc: center header use of css write here
  *@time:2016/4/5 14:04
  **/
+
+.c-user-card-box1,.c-user-card-box2{
+  height: 178px;
+}
+
+.c-user-card-box2,.c-box2-item1,.c-box2-item2{
+  width:1013px;
+}
+
+.c-box2-item1{
+  height: 58px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.c-box2-item2{
+  height: 119px;
+}
+
+.c-user-card-box1{
+  width: 185px;
+}
 
 /*************************** center header module End *******************************/
 
@@ -118,10 +138,36 @@
     }
 
     .c-pl-box1,.c-pl-box2{
+       .c-page1-t1,.c-page1-t2{
+         color: #fff;
+         text-align: left;
+         display: block;
+       }
+
+       .c-page1-t1{
+         line-height: 56px;
+         margin-left: 10px;
+       }
+       .c-page1-t2{
+         margin-left: 28px;
+       }
+     }
+
+    .c-pl-box3,.c-pl-box4{
       .c-page1-t1,.c-page1-t2{
-        color: #fff;
+        text-align: left;
+        display: block;
+      }
+
+      .c-page1-t1{
+        line-height: 56px;
+        margin-left: 10px;
+      }
+      .c-page1-t2{
+        margin-left: 28px;
       }
     }
+
 
     .c-pl-box1{
       background-color: #30b4fc;
@@ -144,7 +190,7 @@
       font-size: 30px;
     }
     .c-page1-t2{
-      font-size: 18px;
+      font-size: 14px;
     }
   }
 }

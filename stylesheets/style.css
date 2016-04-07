@@ -2019,7 +2019,7 @@ a:active, a:focus {
 }
 
 /* line 26, ../sass/pages/_center-index.scss */
-.c-main, .c-menu, .c-pages {
+.c-main, .c-menu, .c-pages, .c-user-card-box1, .c-user-card-box2 {
   float: left;
 }
 
@@ -2030,6 +2030,32 @@ a:active, a:focus {
  *@desc: center header use of css write here
  *@time:2016/4/5 14:04
  **/
+/* line 42, ../sass/pages/_center-index.scss */
+.c-user-card-box1, .c-user-card-box2 {
+  height: 178px;
+}
+
+/* line 46, ../sass/pages/_center-index.scss */
+.c-user-card-box2, .c-box2-item1, .c-box2-item2 {
+  width: 1013px;
+}
+
+/* line 50, ../sass/pages/_center-index.scss */
+.c-box2-item1 {
+  height: 58px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 54, ../sass/pages/_center-index.scss */
+.c-box2-item2 {
+  height: 119px;
+}
+
+/* line 58, ../sass/pages/_center-index.scss */
+.c-user-card-box1 {
+  width: 185px;
+}
+
 /*************************** center header module End *******************************/
 /*************************** center menu module Start *******************************
  *@moduleName:center menu module
@@ -2037,37 +2063,37 @@ a:active, a:focus {
  *@desc:center menu use of sass write here
  *@time:2016/4/5 14:05
  **/
-/* line 55, ../sass/pages/_center-index.scss */
+/* line 75, ../sass/pages/_center-index.scss */
 .c-menu aside {
   line-height: 50px;
   width: 210px;
 }
-/* line 59, ../sass/pages/_center-index.scss */
+/* line 79, ../sass/pages/_center-index.scss */
 .c-menu aside ul {
   padding: 0px;
 }
-/* line 63, ../sass/pages/_center-index.scss */
+/* line 83, ../sass/pages/_center-index.scss */
 .c-menu aside li:hover {
   height: 50px;
   background-color: #e3e3e3;
   color: #fff;
 }
-/* line 69, ../sass/pages/_center-index.scss */
+/* line 89, ../sass/pages/_center-index.scss */
 .c-menu aside li.c-mi-hover {
   background-color: #fdb323;
 }
-/* line 71, ../sass/pages/_center-index.scss */
+/* line 91, ../sass/pages/_center-index.scss */
 .c-menu aside li.c-mi-hover a {
   color: #fff;
 }
-/* line 76, ../sass/pages/_center-index.scss */
+/* line 96, ../sass/pages/_center-index.scss */
 .c-menu aside a {
   display: block;
   font-size: 14px;
   text-align: center;
   color: #6f6f6f;
 }
-/* line 82, ../sass/pages/_center-index.scss */
+/* line 102, ../sass/pages/_center-index.scss */
 .c-menu aside a:after {
   content: ">";
   display: block;
@@ -2082,58 +2108,83 @@ a:active, a:focus {
  *@desc:center pages use of write here(import forms sass from forms mixin)
  *@time:2016/4/5 14:10
  **/
-/* line 99, ../sass/pages/_center-index.scss */
+/* line 119, ../sass/pages/_center-index.scss */
 .c-pages {
   width: 986px;
   height: auto;
   border-left: 1px solid #e5e5e5;
 }
-/* line 103, ../sass/pages/_center-index.scss */
+/* line 123, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 {
   height: 960px;
 }
-/* line 105, ../sass/pages/_center-index.scss */
+/* line 125, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-page1-item1 {
   height: 100px;
   margin: 30px 0;
 }
-/* line 110, ../sass/pages/_center-index.scss */
+/* line 130, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-page1-pl {
   height: 100px;
   padding: 0 20px;
 }
-/* line 115, ../sass/pages/_center-index.scss */
+/* line 135, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-pl-box1, .c-pages .c-page1 .c-pl-box2, .c-pages .c-page1 .c-pl-box3, .c-pages .c-page1 .c-pl-box4 {
   height: 100px;
   border-radius: 5px;
 }
-/* line 121, ../sass/pages/_center-index.scss */
+/* line 141, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-pl-box1 .c-page1-t1, .c-pages .c-page1 .c-pl-box1 .c-page1-t2, .c-pages .c-page1 .c-pl-box2 .c-page1-t1, .c-pages .c-page1 .c-pl-box2 .c-page1-t2 {
   color: #fff;
+  text-align: left;
+  display: block;
 }
-/* line 126, ../sass/pages/_center-index.scss */
+/* line 147, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 .c-page1-t1, .c-pages .c-page1 .c-pl-box2 .c-page1-t1 {
+  line-height: 56px;
+  margin-left: 10px;
+}
+/* line 151, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 .c-page1-t2, .c-pages .c-page1 .c-pl-box2 .c-page1-t2 {
+  margin-left: 28px;
+}
+/* line 157, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 .c-page1-t1, .c-pages .c-page1 .c-pl-box3 .c-page1-t2, .c-pages .c-page1 .c-pl-box4 .c-page1-t1, .c-pages .c-page1 .c-pl-box4 .c-page1-t2 {
+  text-align: left;
+  display: block;
+}
+/* line 162, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 .c-page1-t1, .c-pages .c-page1 .c-pl-box4 .c-page1-t1 {
+  line-height: 56px;
+  margin-left: 10px;
+}
+/* line 166, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 .c-page1-t2, .c-pages .c-page1 .c-pl-box4 .c-page1-t2 {
+  margin-left: 28px;
+}
+/* line 172, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-pl-box1 {
   background-color: #30b4fc;
 }
-/* line 131, ../sass/pages/_center-index.scss */
+/* line 177, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-pl-box2 {
   background-color: #e44b39;
 }
-/* line 135, ../sass/pages/_center-index.scss */
+/* line 181, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-pl-box3 {
   background-color: #f9f9f9;
 }
-/* line 139, ../sass/pages/_center-index.scss */
+/* line 185, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-pl-box4 {
   background-color: #f9f9f9;
 }
-/* line 143, ../sass/pages/_center-index.scss */
+/* line 189, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-page1-t1 {
   font-size: 30px;
 }
-/* line 146, ../sass/pages/_center-index.scss */
+/* line 192, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-page1-t2 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 /************************* center pages module End **********************************/
