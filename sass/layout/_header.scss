@@ -37,6 +37,10 @@
   margin-left: 13px;
   cursor: pointer;
 }
+.left-fnt:hover{
+  color: #fff;
+  cursor: pointer;
+}
 .qq {
   float: left;
   position: relative;
@@ -110,6 +114,7 @@
   background:sprite($base, icon_12);
   @include sprite-background-position($base,icon_12);
   @include  sprite-dimensions($base,icon_12);
+  position: relative;
 }
 .login-ig01:hover{
   @include sprite-background-position($base,log_hover);
@@ -221,6 +226,23 @@
 }
 .app-lay:hover > .qq02{
   display: block;
+}
+.dl-lay-item .new-point{
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  color: rgb(160, 160, 160);
+  border: 1px solid rgb(160, 160, 160);
+  text-align: center;
+  border-radius: 2px;
+  top: -2px;
+  left: 20px;
+  display: none;
+}
+.login-ig02:hover > .new-point{
+  display: block;
+
+
 }
 
 
