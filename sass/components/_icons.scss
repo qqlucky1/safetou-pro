@@ -44,6 +44,13 @@ $banner1:sprite-map("../images/banner1/*.png");
 $banner1-sprite-dimensions:true;
 $disable-magic-sprite-selectors:true;
 
+@import "../images/pop-img/*.png";
+$pop-img:sprite-map("../images/pop-img/*.png");
+.sprite{ background: transparent sprite-url($pop-img) no-repeat 0 0; display: inline-block; }
+$pop-img-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+
+
 
 
 
