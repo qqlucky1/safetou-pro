@@ -1,4 +1,5 @@
 
+@charset "UTF-8";
 .banner{ width:100%;height: 460px; border-bottom: 1px solid #e5e5e5;}
 .banner .g-bg-list{
   position: absolute;
@@ -67,3 +68,116 @@
   border-radius: 4px;
   line-height: 25px;
 }
+
+/*4.6*/
+.cate-wrap{
+  & .cate_content_list{
+    width: 480px;
+    height: 440px;
+    border-left: 1px solid #e5e5e5;
+    background: #fff;
+    left: 210px;
+    position: absolute;
+    top: 0;
+  }
+  & .cate_item{
+    padding: 0 25px;
+  }
+  & .cate_item .title{
+    height: 36px;
+    padding: 15px 0 5px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 36px;
+  }
+  & .cate_item .text{
+    float: left;
+    font-size: 18px;
+  }
+  & .cate_item .more{
+    float: right;
+    color: #999;
+    cursor: pointer;
+  }
+  & .goods span{
+    height: 28px;
+    line-height: 28px;
+    color: #999;
+  }
+  & .text-item{
+    padding-top: 40px;
+  }
+  & .text-item01{
+    background:sprite($banner1, img06);
+    @include sprite-background-position($banner1, img06);
+    @include  sprite-dimensions($banner1,img06);
+    display: inline-block;
+  }
+  & .text-item02{
+    background:sprite($banner1, img05);
+    @include sprite-background-position($banner1, img05);
+    @include  sprite-dimensions($banner1,img05);
+    display: inline-block;
+  }
+  & .text-item03{
+    background:sprite($banner1, img04);
+    @include sprite-background-position($banner1, img04);
+    @include  sprite-dimensions($banner1,img04);
+       display: inline-block;
+  }
+  & .text-item04{
+    background:sprite($banner1, img03);
+    @include sprite-background-position($banner1, img03);
+    @include  sprite-dimensions($banner1,img03);
+    display: inline-block;
+  }
+  & .btn-img{
+
+  }
+  & .btn-img a{
+    display: inline-block;
+    width: 124px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid $orcoolor;
+    text-align: center;
+    color: $orcoolor;
+    border-radius: 4px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 45px;
+    cursor: pointer;
+  }
+  & .btn-img  .img-botton{
+    background:sprite($banner1, img01_);
+    @include sprite-background-position($banner1, img01_);
+    @include  sprite-dimensions($banner1,img01_);
+    display: inline-block;
+    float: right;
+  }
+  & .btn-img  .img-botton1{
+    background:sprite($banner1, img08);
+    @include sprite-background-position($banner1, img08);
+    @include  sprite-dimensions($banner1,img08);
+    display: inline-block;
+    float: right;
+  }
+  & .btn-img  .img-botton2{
+    background:sprite($banner1, img07);
+    @include sprite-background-position($banner1, img07);
+    @include  sprite-dimensions($banner1,img07);
+    display: inline-block;
+    position: absolute;
+    right:10px;
+    bottom: 43px;
+  }
+  & .btn-img  .img-botton3 {
+    background:sprite($banner1, img02);
+    @include sprite-background-position($banner1, img02);
+    @include  sprite-dimensions($banner1,img02);
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    bottom: 43px;
+  }
+}
+
