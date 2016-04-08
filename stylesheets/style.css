@@ -49,7 +49,7 @@ address, cite, code, em, th, i {
   background: #f8f9fb;
 }
 
-/*********************** new module Name Start **************************************
+/*********************** public variable Name Start **************************************
  *@moduleName: public variable
  *@author:Administrator
  *@desc:
@@ -771,6 +771,15 @@ a:active, a:focus {
 .time-right-fn1 {
   line-height: 40px;
   color: #a0a0a0;
+}
+
+/* line 41, ../sass/layout/_grid.scss */
+.col1-4 {
+  width: 25%;
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* line 1, ../sass/components/_buttons.scss */
@@ -2514,7 +2523,7 @@ a:active, a:focus {
  *@desc: other grid module and render
  *@time:2016/4/5 15:11
  **/
-/* line 10, ../sass/pages/_center-index.scss */
+/* line 11, ../sass/pages/_center-index.scss */
 .c-container {
   margin: 0 auto;
   background-color: #f9f8fb;
@@ -2525,19 +2534,20 @@ a:active, a:focus {
   box-sizing: border-box;
 }
 
-/* line 15, ../sass/pages/_center-index.scss */
+/* line 16, ../sass/pages/_center-index.scss */
 .c-container .c-header, .c-container .c-main {
   margin-top: 20px;
+  background: #fff;
   border: 1px solid #e5e5e5;
 }
 
-/* line 20, ../sass/pages/_center-index.scss */
+/* line 22, ../sass/pages/_center-index.scss */
 .c-container .c-header {
   height: 178px;
 }
 
-/* line 25, ../sass/pages/_center-index.scss */
-.c-main, .c-menu, .c-pages {
+/* line 27, ../sass/pages/_center-index.scss */
+.c-main, .c-menu, .c-pages, .c-user-card-box1, .c-user-card-box2, .c-bi-item1, .c-bi-item2 {
   float: left;
 }
 
@@ -2548,6 +2558,322 @@ a:active, a:focus {
  *@desc: center header use of css write here
  *@time:2016/4/5 14:04
  **/
+/* line 43, ../sass/pages/_center-index.scss */
+.c-user-card-box1, .c-user-card-box2 {
+  height: 178px;
+}
+
+/* line 47, ../sass/pages/_center-index.scss */
+.c-user-card-box2, .c-box2-item1, .c-box2-item2 {
+  width: 1013px;
+}
+
+/* line 51, ../sass/pages/_center-index.scss */
+.c-box2-item1 {
+  height: 58px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 55, ../sass/pages/_center-index.scss */
+.c-box2-item2, .c-bi-item1, .c-bi-item2 {
+  height: 119px;
+}
+
+/* line 59, ../sass/pages/_center-index.scss */
+.c-bi-item1 {
+  width: 434px;
+  border-right: 1px solid #e5e5e5;
+}
+
+/* line 64, ../sass/pages/_center-index.scss */
+.c-bi-item2 {
+  width: 578px;
+}
+/* line 66, ../sass/pages/_center-index.scss */
+.c-bi-item2 .c-btnBox {
+  float: right;
+  margin: 20px 20px 0 0;
+}
+/* line 70, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul {
+  height: 119px;
+  margin-left: 20px;
+}
+/* line 73, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul li {
+  line-height: 39.66px;
+}
+/* line 76, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul .c-um-i1 {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+/* line 80, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul .c-um-i2 {
+  font-size: 28px;
+  color: #ff9933;
+}
+/* line 84, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul .c-um-i3 {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+/* line 87, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul .c-um-i3 span {
+  color: #ff9933;
+}
+/* line 90, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul .c-um-i3 i {
+  color: #ff9933;
+  display: inline-block;
+  margin-left: 10px;
+}
+/* line 94, ../sass/pages/_center-index.scss */
+.c-bi-item2 ul .c-um-i3 i:after {
+  content: " ";
+  border: 2px solid;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 11px;
+  position: relative;
+  left: -13px;
+  top: 3px;
+}
+
+/* line 111, ../sass/pages/_center-index.scss */
+.c-btn-cz, .c-btn-tx {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* line 117, ../sass/pages/_center-index.scss */
+.c-btn-tx {
+  border: 1px solid #a0a0a0;
+  color: #a0a0a0;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+/* line 123, ../sass/pages/_center-index.scss */
+.c-btn-cz {
+  background-color: #ff9933;
+  color: #fff;
+  border: 1px;
+}
+
+/* line 129, ../sass/pages/_center-index.scss */
+.c-user-card-box1 {
+  width: 185px;
+}
+
+/* line 133, ../sass/pages/_center-index.scss */
+.c-bi-msg1 {
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+
+/* line 139, ../sass/pages/_center-index.scss */
+.c-bi-msg2, .c-bi-msg3 {
+  font-size: 14px;
+}
+
+/* line 142, ../sass/pages/_center-index.scss */
+.c-bi-msg2 {
+  color: #a0a0a0;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+/* line 149, ../sass/pages/_center-index.scss */
+.c-bi-msg3 {
+  color: #a0a0a0;
+}
+/* line 151, ../sass/pages/_center-index.scss */
+.c-bi-msg3 span {
+  color: #ff9933;
+}
+
+/* line 155, ../sass/pages/_center-index.scss */
+.c-bi-msg4 {
+  width: 44px;
+}
+
+/* line 158, ../sass/pages/_center-index.scss */
+.c-safe-item1 {
+  margin-top: 20px;
+}
+
+/* line 161, ../sass/pages/_center-index.scss */
+.c-safe-item2 {
+  width: 434px;
+  height: 50px;
+}
+
+/* line 165, ../sass/pages/_center-index.scss */
+.c-safe-item1 span {
+  width: 86px;
+}
+
+/* line 170, ../sass/pages/_center-index.scss */
+.aut-tishi {
+  position: relative;
+  width: 390px;
+  border: 1px solid #F1F1F1;
+}
+/* line 174, ../sass/pages/_center-index.scss */
+.aut-tishi span {
+  padding-left: 5px;
+  color: #4c4c4c;
+  font-size: 12px;
+}
+/* line 179, ../sass/pages/_center-index.scss */
+.aut-tishi a {
+  color: #FFA200;
+  font-size: 12px;
+}
+/* line 184, ../sass/pages/_center-index.scss */
+.aut-tishi i {
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 3px;
+  height: 10px;
+  width: 15px;
+  background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGOERBNTdBRDA0NDgxMUU1QkRFM0ExNDY2OUI1MEMzMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGOERBNTdBRTA0NDgxMUU1QkRFM0ExNDY2OUI1MEMzMCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkY4REE1N0FCMDQ0ODExRTVCREUzQTE0NjY5QjUwQzMwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY4REE1N0FDMDQ0ODExRTVCREUzQTE0NjY5QjUwQzMwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+GVHn3gAAAXBJREFUeNqUUj1rwlAUvZFGMZFOaQUhU+jH1i1/QQfTpf0F3Qul/6T9B9kyCwWnZHFyc1La2k3REqRKJKiQ13seSUhBhV44eTf3ncP9eFcRQlBm0+nU4OOZ0WZcpuERo8N4bTQaYU6GEJhMJncs/GETm81GJEkiAR8xvluCk/Fz0Ww2S7bbrThkuAMnEyvsnCmK8mkYxqmqqnTMdrsdhWG4YuFFif8fNU2TovF4TK7ryjOz4XBInufRfD4ncMDl8NMJf26r1aokWZYlz16vR7Vajbg86vf71Gq1qF6vyztw1+t1G8LrYomZOAgC4sH8EcFS7lVpXy/IVKlUpB9F0V4KMo646ZtyuZz3NBgMyHEcWiwW5Pu+LDvLigGxfSFjJ45jGUQ/EDWbTdJ1nUzTJNu2qdvt5gNLuW94jnN+jo9/Pwev0Tc7D1yWSMs4KAIHXGiKK3fPa7U6snKr4sopB5bcwcgxPcY7emK8FJf8V4ABAJ19LBYtfQYpAAAAAElFTkSuQmCC") no-repeat scroll 103% 29%;
+}
+
+/* line 194, ../sass/pages/_center-index.scss */
+.aut-img-item {
+  position: absolute;
+  top: -6px;
+  display: inline-block;
+  width: 13px;
+  height: 6px;
+  background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAGCAYAAAAYLBS/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFREUyQzEwRDA0NDUxMUU1QkJBNkMyOUJDOEQ2RENCMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFREUyQzEwRTA0NDUxMUU1QkJBNkMyOUJDOEQ2RENCMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkVERTJDMTBCMDQ0NTExRTVCQkE2QzI5QkM4RDZEQ0IzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkVERTJDMTBDMDQ0NTExRTVCQkE2QzI5QkM4RDZEQ0IzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+i0Hq+wAAALZJREFUeNpi/P//PwMy4GBkZn7/7UvW79+/mcT4BecAhf6A8I//f//CFYE0wTA7AxPT2zdv/IHsPyB85vTpJKCYCBBzguRg6pA1MD56+ND4379/H/9Dwd+/f78vX7osFCgnCsQcMI1wDSeOHZMGKnr8Hw38+vXrfUdrmytQjTAQs4PUgjWsWbWaH+iH0/9xgG/fvj3OTE0zBaoVBGI2BikRMV6g4Nr/BMDHjx+v2FvZ6ID8CBBgACxttc40wSTkAAAAAElFTkSuQmCC") no-repeat scroll 0% 0%;
+}
+
+/* line 203, ../sass/pages/_center-index.scss */
+.authentication-icom {
+  clear: both;
+  position: relative;
+  top: 10px;
+}
+
+/* line 204, ../sass/pages/_center-index.scss */
+.authentication-icom i {
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+  background-image: url("../images/right-accred-icom.png");
+  background-repeat: no-repeat;
+}
+
+/* line 205, ../sass/pages/_center-index.scss */
+.aut-tx {
+  background-position: 0px 0px;
+}
+
+/* line 206, ../sass/pages/_center-index.scss */
+.aut-phone {
+  background-position: 0px -47px;
+}
+
+/* line 207, ../sass/pages/_center-index.scss */
+.aut-lock {
+  background-position: 0px -94px;
+}
+
+/* line 208, ../sass/pages/_center-index.scss */
+.aut-mail {
+  background-position: 0px -142px;
+}
+
+/* line 209, ../sass/pages/_center-index.scss */
+.aut-bank {
+  background-position: 0px -189px;
+}
+
+/* line 210, ../sass/pages/_center-index.scss */
+.gray-tx {
+  background-position: 0px -231px;
+}
+
+/* line 211, ../sass/pages/_center-index.scss */
+.gray-phone {
+  background-position: 0px -277px;
+}
+
+/* line 212, ../sass/pages/_center-index.scss */
+.gray-lock {
+  background-position: 0px -325px;
+}
+
+/* line 213, ../sass/pages/_center-index.scss */
+.gray-mail {
+  background-position: 0px -372px;
+}
+
+/* line 214, ../sass/pages/_center-index.scss */
+.gray-bank {
+  background-position: 0px -419px;
+}
+
+/* line 215, ../sass/pages/_center-index.scss */
+._tx {
+  left: 10px;
+}
+
+/* line 216, ../sass/pages/_center-index.scss */
+._email {
+  left: 124px;
+}
+
+/* line 217, ../sass/pages/_center-index.scss */
+._cash {
+  left: 143px;
+}
+
+/* line 218, ../sass/pages/_center-index.scss */
+._bank {
+  left: 163px;
+}
+
+/* line 219, ../sass/pages/_center-index.scss */
+.center-head-t {
+  margin: 30px;
+}
+
+/* line 221, ../sass/pages/_center-index.scss */
+.c-bi-msg4, .c-safe-item1 span {
+  font-size: 12px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ff9933;
+  color: #ff9933;
+  display: inline-block;
+  height: 20px;
+  text-align: center;
+}
+
+/* line 232, ../sass/pages/_center-index.scss */
+.c-bi-jifen {
+  float: right;
+  margin: 25px 20px 0 0;
+}
+
+/* line 236, ../sass/pages/_center-index.scss */
+.c-bi-welcome {
+  float: left;
+}
+
 /*************************** center header module End *******************************/
 /*************************** center menu module Start *******************************
  *@moduleName:center menu module
@@ -2555,38 +2881,37 @@ a:active, a:focus {
  *@desc:center menu use of sass write here
  *@time:2016/4/5 14:05
  **/
-/* line 54, ../sass/pages/_center-index.scss */
+/* line 254, ../sass/pages/_center-index.scss */
 .c-menu aside {
   line-height: 50px;
   width: 210px;
 }
-/* line 58, ../sass/pages/_center-index.scss */
+/* line 258, ../sass/pages/_center-index.scss */
 .c-menu aside ul {
   padding: 0px;
-  background-color: #f8f9fb;
 }
-/* line 63, ../sass/pages/_center-index.scss */
+/* line 262, ../sass/pages/_center-index.scss */
 .c-menu aside li:hover {
   height: 50px;
   background-color: #e3e3e3;
   color: #fff;
 }
-/* line 69, ../sass/pages/_center-index.scss */
+/* line 268, ../sass/pages/_center-index.scss */
 .c-menu aside li.c-mi-hover {
   background-color: #fdb323;
 }
-/* line 71, ../sass/pages/_center-index.scss */
+/* line 270, ../sass/pages/_center-index.scss */
 .c-menu aside li.c-mi-hover a {
   color: #fff;
 }
-/* line 76, ../sass/pages/_center-index.scss */
+/* line 275, ../sass/pages/_center-index.scss */
 .c-menu aside a {
   display: block;
   font-size: 14px;
   text-align: center;
   color: #6f6f6f;
 }
-/* line 82, ../sass/pages/_center-index.scss */
+/* line 281, ../sass/pages/_center-index.scss */
 .c-menu aside a:after {
   content: ">";
   display: block;
@@ -2601,32 +2926,101 @@ a:active, a:focus {
  *@desc:center pages use of write here(import forms sass from forms mixin)
  *@time:2016/4/5 14:10
  **/
-/* line 99, ../sass/pages/_center-index.scss */
+/* line 298, ../sass/pages/_center-index.scss */
 .c-pages {
   width: 986px;
   height: auto;
   border-left: 1px solid #e5e5e5;
 }
-
-/* line 105, ../sass/pages/_center-index.scss */
+/* line 302, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 {
-  height: 960px;
-  margin: 30px 20px;
+  min-height: 960px;
 }
-
-/* line 110, ../sass/pages/_center-index.scss */
+/* line 304, ../sass/pages/_center-index.scss */
 .c-pages .c-page1 .c-page1-item1 {
-  height: 130px;
+  height: 100px;
+  margin: 30px 0;
+}
+/* line 309, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-item2 {
+  height: 350px;
+  margin: 0 20px 30px 20px;
+}
+/* line 313, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-item3 {
+  height: 460px;
+  margin: 0 20px 30px 20px;
+}
+/* line 318, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-pl {
+  height: 100px;
+  padding: 0 20px;
+}
+/* line 323, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1, .c-pages .c-page1 .c-pl-box2, .c-pages .c-page1 .c-pl-box3, .c-pages .c-page1 .c-pl-box4 {
+  height: 100px;
+  border-radius: 5px;
+}
+/* line 329, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 .c-page1-t1, .c-pages .c-page1 .c-pl-box1 .c-page1-t2, .c-pages .c-page1 .c-pl-box2 .c-page1-t1, .c-pages .c-page1 .c-pl-box2 .c-page1-t2 {
+  color: #fff;
+  text-align: left;
+  display: block;
+}
+/* line 335, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 .c-page1-t1, .c-pages .c-page1 .c-pl-box2 .c-page1-t1 {
+  line-height: 56px;
+  margin-left: 10px;
+}
+/* line 339, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 .c-page1-t2, .c-pages .c-page1 .c-pl-box2 .c-page1-t2 {
+  margin-left: 28px;
+}
+/* line 345, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 .c-page1-t1, .c-pages .c-page1 .c-pl-box3 .c-page1-t2, .c-pages .c-page1 .c-pl-box4 .c-page1-t1, .c-pages .c-page1 .c-pl-box4 .c-page1-t2 {
+  text-align: left;
+  display: block;
+}
+/* line 350, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 .c-page1-t1, .c-pages .c-page1 .c-pl-box4 .c-page1-t1 {
+  line-height: 56px;
+  margin-left: 10px;
+}
+/* line 354, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 .c-page1-t2, .c-pages .c-page1 .c-pl-box4 .c-page1-t2 {
+  margin-left: 28px;
+}
+/* line 360, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box1 {
+  background-color: #30b4fc;
+}
+/* line 365, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box2 {
+  background-color: #e44b39;
+}
+/* line 369, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box3 {
+  background-color: #f9f9f9;
+}
+/* line 373, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-pl-box4 {
+  background-color: #f9f9f9;
+}
+/* line 377, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-t1 {
+  font-size: 30px;
+}
+/* line 380, ../sass/pages/_center-index.scss */
+.c-pages .c-page1 .c-page1-t2 {
+  font-size: 14px;
 }
 
-/* line 114, ../sass/pages/_center-index.scss */
-.col1-4 {
-  width: 25%;
-  padding: 0 15px;
-  float: left;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+/* line 387, ../sass/pages/_center-index.scss */
+.c-pages .c-table-box1 {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
 }
 
 /************************* center pages module End **********************************/

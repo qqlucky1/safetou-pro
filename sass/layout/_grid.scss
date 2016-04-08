@@ -7,7 +7,11 @@
 //column mixin
 @mixin cols($cols, $totalCols,$padd:15px){
   width: ($cols/$totalCols)*100%;
-  padding: 0 $padd;
+
+  @if $padd != 0 {
+    padding: 0 $padd;
+  }
+
   float: left;
 }
 
@@ -32,4 +36,9 @@
 
 @mixin ST-line(){
   border: 1px solid $boderColor;
+}
+
+.col1-4{
+  @include cols(1,4,0);
+  @include box-sizing(border-box);
 }

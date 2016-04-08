@@ -5,13 +5,22 @@
     <title>个人中心首页</title>
     <link rel="stylesheet" href="../stylesheets/style.css" type="text/css" />
 
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <style>
+        /*html5*/
+        article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+    </style>
+    <![endif]-->
+
     <!--jquery cdn加速-->
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
 
 </head>
 <body>
 <div class="warp-bg-mod">
-    <div class="header clearfix">
+    <div class="header">
         <div class="topbar clearfix">
             <div class="ge-line ft-left"></div>
             <div class="left-bar mn-left">
@@ -21,16 +30,36 @@
             <a class="left-fnt">返回旧版</a>
 
             <div class="ge-line mn-left ft-left"></div>
-            <div class="qq">
+            <div class="qq" >
                 <a class="top_com top01"></a>
+                <div class="qq01 qq04" >
+                    <a href="#" class="weibo-img"> <img src="../images/erweima-img/weibo-simg.png"></a>
+                    <div class="btn-weibo">
+                        <a href="">+关注安全投</a>
+                    </div>
+                </div>
             </div>
             <div class="qq">
                 <a class="top_com top02"></a>
+                <div class="qq02">
+                    <a href="#" class="weibo-img"> <img src="../images/erweima-img/weinxin-simg1.png"></a>
+                </div>
             </div>
             <div class="qq">
                 <a class="top_com top03"></a>
+                <div class="qq01" >
+                    <a href="#" class="weibo-img pd-img-w1"> <img src="../images/erweima-img/QQ-qun.png"></a>
+                </div>
             </div>
-            <div class="app-lay"><span class="image-t1"></span><span class="ip-text">手机APP</span></div>
+            <div class="app-lay">
+                <div class="qq02 qq03" >
+                    <a href="#" class="weibo-img"> <img src="../images/erweima-img/cc.png"></a>
+                    <div class="btn-d">
+                        <a href="#"> <img src="../images/ios-btn.png"></a>
+                        <a href="#"> <img src="../images/anz-btn.png"></a>
+                    </div>
+                </div>
+            </div>
             <div class="ge-line ft-left"></div>
             <div class="right-bar" style="display: none">
                 <div class="ge-line ft-left"></div>
@@ -59,8 +88,90 @@
 
         </div>
     </div>
+    <div class="warp-nav-b">
+        <div class="in-nav clearfix ">
+            <a class="ft-left logo-item-mn" href=""><img src="../images/base/logo_img.png"> </a>
+
+            <div class="logo-nav-item">
+                <ul class="nav-item-title">
+                    <li class=""><a href="#">首页</a></li>
+                    <li class=""><a href="#" class="orange">投资理财
+                        <i> <img src="../images/arrow-down.png" style="vertical-align: middle;"></i>
+                    </a>
+                        <ul class="nav-dropdown active">
+                            <span></span>
+                            <li class="nav-dropdown-item"><a href="#">新手专享</a><i class="dline"></i></li>
+                            <li class="nav-dropdown-item"><a href="#">融资宝</a><i class="dline"></i></li>
+                            <li class="nav-dropdown-item"><a href="#">优选计划</a><i class="dline"></i></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#">融资合作</a>
+                    </li>
+                    <li class=""><a href="#">安全保障</a>
+                    </li>
+                    <li class=""><a href="#">关于我们</a></li>
+                </ul>
+                <div class="user">
+                    <a href="#" class="bg-img-u"><i class="bg-ge-u"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="c-container clearfix">
-        <div class="c-header clearfix"></div>
+        <div class="c-header clearfix">
+            <div class="c-user-card-box1">
+                <div class="center-head-t">
+                    <img src="../images/userPhoto.png" alt="头像"/>
+                </div>
+            </div>
+            <div class="c-user-card-box2">
+                <div class="c-box2-item1">
+                    <div class="c-bi-welcome">
+                        <span class="c-bi-msg1">欢迎您，您的昵称</span>
+                        <span class="c-bi-msg2">推荐达人</span>
+                        <img src="#" alt="等级" style="margin-top: 25px" width="20px" height="20px" />
+                    </div>
+                    <div class="c-bi-jifen">
+                        <span class="c-bi-msg3">我的积分: <span>200</span>分</span>
+                        <span style="position: relative;display: inline-block;width: 20px;text-align: center;color: #e5e5e5;top: -1px;">|</span>
+                        <a class="c-bi-msg4 c-bi-btn" href="#">签到</a>
+                    </div>
+                </div>
+                <div class="c-box2-item2">
+                    <div class="c-bi-item1">
+                        <div class="c-safe-item1">
+                            <span>安全等级</span>
+                        </div>
+                        <div class="c-safe-item2">
+                            <div class="authentication-icom">
+                                <a href="#"><i class="aut-tx" title="实名认证，已设置"></i></a>
+                                <a href="#"><i class="aut-phone" title="绑定手机，已绑定"></i></a>
+                                <a href="#"><i class="aut-lock" title="交易密码，已设置"></i></a>
+                                <a href="#"><i class="gray-mail" title="绑定邮箱，未绑定"></i></a>
+                                <a href="#"><i class="gray-bank" title="绑定银行卡，未绑定"></i></a>
+                            </div>
+                        </div>
+                        <div class="c-safe-item3">
+                            <div class="aut-tishi  ">
+                                <em class="aut-img-item _email"></em> <span>为了使您的账户有更多的安全保障，请您绑定邮箱。</span><a href="#">立即绑定</a><i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-bi-item2">
+                        <div class="c-btnBox">
+                            <button class="c-btn-tx">提现</button>
+                            <button class="c-btn-cz">充值</button>
+                        </div>
+                        <ul>
+                            <li class="c-um-i1">账户余额（元）</li>
+                            <li class="c-um-i2">132640.00</li>
+                            <li class="c-um-i3">红包：<span>50</span>元<i>?</i></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="c-main">
 
@@ -86,21 +197,56 @@
                 <div class="c-page1">
                     <div class="c-page1-item1">
                         <ul style="width: inherit;height: inherit">
-                            <li class="c-page-pl1 col1-4">
-                                <div>
-
-                                </div>
-                                <div>
-
+                            <li class="c-page1-pl col1-4">
+                                <div class="c-pl-box1">
+                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 8888888.00</span>
+                                    <span class="c-page1-t2">代收本金（万元）</span>
                                 </div>
                             </li>
-                            <li class="c-page-pl2 col1-4">abcdefg</li>
-                            <li class="c-page-pl3 col1-4">abcdefg</li>
-                            <li class="c-page-pl4 col1-4">abcdefg</li>
+                            <li class="c-page1-pl col1-4">
+                                <div class="c-pl-box2">
+                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 275.00</span>
+                                    <span class="c-page1-t2">
+                                         代收收益（元）
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c-page1-pl col1-4">
+                                <div class="c-pl-box3">
+                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 3000000.50</span>
+                                    <span class="c-page1-t2">
+                                         累计投资（万元）
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="c-page1-pl col1-4">
+                                <div class="c-pl-box4">
+                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 286.50</span>
+                                    <span class="c-page1-t2">
+                                         累计收益（元）
+                                    </span>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                    <div class="c-page1-item2"></div>
+                    <div class="c-page1-item2">
+                        <div class="c-table-box1">
+                            <div class="c-theader">
+                                还款走势
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-page1-item3"></div>
                 </div>
+                <div class="c-page2" style="display: none"></div>
+                <div class="c-page3" style="display: none"></div>
+                <div class="c-page4" style="display: none"></div>
+                <div class="c-page5" style="display: none"></div>
+                <div class="c-page6" style="display: none"></div>
+                <div class="c-page7" style="display: none"></div>
+                <div class="c-page8" style="display: none"></div>
+                <div class="c-page9" style="display: none"></div>
+                <div class="c-page10" style="display: none"></div>
             </div>
 
         </div>
@@ -159,7 +305,7 @@
                     <h3 class="ft-title-h">客服热线</h3>
                     <div class="er-img-ft1">
                         <div  class="clearfix"><i class="img-wx4"></i><span class="zixu-gj">4006 517 558</span></div>
-                        <div   class="clearfix"><i class="img-wx5"></i><span class="zixu-gj">在线咨询 09:00~18:30</span></div>
+                        <div   class="clearfix"><a href=""><i class="img-wx5"> 在线咨询</i> <span class="time-right-fn1"> 09:00~18:30</span></a></div>
                         <div class="clearfix"><i class="img-wx6"></i><span  class="zixu-gj">service@safetou.com</span></div>
                     </div>
                 </div>
