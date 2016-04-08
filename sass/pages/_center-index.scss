@@ -183,6 +183,7 @@ $fontColora0a0a0:#a0a0a0;
 
   i{
     display: inline-block;
+    cursor: pointer;
     padding-right: 3px;
     height: 10px;
     width: 15px;
@@ -299,10 +300,19 @@ $fontColora0a0a0:#a0a0a0;
   height: auto;
   border-left: 1px solid #e5e5e5;
   .c-page1{
-    height: 960px;
+    min-height: 960px;
     .c-page1-item1{
       height: 100px;
       margin: 30px 0;
+    }
+
+    .c-page1-item2{
+      height: 350px;
+      margin: 0 20px 30px 20px;
+    }
+    .c-page1-item3{
+      height: 460px;
+      margin: 0 20px 30px 20px;
     }
 
     .c-page1-pl{
@@ -373,12 +383,12 @@ $fontColora0a0a0:#a0a0a0;
   }
 }
 
-
-
-
-
-
-
-
+.c-pages{
+  .c-table-box1{
+    @include border-radius(5px);
+    border: 1px solid #e5e5e5;
+    height: inherit;
+  }
+}
 
 /************************* center pages module End **********************************/
