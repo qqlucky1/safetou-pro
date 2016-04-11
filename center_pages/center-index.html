@@ -5,6 +5,11 @@
     <title>个人中心首页</title>
     <link rel="stylesheet" href="../stylesheets/style.css" type="text/css" />
 
+    <!--所有效果需要的css-->
+    <!--<link rel="stylesheet" type="text/css" href="stylesheets/base.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../stylesheets/slider.css"/>
+
+
     <!--[if lt IE 9]>
     <script type="text/javascript" src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
     <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -121,26 +126,24 @@
         <div class="c-header clearfix">
             <div class="c-user-card-box1">
                 <div class="center-head-t">
-                    <img src="../images/userPhoto.png" alt="头像"/>
+                    <img src="../images/userPhoto.png" alt="头像" width="100px" height="100px"/>
+                </div>
+                <div class="sign-box">
+                    <a href="#" class="sign">签到</a>
+                    <i>|</i>
+                    <a href="#" class="duihuan">兑换</a>
                 </div>
             </div>
             <div class="c-user-card-box2">
                 <div class="c-box2-item1">
                     <div class="c-bi-welcome">
-                        <span class="c-bi-msg1">欢迎您，您的昵称</span>
-                        <span class="c-bi-msg2">推荐达人</span>
-                        <img src="#" alt="等级" style="margin-top: 25px" width="20px" height="20px" />
+                        <span class="c-bi-msg1">设置昵称</span>
+                        <span class="c-bi-msg2">早上好，迎接新的一天，做最好的自己</span>
                     </div>
-                    <div class="c-bi-jifen">
-                        <span class="c-bi-msg3">我的积分: <span>200</span>分</span>
-                        <span style="position: relative;display: inline-block;width: 20px;text-align: center;color: #e5e5e5;top: -1px;">|</span>
-                        <a class="c-bi-msg4 c-bi-btn" href="#">签到</a>
-                    </div>
-                </div>
-                <div class="c-box2-item2">
-                    <div class="c-bi-item1">
+                    <div class="c-bi-safebox clearfix">
                         <div class="c-safe-item1">
-                            <span>安全等级</span>
+                            <span>安全等级 低</span>
+                            <span style="color: #ff9933">提升</span>
                         </div>
                         <div class="c-safe-item2">
                             <div class="authentication-icom">
@@ -151,23 +154,47 @@
                                 <a href="#"><i class="gray-bank" title="绑定银行卡，未绑定"></i></a>
                             </div>
                         </div>
-                        <div class="c-safe-item3">
-                            <div class="aut-tishi  ">
-                                <em class="aut-img-item _email"></em> <span>为了使您的账户有更多的安全保障，请您绑定邮箱。</span><a href="#">立即绑定</a><i></i>
-                            </div>
+                        <!--<img src="#" alt="等级" style="margin-top: 25px" width="20px" height="20px" />-->
+                        <!--<span class="c-bi-msg3">我的积分: <span>200</span>分</span>-->
+                        <!--<span style="position: relative;display: inline-block;width: 20px;text-align: center;color: #e5e5e5;top: -1px;">|</span>-->
+                        <!--<a class="c-bi-msg4 c-bi-btn" href="#">签到</a>-->
+                    </div>
+                </div>
+                <div class="c-box2-item2">
+                    <div class="c-bi-item1">
+                        <img src="" alt="推荐等级" width="25px" height="25px"/>
+                        <span>推荐达人</span>
+                        <i>?</i>
+                    </div>
+                    <!--条形进度 百分比写在 内层div的width上-->
+                    <div class="pro-p">
+                        <div class="progress progress-striped active" style="height: 5px; margin-bottom: 9px;">
+                            <div class="bar" style="width: 70%; height: 9px;"> </div>
                         </div>
                     </div>
-                    <div class="c-bi-item2">
-                        <div class="c-btnBox">
-                            <button class="c-btn-tx">提现</button>
-                            <button class="c-btn-cz">充值</button>
-                        </div>
-                        <ul>
-                            <li class="c-um-i1">账户余额（元）</li>
-                            <li class="c-um-i2">132640.00</li>
-                            <li class="c-um-i3">红包：<span>50</span>元<i>?</i></li>
-                        </ul>
+                    <div class="lv-desc clearfix">
+                        <span>距离lv2还有95000成长值</span>
+                    </div>
+                    <div class="clearfix lv-tq">
+                        <span class="tq1">特权:</span>
+                        <span class="tq2">加息1%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="c-user-card-box3">
+                <div class="c-bi-item2">
 
+                    <ul>
+                        <li class="c-um-i1">账户余额（元）
+                            <div class="c-um-i3">
+                                红包：<span>50</span>元 <i>?</i>
+                            </div>
+                        </li>
+                        <li class="c-um-i2">132640.00</li>
+                    </ul>
+                    <div class="c-btnBox">
+                        <button class="c-btn-cz">充值</button>
+                        <button class="c-btn-tx">提现</button>
                     </div>
                 </div>
             </div>
@@ -199,13 +226,13 @@
                         <ul style="width: inherit;height: inherit">
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box1">
-                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 8888888.00</span>
-                                    <span class="c-page1-t2">代收本金（万元）</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 8888888.00</span>
+                                    <span class="c-page1-t2">代收本金（元）</span>
                                 </div>
                             </li>
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box2">
-                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 275.00</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 275.00</span>
                                     <span class="c-page1-t2">
                                          代收收益（元）
                                     </span>
@@ -213,15 +240,15 @@
                             </li>
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box3">
-                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 3000000.50</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 3000000.50</span>
                                     <span class="c-page1-t2">
-                                         累计投资（万元）
+                                         累计投资（元）
                                     </span>
                                 </div>
                             </li>
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box4">
-                                    <span class="c-page1-t1"><span style="font-size: 25px;position: relative;top: -4px;">|</span> 286.50</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 286.50</span>
                                     <span class="c-page1-t2">
                                          累计收益（元）
                                     </span>
@@ -230,13 +257,59 @@
                         </ul>
                     </div>
                     <div class="c-page1-item2">
-                        <div class="c-table-box1">
+                        <div class="c-table-box1 clearfix">
                             <div class="c-theader">
-                                还款走势
+                                <div class="c-theader-item1">
+                                    还款走势
+                                </div>
+                                <div class="c-theader-item2">
+                                    <form action="#">
+                                        <select name="selYear" id="selYear" class="c-theader-select">
+                                            <option value="2015">2015</option>
+                                            <option value="2014">2014</option>
+                                            <option value="2013">2013</option>
+                                            <option value="2012">2012</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+                            <div>
+                                <span style="
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #7adb54;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    margin: 22px;
+">✔</span>
                             </div>
                         </div>
                     </div>
-                    <div class="c-page1-item3"></div>
+                    <div class="c-page1-item3">
+                        <div class="c-table-box1 clearfix">
+                            <div class="c-theader">
+                                <div class="c-theader-item1">
+                                    还款计划
+                                </div>
+                                <div class="c-theader-item2">
+                                    <span class="c-theader-more">查看投资记录</span>
+                                </div>
+                            </div>
+
+                            <table class="c-table-style1">
+                                <tr><th>回款日期</th><th>回款项目</th><th>期限</th><th>回款类型</th><th>回款金额（元）</th></tr>
+                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
+                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
+                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
+                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
+                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
+                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
+                            </table>
+                        </div>
+                    </div>
                 </div>
                 <div class="c-page2" style="display: none"></div>
                 <div class="c-page3" style="display: none"></div>
