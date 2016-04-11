@@ -50,6 +50,15 @@ $pop-img:sprite-map("../images/pop-img/*.png");
 $pop-img-sprite-dimensions:true;
 $disable-magic-sprite-selectors:true;
 
+@import "../images/cen-icons/*.png";
+$cen-icons: sprite-map("../images/cen-icons/*.png",$spacing:20px,$cen-icons-cen-i25-position:3px,$cen-icons-cen-i26-position:3px,$cen-icons-cen-i27-position:3px);
+.sprite-base { background: $cen-icons no-repeat; display: inline-block; }
+$cen-icons-sprite-dimensions:true;
+$cen-icons-clean-up: true;
+
+
+
+
 
 
 
