@@ -388,7 +388,7 @@ $fontColora0a0a0:#a0a0a0;
 
   li:hover{
     height: 50px;
-    background-color: #e3e3e3;
+    //background-color: #e3e3e3;
     color: #fff;
   }
 
@@ -402,11 +402,12 @@ $fontColora0a0a0:#a0a0a0;
   a{
     display: block;
     font-size: 14px;
-    text-align: center;
+    text-indent:80px;
     color: #6f6f6f;
+    cursor: pointer;
   }
   a:after{
-    content: ">";
+    content: "";
     display: block;
     float: right;
     padding-right: 14px;
@@ -569,3 +570,342 @@ $fontColora0a0a0:#a0a0a0;
 }
 
 /************************* center pages module End **********************************/
+
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:menu (center)
+ *@time:2016/4/11 10:29
+ **/
+.c-menu-item li{
+  position: relative;
+}
+.c-menu-item li.current{
+  background: #fcae26;
+}
+.c-menu-item li.current a:visited{
+  color: #fff;
+}
+.nav-ico{
+  /*position: absolute;
+  left: 26px;
+  top: 18px;*/
+  @extend .sprite-base;
+  display: inline-block;
+}
+.c-menu-item {
+  .nav-cen{
+    @include sprite-background-position($cen-icons, cen-i01);
+    @include sprite-dimensions($cen-icons, cen-i01);
+}
+  .nav-cont{
+    @include sprite-background-position($cen-icons, cen-i25);
+    @include sprite-dimensions($cen-icons, cen-i25);
+  }
+  .nav-bank{
+    @include sprite-background-position($cen-icons, cen-i22);
+    @include sprite-dimensions($cen-icons, cen-i22);
+  }
+  .nav-touzi{
+    @include sprite-background-position($cen-icons, cen-i19);
+    @include sprite-dimensions($cen-icons, cen-i19);
+  }
+  .nav-roz{
+    @include sprite-background-position($cen-icons, cen-i16);
+    @include sprite-dimensions($cen-icons, cen-i16);
+  }
+  .nav-mixi{
+    @include sprite-background-position($cen-icons, cen-i28);
+    @include sprite-dimensions($cen-icons, cen-i28);
+  }
+  .nav-tozhi{
+    @include sprite-background-position($cen-icons, cen-i07);
+    @include sprite-dimensions($cen-icons, cen-i07);
+  }
+  .nav-tuij{
+    @include sprite-background-position($cen-icons, cen-i10);
+    @include sprite-dimensions($cen-icons, cen-i10);
+  }
+  .nav-jl{
+    @include sprite-background-position($cen-icons, cen-i13);
+    @include sprite-dimensions($cen-icons, cen-i13);
+  }
+  .nav-jf{
+    @include sprite-background-position($cen-icons, cen-i04);
+    @include sprite-dimensions($cen-icons, cen-i04);
+  }
+
+}
+.c-menu-item li a:hover{
+  .nav-cen{
+    @include sprite-background-position($cen-icons, cen-i02);
+    @include sprite-dimensions($cen-icons, cen-i02);
+
+  }
+  .nav-cont{
+    @include sprite-background-position($cen-icons, cen-i26);
+    @include sprite-dimensions($cen-icons, cen-i26);
+  }
+  .nav-bank{
+    @include sprite-background-position($cen-icons, cen-i23);
+    @include sprite-dimensions($cen-icons, cen-i23);
+  }
+  .nav-touzi{
+    @include sprite-background-position($cen-icons, cen-i20);
+    @include sprite-dimensions($cen-icons, cen-i20);
+  }
+  .nav-roz{
+    @include sprite-background-position($cen-icons, cen-i17);
+    @include sprite-dimensions($cen-icons, cen-i17);
+  }
+  .nav-mixi{
+    @include sprite-background-position($cen-icons, cen-i29);
+    @include sprite-dimensions($cen-icons, cen-i29);
+  }
+  .nav-tozhi{
+    @include sprite-background-position($cen-icons, cen-i08);
+    @include sprite-dimensions($cen-icons, cen-i08);
+  }
+  .nav-tuij{
+    @include sprite-background-position($cen-icons, cen-i11);
+    @include sprite-dimensions($cen-icons, cen-i11);
+  }
+  .nav-jl{
+    @include sprite-background-position($cen-icons, cen-i14);
+    @include sprite-dimensions($cen-icons, cen-i14);
+  }
+  .nav-jf{
+    @include sprite-background-position($cen-icons, cen-i05);
+    @include sprite-dimensions($cen-icons, cen-i05);
+  }
+
+}
+.c-menu-item li a:hover{
+  color: $fontColorff9933;
+}
+.current{
+
+  .nav-vis1{
+    @include sprite-background-position($cen-icons, cen-i03);
+    @include sprite-dimensions($cen-icons, cen-i03);
+
+  }
+  .nav-vis2{
+    @include sprite-background-position($cen-icons, cen-i27);
+    @include sprite-dimensions($cen-icons, cen-i27);
+  }
+  .nav-vis3{
+    @include sprite-background-position($cen-icons, cen-i24);
+    @include sprite-dimensions($cen-icons, cen-i24);
+  }
+  .nav-vis4{
+    @include sprite-background-position($cen-icons, cen-i21);
+    @include sprite-dimensions($cen-icons, cen-i21);
+  }
+  .nav-vis5{
+    @include sprite-background-position($cen-icons, cen-i18);
+    @include sprite-dimensions($cen-icons, cen-i18);
+  }
+  .nav-vis6{
+    @include sprite-background-position($cen-icons, cen-i30);
+    @include sprite-dimensions($cen-icons, cen-i30);
+  }
+  .nav-vis7{
+    @include sprite-background-position($cen-icons, cen-i09);
+    @include sprite-dimensions($cen-icons, cen-i09);
+  }
+  .nav-vis8{
+    @include sprite-background-position($cen-icons, cen-i12);
+    @include sprite-dimensions($cen-icons, cen-i12);
+  }
+  .nav-vis9{
+    @include sprite-background-position($cen-icons, cen-i15);
+    @include sprite-dimensions($cen-icons, cen-i15);
+  }
+  .nav-vis10{
+    @include sprite-background-position($cen-icons, cen-i06);
+    @include sprite-dimensions($cen-icons, cen-i06);
+  }
+
+}
+.c-menu-item i{
+  position: absolute;
+  left: 26px;
+  top: 18px;
+}
+
+
+ /*********************** new module Name End **************************************/
+
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:Account-details-title
+ *@time:2016/4/11 15:30
+ **/
+.right-pd-c{
+  padding: 20px 18px;
+  .title{
+    border-bottom: 2px solid #fdd692;
+    position: relative;
+    .title-text{
+      float: left;
+      color: #302f2b;
+      font-size: 16px;
+      line-height: 33px;
+      padding-left: 2px;
+    }
+  }
+  .line{
+    width: 66px;
+    height: 2px;
+    border-bottom: 2px solid $fontColorff9933;
+    display: inline-block;
+    position: absolute;
+    top: 31px;
+    left: 1px;
+  }
+  .right-text-money{
+    float: right;
+    margin-top: 6px;
+    img{
+      vertical-align: middle;
+    }
+  }
+
+  .right-text-money i{
+    color: $orcoolor;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+}
+
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:nr
+ *@time:2016/4/11 16:24
+ **/
+.sele{
+  border-bottom: 1px solid rgb(229, 229, 229);
+  padding-bottom: 10px;
+}
+.sele-table{
+  margin-top: 25px;
+}
+.account-sel {
+  li{
+    float:left;
+    border-right: 1px solid #e5e5e5;
+  a.on-one{
+      padding: 0 30px 0 0;
+      color: $fontColorff9933;
+    }
+    a{
+      display: inline-block;
+      color: #302f2b;
+      font-size: 14px;
+      padding: 0 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    a:hover{
+      color:$fontColorff9933;
+    }
+    a:visited .active-color{
+      color:$fontColorff9933;
+    }
+  }
+}
+.time-sele{
+  margin: 20px 0px 40px;
+  float: right;
+  .year-sel{
+    background: #f9f9f9;
+    width: 80px;
+    height: 27px;
+    border: 1px solid #e5e5e5;
+  }
+  span{
+    padding: 0px 8px 0 40px;
+    display: inline-block;
+    color: #5e5e5e;
+  }
+  input{
+    width: 110px;
+    height: 27px;
+    border: 1px solid #e5e5e5;
+  }
+  .sel-cx{
+    width: 40px;
+    height: 27px;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    text-align: center;
+    line-height: 27px;
+    color: #5e5e5e;
+  }
+  .sel-cx:hover,a:visited{
+    background: #fff;
+    color: $fontColorff9933;
+  }
+}
+.account-tb{
+  width: 100%;
+}
+.account-tb th{
+  color: #302f2b;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: left;
+  border-bottom:1px solid #e5e5e5 ;
+   }
+.account-tb td{
+  text-align: left;
+  color: #5e5e5e;
+  line-height: 60px;
+  border-bottom:1px solid #e5e5e5 ;
+}
+
+
+
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:page
+ *@time:2016/4/11 17:55
+ **/
+.pagegro{
+  width: 400px;
+  height: 25px;
+  margin: 0px auto;
+  padding-top: 30px;
+  .pageUp,.pageDown,.pageList ul li{
+    width: 24px;
+    height: 24px;
+    background: #e5e5e5;
+    float:left;
+  }
+  .pageDown{
+    background: url("../images/lj-page.png") no-repeat;
+  }
+  .pageUp{
+    background: url("../images/left-page.png") no-repeat;
+  }
+
+
+}
+.pageGro div, .pageGro div ul li{
+  float: left;
+}
+
+
+
+
+ /*********************** new module Name End **************************************/
