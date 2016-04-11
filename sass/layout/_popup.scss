@@ -36,23 +36,109 @@
   }
   .pop-item{
     margin: 0 auto;
-    padding: 0px 50px 40px;
+    padding: 0px 45px 40px;
     text-align: center;
   }
   .pop-item .input-box{
     padding-top:40px;
   }
   .pop-item .text-input{
-    width: 299px;
+    width: 293px;
     height: 40px;
     border: 1px solid #e5e5e5;
     border-radius: 2px;
-    padding-left: 4px;
+    padding-left: 10px;
     color: #a0a0a0;
   }
+
   .pop-item  .input-text{
     position: relative;
     padding-top: 20px;
+  }
+  .input-text .user-tab{
+    text-align: left;
+    padding: 0px  50px;
+    color: #302f2b;
+    font-size: 14px;
+  }
+  .input-text .user-tab span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .input-text .user-tab  .bew-two{
+    padding-right: 24px;
+    display: inline-block;
+  }
+  .input-text .user-tab .active{
+    background: $orcoolor;
+  }
+  .input-text .Lic-text{
+    margin-top: 15px;
+    color: #302f2b;
+    font-size: 14px;
+  }
+
+  .input-text .user-tab .re-img{
+    display: inline-block;
+    width: 158px;
+    height: 90px;
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+    float: left;
+   }
+  .input-text .user-tab u{
+    float: left;
+    margin-top: 70px;
+    text-decoration: none;
+    cursor: pointer;
+   }
+  .input-text .Lic-text i{
+    color: #a0a0a0;
+    font-size: 14px;
+  }
+  .input-text .Lic-text u{
+    color: #ffa200;
+    border: 1px solid orange;
+    display: inline-block;
+    width: 87px;
+    height: 24px;
+    text-decoration: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 14px;
+  }
+  .input-text .Lic-text a{
+    color: #302f2b;
+    font-size: 14px;
+  }
+
+
+  .pop-item .short .cl-btn{
+    color: #fff;
+    width: 208px;
+    height: 44px;
+    background: #fcae26;
+
+  }
+  .pop-item .short-item a{
+    width: 140px;
+    height: 40px;
+
+    margin: 0px 5px;
+    cursor: pointer;
+  }
+  .pop-item .short-item .yellow1{
+    background: #fcae26;
+  }
+  .pop-item .short-item .gray{
+    background: #e3e3e3;
+    color: #302f2b;
+
   }
   .input-text .get-y{
     width: 120px;
@@ -61,7 +147,7 @@
     background: #eeeeee;
     position: absolute;
     top: 21px;
-    right: 48px;
+    right: 54px;
     line-height: 40px;
     color: #5e5e5e;
     border-left: 1px solid #e5e5e5;
@@ -71,8 +157,16 @@
     font-size: 14px;
     color: #a0a0a0;
     text-align: left;
-    margin: 5px 0px 0px 36px;
+    margin: 5px 0px 0px 45px;
   }
+  .input-box .prompt .prom-icon{
+    display: inline-block;
+    background:sprite($pop-img,alert-2);
+    @include sprite-background-position($pop-img, alert-2);
+    @include  sprite-dimensions($pop-img, alert-2);
+    cursor: pointer;
+  }
+
   .input-box .prompt i{
     color: $orcoolor;
     cursor: pointer;
@@ -98,6 +192,7 @@
   }
 }
 
+
 /*end----main*/
 /*交易密码*/
 .popup-con{
@@ -108,6 +203,16 @@
     margin-top: 4px;
     border-radius: 2px;
   }
+  .propm-top .prom-icon {
+    display: inline-block;
+    background:sprite($pop-img,alert-2);
+    @include sprite-background-position($pop-img, alert-2);
+    @include  sprite-dimensions($pop-img, alert-2);
+    cursor: pointer;
+  }
+   .propm-top  i{
+     margin-left: 6px;
+      }
   .grade-i {
     padding: 20px 0 10px;
   }
@@ -128,18 +233,26 @@
         color: red;
       padding-left: 10px;
       }
+      .input-text .pass-text{
+        display: inline-block;
+        color: #5e5e5e;
+        text-align: right;
+        margin-left: 100px;
+        cursor: pointer;
+      }
+
 }
 }
 
 /*修改绑定手机*/
 .popup-con .input-box .pd-left10{
-padding-left: 10px;
+padding-left: 5px;
 
 }
 .popup-con .input-box .bind-phone{
   text-align: left;
   display: inherit;
-   margin-left: 48px;
+   margin-left: 53px;
 }
 .popup-con .input-box .bind-phone i{
   color: #ffa200;
@@ -153,14 +266,21 @@ padding-left: 10px;
   border-radius: 2px;
 }
 /*修改密码成功*/
-.input-box .password-c .se-img{
+.input-box .password-c {
+  .se-img{
   display: inline-block;
-  background:sprite($pop-img,sec-img);
-  @include sprite-background-position($pop-img, sec-img);
-  @include  sprite-dimensions($pop-img, sec-img);
+  background:sprite($pop-img,sec_1);
+  @include sprite-background-position($pop-img, sec_1);
+  @include  sprite-dimensions($pop-img, sec_1);
+  }
+  p{
+    color: #363636;
+    font-size: 20px;
+    margin: 20px 0 40px;
+    font-weight: bold;
+  }
 }
-.pop-item .input-text.cl-btn {
-width: 207px;
-height: 43px;
-@extend  %pop-btn;
-}
+
+
+
+
