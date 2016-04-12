@@ -31,6 +31,39 @@ $fontColora0a0a0:#a0a0a0;
   float: left;
 }
 
+.btn-group{
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #e3e3e3;
+
+  .btn-left,.btn-right{
+    float: left;
+    width: 50%;
+  }
+  .btn-left{
+    text-align: right;
+  }
+  .back-btn,.submit-btn{
+    @include inline-block;
+    @include border-radius(4px);
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .back-btn{
+    color:#302f2b ;
+    border:1px solid #d9d9d9;
+    margin-right: 10px;
+  }
+  .submit-btn{
+    color: #fff;
+    background-color: #ffa200;
+    margin-left:10px;
+  }
+}
+
  /*********************** other module End **************************************/
 
 
@@ -48,15 +81,8 @@ $fontColora0a0a0:#a0a0a0;
     text-align: center;
     padding-top: 10px;
     .sign{
-      width: 40px;
-      height: 15px;
-      @include inline-block;
-      @include border-radius(2px);
-      border: 1px solid #ff9933;
-      text-align: center;
-      font-size: 12px;
-      line-height: 14px;
-      color: #ff9933;
+      color: #fcae26;
+      vertical-align: middle;
     }
     i{
       @include inline-block;
@@ -66,7 +92,7 @@ $fontColora0a0a0:#a0a0a0;
     }
     .duihuan{
       @include inline-block;
-      color: #ff9933;
+      color: #fcae26;
     }
   }
   .c-bi-welcome{
@@ -182,6 +208,7 @@ $fontColora0a0a0:#a0a0a0;
   }
 }
 
+
 .c-bi-item2{
   width: 246px;
   .c-btnBox{
@@ -270,8 +297,6 @@ $fontColora0a0a0:#a0a0a0;
   line-height: 40px;
 }
 
-
-
 .c-bi-msg2{
   font-size: 14px;
   color: #e35848;
@@ -284,8 +309,6 @@ $fontColora0a0a0:#a0a0a0;
     color: $fontColorff9933;
   }
 }
-
-
 
 .c-safe-item1{
   margin-top: 20px;
@@ -359,12 +382,6 @@ $fontColora0a0a0:#a0a0a0;
 .c-bi-safebox{
 
 }
-
-
-
-
-
-
 /*************************** center header module End *******************************/
 
 
@@ -457,6 +474,9 @@ $fontColora0a0a0:#a0a0a0;
       display: block;
       float: left;
       background: #e5e5e5;
+      &+span{
+        color: #302f2b;
+      }
     }
 
     .c-pl-box1,.c-pl-box2{
@@ -506,6 +526,7 @@ $fontColora0a0a0:#a0a0a0;
     }
     .c-page1-t2{
       font-size: 14px;
+      color: #5e5e5e;
     }
   }
 }
@@ -569,6 +590,293 @@ $fontColora0a0a0:#a0a0a0;
 }
 
 /************************* center pages module End **********************************/
+
+/*********************** page2 Start **************************************
+ *@moduleName:page2 account safe
+ *@author:Administrator
+ *@desc:
+ *@time:2016/4/12 9:22
+ **/
+$c-5e5e5e:#5e5e5e;
+$c-ff9933:#ff9933;
+$c-e5e5e5:#e5e5e5;
+$c-a0a0a0:#a0a0a0;
+.c-page2{
+  /*头部左text样式*/
+  .left-text{
+    color: $c-5e5e5e;
+    font-size: 14px;
+    @include inline-block;
+    margin-left: 20px;
+    line-height: 33px;
+    i{
+      color: $c-ff9933;
+    }
+  }
+
+
+
+
+
+  .qyrz-title{
+    margin-top: 20px;
+    color: #302f2b;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 35px;
+  }
+  .qyrz-form-box{
+    color: $c-a0a0a0;
+    font-size: 14px;
+    margin-left: 50px;
+    table tr{
+      margin-top: 25px;
+      min-height: 35px;
+      display: block;
+    }
+    input{
+      width: 360px;
+    }
+    .qyrz-col1{
+      width: 65px;
+      color: #302f2b;
+      padding-right: 35px;
+      vertical-align: top;
+    }
+    .qyrz-col2{
+      width: 800px;
+      span{
+        display: block;
+      }
+    }
+  }
+  .qyrz-sign{
+    background-color: #f6f6f6;
+    @include border-radius(4px);
+    margin-top: 45px;
+    height: 140px;
+    ul{
+      padding: 10px 0px 10px 51px;
+      line-height: 30px;
+      li{
+        font-size: 14px;
+        color: $c-a0a0a0;
+      }
+    }
+  }
+}
+
+/* 账户安全列表*/
+.safe-box{
+  margin-top: 20px;
+}
+/*列表样式*/
+.box-items{
+  .smrz-box,.page2-bank-box,.page2-email-box,.page2-phone-desc{
+    color: $c-5e5e5e;
+    span{
+      color: $c-ff9933;
+    }
+  }
+  .state1-item1,.state1-item2{
+    height: 20px;
+    line-height: 14px;
+  }
+  .state1-item1{
+    margin-top: 24px;
+  }
+  height: 80px;
+  border-bottom: 1px solid $c-e5e5e5;
+  .item1,.item2,.item3{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+  }
+  .item1{
+    width: 220px;
+    .yes{
+      &:before{
+        content: '✓';
+        @include inline-block;
+        height: 18px;
+        width: 18px;
+        @include border-radius(10px);
+        border: 1px solid #7dbf58;
+        text-align: center;
+        color: #7dbf58;
+        margin-right: 15px;
+        margin-top: -3px;
+        line-height: 17px;
+      }
+    }
+    .no{
+      &:before{
+        content: '×';
+        @include inline-block;
+        height: 18px;
+        width: 18px;
+        @include border-radius(10px);
+        border: 1px solid #fa8868;
+        text-align: center;
+        color: #fa8868;
+        margin-right: 15px;
+        margin-top: -3px;
+        line-height: 15px;
+        font-size: 17px;
+
+      }
+    }
+  }
+  .item2{
+    width: 560px;
+    font-size: 14px;
+    color: $c-5e5e5e;
+    .lv{
+      @include inline-block;
+      @include border-radius(2px);
+      height: 25px;
+      width: 45px;
+      color: #fff;
+      background-color: #ccc;
+      font-size: 14px;
+      line-height: 23px;
+      text-align: center;
+    }
+    .lv-yes{
+      background-color: $c-ff9933 !important;
+    }
+    .lv-text{
+      @include inline-block;
+      margin-left: 10px;
+      font-size: 14px;
+      color: $c-5e5e5e;
+    }
+  }
+  .item3{
+    width: 167px;
+    .change-btn{
+      display: block;
+      @include border-radius(4px);
+      border: 1px solid #ff9933;
+      width: 90px;
+      height: 25px;
+      line-height: 23px;
+      color: #ff9933;
+      text-align: center;
+      margin-top: 25px;
+    }
+    .now-bd{
+      background-color: $c-ff9933;
+      color: #fff;
+    }
+  }
+  /*left title*/
+  .item-title{
+    font-size: 16px;
+    color: #302f2b;
+  }
+}
+ /*********************** page2 End **************************************/
+
+/*********************** page7 Name Start **************************************
+ *@moduleName:通知页面
+ *@author:Administrator
+ *@desc:
+ *@time:2016/4/12 15:46
+ **/
+ .c-page7{
+   min-height: 510px;
+   .notices-box-items{
+     border-bottom: 1px solid $c-e5e5e5;
+     min-height: 80px;
+     float: left;
+   }
+   .notices-item1{
+     width: 150px;
+     height: 80px;
+     line-height: 80px;
+     float: left;
+   }
+   .notices-item2{
+     width: 800px;
+     //height: 80px;
+     float: right;
+     margin-bottom: 40px;
+     .state1{
+       margin-top: 32px;
+     }
+     .notice-item2-title{
+       color: #302f2b;
+       font-size: 14px;
+     }
+     .notice-item2-desc{
+       color: $c-a0a0a0;
+       font-size: 14px;
+       width: 770px;
+     }
+   }
+
+   .notices-btn1{
+     @include inline-block;
+     width: 80px;
+     height: 20px;
+     font-size: 12px;
+     @include border-radius(3px);
+     text-align: center;
+     line-height: 20px;
+   }
+   .btn-c1{
+     color: $c-ff9933;
+     border:1px solid $c-ff9933;
+   }
+   .btn-c2{
+     color: $c-5e5e5e;
+     border:1px solid $c-e5e5e5;
+   }
+
+   .notice-right-text{
+     @include inline-block;
+     float: right;
+     line-height: 30px;
+     color: #a0a0a0;
+     font-size: 14px;
+   }
+   .list-controls{
+     color:$c-5e5e5e;
+     font-size: 14px;
+   }
+
+   .list-control1,.list-control2,.list-control3,.list-control4{
+     float: left;
+     text-align: center;
+     height: 80px;
+     line-height: 110px;
+     margin-left: 20px;
+   }
+   .list-control1{
+     width: 65px;
+   }
+   .list-control2{
+     width: 90px;
+   }
+   .list-control3{
+     width: 135px;
+   }
+   .list-control4{
+     width: 130px;
+   }
+   .chk-box{
+     margin: 0px 15px 0 20px;
+     height: 15px;
+     width: 15px;
+     position: relative;
+     top: 4px;
+   }
+ }
+ .c-notice{
+
+ }
+ /*********************** page7 Name End **************************************/
 
 /*********************** new module Name Start **************************************
  *@moduleName:
