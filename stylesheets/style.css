@@ -443,6 +443,18 @@ a:active, a:focus {
   display: inline-block;
 }
 
+/* line 72, ../images/tz-jlv/*.png */
+.tz-jlv-sprite {
+  background-image: url('../images/tz-jlv-sd0e498965d.png');
+  background-repeat: no-repeat;
+}
+
+/* line 61, ../sass/components/_icons.scss */
+.sprite {
+  background: transparent url('../images/tz-jlv-s7c8ae30660.png') no-repeat 0 0;
+  display: inline-block;
+}
+
 /* line 2, ../sass/layout/_footer.scss */
 .g-foot-w {
   background: #302f2b;
@@ -2519,6 +2531,10 @@ a:active, a:focus {
   margin: 5px 0px 0px 45px;
 }
 /* line 162, ../sass/layout/_popup.scss */
+.popup-con .input-box .pd-left-text {
+  padding-left: 9px;
+}
+/* line 166, ../sass/layout/_popup.scss */
 .popup-con .input-box .prompt .prom-icon {
   display: inline-block;
   background: url('../images/pop-img-s6b914c7cb8.png') 0 -11px;
@@ -2527,17 +2543,46 @@ a:active, a:focus {
   width: 16px;
   cursor: pointer;
 }
-/* line 170, ../sass/layout/_popup.scss */
+/* line 174, ../sass/layout/_popup.scss */
 .popup-con .input-box .prompt i {
   color: #ff9933;
   cursor: pointer;
 }
-/* line 174, ../sass/layout/_popup.scss */
+/* line 178, ../sass/layout/_popup.scss */
 .popup-con .input-text a {
   width: 299px;
   height: 40px;
 }
-/* line 179, ../sass/layout/_popup.scss */
+/* line 183, ../sass/layout/_popup.scss */
+.popup-con .input-text .p-user {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  color: #302f2b;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* line 194, ../sass/layout/_popup.scss */
+.popup-con .input-text .p-user:hover {
+  border: 1px solid #ff9933;
+  color: #ff9933;
+}
+/* line 198, ../sass/layout/_popup.scss */
+.popup-con .input-text .g-user {
+  border: 1px solid #ff9933;
+  color: #ff9933;
+}
+/* line 202, ../sass/layout/_popup.scss */
+.popup-con .input-text .sel-user-text {
+  text-align: left;
+  font-size: 16px;
+  color: #302f2b;
+  margin-left: 54px;
+}
+/* line 208, ../sass/layout/_popup.scss */
 .popup-con .input-box .prom-item {
   text-align: left;
   width: 290px;
@@ -2548,20 +2593,20 @@ a:active, a:focus {
   margin: 20px 0 0 51px;
   border-radius: 2px;
 }
-/* line 190, ../sass/layout/_popup.scss */
+/* line 219, ../sass/layout/_popup.scss */
 .popup-con .input-box .prom-item span {
   color: #ff9933;
 }
 
 /*end----main*/
 /*交易密码*/
-/* line 200, ../sass/layout/_popup.scss */
+/* line 229, ../sass/layout/_popup.scss */
 .popup-con .pop-item .propm-top {
   width: 400px;
   margin-top: 4px;
   border-radius: 2px;
 }
-/* line 206, ../sass/layout/_popup.scss */
+/* line 235, ../sass/layout/_popup.scss */
 .popup-con .pop-item .propm-top .prom-icon {
   display: inline-block;
   background: url('../images/pop-img-s6b914c7cb8.png') 0 -11px;
@@ -2570,15 +2615,15 @@ a:active, a:focus {
   width: 16px;
   cursor: pointer;
 }
-/* line 213, ../sass/layout/_popup.scss */
+/* line 242, ../sass/layout/_popup.scss */
 .popup-con .pop-item .propm-top i {
   margin-left: 6px;
 }
-/* line 216, ../sass/layout/_popup.scss */
+/* line 245, ../sass/layout/_popup.scss */
 .popup-con .pop-item .grade-i {
   padding: 20px 0 10px;
 }
-/* line 219, ../sass/layout/_popup.scss */
+/* line 248, ../sass/layout/_popup.scss */
 .popup-con .pop-item .grade-i .grade-i-item {
   display: inline-block;
   background: url('../images/pop-img-s6b914c7cb8.png') 0 -39px;
@@ -2587,20 +2632,20 @@ a:active, a:focus {
   width: 300px;
   cursor: pointer;
 }
-/* line 226, ../sass/layout/_popup.scss */
+/* line 255, ../sass/layout/_popup.scss */
 .popup-con .pop-item .pd-top1 {
   padding-top: 10px;
 }
-/* line 229, ../sass/layout/_popup.scss */
+/* line 258, ../sass/layout/_popup.scss */
 .popup-con .pop-item .input-text .red-border {
   border: 1px solid red;
 }
-/* line 232, ../sass/layout/_popup.scss */
+/* line 261, ../sass/layout/_popup.scss */
 .popup-con .pop-item .input-text .red-color {
   color: red;
   padding-left: 10px;
 }
-/* line 236, ../sass/layout/_popup.scss */
+/* line 265, ../sass/layout/_popup.scss */
 .popup-con .pop-item .input-text .pass-text {
   display: inline-block;
   color: #5e5e5e;
@@ -2610,25 +2655,25 @@ a:active, a:focus {
 }
 
 /*修改绑定手机*/
-/* line 248, ../sass/layout/_popup.scss */
+/* line 277, ../sass/layout/_popup.scss */
 .popup-con .input-box .pd-left10 {
-  padding-left: 5px;
+  padding-left: 8px;
 }
 
-/* line 252, ../sass/layout/_popup.scss */
+/* line 281, ../sass/layout/_popup.scss */
 .popup-con .input-box .bind-phone {
   text-align: left;
   display: inherit;
   margin-left: 53px;
 }
 
-/* line 257, ../sass/layout/_popup.scss */
+/* line 286, ../sass/layout/_popup.scss */
 .popup-con .input-box .bind-phone i {
   color: #ffa200;
   padding-left: 35px;
 }
 
-/* line 262, ../sass/layout/_popup.scss */
+/* line 291, ../sass/layout/_popup.scss */
 .input-box .bg-color01 {
   background: #fff6e5;
   padding: 4px;
@@ -2637,7 +2682,7 @@ a:active, a:focus {
 }
 
 /*修改密码成功*/
-/* line 270, ../sass/layout/_popup.scss */
+/* line 299, ../sass/layout/_popup.scss */
 .input-box .password-c .se-img {
   display: inline-block;
   background: url('../images/pop-img-s6b914c7cb8.png') 0 -53px;
@@ -2645,7 +2690,7 @@ a:active, a:focus {
   height: 73px;
   width: 73px;
 }
-/* line 276, ../sass/layout/_popup.scss */
+/* line 305, ../sass/layout/_popup.scss */
 .input-box .password-c p {
   color: #363636;
   font-size: 20px;
@@ -3740,31 +3785,339 @@ a:active, a:focus {
  *@time:2016/4/11 17:55
  **/
 /* line 883, ../sass/pages/_center-index.scss */
-.pagegro {
-  width: 400px;
+.page-con {
+  width: 600px;
   height: 25px;
   margin: 0px auto;
-  padding-top: 30px;
+  text-align: center;
 }
-/* line 888, ../sass/pages/_center-index.scss */
+
+/* line 889, ../sass/pages/_center-index.scss */
+.pagegro {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 200px;
+}
+/* line 894, ../sass/pages/_center-index.scss */
 .pagegro .pageUp, .pagegro .pageDown, .pagegro .pageList ul li {
   width: 24px;
   height: 24px;
   background: #e5e5e5;
   float: left;
+  text-align: center;
+  line-height: 24px;
+  margin: 0px 5px;
+  border-radius: 2px;
+  color: #5e5e5e;
+  cursor: pointer;
 }
-/* line 894, ../sass/pages/_center-index.scss */
+/* line 906, ../sass/pages/_center-index.scss */
 .pagegro .pageDown {
-  background: url("../images/lj-page.png") no-repeat;
+  background: url("../images/ri-page.png") no-repeat center;
+  background-color: #e5e5e5;
 }
-/* line 897, ../sass/pages/_center-index.scss */
+/* line 910, ../sass/pages/_center-index.scss */
 .pagegro .pageUp {
-  background: url("../images/left-page.png") no-repeat;
+  background: url("../images/left-page.png") no-repeat center;
+  background-color: #e5e5e5;
 }
 
-/* line 903, ../sass/pages/_center-index.scss */
+/* line 916, ../sass/pages/_center-index.scss */
 .pageGro div, .pageGro div ul li {
   float: left;
+}
+
+/* line 920, ../sass/pages/_center-index.scss */
+.pageList ul li.on {
+  background: #ff9933;
+  color: #fff;
+  cursor: pointer;
+}
+/* line 924, ../sass/pages/_center-index.scss */
+.pageList ul li.on :hover {
+  background: #ff9933;
+  color: #fff;
+}
+
+/*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:my-rz-total
+ *@time:2016/4/12 10:05
+ **/
+/* line 937, ../sass/pages/_center-index.scss */
+.rz-total {
+  margin: 20px 0px 50px;
+}
+
+/* line 938, ../sass/pages/_center-index.scss */
+.r-total-box li {
+  float: left;
+  padding-right: 88px;
+}
+/* line 941, ../sass/pages/_center-index.scss */
+.r-total-box li u {
+  float: left;
+}
+/* line 943, ../sass/pages/_center-index.scss */
+.r-total-box li u img {
+  vertical-align: middle;
+  margin-top: 9px;
+}
+/* line 948, ../sass/pages/_center-index.scss */
+.r-total-box li a {
+  float: left;
+  margin-left: 20px;
+}
+/* line 951, ../sass/pages/_center-index.scss */
+.r-total-box li a i {
+  font-size: 24px;
+  color: #302f2b;
+}
+/* line 955, ../sass/pages/_center-index.scss */
+.r-total-box li a span {
+  line-height: 10px;
+  font-size: 14px;
+  color: #5e5e5e;
+}
+/* line 959, ../sass/pages/_center-index.scss */
+.r-total-box li a span em {
+  color: #a0a0a0;
+}
+
+/*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:my-touzi-screen
+ *@time:2016/4/12 11:00
+ **/
+/* line 973, ../sass/pages/_center-index.scss */
+.sel-screen-item {
+  line-height: 40px;
+}
+/* line 976, ../sass/pages/_center-index.scss */
+.sel-screen-item span {
+  float: left;
+  padding-right: 15px;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+/* line 982, ../sass/pages/_center-index.scss */
+.sel-screen-item li {
+  position: relative;
+  float: left;
+  padding: 0 20px;
+  text-align: center;
+  color: #302f2b;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 991, ../sass/pages/_center-index.scss */
+.sel-screen-item li:hover {
+  color: #ff9933;
+}
+/* line 994, ../sass/pages/_center-index.scss */
+.sel-screen-item .on-color {
+  color: #ff9933;
+}
+
+/* line 998, ../sass/pages/_center-index.scss */
+.multiple01 li i {
+  display: inline-block;
+  border: 1px solid #e3e3e3;
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  background: url(../images/small_03.png) no-repeat 9999px 9999px;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+}
+
+/* line 1009, ../sass/pages/_center-index.scss */
+.multiple01 li.avtive i {
+  background-position: 3px -30px;
+  border: 1px solid #ff9933;
+}
+
+/* line 1013, ../sass/pages/_center-index.scss */
+.multiple01 li.avtive i:hover {
+  border: 1px solid #ff9933;
+}
+
+/* line 1016, ../sass/pages/_center-index.scss */
+.sel-screen-item a.btn-more {
+  cursor: pointer;
+  width: 60px;
+  height: 28px;
+  display: inline-block;
+  float: right;
+  margin-right: 90px;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 2px;
+  color: #5e5e5e;
+}
+
+/* line 1029, ../sass/pages/_center-index.scss */
+.sel-screen-item a.btn-more i {
+  background: url(../images/small_03.png) no-repeat 0px 0px;
+  -webkit-transition: background-position .15s ease-in-out;
+  -moz-transition: background-position .15s ease-in-out;
+  transition: background-position .15s ease-in-out;
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+}
+
+/* line 1039, ../sass/pages/_center-index.scss */
+.sel-screen-item a:hover {
+  color: #ff9933;
+  border: 1px solid #ff9933;
+}
+
+/* line 1043, ../sass/pages/_center-index.scss */
+.sel-screen-item a.btn-more > i:hover {
+  background-position: 0px -17px;
+  background-color: #fff;
+}
+
+/* line 1047, ../sass/pages/_center-index.scss */
+.multiple01 .sl-btns {
+  display: block;
+}
+
+/* line 1050, ../sass/pages/_center-index.scss */
+.btn-primary {
+  display: inline-block;
+  line-height: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: #F7F7F7;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 5px 15px 6px;
+  color: #FFF;
+  background-color: #fcae26;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(top, #fcae26, #ff9933);
+  background-image: -webkit-linear-gradient(top, #fcae26, #ff9933);
+  background-image: -o-linear-gradient(top, #fcae26, #ff9933);
+  background-image: linear-gradient(to bottom, #fcae26, #ff9933);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endColorstr='#ff9933', GradientType=0);
+}
+
+/* line 1070, ../sass/pages/_center-index.scss */
+.btn-default {
+  display: inline-block;
+  line-height: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: #F7F7F7;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #DDD;
+  padding: 4px 13px 5px;
+  color: #666;
+  background-color: #f7f7f7;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(top, #f7f7f7, #f2f2f2);
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #f2f2f2);
+  background-image: -o-linear-gradient(top, #f7f7f7, #f2f2f2);
+  background-image: linear-gradient(to bottom, #f7f7f7, #f2f2f2);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f2f2f2', GradientType=0);
+}
+
+/* line 1090, ../sass/pages/_center-index.scss */
+.btn.disabled {
+  padding: 4px 13px 5px;
+  border: 1px solid #DDD;
+  background: #FFF;
+  cursor: default;
+  color: #CCC;
+  opacity: .2;
+  filter: alpha(Opacity=20);
+  filter: alpha(Opacity=20);
+}
+
+/* line 1100, ../sass/pages/_center-index.scss */
+.sel-screen {
+  position: relative;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 20px;
+}
+
+/* line 1106, ../sass/pages/_center-index.scss */
+.sl-btns {
+  position: absolute;
+  right: 44px;
+  top: 74px;
+}
+
+/* line 1111, ../sass/pages/_center-index.scss */
+.sl-btns a {
+  margin: 0px 5px;
+  display: inline-block;
+}
+
+/* line 1115, ../sass/pages/_center-index.scss */
+.text-tiem {
+  width: 110px;
+  height: 27px;
+  border: 1px solid #e5e5e5;
+}
+
+/*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:tz-jl-table
+ *@time:2016/4/12 16:18
+ **/
+/* line 1130, ../sass/pages/_center-index.scss */
+.account-tb td a {
+  cursor: pointer;
+  text-align: center;
+}
+/* line 1133, ../sass/pages/_center-index.scss */
+.account-tb td a span.hk-jh {
+  background: url('../images/tz-jlv-s7c8ae30660.png') 0 -18px;
+  background-position: 0 -18px;
+  height: 18px;
+  width: 16px;
+  display: inline-block;
+}
+/* line 1139, ../sass/pages/_center-index.scss */
+.account-tb td a span.hk-jh:hover {
+  background: url('../images/tz-jlv-s7c8ae30660.png') 0 0;
+  background-position: 0 0;
+  height: 18px;
+  width: 16px;
+  display: inline-block;
+}
+/* line 1145, ../sass/pages/_center-index.scss */
+.account-tb td a span.hetong {
+  background: url('../images/tz-jlv-s7c8ae30660.png') 0 -55px;
+  background-position: 0 -55px;
+  height: 19px;
+  width: 14px;
+  display: inline-block;
+}
+/* line 1151, ../sass/pages/_center-index.scss */
+.account-tb td a span.hetong:hover {
+  background: url('../images/tz-jlv-s7c8ae30660.png') 0 -36px;
+  background-position: 0 -36px;
+  height: 19px;
+  width: 14px;
+  display: inline-block;
 }
 
 /*********************** new module Name End **************************************/

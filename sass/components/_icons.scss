@@ -56,6 +56,13 @@ $cen-icons: sprite-map("../images/cen-icons/*.png",$spacing:20px,$cen-icons-cen-
 $cen-icons-sprite-dimensions:true;
 $cen-icons-clean-up: true;
 
+@import "../images/tz-jlv/*.png";
+$tz-jlv:sprite-map("../images/tz-jlv/*.png");
+.sprite{ background: transparent sprite-url($tz-jlv) no-repeat 0 0; display: inline-block; }
+$tz-jlv-sprite-dimensions:true;
+$disable-magic-sprite-selectors:true;
+
+
 
 
 
