@@ -159,6 +159,10 @@
     text-align: left;
     margin: 5px 0px 0px 45px;
   }
+  .input-box .pd-left-text{
+    padding-left: 9px;
+  }
+
   .input-box .prompt .prom-icon{
     display: inline-block;
     background:sprite($pop-img,alert-2);
@@ -175,6 +179,31 @@
     width: 299px;
     height: 40px;
     @extend  %pop-btn;
+  }
+  .input-text  .p-user{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    color: #302f2b;
+    font-size: 16px;
+    cursor: pointer;
+      }
+  .input-text  .p-user:hover{
+    border: 1px solid $orcoolor;
+    color: $orcoolor;
+  }
+  .input-text .g-user{
+    border: 1px solid $orcoolor;
+    color: $orcoolor;
+  }
+  .input-text .sel-user-text{
+    text-align: left;
+    font-size: 16px;
+    color: #302f2b;
+    margin-left: 54px;
   }
   .input-box .prom-item{
     text-align: left;
@@ -246,7 +275,7 @@
 
 /*修改绑定手机*/
 .popup-con .input-box .pd-left10{
-padding-left: 5px;
+padding-left: 8px;
 
 }
 .popup-con .input-box .bind-phone{

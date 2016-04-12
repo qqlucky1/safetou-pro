@@ -941,7 +941,6 @@ $c-a0a0a0:#a0a0a0;
     @include sprite-background-position($cen-icons, cen-i04);
     @include sprite-dimensions($cen-icons, cen-i04);
   }
-
 }
 .c-menu-item li a:hover{
   .nav-cen{
@@ -1188,31 +1187,280 @@ $c-a0a0a0:#a0a0a0;
  *@desc:page
  *@time:2016/4/11 17:55
  **/
-.pagegro{
-  width: 400px;
+.page-con{
+  width: 600px;
   height: 25px;
   margin: 0px auto;
+  text-align: center;
+}
+.pagegro{
+  text-align: center;
   padding-top: 30px;
+  margin: 0 auto;
+  width: 200px;
   .pageUp,.pageDown,.pageList ul li{
     width: 24px;
     height: 24px;
     background: #e5e5e5;
-    float:left;
+    float: left;
+    text-align: center;
+    line-height: 24px;
+    margin: 0px 5px;
+    border-radius: 2px;
+    color: #5e5e5e;
+    cursor: pointer;
   }
   .pageDown{
-    background: url("../images/lj-page.png") no-repeat;
+    background: url("../images/ri-page.png") no-repeat center;
+    background-color: #e5e5e5;
   }
   .pageUp{
-    background: url("../images/left-page.png") no-repeat;
+    background: url("../images/left-page.png") no-repeat center;
+    background-color: #e5e5e5;
   }
-
 
 }
 .pageGro div, .pageGro div ul li{
   float: left;
 }
 
+.pageList  ul li.on{
+  background: $fontColorff9933;
+  color: #fff;
+  cursor:pointer;
+  :hover{
+    background: $fontColorff9933;
+    color: #fff;
+  }
+}
+
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:my-rz-total
+ *@time:2016/4/12 10:05
+ **/
+.rz-total{ margin: 20px 0px 50px; }
+.r-total-box li{
+  float: left;
+  padding-right: 88px;
+ u{
+   float: left;
+   img{
+     vertical-align: middle;
+     margin-top: 9px;
+   }
+ }
+ a{
+   float: left;
+   margin-left: 20px;
+   i{
+     font-size: 24px;
+     color: #302f2b;
+   }
+   span{
+     line-height: 10px;
+     font-size: 14px;
+     color: #5e5e5e;
+    em{
+       color: #a0a0a0;
+     }
+   }
+ }
+}
+
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:my-touzi-screen
+ *@time:2016/4/12 11:00
+ **/
+.sel-screen-item {
+  line-height: 40px;
+
+  span{
+    float: left;
+    padding-right: 15px;
+    color: #a0a0a0;
+    font-size: 14px;
+  }
+  li{
+    position: relative;
+    float: left;
+    padding: 0 20px;
+    text-align: center;
+    color: #302f2b;
+    font-size: 14px;
+    cursor: pointer;
+   }
+  li:hover{
+    color: $fontColorff9933;
+  }
+ .on-color{
+    color: $fontColorff9933;
+  }
+}
+.multiple01 li i{
+  display: inline-block;
+  border: 1px solid #e3e3e3;
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  background: url(../images/small_03.png) no-repeat 9999px 9999px;
+  position: absolute;
+  left: 0px;
+  top: 12px;
+}
+.multiple01 li.avtive i{
+  background-position: 3px -30px;
+  border: 1px solid  $fontColorff9933;
+}
+.multiple01 li.avtive i:hover{
+  border: 1px solid  $fontColorff9933;
+}
+.sel-screen-item a.btn-more {
+ cursor: pointer;
+  width: 60px;
+  height: 28px;
+  display: inline-block;
+  float: right;
+  margin-right: 90px;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 2px;
+  color: #5e5e5e;
+}
+.sel-screen-item  a.btn-more i{
+  background: url(../images/small_03.png) no-repeat 0px 0px;
+  -webkit-transition: background-position .15s ease-in-out;
+  -moz-transition: background-position .15s ease-in-out;
+  transition: background-position .15s ease-in-out;
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+
+}
+.sel-screen-item  a:hover{
+  color: $fontColorff9933;
+  border: 1px solid $fontColorff9933;
+}
+.sel-screen-item  a.btn-more>i:hover {
+  background-position: 0px -17px;
+  background-color:#fff;
+}
+.multiple01 .sl-btns{
+  display: block;
+}
+.btn-primary{
+display: inline-block;
+line-height: 14px;
+height: 14px;
+border-radius: 2px;
+background: #F7F7F7;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+border: 0;
+padding: 5px 15px 6px;
+color: #FFF;
+background-color: #fcae26;
+background-repeat: repeat-x;
+background-image: -moz-linear-gradient(top,#fcae26,#ff9933);
+background-image: -webkit-linear-gradient(top,#fcae26,#ff9933);
+background-image: -o-linear-gradient(top,#fcae26,#ff9933);
+background-image: linear-gradient(top,#fcae26,#ff9933);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endColorstr='#ff9933', GradientType=0);
+}
+.btn-default {
+  display: inline-block;
+  line-height: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: #F7F7F7;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #DDD;
+  padding: 4px 13px 5px;
+  color: #666;
+  background-color: #f7f7f7;
+  background-repeat: repeat-x;
+  background-image: -moz-linear-gradient(top,#f7f7f7,#f2f2f2);
+  background-image: -webkit-linear-gradient(top,#f7f7f7,#f2f2f2);
+  background-image: -o-linear-gradient(top,#f7f7f7,#f2f2f2);
+  background-image: linear-gradient(top,#f7f7f7,#f2f2f2);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f2f2f2', GradientType=0);
+}
+.btn.disabled {
+  padding: 4px 13px 5px;
+  border: 1px solid #DDD;
+  background: #FFF;
+  cursor: default;
+  color: #CCC;
+  opacity: .2;
+  filter: alpha(Opacity=20);
+  filter: alpha(Opacity=20);
+}
+.sel-screen{
+  position: relative;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 20px;
+}
+.sl-btns{
+  position: absolute;
+  right: 44px;
+  top: 74px;
+}
+.sl-btns a{
+ margin: 0px 5px;
+  display: inline-block;
+}
+.text-tiem{
+  width: 110px;
+  height: 27px;
+  border: 1px solid #e5e5e5;
+}
 
 
+
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:tz-jl-table
+ *@time:2016/4/12 16:18
+ **/
+.account-tb td a{
+   cursor: pointer;
+   text-align: center;
+  span.hk-jh{
+  background: sprite($tz-jlv,calendar);
+  @include sprite-background-position($tz-jlv,calendar);
+  @include sprite-dimensions($tz-jlv, calendar);
+  display: inline-block;
+}
+  span.hk-jh:hover{
+    background: sprite($tz-jlv,calendar-hover);
+    @include sprite-background-position($tz-jlv,calendar-hover);
+    @include sprite-dimensions($tz-jlv, calendar-hover);
+    display: inline-block;
+  }
+  span.hetong{
+    background: sprite($tz-jlv,file);
+    @include sprite-background-position($tz-jlv,file);
+    @include sprite-dimensions($tz-jlv, file);
+    display: inline-block;
+  }
+  span.hetong:hover{
+    background: sprite($tz-jlv,file-hover);
+    @include sprite-background-position($tz-jlv,file-hover);
+    @include sprite-dimensions($tz-jlv, file-hover);
+    display: inline-block;
+  }
+}
 
  /*********************** new module Name End **************************************/
