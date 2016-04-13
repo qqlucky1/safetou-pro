@@ -431,25 +431,13 @@ a:active, a:focus {
   display: inline-block;
 }
 
-/* line 280, ../images/cen-icons/*.png */
-.cen-icons-sprite {
-  background-image: url('../images/cen-icons-sd467d31566.png');
-  background-repeat: no-repeat;
-}
-
-/* line 55, ../sass/components/_icons.scss */
-.sprite-base {
-  background: url('../images/cen-icons-s36ef38a282.png') no-repeat;
-  display: inline-block;
-}
-
 /* line 72, ../images/tz-jlv/*.png */
 .tz-jlv-sprite {
   background-image: url('../images/tz-jlv-sd0e498965d.png');
   background-repeat: no-repeat;
 }
 
-/* line 61, ../sass/components/_icons.scss */
+/* line 57, ../sass/components/_icons.scss */
 .sprite {
   background: transparent url('../images/tz-jlv-s7c8ae30660.png') no-repeat 0 0;
   display: inline-block;
@@ -3154,7 +3142,7 @@ a:active, a:focus {
 /* line 356, ../sass/pages/_center-index.scss */
 .authentication-icom i {
   display: inline-block;
-  width: 35px;
+  width: 30px;
   height: 30px;
   background-image: url("../images/right-accred-icom.png");
   background-repeat: no-repeat;
@@ -3167,47 +3155,47 @@ a:active, a:focus {
 
 /* line 358, ../sass/pages/_center-index.scss */
 .aut-phone {
-  background-position: 0px -47px;
+  background-position: 0px -37px;
 }
 
 /* line 359, ../sass/pages/_center-index.scss */
 .aut-lock {
-  background-position: 0px -94px;
+  background-position: 0px -73px;
 }
 
 /* line 360, ../sass/pages/_center-index.scss */
 .aut-mail {
-  background-position: 0px -142px;
+  background-position: 0px -110px;
 }
 
 /* line 361, ../sass/pages/_center-index.scss */
 .aut-bank {
-  background-position: 0px -189px;
+  background-position: 0px -146px;
 }
 
 /* line 362, ../sass/pages/_center-index.scss */
 .gray-tx {
-  background-position: 0px -231px;
+  background-position: 0px 0px;
 }
 
 /* line 363, ../sass/pages/_center-index.scss */
 .gray-phone {
-  background-position: 0px -277px;
+  background-position: -32px -37px;
 }
 
 /* line 364, ../sass/pages/_center-index.scss */
 .gray-lock {
-  background-position: 0px -325px;
+  background-position: -32px -73px;
 }
 
 /* line 365, ../sass/pages/_center-index.scss */
 .gray-mail {
-  background-position: 0px -372px;
+  background-position: -32px -110px;
 }
 
 /* line 366, ../sass/pages/_center-index.scss */
 .gray-bank {
-  background-position: 0px -419px;
+  background-position: -32px -146px;
 }
 
 /* line 367, ../sass/pages/_center-index.scss */
@@ -4449,8 +4437,9 @@ a:active, a:focus {
 .account-tb td a {
   cursor: pointer;
   text-align: center;
+  position: relative;
 }
-/* line 1439, ../sass/pages/_center-index.scss */
+/* line 1440, ../sass/pages/_center-index.scss */
 .account-tb td a span.hk-jh {
   background: url('../images/tz-jlv-s7c8ae30660.png') 0 -18px;
   background-position: 0 -18px;
@@ -4458,7 +4447,7 @@ a:active, a:focus {
   width: 16px;
   display: inline-block;
 }
-/* line 1445, ../sass/pages/_center-index.scss */
+/* line 1446, ../sass/pages/_center-index.scss */
 .account-tb td a span.hk-jh:hover {
   background: url('../images/tz-jlv-s7c8ae30660.png') 0 0;
   background-position: 0 0;
@@ -4466,7 +4455,7 @@ a:active, a:focus {
   width: 16px;
   display: inline-block;
 }
-/* line 1451, ../sass/pages/_center-index.scss */
+/* line 1452, ../sass/pages/_center-index.scss */
 .account-tb td a span.hetong {
   background: url('../images/tz-jlv-s7c8ae30660.png') 0 -55px;
   background-position: 0 -55px;
@@ -4474,13 +4463,154 @@ a:active, a:focus {
   width: 14px;
   display: inline-block;
 }
-/* line 1457, ../sass/pages/_center-index.scss */
+/* line 1458, ../sass/pages/_center-index.scss */
 .account-tb td a span.hetong:hover {
   background: url('../images/tz-jlv-s7c8ae30660.png') 0 -36px;
   background-position: 0 -36px;
   height: 19px;
   width: 14px;
   display: inline-block;
+}
+
+/*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc: tjgl
+ *@time:2016/4/13 15:42
+ **/
+/* line 1474, ../sass/pages/_center-index.scss */
+.tj-img {
+  padding-top: 25px;
+}
+
+/* line 1477, ../sass/pages/_center-index.scss */
+.share-way {
+  margin: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+/* line 1482, ../sass/pages/_center-index.scss */
+.share-way li {
+  float: left;
+  border-right: 1px solid #e5e5e5;
+}
+/* line 1486, ../sass/pages/_center-index.scss */
+.share-way .share-way-item {
+  padding: 5px 15px 0px 5px;
+}
+/* line 1488, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .title-item {
+  font-size: 18px;
+  color: #4c4c4c;
+  text-align: center;
+}
+/* line 1493, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .input {
+  text-align: center;
+}
+/* line 1496, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .input input {
+  width: 320px;
+  height: 30px;
+  border: 1px solid  #ededed;
+  font-size: 13px;
+  color: #a0a0a0;
+  margin-top: 40px;
+}
+/* line 1504, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .input .short-text {
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 1510, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .title-text {
+  color: #a0a0a0;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+/* line 1516, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .img-center {
+  text-align: center;
+}
+/* line 1520, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .btn-border {
+  text-align: center;
+  margin: 40px 0 12px;
+}
+/* line 1523, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .btn-border .copy-i {
+  background: url(../images/copy-icons.png) no-repeat 4px 8px;
+  width: 77px;
+  display: inline-block;
+  padding-left: 19px;
+  border: 1px solid #fdb323;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 2px;
+  color: #4c4c4c;
+  font-size: 14px;
+  cursor: pointer;
+}
+/* line 1536, ../sass/pages/_center-index.scss */
+.share-way .share-way-item .btn-border a {
+  display: inline-block;
+  width: 102px;
+  height: 32px;
+  border: 1px solid #fdb323;
+  text-align: center;
+  color: #fdb323;
+  line-height: 32px;
+  font-size: 14px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/* line 1551, ../sass/pages/_center-index.scss */
+.share-way .way-item2 {
+  padding: 5px 15px 0px 15px;
+}
+/* line 1554, ../sass/pages/_center-index.scss */
+.share-way .way-item3 {
+  padding: 5px 15px 0px 15px;
+}
+
+/* line 1558, ../sass/pages/_center-index.scss */
+.recommend-tab {
+  margin-top: 35px;
+}
+
+/* line 1561, ../sass/pages/_center-index.scss */
+.tab-tj {
+  margin-top: 30px;
+}
+
+/* line 1564, ../sass/pages/_center-index.scss */
+.pd-item-tui {
+  padding: 0px 20px;
+}
+
+/* line 1567, ../sass/pages/_center-index.scss */
+.account-tb td a i {
+  background: url("../images/name-yz-img.png") no-repeat -999px -999px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  right: -48px;
+}
+
+/* line 1577, ../sass/pages/_center-index.scss */
+.account-tb td a .n-yz-img01 {
+  background-position: 0px 0px;
+}
+
+/* line 1580, ../sass/pages/_center-index.scss */
+.account-tb td a .n-yz-img02 {
+  background-position: 0px -24px;
 }
 
 /*********************** new module Name End **************************************/
