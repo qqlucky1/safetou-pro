@@ -893,144 +893,143 @@ $c-a0a0a0:#a0a0a0;
 .c-menu-item li.current a:visited{
   color: #fff;
 }
+.c-menu-item li a i{
+  width: 18px;
+  height: 18px;
+}
 .nav-ico{
   /*position: absolute;
   left: 26px;
   top: 18px;*/
-  @extend .sprite-base;
+  background:url( ../images/center-menu_03.png) no-repeat;
+
   display: inline-block;
 }
 .c-menu-item {
   .nav-cen{
-    @include sprite-background-position($cen-icons, cen-i01);
-    @include sprite-dimensions($cen-icons, cen-i01);
-}
+    background-position: 0 0;
+    }
   .nav-cont{
-    @include sprite-background-position($cen-icons, cen-i25);
-    @include sprite-dimensions($cen-icons, cen-i25);
+    background-position: 0px -50px;
+
   }
   .nav-bank{
-    @include sprite-background-position($cen-icons, cen-i22);
-    @include sprite-dimensions($cen-icons, cen-i22);
+    background-position: 0 -102px;
+
   }
   .nav-touzi{
-    @include sprite-background-position($cen-icons, cen-i19);
-    @include sprite-dimensions($cen-icons, cen-i19);
+    background-position: 0 -151px;
+
   }
   .nav-roz{
-    @include sprite-background-position($cen-icons, cen-i16);
-    @include sprite-dimensions($cen-icons, cen-i16);
+    background-position: 0 -203px;
+
   }
   .nav-mixi{
-    @include sprite-background-position($cen-icons, cen-i28);
-    @include sprite-dimensions($cen-icons, cen-i28);
+    background-position: 0 -256px;
   }
   .nav-tozhi{
-    @include sprite-background-position($cen-icons, cen-i07);
-    @include sprite-dimensions($cen-icons, cen-i07);
+    background-position: 0 -304px;
+
   }
   .nav-tuij{
-    @include sprite-background-position($cen-icons, cen-i10);
-    @include sprite-dimensions($cen-icons, cen-i10);
+    background-position: 0 -355px;
   }
   .nav-jl{
-    @include sprite-background-position($cen-icons, cen-i13);
-    @include sprite-dimensions($cen-icons, cen-i13);
+    background-position: 0 -406px;
+
   }
   .nav-jf{
-    @include sprite-background-position($cen-icons, cen-i04);
-    @include sprite-dimensions($cen-icons, cen-i04);
+    background-position: 0 -457px;
   }
 }
-.c-menu-item li a:hover{
+.c-menu-item li:not(.current) a:hover{
   .nav-cen{
-    @include sprite-background-position($cen-icons, cen-i02);
-    @include sprite-dimensions($cen-icons, cen-i02);
-
+    background-position: -30px  0;
   }
   .nav-cont{
-    @include sprite-background-position($cen-icons, cen-i26);
-    @include sprite-dimensions($cen-icons, cen-i26);
+    background-position: -30px -50px;
+
   }
   .nav-bank{
-    @include sprite-background-position($cen-icons, cen-i23);
-    @include sprite-dimensions($cen-icons, cen-i23);
+    background-position: -30px -102px;
+
   }
   .nav-touzi{
-    @include sprite-background-position($cen-icons, cen-i20);
-    @include sprite-dimensions($cen-icons, cen-i20);
+    background-position:-30px -151px;
+
   }
   .nav-roz{
-    @include sprite-background-position($cen-icons, cen-i17);
-    @include sprite-dimensions($cen-icons, cen-i17);
+    background-position: -30px -203px;
+
   }
   .nav-mixi{
-    @include sprite-background-position($cen-icons, cen-i29);
-    @include sprite-dimensions($cen-icons, cen-i29);
+    background-position: -30px -256px;
   }
   .nav-tozhi{
-    @include sprite-background-position($cen-icons, cen-i08);
-    @include sprite-dimensions($cen-icons, cen-i08);
+    background-position: -30px -304px;
+
   }
   .nav-tuij{
-    @include sprite-background-position($cen-icons, cen-i11);
-    @include sprite-dimensions($cen-icons, cen-i11);
+    background-position:-30px -355px;
   }
   .nav-jl{
-    @include sprite-background-position($cen-icons, cen-i14);
-    @include sprite-dimensions($cen-icons, cen-i14);
+    background-position:-30px -406px;
+
   }
   .nav-jf{
-    @include sprite-background-position($cen-icons, cen-i05);
-    @include sprite-dimensions($cen-icons, cen-i05);
+    background-position: -30px -457px;
   }
 
 }
-.c-menu-item li a:hover{
+.c-menu-item li:not(.current) a:hover{
   color: $fontColorff9933;
 }
+
+.c-menu aside .current a{
+  color: #fff;
+}
+
 .current{
 
   .nav-vis1{
-    @include sprite-background-position($cen-icons, cen-i03);
-    @include sprite-dimensions($cen-icons, cen-i03);
+
+    background-position: -60px  0;
 
   }
   .nav-vis2{
-    @include sprite-background-position($cen-icons, cen-i27);
-    @include sprite-dimensions($cen-icons, cen-i27);
+    background-position: -60px -50px;
+
   }
   .nav-vis3{
-    @include sprite-background-position($cen-icons, cen-i24);
-    @include sprite-dimensions($cen-icons, cen-i24);
+    background-position: -60px -102px;
+
   }
   .nav-vis4{
-    @include sprite-background-position($cen-icons, cen-i21);
-    @include sprite-dimensions($cen-icons, cen-i21);
+    background-position:-60px -151px;
+
   }
   .nav-vis5{
-    @include sprite-background-position($cen-icons, cen-i18);
-    @include sprite-dimensions($cen-icons, cen-i18);
+    background-position: -60px -203px;
+
   }
   .nav-vis6{
-    @include sprite-background-position($cen-icons, cen-i30);
-    @include sprite-dimensions($cen-icons, cen-i30);
+    background-position: -60px -256px;
+
   }
   .nav-vis7{
-    @include sprite-background-position($cen-icons, cen-i09);
-    @include sprite-dimensions($cen-icons, cen-i09);
+    background-position: -60px -304px;
   }
   .nav-vis8{
-    @include sprite-background-position($cen-icons, cen-i12);
-    @include sprite-dimensions($cen-icons, cen-i12);
+    background-position:-60px -355px;
   }
   .nav-vis9{
-    @include sprite-background-position($cen-icons, cen-i15);
-    @include sprite-dimensions($cen-icons, cen-i15);
+    background-position:-60px -406px;
+
   }
   .nav-vis10{
-    @include sprite-background-position($cen-icons, cen-i06);
-    @include sprite-dimensions($cen-icons, cen-i06);
+    background-position: -60px -457px;
+
   }
 
 }

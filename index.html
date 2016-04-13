@@ -135,7 +135,7 @@
     <div class="banner">
         <!--分类管理-->
         <div class="categorys j_categorys">
-            <div class="cate-wrap">
+            <div id="js_categorys" class="cate-wrap">
                 <div class="cate-title-list">
                     <div class="cate-m fore1">
                         <div class="cate-mt">
@@ -209,7 +209,7 @@
                             <span class="angle"></span>
                         </div>-->
                     </div>
-                    <div class="cate-m fore6">
+                    <div class="cate-m6 fore6">
                         <div class="cate-mt">
                             <div class="img j_categorysPromotion6">
                                 <a href="#" target="_blank" class="cate-sur">
@@ -220,6 +220,7 @@
                     </div>
 
                 </div>
+
                 <div class="cate_content_list">
                  <div class="cate_item  fore_1 " style="display: none;">
                      <div class="title">
@@ -269,7 +270,7 @@
                             <span class="img-botton2"></span>
                         </div>
                     </div>
-                    <div class="cate_item  fore_4 " style="display:block;">
+                    <div class="cate_item  fore_4 " style="display:none;">
                         <div class="title">
                             <span class="text">VIP专区</span>
                             <a class="more" href="#">详细信息</a>
@@ -977,4 +978,34 @@
     </div>
 </div>
 </body>
+
+    <script >
+        $(document).ready(function() {
+
+            // 大菜单
+            $("#js_categorys").hover(function () {
+                var _that = this;
+                cateMouseOver(_that);
+            }, function () {
+                $(this).find('.cate_content_list').hide().end()
+                        .find('.cate-title-list .cate-m').removeClass('current');
+            });
+
+        });
+                var cateMouseOver = function (elm) {
+                    var _i = -1;
+                    $(elm).find('.cate-title-list .cate-m').mouseover(function () {
+                        _i = $(this).index();
+                        $(this).addClass('current').siblings().removeClass('current');
+                        $(elm).find('.cate_content_list').show()
+                                .find('.cate_item').eq(_i).show().siblings().hide();
+                    });
+
+
+
+        }
+
+
+</script>
+
 </html>
