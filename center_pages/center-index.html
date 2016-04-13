@@ -205,15 +205,15 @@
             <div class="c-menu">
                     <aside>
                         <ul class="c-menu-item">
-                            <li class="current" ><a  href="#"> <i class="nav-ico nav-cen nav-vis1" ></i>个人中心</a></li>
-                            <li class=""><a href="#"><i class="nav-ico nav-cont nav-vis2 " ></i>账户安全</a></li>
-                            <li><a href="#"><i class="nav-ico nav-bank nav-vis3" ></i>银行卡管理</a></li>
-                            <li><a href="#"><i class="nav-ico nav-touzi nav-vis4" ></i>我的投资</a></li>
-                            <li><a href="#"><i class="nav-ico nav-roz nav-vis5" ></i>我的融资</a></li>
-                            <li><a href="#"><i class="nav-ico nav-mixi nav-vis6" ></i>账户明细</a></li>
-                            <li><a href="#"><i class="nav-ico nav-tozhi nav-vis7" ></i>通知中心</a></li>
-                            <li><a href="#"><i class="nav-ico nav-tuij nav-vis8" ></i>推荐管理</a></li>
-                            <li><a href="#"><i class="nav-ico nav-jl nav-vis9" ></i>推荐奖励</a></li>
+                            <li class="current" ><a> <i class="nav-ico nav-cen nav-vis1" ></i>个人中心</a></li>
+                            <li class=""><a ><i class="nav-ico nav-cont nav-vis2 " ></i>账户安全</a></li>
+                            <li><a ><i class="nav-ico nav-bank nav-vis3" ></i>银行卡管理</a></li>
+                            <li><a><i class="nav-ico nav-touzi nav-vis4" ></i>我的投资</a></li>
+                            <li><a><i class="nav-ico nav-roz nav-vis5" ></i>我的融资</a></li>
+                            <li><a><i class="nav-ico nav-mixi nav-vis6" ></i>账户明细</a></li>
+                            <li><a><i class="nav-ico nav-tozhi nav-vis7" ></i>通知中心</a></li>
+                            <li><a><i class="nav-ico nav-tuij nav-vis8" ></i>推荐管理</a></li>
+                            <li><a><i class="nav-ico nav-jl nav-vis9" ></i>推荐奖励</a></li>
                             <li><a href="#"><i class="nav-ico nav-jf nav-vis10" ></i>积分管理</a></li>
                         </ul>
                     </aside>
@@ -774,7 +774,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="c-page7" style="display: block">
+                <div class="c-page7" style="display: none">
                     <div class="right-pd-c">
                         <div class="title clearfix">
                             <h3 class="title-text">通知中心</h3>
@@ -835,7 +835,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="c-page8" style="display: none"></div>
+                <div class="c-page8" style="display: none">
+                    <!--推荐主页面 奖励 规则-->
+                    <div class="right-pd-c" style="display: none;">
+                    </div>
+
+
+                    <!--推荐邀请-->
+                    <div class="right-pd-c" style="display: none;">
+                    </div>
+                </div>
                 <div class="c-page9" style="display: none"></div>
                 <div class="c-page10" style="display: none"></div>
             </div>
@@ -920,4 +929,23 @@
 
             </div>
 </body>
+<script>
+
+//    console.log($('.c-menu-item>li'));
+    $('.c-menu-item>li').each(function(index,element){
+        var showName = '.c-page' + (index+1);
+        $(showName).css('display',index == 0 ? 'block' : 'none');
+        $(this).click(function(){
+
+            $('.c-menu-item>li').filter('.current').removeClass('current');
+            $(this).addClass('current');
+
+            if($(showName).css('display') == 'none'){
+                $('.c-pages>div').css('display','none');
+                //显示page页面
+                $(showName).css('display','block');
+            }
+        });
+    });
+</script>
 </html>

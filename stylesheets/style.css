@@ -3290,7 +3290,7 @@ a:active, a:focus {
 /* line 442, ../sass/pages/_center-index.scss */
 .c-pages {
   width: 986px;
-  height: auto;
+  min-height: 600px;
   border-left: 1px solid #e5e5e5;
 }
 /* line 446, ../sass/pages/_center-index.scss */
