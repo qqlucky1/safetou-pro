@@ -934,7 +934,7 @@
 //    console.log($('.c-menu-item>li'));
     $('.c-menu-item>li').each(function(index,element){
         var showName = '.c-page' + (index+1);
-        $(showName).css('display',index == 0 ? 'block' : 'none');
+        $(showName).css('display',index == 7 ? 'block' : 'none');
         $(this).click(function(){
 
             $('.c-menu-item>li').filter('.current').removeClass('current');
