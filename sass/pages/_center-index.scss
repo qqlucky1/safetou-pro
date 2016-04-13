@@ -441,7 +441,7 @@ $fontColora0a0a0:#a0a0a0;
  **/
 .c-pages{
   width: 986px;
-  height: auto;
+  min-height: 600px;
   border-left: 1px solid #e5e5e5;
   .c-page1{
     min-height: 960px;
