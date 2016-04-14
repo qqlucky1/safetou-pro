@@ -4481,36 +4481,44 @@ a:active, a:focus {
  **/
 /* line 1474, ../sass/pages/_center-index.scss */
 .tj-img {
-  padding-top: 25px;
+  margin: 25px 0;
+  background: url("../images/tuij-img.png") no-repeat;
+  width: 947px;
+  height: 141px;
 }
 
-/* line 1477, ../sass/pages/_center-index.scss */
+/* line 1480, ../sass/pages/_center-index.scss */
+.lic-tj-img {
+  background: url("../images/lic-tuij-img.png") no-repeat;
+}
+
+/* line 1483, ../sass/pages/_center-index.scss */
 .share-way {
   margin: 20px 0;
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
   padding-bottom: 20px;
 }
-/* line 1482, ../sass/pages/_center-index.scss */
+/* line 1488, ../sass/pages/_center-index.scss */
 .share-way li {
   float: left;
   border-right: 1px solid #e5e5e5;
 }
-/* line 1486, ../sass/pages/_center-index.scss */
+/* line 1492, ../sass/pages/_center-index.scss */
 .share-way .share-way-item {
   padding: 5px 15px 0px 5px;
 }
-/* line 1488, ../sass/pages/_center-index.scss */
+/* line 1494, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .title-item {
   font-size: 18px;
   color: #4c4c4c;
   text-align: center;
 }
-/* line 1493, ../sass/pages/_center-index.scss */
+/* line 1499, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input {
   text-align: center;
 }
-/* line 1496, ../sass/pages/_center-index.scss */
+/* line 1502, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input input {
   width: 320px;
   height: 30px;
@@ -4519,29 +4527,29 @@ a:active, a:focus {
   color: #a0a0a0;
   margin-top: 40px;
 }
-/* line 1504, ../sass/pages/_center-index.scss */
+/* line 1510, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input .short-text {
   width: 200px;
   margin-top: 20px;
   text-align: center;
 }
-/* line 1510, ../sass/pages/_center-index.scss */
+/* line 1516, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .title-text {
   color: #a0a0a0;
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
 }
-/* line 1516, ../sass/pages/_center-index.scss */
+/* line 1522, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .img-center {
   text-align: center;
 }
-/* line 1520, ../sass/pages/_center-index.scss */
+/* line 1526, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border {
   text-align: center;
   margin: 40px 0 12px;
 }
-/* line 1523, ../sass/pages/_center-index.scss */
+/* line 1529, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border .copy-i {
   background: url(../images/copy-icons.png) no-repeat 4px 8px;
   width: 77px;
@@ -4555,7 +4563,7 @@ a:active, a:focus {
   font-size: 14px;
   cursor: pointer;
 }
-/* line 1536, ../sass/pages/_center-index.scss */
+/* line 1542, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border a {
   display: inline-block;
   width: 102px;
@@ -4568,31 +4576,31 @@ a:active, a:focus {
   border-radius: 2px;
   cursor: pointer;
 }
-/* line 1551, ../sass/pages/_center-index.scss */
+/* line 1557, ../sass/pages/_center-index.scss */
 .share-way .way-item2 {
   padding: 5px 15px 0px 15px;
 }
-/* line 1554, ../sass/pages/_center-index.scss */
+/* line 1560, ../sass/pages/_center-index.scss */
 .share-way .way-item3 {
   padding: 5px 15px 0px 15px;
 }
 
-/* line 1558, ../sass/pages/_center-index.scss */
+/* line 1564, ../sass/pages/_center-index.scss */
 .recommend-tab {
   margin-top: 35px;
 }
 
-/* line 1561, ../sass/pages/_center-index.scss */
+/* line 1567, ../sass/pages/_center-index.scss */
 .tab-tj {
   margin-top: 30px;
 }
 
-/* line 1564, ../sass/pages/_center-index.scss */
+/* line 1570, ../sass/pages/_center-index.scss */
 .pd-item-tui {
   padding: 0px 20px;
 }
 
-/* line 1567, ../sass/pages/_center-index.scss */
+/* line 1573, ../sass/pages/_center-index.scss */
 .account-tb td a i {
   background: url("../images/name-yz-img.png") no-repeat -999px -999px;
   display: inline-block;
@@ -4603,12 +4611,12 @@ a:active, a:focus {
   right: -48px;
 }
 
-/* line 1577, ../sass/pages/_center-index.scss */
+/* line 1583, ../sass/pages/_center-index.scss */
 .account-tb td a .n-yz-img01 {
   background-position: 0px 0px;
 }
 
-/* line 1580, ../sass/pages/_center-index.scss */
+/* line 1586, ../sass/pages/_center-index.scss */
 .account-tb td a .n-yz-img02 {
   background-position: 0px -24px;
 }

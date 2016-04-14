@@ -1472,7 +1472,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
  *@time:2016/4/13 15:42
  **/
 .tj-img{
-  padding-top: 25px;
+  margin: 25px 0;
+  background: url("../images/tuij-img.png") no-repeat;
+  width: 947px;
+  height: 141px;
+}
+.lic-tj-img{
+  background: url("../images/lic-tuij-img.png") no-repeat;
 }
 .share-way{
   margin: 20px 0;
