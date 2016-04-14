@@ -24,6 +24,20 @@ $lte-ie:true !default;
     overflow: hidden;
   }
 }
+.nav-item-title li a i.icon{
+  font-size: 12px;
+}
+.nav-item-title li a:hover > .icon{
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+}
 .logo-item-mn{ margin-top: 20px;}
 .logo-nav-item { float: left;margin: 35px 0px 0px 220px; }
 .nav-item-title{ float: left;}
