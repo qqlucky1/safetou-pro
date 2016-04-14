@@ -4883,62 +4883,38 @@ a:active, a:focus {
   height: 141px;
 }
 
-<<<<<<< HEAD
-/* line 1711, ../sass/pages/_center-index.scss */
-=======
-/* line 1699, ../sass/pages/_center-index.scss */
+/* line 1715, ../sass/pages/_center-index.scss */
 .lic-tj-img {
   background: url("../images/lic-tuij-img.png") no-repeat;
 }
 
-/* line 1702, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1718, ../sass/pages/_center-index.scss */
 .share-way {
   margin: 20px 0;
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
   padding-bottom: 20px;
 }
-<<<<<<< HEAD
-/* line 1716, ../sass/pages/_center-index.scss */
-=======
-/* line 1707, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1723, ../sass/pages/_center-index.scss */
 .share-way li {
   float: left;
   border-right: 1px solid #e5e5e5;
 }
-<<<<<<< HEAD
-/* line 1720, ../sass/pages/_center-index.scss */
+/* line 1727, ../sass/pages/_center-index.scss */
 .share-way .share-way-item {
   padding: 5px 15px 0px 5px;
 }
-/* line 1722, ../sass/pages/_center-index.scss */
-=======
-/* line 1711, ../sass/pages/_center-index.scss */
-.share-way .share-way-item {
-  padding: 5px 15px 0px 5px;
-}
-/* line 1713, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1729, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .title-item {
   font-size: 18px;
   color: #4c4c4c;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 1727, ../sass/pages/_center-index.scss */
+/* line 1734, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input {
   text-align: center;
 }
-/* line 1730, ../sass/pages/_center-index.scss */
-=======
-/* line 1718, ../sass/pages/_center-index.scss */
-.share-way .share-way-item .input {
-  text-align: center;
-}
-/* line 1721, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1737, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input input {
   width: 320px;
   height: 30px;
@@ -4947,49 +4923,29 @@ a:active, a:focus {
   color: #a0a0a0;
   margin-top: 40px;
 }
-<<<<<<< HEAD
-/* line 1738, ../sass/pages/_center-index.scss */
-=======
-/* line 1729, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1745, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input .short-text {
   width: 200px;
   margin-top: 20px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 1744, ../sass/pages/_center-index.scss */
-=======
-/* line 1735, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1751, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .title-text {
   color: #a0a0a0;
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 1750, ../sass/pages/_center-index.scss */
+/* line 1757, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .img-center {
   text-align: center;
 }
-/* line 1754, ../sass/pages/_center-index.scss */
-=======
-/* line 1741, ../sass/pages/_center-index.scss */
-.share-way .share-way-item .img-center {
-  text-align: center;
-}
-/* line 1745, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1761, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border {
   text-align: center;
   margin: 40px 0 12px;
 }
-<<<<<<< HEAD
-/* line 1757, ../sass/pages/_center-index.scss */
-=======
-/* line 1748, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1764, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border .copy-i {
   background: url(../images/copy-icons.png) no-repeat 4px 8px;
   width: 77px;
@@ -5003,11 +4959,7 @@ a:active, a:focus {
   font-size: 14px;
   cursor: pointer;
 }
-<<<<<<< HEAD
-/* line 1770, ../sass/pages/_center-index.scss */
-=======
-/* line 1761, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1777, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border a {
   display: inline-block;
   width: 102px;
@@ -5020,55 +4972,31 @@ a:active, a:focus {
   border-radius: 2px;
   cursor: pointer;
 }
-<<<<<<< HEAD
-/* line 1785, ../sass/pages/_center-index.scss */
+/* line 1792, ../sass/pages/_center-index.scss */
 .share-way .way-item2 {
   padding: 5px 15px 0px 15px;
 }
-/* line 1788, ../sass/pages/_center-index.scss */
-=======
-/* line 1776, ../sass/pages/_center-index.scss */
-.share-way .way-item2 {
-  padding: 5px 15px 0px 15px;
-}
-/* line 1779, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1795, ../sass/pages/_center-index.scss */
 .share-way .way-item3 {
   padding: 5px 15px 0px 15px;
 }
 
-<<<<<<< HEAD
-/* line 1792, ../sass/pages/_center-index.scss */
-=======
-/* line 1783, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1799, ../sass/pages/_center-index.scss */
 .recommend-tab {
   margin-top: 35px;
 }
 
-<<<<<<< HEAD
-/* line 1795, ../sass/pages/_center-index.scss */
-=======
-/* line 1786, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1802, ../sass/pages/_center-index.scss */
 .tab-tj {
   margin-top: 30px;
 }
 
-<<<<<<< HEAD
-/* line 1798, ../sass/pages/_center-index.scss */
-=======
-/* line 1789, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1805, ../sass/pages/_center-index.scss */
 .pd-item-tui {
   padding: 0px 20px;
 }
 
-<<<<<<< HEAD
-/* line 1801, ../sass/pages/_center-index.scss */
-=======
-/* line 1792, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1808, ../sass/pages/_center-index.scss */
 .account-tb td a i {
   background: url("../images/name-yz-img.png") no-repeat -999px -999px;
   display: inline-block;
@@ -5079,22 +5007,19 @@ a:active, a:focus {
   right: -48px;
 }
 
-<<<<<<< HEAD
-/* line 1811, ../sass/pages/_center-index.scss */
-=======
-/* line 1802, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1818, ../sass/pages/_center-index.scss */
 .account-tb td a .n-yz-img01 {
   background-position: 0px 0px;
 }
 
-<<<<<<< HEAD
-/* line 1814, ../sass/pages/_center-index.scss */
-=======
-/* line 1805, ../sass/pages/_center-index.scss */
->>>>>>> refs/remotes/origin/cao
+/* line 1821, ../sass/pages/_center-index.scss */
 .account-tb td a .n-yz-img02 {
   background-position: 0px -24px;
+}
+
+/* line 1824, ../sass/pages/_center-index.scss */
+.bt-bottom-1 {
+  border-bottom: 1px solid #f2f2f2;
 }
 
 /*********************** new module Name End **************************************/

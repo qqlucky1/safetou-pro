@@ -870,6 +870,16 @@
                         <div class="recommend-tab">
 
                         </div>
+
+                            <div class="c-tab-box bt-bottom-1 clearfix">
+                                <div class="tab-left">
+                                    <div class="tab-item"><span class="tab-cli tab-cli-current">推荐注册（5人） </span></div>
+                                    <div class="tab-item mid-line"></div>
+                                    <div class="tab-item"><span class="tab-cli"> 推荐投资（4）</span></div>
+                                    <div class="tab-item mid-line"></div>
+                                    <div class="tab-item"><span class="tab-cli"> 推荐融资（1）</span></div>
+                                </div>
+                             </div>
                         <div class="tab-tj">
                         <table class="account-tb clearfix">
                             <tbody><tr><th>注册时间</th>
@@ -921,6 +931,7 @@
                             </div>
 
                         </div>
+
                     </div>
 
                 </div>
@@ -1478,11 +1489,13 @@
                 <div class="c-page-cz" style="display: none">
                     <div class="right-pd-c" style="display: block;">
                         <!--头部tab-->
-                        <div class="cz-header-box"></div>
+                        <div class="cz-header-box">
+
+                        </div>
                         <!--tab内容-->
                         <div class="cz-tab-items">
                             <!--tab1-->
-                            <div class="cz-tab-item"></div>
+                            <div class="cz-tab-item">111</div>
                             <!--tab2-->
                             <div class="cz-tab-item"></div>
                             <!--tab3-->
@@ -1590,6 +1603,11 @@
                 $(showName).css('display','block');
             }
         });
+        $('.c-btn-cz').click(function(){
+            $('.c-pages>div').css('display','none');
+            $('.c-page-cz').css('display','block');
+        });
+
     });
 </script>
 </html>
