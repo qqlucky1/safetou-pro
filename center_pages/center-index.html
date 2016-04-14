@@ -1476,7 +1476,7 @@
                 </div>
                 <div class="c-page10" style="display: none"></div>
                 <div class="c-page-cz" style="display: none">
-                    <div class="right-pd-c" style="display: block;">
+                    <div class="cz-main-box" style="display: block;">
                         <!--头部tab-->
                         <div class="cz-header-box"></div>
                         <!--tab内容-->
@@ -1484,7 +1484,9 @@
                             <!--tab1-->
                             <div class="cz-tab-item"></div>
                             <!--tab2-->
-                            <div class="cz-tab-item"></div>
+                            <div class="cz-tab-item">
+                                123
+                            </div>
                             <!--tab3-->
                             <div class="cz-tab-item"></div>
                         </div>
@@ -1590,6 +1592,10 @@
                 $(showName).css('display','block');
             }
         });
+    });
+    $('.c-btn-cz').click(function(){
+        $('.c-pages>div').css('display','none');
+        $('.c-page-cz').css('display','block');
     });
 </script>
 </html>
