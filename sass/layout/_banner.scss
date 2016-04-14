@@ -57,6 +57,16 @@
     color: #a0a0a0;
   font-size: 14px;
 }
+ .cate-title-list .fore1, .cate-title-list .fore1 .cate_mt{
+  border-top: 1px solid #fff;
+}
+.cate_title_list .cate-m:hover .current{
+  border-top: 1px solid #fff;
+
+  margin: 0 20px;
+
+  cursor: pointer;
+}
 .btn-jx-box{
   display: inline-block;
   text-align:center;
@@ -79,6 +89,7 @@
     left: 210px;
     position: absolute;
     top: 0;
+    display: none;
   }
   & .cate_item{
     padding: 0 25px;
