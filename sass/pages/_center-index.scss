@@ -353,17 +353,17 @@ $fontColora0a0a0:#a0a0a0;
 }
 
 .authentication-icom { clear: both;position: relative; top: 10px;}
-.authentication-icom i { display: inline-block; width: 35px; height: 30px; background-image: url("../images/right-accred-icom.png");  background-repeat: no-repeat;}
-.aut-tx { background-position: 0px 0px; }
-.aut-phone { background-position: 0px -47px; }
-.aut-lock { background-position: 0px -94px; }
-.aut-mail { background-position: 0px -142px; }
-.aut-bank { background-position: 0px -189px; }
-.gray-tx { background-position:0px -231px }
-.gray-phone { background-position:0px -277px; }
-.gray-lock { background-position: 0px -325px; }
-.gray-mail { background-position: 0px -372px; }
-.gray-bank { background-position: 0px -419px; }
+.authentication-icom i { display: inline-block; width: 30px; height: 30px; background-image: url("../images/right-accred-icom.png");  background-repeat: no-repeat;}
+.aut-tx { background-position: 0px 0px;}
+.aut-phone {background-position: 0px -37px; }
+.aut-lock {background-position: 0px -73px; }
+.aut-mail { background-position: 0px -110px; }
+.aut-bank { background-position: 0px -146px; }
+.gray-tx { background-position:0px 0px }
+.gray-phone { background-position:-32px -37px; }
+.gray-lock { background-position: -32px -73px; }
+.gray-mail { background-position: -32px -110px; }
+.gray-bank { background-position: -32px -146px;}
 ._tx{left:10px;}
 ._email{left:124px;}
 ._cash{left:143px;}
@@ -885,7 +885,7 @@ $c-f2f2f2:#f2f2f2;
  *@desc:推荐奖励主页样式
  *@time:2016/4/13 11:59
  **/
-.c-page8{
+.c-page9{
   font-size: 14px;
   color: $c-5e5e5e;
   .tjjl-money-box{
@@ -1655,6 +1655,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
 .account-tb td a{
    cursor: pointer;
    text-align: center;
+  position: relative;
   span.hk-jh{
   background: sprite($tz-jlv,calendar);
   @include sprite-background-position($tz-jlv,calendar);
@@ -1680,5 +1681,124 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
     display: inline-block;
   }
 }
+
+ /*********************** new module Name End **************************************/
+
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc: tjgl
+ *@time:2016/4/13 15:42
+ **/
+.tj-img{
+  padding-top: 25px;
+}
+.share-way{
+  margin: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  padding-bottom: 20px;
+  li{
+    float: left;
+    border-right: 1px solid #e5e5e5;
+  }
+  .share-way-item{
+    padding: 5px 15px 0px 5px;
+    .title-item{
+      font-size: 18px;
+      color: #4c4c4c;
+      text-align: center;
+    }
+    .input{
+      text-align: center;
+
+      input{
+        width: 320px;
+        height: 30px;
+        border:1px solid  #ededed;
+        font-size: 13px;
+        color: #a0a0a0;
+        margin-top: 40px;
+      }
+      .short-text{
+      width: 200px;
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+    .title-text{
+      color: #a0a0a0;
+      font-size: 14px;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .img-center{
+      text-align: center;
+    }
+
+    .btn-border{
+      text-align: center;
+      margin: 40px 0 12px;
+      .copy-i{
+        background: url(../images/copy-icons.png) no-repeat 4px 8px;
+        width: 77px;
+        display: inline-block;
+        padding-left: 19px;
+        border: 1px solid #fdb323;
+        height: 34px;
+        line-height: 34px;
+        border-radius: 2px;
+        color: #4c4c4c;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      a{
+        display: inline-block;
+        width: 102px;
+        height: 32px;
+        border: 1px solid #fdb323;
+        text-align: center;
+        color:#fdb323;
+        line-height: 32px;
+        font-size: 14px;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+    }
+
+  }
+  .way-item2{
+    padding: 5px 15px 0px 15px;
+  }
+  .way-item3{
+    padding: 5px 15px 0px 15px;
+  }
+}
+.recommend-tab{
+  margin-top: 35px;
+}
+.tab-tj{
+  margin-top: 30px;
+}
+.pd-item-tui{
+  padding: 0px 20px;
+}
+.account-tb td a i{
+   background: url("../images/name-yz-img.png") no-repeat -999px -999px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  right: -48px;
+}
+
+.account-tb td a .n-yz-img01{
+  background-position: 0px 0px;
+}
+.account-tb td a .n-yz-img02{
+  background-position: 0px -24px;
+}
+
 
  /*********************** new module Name End **************************************/
