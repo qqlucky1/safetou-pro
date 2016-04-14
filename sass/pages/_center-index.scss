@@ -601,6 +601,7 @@ $c-5e5e5e:#5e5e5e;
 $c-ff9933:#ff9933;
 $c-e5e5e5:#e5e5e5;
 $c-a0a0a0:#a0a0a0;
+$c-f2f2f2:#f2f2f2;
 .c-page2{
   /*头部左text样式*/
   .left-text{
@@ -877,6 +878,224 @@ $c-a0a0a0:#a0a0a0;
 
  }
  /*********************** page7 Name End **************************************/
+
+/*********************** page8 main Start **************************************
+ *@moduleName:推荐奖励
+ *@author:Administrator
+ *@desc:推荐奖励主页样式
+ *@time:2016/4/13 11:59
+ **/
+.c-page8{
+  font-size: 14px;
+  color: $c-5e5e5e;
+  .tjjl-money-box{
+    //margin:0px 20px;
+  }
+  .money-items{
+    .money-item{
+      float: left;
+      height: 60px;
+      width: 316px;
+      text-align: center;
+      margin: 50px 0;
+    }
+    .mi-l1{
+      font-size: 26px;
+      color: #302f2b;
+      span{
+        font-size: 20px;
+      }
+    }
+    .mi-l2{
+      span{
+        color: $c-a0a0a0;
+      }
+    }
+  }
+  .tjjl-tab-box{
+    margin: 0 15px;
+    border-bottom: 1px solid $c-f2f2f2;
+  }
+}
+/*展开内容*/
+
+
+/*center tab内容表格样式*/
+.tab-table-box{
+  margin: 0 15px;
+  line-height: 80px;
+  .table-footer-box{
+    height: 60px;
+    line-height: 60px;
+  }
+  .tfooter-item{
+    float: right;
+    height: 60px;
+    .ksgz-t{
+      color: $c-ff9933;
+    }
+  }
+  .mid-line-font{
+    width: 40px;
+    text-align: center;
+  }
+  li{
+    min-height: 80px;
+    border-bottom: 1px solid $c-f2f2f2;
+  }
+  .tab-li-detail{
+    width: 920px;
+    margin-top: 70px;
+    line-height: 0px;
+    .li-detail-box{
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #e5e5e5;
+      @include border-radius(5px);
+      position: relative;
+      top: -22px;
+    }
+    .tr-th{
+      height: 35px;
+      background-color: #f6f6f6;
+      @include border-top-radius(5px);
+    }
+
+    .tr-td{
+      height: 40px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    /*内部展开表格*/
+    $th-width-list:120px 130px 110px 145px 120px 100px 145px;
+    @for $i from 1 through 7 {
+      .t-w-#{$i} {
+        @if $i == 1{
+          text-align: center;
+        }
+        width: nth($th-width-list,$i);height: 35px
+      }
+    }
+  }
+  .tab-li-item{
+    float: left;
+    .zkmx-btn{
+      @include inline-block;
+      width: 90px;
+      height: 28px;
+      border: 1px solid #ff9933;
+      @include border-radius(5px);
+      color: #ff9933;
+      line-height: 27px;
+      text-align: center;
+    }
+    .mid-text{
+      width: 728px;
+      text-align: center;
+    }
+    .date-box{
+      @include inline-block;
+      width: 100px;
+      height: 28px;
+      line-height: 27px;
+      @include border-radius(17px);
+      background-color: #fff6e5;
+      text-align: center;
+    }
+    span{
+      font-size: 14px;
+      color: $c-5e5e5e;
+    }
+    .item-text2{
+      font-size: 20px;
+      color: #302f2b;
+    }
+    .item-text3{
+      color: $c-a0a0a0;
+    }
+  }
+}
+
+/*奖励规则*/
+.jlgz-item{
+  color: #302f2b;
+  margin: 25px 15px 0px 15px;
+  .ques-t{
+    font-weight: bold;
+    color: #302f2b;
+  }
+  .ans-text{
+    line-height: 40px;
+    span{
+      color: $c-ff9933;
+    }
+  }
+  .ans-table{
+    margin-top: 30px;
+  }
+  .ans-th1{
+    width: 190px;
+    height: 40px;
+    span{
+      text-align: left;
+      display: block;
+      margin-left: 35px;
+    }
+  }
+  .ans-th2{
+    width: 130px;
+    height: 40px;
+  }
+  .ans-tr2{
+    height: 30px;
+    span{
+      text-align: left;
+      display: block;
+      margin-left: 10px;
+    }
+    .ans-tr2-1{
+      text-align: left;
+      display: block;
+      margin-left: 50px;
+    }
+  }
+}
+
+/*center tab 选择的样式*/
+.c-tab-box{
+  height: 30px;
+  .tab-cli{
+    color: #302f2b;
+    font-size: 14px;
+  }
+  .tab-left{
+    float: left;
+    font-weight: bold;
+    .tab-item{
+      float: left;
+    }
+    .tab-cli-current{
+      color:$c-ff9933;
+    }
+  }
+  .tab-right{
+    float: right;
+  }
+}
+/*中间线*/
+.mid-line{;
+  width: 1px;
+  height: 15px;
+  background-color: $c-a0a0a0;
+  margin: 4px 30px 0 30px;
+}
+/*两边加边框*/
+.bothSides-line{
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+ /*********************** page8 main End **************************************/
+
+
 
 /*********************** new module Name Start **************************************
  *@moduleName:
