@@ -443,6 +443,68 @@ a:active, a:focus {
   display: inline-block;
 }
 
+@font-face {
+  font-family: "iconfont";
+  src: url("iconsfont/iconfont.eot?t=1460617168");
+  /* IE9*/
+  src: url("iconsfont/iconfont.eot?t=1460617168#iefix") format("embedded-opentype"), url("iconsfont/iconfont.woff?t=1460617168") format("woff"), url("iconsfont/iconfont.ttf?t=1460617168") format("truetype"), url("iconsfont/iconfont.svg?t=1460617168#iconfont") format("svg");
+  /* iOS 4.1- */
+}
+/* line 9, ../sass/components/_fonticons.scss */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 17, ../sass/components/_fonticons.scss */
+.icon-yduizhengquekongxin:before {
+  content: "\e6a8";
+}
+
+/* line 18, ../sass/components/_fonticons.scss */
+.icon-yduiwenhao:before {
+  content: "\e69f";
+}
+
+/* line 19, ../sass/components/_fonticons.scss */
+.icon-yduisousuo:before {
+  content: "\e69a";
+}
+
+/* line 20, ../sass/components/_fonticons.scss */
+.icon-yduishanchu:before {
+  content: "\e696";
+}
+
+/* line 21, ../sass/components/_fonticons.scss */
+.icon-yduifuxuankuangxuanzhong:before {
+  content: "\e685";
+}
+
+/* line 22, ../sass/components/_fonticons.scss */
+.icon-yduifuxuankuang:before {
+  content: "\e686";
+}
+
+/* line 23, ../sass/components/_fonticons.scss */
+.icon-i-mail:before {
+  content: "\e602";
+}
+
+/* line 24, ../sass/components/_fonticons.scss */
+.icon-youxiang:before {
+  content: "\e61f";
+}
+
+/* line 25, ../sass/components/_fonticons.scss */
+.icon-yincangtubiao:before {
+  content: "\e616";
+}
+
 /* line 2, ../sass/layout/_footer.scss */
 .g-foot-w {
   background: #302f2b;
@@ -1190,22 +1252,40 @@ a:active, a:focus {
 }
 
 /* line 27, ../sass/layout/_navigation.scss */
+.nav-item-title li a i.icon {
+  font-size: 12px;
+}
+
+/* line 30, ../sass/layout/_navigation.scss */
+.nav-item-title li a:hover > .icon {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+}
+
+/* line 41, ../sass/layout/_navigation.scss */
 .logo-item-mn {
   margin-top: 20px;
 }
 
-/* line 28, ../sass/layout/_navigation.scss */
+/* line 42, ../sass/layout/_navigation.scss */
 .logo-nav-item {
   float: left;
   margin: 35px 0px 0px 220px;
 }
 
-/* line 29, ../sass/layout/_navigation.scss */
+/* line 43, ../sass/layout/_navigation.scss */
 .nav-item-title {
   float: left;
 }
 
-/* line 30, ../sass/layout/_navigation.scss */
+/* line 44, ../sass/layout/_navigation.scss */
 .nav-item-title > li {
   float: left;
   z-index: 1000;
@@ -1213,7 +1293,7 @@ a:active, a:focus {
   height: 50px;
 }
 
-/* line 31, ../sass/layout/_navigation.scss */
+/* line 45, ../sass/layout/_navigation.scss */
 .nav-item-title > li > a {
   padding: 0 28px;
   font-size: 16px;
@@ -1222,12 +1302,12 @@ a:active, a:focus {
   cursor: pointer;
 }
 
-/* line 32, ../sass/layout/_navigation.scss */
+/* line 46, ../sass/layout/_navigation.scss */
 .nav-item-title > li > a:hover {
   color: #ffa200;
 }
 
-/* line 33, ../sass/layout/_navigation.scss */
+/* line 47, ../sass/layout/_navigation.scss */
 .nav-item-title > li > a:hover > img {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -1239,7 +1319,7 @@ a:active, a:focus {
   -o-transform: rotate(90deg);
 }
 
-/* line 38, ../sass/layout/_navigation.scss */
+/* line 52, ../sass/layout/_navigation.scss */
 .user {
   float: left;
   height: 40px;
@@ -1248,7 +1328,7 @@ a:active, a:focus {
   margin-top: -6px;
 }
 
-/* line 39, ../sass/layout/_navigation.scss */
+/* line 53, ../sass/layout/_navigation.scss */
 .user a {
   display: inline-block;
   background: url('../images/base-s4a67ff6095.png') -100px -75px;
@@ -1262,14 +1342,14 @@ a:active, a:focus {
   text-decoration: none;
 }
 
-/* line 42, ../sass/layout/_navigation.scss */
+/* line 56, ../sass/layout/_navigation.scss */
 .user a:hover {
   background-position: 0 -75px;
   color: #fff;
 }
 
 /*二级导航*/
-/* line 45, ../sass/layout/_navigation.scss */
+/* line 59, ../sass/layout/_navigation.scss */
 .nav-dropdown {
   display: none;
   background: #FFF none repeat scroll 0% 0%;
@@ -1282,12 +1362,12 @@ a:active, a:focus {
   left: 11px;
 }
 
-/* line 46, ../sass/layout/_navigation.scss */
+/* line 60, ../sass/layout/_navigation.scss */
 .hover .active {
   display: block !important;
 }
 
-/* line 47, ../sass/layout/_navigation.scss */
+/* line 61, ../sass/layout/_navigation.scss */
 .nav-dropdown span {
   display: block;
   width: 11px;
@@ -1297,14 +1377,14 @@ a:active, a:focus {
   left: 52px;
 }
 
-/* line 48, ../sass/layout/_navigation.scss */
+/* line 62, ../sass/layout/_navigation.scss */
 .nav-dropdown-item {
   text-align: center;
   position: relative;
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 49, ../sass/layout/_navigation.scss */
+/* line 63, ../sass/layout/_navigation.scss */
 .nav-dropdown-item a {
   line-height: 30px;
   text-decoration: none;
@@ -1315,13 +1395,13 @@ a:active, a:focus {
   border-bottom: 1px solid #FFF;
 }
 
-/* line 50, ../sass/layout/_navigation.scss */
+/* line 64, ../sass/layout/_navigation.scss */
 .nav-dropdown-item a:hover {
   color: #ffa200;
   border-bottom: 1px solid #FFF;
 }
 
-/* line 51, ../sass/layout/_navigation.scss */
+/* line 65, ../sass/layout/_navigation.scss */
 .dline {
   height: 1px;
   width: 0px;
@@ -1331,12 +1411,12 @@ a:active, a:focus {
   left: 59px;
 }
 
-/* line 52, ../sass/layout/_navigation.scss */
+/* line 66, ../sass/layout/_navigation.scss */
 .nav-item-title li:hover > ul {
   display: block;
 }
 
-/* line 55, ../sass/layout/_navigation.scss */
+/* line 69, ../sass/layout/_navigation.scss */
 .nav-item-title .orange {
   color: #ff9933;
 }
@@ -4778,36 +4858,44 @@ a:active, a:focus {
  **/
 /* line 1693, ../sass/pages/_center-index.scss */
 .tj-img {
-  padding-top: 25px;
+  margin: 25px 0;
+  background: url("../images/tuij-img.png") no-repeat;
+  width: 947px;
+  height: 141px;
 }
 
-/* line 1696, ../sass/pages/_center-index.scss */
+/* line 1699, ../sass/pages/_center-index.scss */
+.lic-tj-img {
+  background: url("../images/lic-tuij-img.png") no-repeat;
+}
+
+/* line 1702, ../sass/pages/_center-index.scss */
 .share-way {
   margin: 20px 0;
   border-bottom: 1px solid #e5e5e5;
   overflow: hidden;
   padding-bottom: 20px;
 }
-/* line 1701, ../sass/pages/_center-index.scss */
+/* line 1707, ../sass/pages/_center-index.scss */
 .share-way li {
   float: left;
   border-right: 1px solid #e5e5e5;
 }
-/* line 1705, ../sass/pages/_center-index.scss */
+/* line 1711, ../sass/pages/_center-index.scss */
 .share-way .share-way-item {
   padding: 5px 15px 0px 5px;
 }
-/* line 1707, ../sass/pages/_center-index.scss */
+/* line 1713, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .title-item {
   font-size: 18px;
   color: #4c4c4c;
   text-align: center;
 }
-/* line 1712, ../sass/pages/_center-index.scss */
+/* line 1718, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input {
   text-align: center;
 }
-/* line 1715, ../sass/pages/_center-index.scss */
+/* line 1721, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input input {
   width: 320px;
   height: 30px;
@@ -4816,29 +4904,29 @@ a:active, a:focus {
   color: #a0a0a0;
   margin-top: 40px;
 }
-/* line 1723, ../sass/pages/_center-index.scss */
+/* line 1729, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .input .short-text {
   width: 200px;
   margin-top: 20px;
   text-align: center;
 }
-/* line 1729, ../sass/pages/_center-index.scss */
+/* line 1735, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .title-text {
   color: #a0a0a0;
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
 }
-/* line 1735, ../sass/pages/_center-index.scss */
+/* line 1741, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .img-center {
   text-align: center;
 }
-/* line 1739, ../sass/pages/_center-index.scss */
+/* line 1745, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border {
   text-align: center;
   margin: 40px 0 12px;
 }
-/* line 1742, ../sass/pages/_center-index.scss */
+/* line 1748, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border .copy-i {
   background: url(../images/copy-icons.png) no-repeat 4px 8px;
   width: 77px;
@@ -4852,7 +4940,7 @@ a:active, a:focus {
   font-size: 14px;
   cursor: pointer;
 }
-/* line 1755, ../sass/pages/_center-index.scss */
+/* line 1761, ../sass/pages/_center-index.scss */
 .share-way .share-way-item .btn-border a {
   display: inline-block;
   width: 102px;
@@ -4865,31 +4953,31 @@ a:active, a:focus {
   border-radius: 2px;
   cursor: pointer;
 }
-/* line 1770, ../sass/pages/_center-index.scss */
+/* line 1776, ../sass/pages/_center-index.scss */
 .share-way .way-item2 {
   padding: 5px 15px 0px 15px;
 }
-/* line 1773, ../sass/pages/_center-index.scss */
+/* line 1779, ../sass/pages/_center-index.scss */
 .share-way .way-item3 {
   padding: 5px 15px 0px 15px;
 }
 
-/* line 1777, ../sass/pages/_center-index.scss */
+/* line 1783, ../sass/pages/_center-index.scss */
 .recommend-tab {
   margin-top: 35px;
 }
 
-/* line 1780, ../sass/pages/_center-index.scss */
+/* line 1786, ../sass/pages/_center-index.scss */
 .tab-tj {
   margin-top: 30px;
 }
 
-/* line 1783, ../sass/pages/_center-index.scss */
+/* line 1789, ../sass/pages/_center-index.scss */
 .pd-item-tui {
   padding: 0px 20px;
 }
 
-/* line 1786, ../sass/pages/_center-index.scss */
+/* line 1792, ../sass/pages/_center-index.scss */
 .account-tb td a i {
   background: url("../images/name-yz-img.png") no-repeat -999px -999px;
   display: inline-block;
@@ -4900,12 +4988,12 @@ a:active, a:focus {
   right: -48px;
 }
 
-/* line 1796, ../sass/pages/_center-index.scss */
+/* line 1802, ../sass/pages/_center-index.scss */
 .account-tb td a .n-yz-img01 {
   background-position: 0px 0px;
 }
 
-/* line 1799, ../sass/pages/_center-index.scss */
+/* line 1805, ../sass/pages/_center-index.scss */
 .account-tb td a .n-yz-img02 {
   background-position: 0px -24px;
 }
