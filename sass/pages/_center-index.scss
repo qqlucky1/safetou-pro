@@ -856,6 +856,90 @@ $c-f2f2f2:#f2f2f2;
   text-align: center;
 }
 $c-e35848:#e35848;
+.inl-bl{
+  @include inline-block;
+}
+.zhye-t-l{
+  font-size: 20px;
+  color: #ff9933;
+}
+.wjmm-sign-t{
+  color: $c-ff9933;
+}
+.both-pad{
+  padding:0 10px;
+}
+.checkCode-group{
+  @include inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  color: #302f2b;
+  .cg-btn{
+    border:1px solid $c-e5e5e5;
+    width: 160px;
+    height: 38px;
+    background-color: #fff;
+    .cg-g{
+
+    }
+  }
+}
+.sign-t-box{
+  margin: 5px 0 0 85px;
+  .sign-t-o{
+    color: $c-ff9933;
+  }
+  .sign-t-b{
+    color: $c-5e5e5e;
+  }
+}
+.txk-only{
+  vertical-align: top !important;
+  padding-right: 10px !important;
+}
+.bank-info-box{
+  width: 300px;
+  height: 180px;
+  border: 1px solid #e3e3e3;
+  @include border-radius(10px);
+  overflow: hidden;
+  .card-img-box{
+    height: 85px;
+    .ci-left-img{
+      width: 65px;
+      height: 85px;
+      float: left;
+    }
+    .card-info{
+      float: left;
+      margin-top: 25px;
+    }
+    .cn-t1{
+      font-size: 16px;
+      color: #666;
+    }
+    .cn-t2{
+      color: #666;
+      font-size: 12px;
+    }
+
+  }
+  .card-num{
+    height: 55px;
+    text-align: center;
+  }
+  .cn-t3{
+    color:#666 ;
+    font-size: 24px;
+  }
+  .card-other{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #e8e8e8;
+    color: $c-ff9933;
+  }
+}
 .cz-main-box{
   margin:25px 50px;
   font-size: 14px;
@@ -871,49 +955,6 @@ $c-e35848:#e35848;
     .b3-b{
       margin-bottom: 30px;
       display: block;
-    }
-    .bank-info-box{
-      width: 300px;
-      height: 180px;
-      border: 1px solid #e3e3e3;
-      @include border-radius(10px);
-      overflow: hidden;
-    }
-    .card-img-box{
-      height: 85px;
-      .ci-left-img{
-        width: 65px;
-        height: 85px;
-        float: left;
-      }
-      .card-info{
-        float: left;
-        margin-top: 25px;
-      }
-      .cn-t1{
-        font-size: 16px;
-        color: #666;
-      }
-      .cn-t2{
-        color: #666;
-        font-size: 12px;
-      }
-
-    }
-    .card-num{
-      height: 55px;
-      text-align: center;
-    }
-    .cn-t3{
-      color:#666 ;
-      font-size: 24px;
-    }
-    .card-other{
-      height: 40px;
-      text-align: center;
-      line-height: 40px;
-      background-color: #e8e8e8;
-      color: $c-ff9933;
     }
   }
   .agree-con{
@@ -1401,7 +1442,18 @@ $c-e35848:#e35848;
 }
  /*********************** page8 main End **************************************/
 
+/*********************** txpage Name Start **************************************
+ *@moduleName:提现
+ *@author:Administrator
+ *@desc:
+ *@time:2016/4/15 16:24
+ **/
+.tx-main-box{
+  margin: 0px 50px;
+  font-size: 14px;
+}
 
+ /*********************** txpage Name End **************************************/
 
 /*********************** new module Name Start **************************************
  *@moduleName:

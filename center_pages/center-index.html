@@ -1789,6 +1789,86 @@
                         </div>
                     </div>
                 </div>
+                <div class="c-page-tx" style="display: none">
+                    <div class="right-pd-c" style="display: block;">
+                        <div class="title clearfix">
+                            <h3 class="title-text">提现</h3>
+                        </div>
+                    </div>
+                    <div class="tx-main-box" style="display: block;">
+                        <div class="tx-tab-item" style="display: block;">
+                            <div class="zc-money" style="padding-top: 15px;">
+                                <span class="right-f1 txk-only">提现银行卡</span>
+                                <div class="bank-info-box inl-bl">
+                                    <!--已经添加银行卡-->
+                                    <div class="bib-item" style="display: block;">
+                                        <div class="card-img-box clearfix">
+                                            <div class="ci-left-img"></div>
+                                            <div class="card-info">
+                                                <div><span class="cn-t1">工商银行</span></div>
+                                                <div><span class="cn-t2">储蓄卡</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-num">
+                                            <span class="cn-t3">**** **** **** 8311</span>
+                                        </div>
+                                        <div class="card-other">
+                                            <a href="#" class="other-card">更换绑定银行卡</a>
+                                        </div>
+                                    </div>
+                                    <!--没有添加银行卡-->
+                                    <div class="bib-item" style="display: none;">
+                                        <span class="bi-t1">+</span>
+                                        <span class="bi-t2">您尚未绑定快捷支付卡</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="zc-money">
+                                <span class="right-f1">账户余额</span>
+                                <span class="zhye-t-l">132640 <small>.00</small></span>
+                                <span class="dy-text">&nbsp;&nbsp;元</span>
+                            </div>
+                            <div class="zc-money">
+                                <span class="right-f1">提现金额</span>
+                                <input class="money-text" type="text" value="">
+                                <span class="dy-text">&nbsp;&nbsp;元</span>
+                                <div class="sign-t-box"><span class="sign-t-o">全额提现 </span><span class="sign-t-b">提现手续费2元/笔</span></div>
+                            </div>
+                            <div class="zc-money" style="padding-top: 15px;">
+                                <span class="right-f1" >交易密码</span>
+                                <input class="money-text" type="text" value="">
+                                <span class="wjmm-sign-t"><a href="#">&nbsp;&nbsp;忘记密码？</a></span>
+                            </div>
+
+                            <div class="zc-money ">
+                                <span class="right-f1 ft-left">短信验证 </span>
+                                <div class="bank" style="margin-left: 4px;">
+                                    <div class="clearfix">
+                                        <input class="money-text" type="text" value="">
+                                        <div class="checkCode-group">
+                                            <button href="#" class="cg-btn"><span class="cg-g">获取短信验证码</span></button>
+                                            <span class="both-pad">或</span>
+                                            <button href="#" class="cg-btn"><span class="cg-g">获取语音验证码</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="limit-illust clearfix">
+                                        <div class="rech-btn-text" style="margin-top: 10px;">
+                                            <i href="" class="btn-qr">提现</i> <span class="bd-text" style="margin-right: 10px">绑定微信，接收提现结果通知</span><i class="img-weixin-s"><img src="../images/weixin-icon1.png"><div class="saoma"><img src="../images/weixin-m.png"> </div></i>
+                                        </div>
+                                        <div class="wenxin-prompt">
+                                            <p class="title">* 温馨提示</p>
+                                            <p class="text-c">1. 您需要完成实名认证，交易密码设置以及银行卡绑卡设置后，方可进行提现操作；<br/>
+                                                2. 提现手续费2元/笔，该费用由银行收取；<br/>
+                                                3. 提现必须为银行借记卡，不支持存折、信用卡提现；<br/>
+                                                4. 信用卡套现、虚假交易等行为，一经发现将予以处罚；<br/>
+                                                5. 如您的提现金额没有在一个工作日内到帐，请联系客服400-801-8131。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -1889,16 +1969,17 @@
                 $(showName).css('display','block');
             }
         });
-        $('.c-btn-cz').click(function(){
-            $('.c-pages>div').css('display','none');
-            $('.c-page-cz').css('display','block');
-        });
-
     });
 
-/*    $('.c-btn-cz').click(function(){*/
+    $('.c-btn-cz').click(function(){
         $('.c-pages>div').css('display','none');
         $('.c-page-cz').css('display','block');
-  /*  });*/
+    });
+
+    $('.c-btn-tx').click(function(){
+        $('.c-pages>div').css('display','none');
+        $('.c-page-tx').css('display','block');
+    });
+
 </script>
 </html>
