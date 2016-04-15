@@ -801,9 +801,299 @@ $c-f2f2f2:#f2f2f2;
  *@desc:充值
  *@time:2016/4/14 16:40
  **/
+
+/*公共表单样式*/
+.input-p{
+  height: 35px;
+  border: 1px solid #e9e9e9;
+  padding-left: 10px;
+  @include border-radius(2px);
+  @include box-sizing(border-box);
+}
+.select-k{
+  height: 32px;
+  padding-left: 10px;
+  @include border-radius(2px);
+  @include box-sizing(border-box);
+  background-color: #fcae26;
+  color: #fff;
+  border-color: #fcae26;
+  cursor: pointer;
+  option{
+    color: #000;
+    background-color: #fff;
+  }
+}
+.select-default{
+  @include border-radius(2px);
+  border:1px solid #fee1a7;
+  color: #6F6F6F;
+  height: 35px;
+  margin-right: 6px;
+  option{
+    color: #000;
+    background-color: #fff;
+  }
+}
+.getCheckCode-btn{
+  @include inline-block;
+  width: 105px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  position: relative;
+  top: -2px;
+  left: -5px;
+  background-color: #eee;
+  span{
+    display: block;
+    text-align: center;
+    line-height: 31px;
+    margin: 0 !important;
+    color: $c-5e5e5e;
+    font-weight: normal !important;
+  }
+}
+
+/*最下边提示信息*/
+.add-info-box{
+  border-top:1px solid $c-e5e5e5;
+  padding-top: 35px;
+  span{
+    color: $c-ff9933;
+  }
+  ul{
+    margin-top: 10px;
+  }
+  li{
+    color: $c-5e5e5e;
+    line-height: 26px;
+  }
+}
+
+.c-btn-style{
+  display: block;
+  width: 300px;
+  height: 40px;
+  @include border-radius(5px);
+  background-color: #fcae26;
+  color: #fff;
+  font-size: 16px;
+  line-height: 38px;
+  text-align: center;
+}
+$c-e35848:#e35848;
 .cz-main-box{
   margin:25px 50px;
+  font-size: 14px;
+  .bank-box3{
+    .left-title-t{
+      width: 80px;
+      font-weight: bold;
+      color: #302f2b;
+    }
+    .w-300{
+      width: 300px;
+    }
+    .b3-b{
+      margin-bottom: 30px;
+      display: block;
+    }
+    .bank-info-box{
+      width: 300px;
+      height: 180px;
+      border: 1px solid #e3e3e3;
+      @include border-radius(10px);
+      overflow: hidden;
+    }
+    .card-img-box{
+      height: 85px;
+      .ci-left-img{
+        width: 65px;
+        height: 85px;
+        float: left;
+      }
+      .card-info{
+        float: left;
+        margin-top: 25px;
+      }
+      .cn-t1{
+        font-size: 16px;
+        color: #666;
+      }
+      .cn-t2{
+        color: #666;
+        font-size: 12px;
+      }
+
+    }
+    .card-num{
+      height: 55px;
+      text-align: center;
+    }
+    .cn-t3{
+      color:#666 ;
+      font-size: 24px;
+    }
+    .card-other{
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      background-color: #e8e8e8;
+      color: $c-ff9933;
+    }
+  }
+  .agree-con{
+    margin-top:30px;
+    font-size: 14px;
+    .agree-item1{
+
+    }
+    .agree-item2{
+      margin-left: 15px;
+      color: $c-a0a0a0;
+    }
+    .agree-item3{
+      color: $c-ff9933;
+
+    }
+  }
+  .card-box-con{
+    width: 790px;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 40px;
+    .cz-t-c{
+      padding: 0px !important;
+      text-align: center !important;
+    }
+  }
+  .mb-m{
+    margin-bottom: 10px;
+  }
+  .bank-box2{
+    color: #302f2b;
+    .i-k{
+      width: 320px;
+    }
+    .i-m{
+      width: 100px;
+    }
+    .i-z{
+      width: 215px;
+    }
+    .f-title{
+      height: 30px;
+      border-bottom:1px solid $c-e5e5e5;
+    }
+    li{
+      height: 40px;
+      margin-top: 30px;
+      span{
+        font-weight: bold;
+        margin-right: 20px;
+      }
+    }
+    .next-box{
+      margin: 30px 0 0 80px;
+    }
+  }
+
+
+  .box1-item3{
+    margin-left: 80px;
+    .add-btn-box{
+      margin: 45px 0;
+    }
+  }
+  .add-btn{
+    margin:45px 0 ;
+  }
+  .cz-bank-box{
+    font-size: 14px;
+    .bi-t1{
+      display: block;
+      font-size: 88px;
+      @include border-radius(47px);
+      border: 3px solid #e3e3e3;
+      width: 85px;
+      height: 85px;
+      color: #e3e3e3;
+      margin: 27px 0 20px 105px;
+      line-height: 73px;
+    }
+    .bi-t2{
+      color: $c-a0a0a0;
+    }
+    .box1-item1{
+      width: 80px;
+      float: left;
+      color: #302f2b;
+      font-weight: bold;
+    }
+    .box1-item2{
+      float: left;
+      width: 300px;
+      height: 180px;
+      @include border-radius(10px);
+      border:1px solid #e9e9e9;
+      text-align: center;
+    }
+  }
+
+  .sm-info-box{
+    @include border-radius(3px);
+    border:1px solid #ccc;
+    font-size: 14px;
+    margin: 30px 0 45px 0;
+  }
+
+  .sm-right{
+    width: 453px;
+    height: 58px;
+    float: left;
+    border-left: 1px solid #ccc;
+    background-color: #e8e8e8;
+    .smr-img{
+      width: 75px;
+      height: 58px;
+      float: left;
+    }
+    .smr-t{
+      float: right;
+      width: 357px;
+      color: #302f2b;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  }
+
+  .sm-left{
+    float: left;
+    width: 430px;
+    height: 58px;
+    .sml-t1{
+      color: $c-a0a0a0;
+      @include inline-block;
+      margin-left: 30px;
+      width: 90px;
+      padding: 20px 15px;
+    }
+    .sml-t2{
+      color: $c-e35848;
+      @include inline-block;
+      width: 45px;
+      padding: 20px 15px;
+    }
+    .sml-t3{
+      color: $c-e35848;
+      @include inline-block;
+      width: 150px;
+      padding: 20px 15px;
+    }
+  }
+
 }
+
  /*********************** page-cz-middle Name End **************************************/
 
 /*********************** page7 Name Start **************************************
@@ -1723,6 +2013,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
   width: 947px;
   height: 141px;
 }
+
 .lic-tj-img{
   background: url("../images/lic-tuij-img.png") no-repeat;
 }
@@ -1832,6 +2123,245 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
 .account-tb td a .n-yz-img02{
   background-position: 0px -24px;
 }
+.bt-bottom-1{
+ border-bottom: 1px solid #f2f2f2;
+}
+
+ /*********************** new module Name End **************************************/
+
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:cz-tab-head
+ *@time:2016/4/14 17:08
+ **/
+.cz-header-tab{
+  height: 35px;
+  border-bottom: 1px solid #e5e5e5;
+  li{
+    float: left;
+    padding: 0px 28px 0px 0px;
+  }
+   li a{
+     display: inline-block;
+    font-size: 16px;
+    color: #302f2b;
+    padding: 0px 10px;
+    cursor: pointer;
+    height: 34px;
+  }
+  li a.no-pd0{
+    padding-left: 4px;
+  }
+  li a.cur-tab{
+    border-bottom: 3px solid  #fdb323;
+  }
+}
 
 
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:wy-con
+ *@time:2016/4/14 17:49
+ **/
+.zc-money {
+  padding-top: 35px;
+  span{
+    display: inline-block;
+    color: #302f2b;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 24px;
+  }
+  span.ft-left{
+    float: left;
+  }
+  .money-text{
+    width: 300px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    padding-left: 5px;
+    @include  border-radius(2px);
+  }
+}
+.bank {
+  float: left;
+  width: 728px;
+
+  .line-bottom{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  a{
+    display: inline-block;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 128px;
+    height: 37px;
+    border: 1px solid #e5e5e5;
+    }
+   a>u{
+     background: url("../images/bank_27f07db.png") no-repeat -999px -999px;
+     display: inline-block;
+     width: 128px;
+     height: 37px;
+     text-decoration: none;
+     text-align: center;
+     vertical-align: middle;
+   }
+  a.selected{
+    border-color: transparent;
+    background: url("../images/bank_27f07db.png") no-repeat -3px -1125px;
+  }
+
+  u.gs{
+    background-position: 0px -199px;
+  }
+  u.nongye{
+    background-position: 0px -158px;
+  }
+  u.china{
+    background-position: 0px -114px;
+  }
+  u.jianshe{
+    background-position: 0px -242px;
+  }
+  u.zhaoshang{
+    background-position: 0px -159px;
+  }
+  u.jiaotong{
+    background-position: 0px -493px;
+  }
+  u.pufa{
+    background-position: 9px -534px;
+  }
+  u.guangfa{
+    background-position: 5px -577px;
+  }
+
+  u.minsheng{
+    background-position: 2px -410px;
+  }
+  u.xingye{
+    background-position: 6px -705px;
+  }
+  u.guangda{
+    background-position: 9px -368px;
+  }
+  u.shenzhen{
+    background-position: 2px -663px;
+  }
+  u.pingan{
+    background-position: 0px -325px;
+  }
+  u.zhongxin{
+    background-position: -2px -620px;
+  }
+  u.yzhchx{
+    background-position: 2px -450px;
+  }
+  u.bj{
+    background-position: 0px -829px;
+  }
+  u.bohai{
+    background-position: 7px -1038px;
+  }
+  u.nongcun{
+    background-position: 2px -285px;
+  }
+  u.nanjing{
+    background-position: 5px -913px;
+  }
+  u.dongya{
+    background-position: 8px -747px;
+  }
+  u.ningbo{
+    background-position: 0px -787px;
+  }
+  u.zheshang{
+    background-position: 11px -1081px;
+  }
+}
+.limit-illust{
+  margin-top: 20px;
+  .text-remark{
+    color: #a0a0a0;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+.limit-box{
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  line-height: 30px;
+  font-size: 14px;
+  color: #a0a0a0;
+  th{
+    background:#e5e5e5;
+    color: #302f2b;
+    height: 30px;
+      }
+  td{
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    padding-left: 20px;
+  }
+
+}
+.rech-btn-text {
+  margin-top: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 30px;
+  .bd-text {
+    display: inline-block;
+    margin: 15px 0 0 21px;
+    color: #5e5e5e;
+    font-weight: inherit;
+    position: relative;
+  }
+  span.bd-text:hover {
+    color: #84c84d;
+  }
+  .btn-qr {
+    display: inline-block;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    background: $fontColorff9933;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+  }
+  .img-weixin-s {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .img-weixin-s img:hover > div img {
+    display: block;
+  }
+.saoma {
+    position: absolute;
+    top: 21px;
+    right: -111px;
+    display: none;
+  }
+}
+.wenxin-prompt{
+  margin: 30px 0  50px 0;
+ .title{
+   color: $fontColorff9933;
+   font-size: 14px;
+ }
+  .text-c{
+    color: #5e5e5e;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
  /*********************** new module Name End **************************************/
