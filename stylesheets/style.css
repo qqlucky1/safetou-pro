@@ -419,15 +419,15 @@ a:active, a:focus {
   display: inline-block;
 }
 
-/* line 88, ../images/pop-img/*.png */
+/* line 96, ../images/pop-img/*.png */
 .pop-img-sprite {
-  background-image: url('../images/pop-img-saa9b891fad.png');
+  background-image: url('../images/pop-img-sfe2705115f.png');
   background-repeat: no-repeat;
 }
 
 /* line 49, ../sass/components/_icons.scss */
 .sprite {
-  background: transparent url('../images/pop-img-s6b914c7cb8.png') no-repeat 0 0;
+  background: transparent url('../images/pop-img-s0a61a03049.png') no-repeat 0 0;
   display: inline-block;
 }
 
@@ -2467,7 +2467,7 @@ a:active, a:focus {
 /* line 30, ../sass/layout/_popup.scss */
 .popup-con .popup-title .close {
   display: inline-block;
-  background: url('../images/pop-img-s6b914c7cb8.png') 0 0;
+  background: url('../images/pop-img-s0a61a03049.png') 0 0;
   background-position: 0 0;
   height: 11px;
   width: 11px;
@@ -2597,6 +2597,12 @@ a:active, a:focus {
   color: #302f2b;
 }
 /* line 148, ../sass/layout/_popup.scss */
+.popup-con .pop-item .short-item .white-wid {
+  background: #fff;
+  color: #302f2b;
+  border: 1px solid #e5e5e5;
+}
+/* line 153, ../sass/layout/_popup.scss */
 .popup-con .input-text .get-y {
   width: 120px;
   height: 40px;
@@ -2610,37 +2616,37 @@ a:active, a:focus {
   border-left: 1px solid #e5e5e5;
   cursor: pointer;
 }
-/* line 161, ../sass/layout/_popup.scss */
+/* line 166, ../sass/layout/_popup.scss */
 .popup-con .input-box .prompt {
   font-size: 14px;
   color: #a0a0a0;
   text-align: left;
   margin: 5px 0px 0px 45px;
 }
-/* line 167, ../sass/layout/_popup.scss */
+/* line 172, ../sass/layout/_popup.scss */
 .popup-con .input-box .pd-left-text {
   padding-left: 9px;
 }
-/* line 171, ../sass/layout/_popup.scss */
+/* line 176, ../sass/layout/_popup.scss */
 .popup-con .input-box .prompt .prom-icon {
   display: inline-block;
-  background: url('../images/pop-img-s6b914c7cb8.png') 0 -11px;
+  background: url('../images/pop-img-s0a61a03049.png') 0 -11px;
   background-position: 0 -11px;
   height: 14px;
   width: 16px;
   cursor: pointer;
 }
-/* line 179, ../sass/layout/_popup.scss */
+/* line 184, ../sass/layout/_popup.scss */
 .popup-con .input-box .prompt i {
   color: #ff9933;
   cursor: pointer;
 }
-/* line 183, ../sass/layout/_popup.scss */
+/* line 188, ../sass/layout/_popup.scss */
 .popup-con .input-text a {
   width: 299px;
   height: 40px;
 }
-/* line 188, ../sass/layout/_popup.scss */
+/* line 193, ../sass/layout/_popup.scss */
 .popup-con .input-text .p-user {
   width: 300px;
   height: 40px;
@@ -2652,24 +2658,24 @@ a:active, a:focus {
   font-size: 16px;
   cursor: pointer;
 }
-/* line 199, ../sass/layout/_popup.scss */
+/* line 204, ../sass/layout/_popup.scss */
 .popup-con .input-text .p-user:hover {
   border: 1px solid #ff9933;
   color: #ff9933;
 }
-/* line 203, ../sass/layout/_popup.scss */
+/* line 208, ../sass/layout/_popup.scss */
 .popup-con .input-text .g-user {
   border: 1px solid #ff9933;
   color: #ff9933;
 }
-/* line 207, ../sass/layout/_popup.scss */
+/* line 212, ../sass/layout/_popup.scss */
 .popup-con .input-text .sel-user-text {
   text-align: left;
   font-size: 16px;
   color: #302f2b;
   margin-left: 54px;
 }
-/* line 213, ../sass/layout/_popup.scss */
+/* line 218, ../sass/layout/_popup.scss */
 .popup-con .input-box .prom-item {
   text-align: left;
   width: 290px;
@@ -2680,59 +2686,59 @@ a:active, a:focus {
   margin: 20px 0 0 51px;
   border-radius: 2px;
 }
-/* line 224, ../sass/layout/_popup.scss */
+/* line 229, ../sass/layout/_popup.scss */
 .popup-con .input-box .prom-item span {
   color: #ff9933;
 }
 
 /*end----main*/
 /*交易密码*/
-/* line 234, ../sass/layout/_popup.scss */
+/* line 239, ../sass/layout/_popup.scss */
 .popup-con .pop-item .propm-top {
   width: 400px;
   margin-top: 4px;
   border-radius: 2px;
 }
-/* line 240, ../sass/layout/_popup.scss */
+/* line 245, ../sass/layout/_popup.scss */
 .popup-con .pop-item .propm-top .prom-icon {
   display: inline-block;
-  background: url('../images/pop-img-s6b914c7cb8.png') 0 -11px;
+  background: url('../images/pop-img-s0a61a03049.png') 0 -11px;
   background-position: 0 -11px;
   height: 14px;
   width: 16px;
   cursor: pointer;
 }
-/* line 247, ../sass/layout/_popup.scss */
+/* line 252, ../sass/layout/_popup.scss */
 .popup-con .pop-item .propm-top i {
   margin-left: 6px;
 }
-/* line 250, ../sass/layout/_popup.scss */
+/* line 255, ../sass/layout/_popup.scss */
 .popup-con .pop-item .grade-i {
   padding: 20px 0 10px;
 }
-/* line 253, ../sass/layout/_popup.scss */
+/* line 258, ../sass/layout/_popup.scss */
 .popup-con .pop-item .grade-i .grade-i-item {
   display: inline-block;
-  background: url('../images/pop-img-s6b914c7cb8.png') 0 -39px;
-  background-position: 0 -39px;
+  background: url('../images/pop-img-s0a61a03049.png') 0 -112px;
+  background-position: 0 -112px;
   height: 14px;
   width: 300px;
   cursor: pointer;
 }
-/* line 260, ../sass/layout/_popup.scss */
+/* line 265, ../sass/layout/_popup.scss */
 .popup-con .pop-item .pd-top1 {
   padding-top: 10px;
 }
-/* line 263, ../sass/layout/_popup.scss */
+/* line 268, ../sass/layout/_popup.scss */
 .popup-con .pop-item .input-text .red-border {
   border: 1px solid red;
 }
-/* line 266, ../sass/layout/_popup.scss */
+/* line 271, ../sass/layout/_popup.scss */
 .popup-con .pop-item .input-text .red-color {
   color: red;
   padding-left: 10px;
 }
-/* line 270, ../sass/layout/_popup.scss */
+/* line 275, ../sass/layout/_popup.scss */
 .popup-con .pop-item .input-text .pass-text {
   display: inline-block;
   color: #5e5e5e;
@@ -2742,25 +2748,25 @@ a:active, a:focus {
 }
 
 /*修改绑定手机*/
-/* line 282, ../sass/layout/_popup.scss */
+/* line 287, ../sass/layout/_popup.scss */
 .popup-con .input-box .pd-left10 {
   padding-left: 8px;
 }
 
-/* line 286, ../sass/layout/_popup.scss */
+/* line 291, ../sass/layout/_popup.scss */
 .popup-con .input-box .bind-phone {
   text-align: left;
   display: inherit;
   margin-left: 53px;
 }
 
-/* line 291, ../sass/layout/_popup.scss */
+/* line 296, ../sass/layout/_popup.scss */
 .popup-con .input-box .bind-phone i {
   color: #ffa200;
   padding-left: 35px;
 }
 
-/* line 296, ../sass/layout/_popup.scss */
+/* line 301, ../sass/layout/_popup.scss */
 .input-box .bg-color01 {
   background: #fff6e5;
   padding: 4px;
@@ -2769,15 +2775,23 @@ a:active, a:focus {
 }
 
 /*修改密码成功*/
-/* line 304, ../sass/layout/_popup.scss */
+/* line 309, ../sass/layout/_popup.scss */
 .input-box .password-c .se-img {
   display: inline-block;
-  background: url('../images/pop-img-s6b914c7cb8.png') 0 -53px;
-  background-position: 0 -53px;
+  background: url('../images/pop-img-s0a61a03049.png') 0 -126px;
+  background-position: 0 -126px;
   height: 73px;
   width: 73px;
 }
-/* line 310, ../sass/layout/_popup.scss */
+/* line 315, ../sass/layout/_popup.scss */
+.input-box .password-c .chz-s-img {
+  display: inline-block;
+  background: url('../images/pop-img-s0a61a03049.png') 0 -25px;
+  background-position: 0 -25px;
+  height: 73px;
+  width: 73px;
+}
+/* line 321, ../sass/layout/_popup.scss */
 .input-box .password-c p {
   color: #363636;
   font-size: 20px;

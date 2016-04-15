@@ -145,6 +145,11 @@
     color: #302f2b;
 
   }
+  .pop-item .short-item .white-wid{
+    background: #fff;
+    color: #302f2b;
+    border: 1px solid #e5e5e5;
+  }
   .input-text .get-y{
     width: 120px;
     height: 40px;
@@ -306,6 +311,12 @@ padding-left: 8px;
   background:sprite($pop-img,sec_1);
   @include sprite-background-position($pop-img, sec_1);
   @include  sprite-dimensions($pop-img, sec_1);
+  }
+  .chz-s-img{
+    display: inline-block;
+    background:sprite($pop-img,c-s-1);
+    @include sprite-background-position($pop-img, c-s-1);
+    @include  sprite-dimensions($pop-img, c-s-1);
   }
   p{
     color: #363636;
