@@ -2169,12 +2169,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
  **/
 .zc-money {
   padding-top: 35px;
-  span{
+   .right-f1{
     display: inline-block;
     color: #302f2b;
     font-size: 14px;
     font-weight: bold;
     padding-right: 24px;
+  }
+  .dy-text{
+    color: #6f6f6f;
+    font-size: 14px;
+    padding-right: 4px;
   }
   span.ft-left{
     float: left;
@@ -2325,6 +2330,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
   }
   span.bd-text:hover {
     color: #84c84d;
+    cursor: pointer;
   }
   .btn-qr {
     display: inline-block;
