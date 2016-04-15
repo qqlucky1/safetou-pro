@@ -944,7 +944,6 @@ $c-e35848:#e35848;
     }
   }
 
-
   .bank-box2{
     color: #302f2b;
     .i-k{
@@ -2102,5 +2101,241 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
  border-bottom: 1px solid #f2f2f2;
 }
 
+ /*********************** new module Name End **************************************/
 
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:cz-tab-head
+ *@time:2016/4/14 17:08
+ **/
+.cz-header-tab{
+  height: 35px;
+  border-bottom: 1px solid #e5e5e5;
+  li{
+    float: left;
+    padding: 0px 28px 0px 0px;
+  }
+   li a{
+     display: inline-block;
+    font-size: 16px;
+    color: #302f2b;
+    padding: 0px 10px;
+    cursor: pointer;
+    height: 34px;
+  }
+  li a.no-pd0{
+    padding-left: 4px;
+  }
+  li a.cur-tab{
+    border-bottom: 3px solid  #fdb323;
+  }
+}
+
+
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:wy-con
+ *@time:2016/4/14 17:49
+ **/
+.zc-money {
+  padding-top: 35px;
+  span{
+    display: inline-block;
+    color: #302f2b;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 24px;
+  }
+  span.ft-left{
+    float: left;
+  }
+  .money-text{
+    width: 300px;
+    height: 36px;
+    border: 1px solid #e5e5e5;
+    padding-left: 5px;
+    @include  border-radius(2px);
+  }
+}
+.bank {
+  float: left;
+  width: 728px;
+
+  .line-bottom{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  a{
+    display: inline-block;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 128px;
+    height: 37px;
+    border: 1px solid #e5e5e5;
+    }
+   a>u{
+     background: url("../images/bank_27f07db.png") no-repeat -999px -999px;
+     display: inline-block;
+     width: 128px;
+     height: 37px;
+     text-decoration: none;
+     text-align: center;
+     vertical-align: middle;
+   }
+  a.selected{
+    border-color: transparent;
+    background: url("../images/bank_27f07db.png") no-repeat -3px -1125px;
+  }
+
+  u.gs{
+    background-position: 0px -199px;
+  }
+  u.nongye{
+    background-position: 0px -158px;
+  }
+  u.china{
+    background-position: 0px -114px;
+  }
+  u.jianshe{
+    background-position: 0px -242px;
+  }
+  u.zhaoshang{
+    background-position: 0px -159px;
+  }
+  u.jiaotong{
+    background-position: 0px -493px;
+  }
+  u.pufa{
+    background-position: 9px -534px;
+  }
+  u.guangfa{
+    background-position: 5px -577px;
+  }
+
+  u.minsheng{
+    background-position: 2px -410px;
+  }
+  u.xingye{
+    background-position: 6px -705px;
+  }
+  u.guangda{
+    background-position: 9px -368px;
+  }
+  u.shenzhen{
+    background-position: 2px -663px;
+  }
+  u.pingan{
+    background-position: 0px -325px;
+  }
+  u.zhongxin{
+    background-position: -2px -620px;
+  }
+  u.yzhchx{
+    background-position: 2px -450px;
+  }
+  u.bj{
+    background-position: 0px -829px;
+  }
+  u.bohai{
+    background-position: 7px -1038px;
+  }
+  u.nongcun{
+    background-position: 2px -285px;
+  }
+  u.nanjing{
+    background-position: 5px -913px;
+  }
+  u.dongya{
+    background-position: 8px -747px;
+  }
+  u.ningbo{
+    background-position: 0px -787px;
+  }
+  u.zheshang{
+    background-position: 11px -1081px;
+  }
+}
+.limit-illust{
+  margin-top: 20px;
+  .text-remark{
+    color: #a0a0a0;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+.limit-box{
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  line-height: 30px;
+  font-size: 14px;
+  color: #a0a0a0;
+  th{
+    background:#e5e5e5;
+    color: #302f2b;
+    height: 30px;
+      }
+  td{
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    padding-left: 20px;
+  }
+
+}
+.rech-btn-text {
+  margin-top: 50px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 30px;
+  .bd-text {
+    display: inline-block;
+    margin: 15px 0 0 21px;
+    color: #5e5e5e;
+    font-weight: inherit;
+    position: relative;
+  }
+  span.bd-text:hover {
+    color: #84c84d;
+  }
+  .btn-qr {
+    display: inline-block;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    background: $fontColorff9933;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+  }
+  .img-weixin-s {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .img-weixin-s img:hover > div img {
+    display: block;
+  }
+.saoma {
+    position: absolute;
+    top: 21px;
+    right: -111px;
+    display: none;
+  }
+}
+.wenxin-prompt{
+  margin: 30px 0  50px 0;
+ .title{
+   color: $fontColorff9933;
+   font-size: 14px;
+ }
+  .text-c{
+    color: #5e5e5e;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
  /*********************** new module Name End **************************************/
