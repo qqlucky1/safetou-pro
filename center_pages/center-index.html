@@ -1777,85 +1777,71 @@
                     </div>
                     <div class="tx-main-box" style="display: block;">
                         <div class="tx-tab-item" style="display: block;">
-                            <div class="zc-money">
-                                <span class="right-f1">提现银行卡</span>
-                                <input class="money-text" type="text" value="">
-                                <span class="dy-text">&nbsp;&nbsp;元</span>
+                            <div class="zc-money" style="padding-top: 15px;">
+                                <span class="right-f1 txk-only">提现银行卡</span>
+                                <div class="bank-info-box inl-bl">
+                                    <!--已经添加银行卡-->
+                                    <div class="bib-item" style="display: block;">
+                                        <div class="card-img-box clearfix">
+                                            <div class="ci-left-img"></div>
+                                            <div class="card-info">
+                                                <div><span class="cn-t1">工商银行</span></div>
+                                                <div><span class="cn-t2">储蓄卡</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-num">
+                                            <span class="cn-t3">**** **** **** 8311</span>
+                                        </div>
+                                        <div class="card-other">
+                                            <a href="#" class="other-card">更换绑定银行卡</a>
+                                        </div>
+                                    </div>
+                                    <!--没有添加银行卡-->
+                                    <div class="bib-item" style="display: none;">
+                                        <span class="bi-t1">+</span>
+                                        <span class="bi-t2">您尚未绑定快捷支付卡</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="zc-money">
-                                span class="right-f1">账户余额</span>
-                                <input class="money-text" type="text" value="">
+                                <span class="right-f1">账户余额</span>
+                                <span class="zhye-t-l">132640 <small>.00</small></span>
                                 <span class="dy-text">&nbsp;&nbsp;元</span>
                             </div>
                             <div class="zc-money">
                                 <span class="right-f1">提现金额</span>
                                 <input class="money-text" type="text" value="">
                                 <span class="dy-text">&nbsp;&nbsp;元</span>
+                                <div class="sign-t-box"><span class="sign-t-o">全额提现 </span><span class="sign-t-b">提现手续费2元/笔</span></div>
                             </div>
-                            <div class="zc-money">
-                                <span class="right-f1">交易密码</span>
+                            <div class="zc-money" style="padding-top: 15px;">
+                                <span class="right-f1" >交易密码</span>
                                 <input class="money-text" type="text" value="">
-                                <span class="dy-text">&nbsp;&nbsp;元</span>
+                                <span class="wjmm-sign-t"><a href="#">&nbsp;&nbsp;忘记密码？</a></span>
                             </div>
 
                             <div class="zc-money ">
-                                <span class="right-f1 ft-left">选择银行</span>
-                                <div class="bank  ">
-                                    <div class="line-bottom clearfix">
-                                        <a><u class="bj"></u></a>
+                                <span class="right-f1 ft-left">短信验证 </span>
+                                <div class="bank" style="margin-left: 4px;">
+                                    <div class="clearfix">
+                                        <input class="money-text" type="text" value="">
+                                        <div class="checkCode-group">
+                                            <button href="#" class="cg-btn"><span class="cg-g">获取短信验证码</span></button>
+                                            <span class="both-pad">或</span>
+                                            <button href="#" class="cg-btn"><span class="cg-g">获取语音验证码</span></button>
+                                        </div>
                                     </div>
                                     <div class="limit-illust clearfix">
-                                        <p class="text-remark">请关注您的充值金额是否超过限额</p>
-                                        <table class="limit-box">
-                                            <tbody><tr>
-                                                <th>银行卡名称</th>
-                                                <th> 客服热线 </th>
-                                                <th> 单笔限额(元)</th>
-                                                <th>每日限额(元)</th>
-                                                <th> 需要满足的条件 </th>
-                                            </tr>
-                                            <tr>
-                                                <td rowspan="6">工商银行</td>
-                                                <td rowspan="6">95588</td>
-                                                <td>30万</td>
-                                                <td>100万</td>
-                                                <td>USBKey（U盾）客户</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5万</td>
-                                                <td>5万</td>
-                                                <td>电子密码器客户</td>
-                                            </tr>
-                                            <tr>
-                                                <td>500元</td>
-                                                <td>1000元</td>
-                                                <td>电子银行口令卡客户（未开通短信认证）</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2000元</td>
-                                                <td>5000元</td>
-                                                <td>电子银行口令卡客户（开通短信认证）</td>
-                                            </tr>
-                                            <tr>
-                                                <td>300元</td>
-                                                <td>300元</td>
-                                                <td>柜面注册存量静态密码客户</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1万</td>
-                                                <td>1万</td>
-                                                <td>工银e支付客户</td>
-                                            </tr>
-                                            </tbody></table>
-                                        <div class="rech-btn-text">
-                                            <i href="" class="btn-qr">确认充值</i> <span class="bd-text">绑定微信，接收充值结果通知</span><i class="img-weixin-s"><img src="../images/weixin-icon1.png"><div class="saoma"><img src="../images/weixin-m.png"> </div></i>
+                                        <div class="rech-btn-text" style="margin-top: 10px;">
+                                            <i href="" class="btn-qr">提现</i> <span class="bd-text" style="margin-right: 10px">绑定微信，接收提现结果通知</span><i class="img-weixin-s"><img src="../images/weixin-icon1.png"><div class="saoma"><img src="../images/weixin-m.png"> </div></i>
                                         </div>
                                         <div class="wenxin-prompt">
                                             <p class="title">* 温馨提示</p>
-                                            <p class="text-c">1. 为了您的账户安全，请在充值前进行身份认证、手机绑定以及提现密码设置。<br>
-                                                2. 您的账户资金将通过第三方平台进行充值。<br>
-                                                3. 请注意您的银行卡充值限制，以免造成不便。<br>
-                                                4. 禁止洗钱信用卡套现、虚假交易等行为，一经发现并确认，将终止该账户的使用。</p>
+                                            <p class="text-c">1. 您需要完成实名认证，交易密码设置以及银行卡绑卡设置后，方可进行提现操作；<br/>
+                                                2. 提现手续费2元/笔，该费用由银行收取；<br/>
+                                                3. 提现必须为银行借记卡，不支持存折、信用卡提现；<br/>
+                                                4. 信用卡套现、虚假交易等行为，一经发现将予以处罚；<br/>
+                                                5. 如您的提现金额没有在一个工作日内到帐，请联系客服400-801-8131。</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1963,21 +1949,17 @@
                 $(showName).css('display','block');
             }
         });
-        $('.c-btn-cz').click(function(){
-            $('.c-pages>div').css('display','none');
-            $('.c-page-cz').css('display','block');
-        });
-
     });
 
     $('.c-btn-cz').click(function(){
         $('.c-pages>div').css('display','none');
         $('.c-page-cz').css('display','block');
     });
-//    $('.c-btn-tx').click(function(){
+
+    $('.c-btn-tx').click(function(){
         $('.c-pages>div').css('display','none');
         $('.c-page-tx').css('display','block');
-//    });
+    });
 
 </script>
 </html>
