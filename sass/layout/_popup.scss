@@ -322,10 +322,25 @@ padding-left: 8px;
     color: #363636;
     font-size: 20px;
     margin: 20px 0 40px;
-    font-weight: bold;
+   /* font-weight: bold;*/
   }
 }
 
+/*充值*/
+.ch-box{
+  margin: 0px 126px 10px;
+  text-align: left;
+  color: #302f2b;
 
+  td{
+line-height: 30px;
+  }
+  td.text-c{
+    text-align: right;
+    i{
+      color: $orcoolor;
+    }
+  }
+}
 
 

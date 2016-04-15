@@ -1361,6 +1361,11 @@ $c-e35848:#e35848;
   .ans-table{
     margin-top: 30px;
   }
+ table th,td{
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+  }
+
   .ans-th1{
     width: 190px;
     height: 40px;
@@ -1373,6 +1378,19 @@ $c-e35848:#e35848;
   .ans-th2{
     width: 130px;
     height: 40px;
+    span.icon-v{
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border: 1px solid #e35848;
+      .icon{
+        color: rgb(227, 88, 72);
+        font-size: 20px;
+        text-align: left;
+        display: inline-block;
+      }
+
+    }
   }
   .ans-tr2{
     height: 30px;
