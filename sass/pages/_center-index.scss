@@ -2365,3 +2365,38 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
   }
 }
  /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:offlin-chongzhi
+ *@time:2016/4/15 14:27
+ **/
+.offline{
+  margin: 40px 0;
+  border-bottom: 1px solid #e5e5e5;
+  .acc-xinxi{
+    color: #302f2b;
+    font-size: 14px;
+  }
+}
+.account{
+  margin: 40px 0;
+  width: 416px;
+  height: 213px;
+  border: 1px solid #e5e5e5;
+  .img-bank{
+    background: url("../images/bank-zh.png") no-repeat;
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    margin: 15px 20px;
+  }
+  .acco-item-text{
+    padding: 2px 0px 0 60px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
+ 
+ /*********************** new module Name End **************************************/
