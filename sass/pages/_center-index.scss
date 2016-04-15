@@ -1078,96 +1078,93 @@ $c-e35848:#e35848;
  **/
  .c-page7{
    min-height: 510px;
-   .notices-box-items{
-     border-bottom: 1px solid $c-e5e5e5;
-     min-height: 80px;
-     float: left;
-   }
-   .notices-item1{
-     width: 150px;
-     height: 80px;
-     line-height: 80px;
-     float: left;
-   }
-   .notices-item2{
-     width: 800px;
-     //height: 80px;
-     float: right;
-     margin-bottom: 40px;
-     .state1{
-       margin-top: 32px;
-     }
-     .notice-item2-title{
-       color: #302f2b;
-       font-size: 14px;
-     }
-     .notice-item2-desc{
-       color: $c-a0a0a0;
-       font-size: 14px;
-       width: 770px;
-     }
-   }
-
-   .notices-btn1{
-     @include inline-block;
-     width: 80px;
-     height: 20px;
-     font-size: 12px;
-     @include border-radius(3px);
-     text-align: center;
-     line-height: 20px;
-   }
-   .btn-c1{
-     color: $c-ff9933;
-     border:1px solid $c-ff9933;
-   }
-   .btn-c2{
-     color: $c-5e5e5e;
-     border:1px solid $c-e5e5e5;
-   }
-
-   .notice-right-text{
-     @include inline-block;
-     float: right;
-     line-height: 30px;
-     color: #a0a0a0;
-     font-size: 14px;
-   }
-   .list-controls{
-     color:$c-5e5e5e;
-     font-size: 14px;
-   }
-
-   .list-control1,.list-control2,.list-control3,.list-control4{
-     float: left;
-     text-align: center;
-     height: 80px;
-     line-height: 110px;
-     margin-left: 20px;
-   }
-   .list-control1{
-     width: 65px;
-   }
-   .list-control2{
-     width: 90px;
-   }
-   .list-control3{
-     width: 135px;
-   }
-   .list-control4{
-     width: 130px;
-   }
-   .chk-box{
-     margin: 0px 15px 0 20px;
-     height: 15px;
-     width: 15px;
-     position: relative;
-     top: 4px;
-   }
  }
- .c-notice{
+.notices-box-items{
+  border-bottom: 1px solid $c-e5e5e5;
+  min-height: 80px;
+  float: left;
+}
+.notices-item1{
+  width: 150px;
+  height: 80px;
+  line-height: 80px;
+  float: left;
+}
+.notices-item2{
+  width: 800px;
+  //height: 80px;
+  float: right;
+  margin-bottom: 40px;
+  .state1{
+    margin-top: 32px;
+  }
+  .notice-item2-title{
+    color: #302f2b;
+    font-size: 14px;
+  }
+  .notice-item2-desc{
+    color: $c-a0a0a0;
+    font-size: 14px;
+    width: 770px;
+  }
+}
 
- }
+.notices-btn1{
+  @include inline-block;
+  width: 80px;
+  height: 20px;
+  font-size: 12px;
+  @include border-radius(3px);
+  text-align: center;
+  line-height: 20px;
+}
+.btn-c1{
+  color: $c-ff9933;
+  border:1px solid $c-ff9933;
+}
+.btn-c2{
+  color: $c-5e5e5e;
+  border:1px solid $c-e5e5e5;
+}
+
+.notice-right-text{
+  @include inline-block;
+  float: right;
+  line-height: 30px;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+.list-controls{
+  color:$c-5e5e5e;
+  font-size: 14px;
+}
+
+.list-control1,.list-control2,.list-control3,.list-control4{
+  float: left;
+  text-align: center;
+  height: 80px;
+  line-height: 110px;
+  margin-left: 20px;
+}
+.list-control1{
+  width: 65px;
+}
+.list-control2{
+  width: 90px;
+}
+.list-control3{
+  width: 135px;
+}
+.list-control4{
+  width: 130px;
+}
+.chk-box{
+  margin: 0px 15px 0 20px;
+  height: 15px;
+  width: 15px;
+  position: relative;
+  top: 4px;
+}
  /*********************** page7 Name End **************************************/
 
 /*********************** page8 main Start **************************************
@@ -1176,7 +1173,7 @@ $c-e35848:#e35848;
  *@desc:推荐奖励主页样式
  *@time:2016/4/13 11:59
  **/
-.c-page9{
+.ch-p{
   font-size: 14px;
   color: $c-5e5e5e;
   .tjjl-money-box{
@@ -1386,7 +1383,18 @@ $c-e35848:#e35848;
 }
  /*********************** page8 main End **************************************/
 
+/*********************** txpage Name Start **************************************
+ *@moduleName:提现
+ *@author:Administrator
+ *@desc:
+ *@time:2016/4/15 16:24
+ **/
+.tx-main-box{
+  margin: 0px 50px;
+  font-size: 14px;
+}
 
+ /*********************** txpage Name End **************************************/
 
 /*********************** new module Name Start **************************************
  *@moduleName:
@@ -2142,12 +2150,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
  **/
 .zc-money {
   padding-top: 35px;
-  span{
+   .right-f1{
     display: inline-block;
     color: #302f2b;
     font-size: 14px;
     font-weight: bold;
     padding-right: 24px;
+  }
+  .dy-text{
+    color: #6f6f6f;
+    font-size: 14px;
+    padding-right: 4px;
   }
   span.ft-left{
     float: left;
@@ -2298,6 +2311,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
   }
   span.bd-text:hover {
     color: #84c84d;
+    cursor: pointer;
   }
   .btn-qr {
     display: inline-block;
