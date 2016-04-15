@@ -943,7 +943,33 @@ $c-e35848:#e35848;
       color: $c-ff9933;
     }
   }
+  .agree-con{
+    margin-top:30px;
+    font-size: 14px;
+    .agree-item1{
 
+    }
+    .agree-item2{
+      margin-left: 15px;
+      color: $c-a0a0a0;
+    }
+    .agree-item3{
+      color: $c-ff9933;
+
+    }
+  }
+  .card-box-con{
+    width: 790px;
+    border-top: 1px solid #E3E3E3;
+    margin-top: 40px;
+    .cz-t-c{
+      padding: 0px !important;
+      text-align: center !important;
+    }
+  }
+  .mb-m{
+    margin-bottom: 10px;
+  }
   .bank-box2{
     color: #302f2b;
     .i-k{
