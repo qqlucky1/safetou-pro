@@ -3149,7 +3149,7 @@ a:active, a:focus {
   vertical-align: middle;
   color: #999;
   outline: none;
-  border-left: 1px solid #e5e5e5;
+  /*  border-left: 1px solid #e5e5e5;*/
 }
 /* line 249, ../sass/layout/register-login.scss */
 .reg-inform-right .reg-form .labelText .yz-bg {
@@ -3173,7 +3173,7 @@ a:active, a:focus {
 .reg-inform-right .reg-form .reg-icon {
   display: inline-block;
   width: 48px;
-  margin-right: -4px;
+  /*   margin-right: -4px;*/
   padding-top: 2px;
   color: #a0a0a0;
   font-size: 21px;

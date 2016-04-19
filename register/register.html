@@ -115,14 +115,14 @@
         <div class="reg-con">
             <div class="reg-con-item">
 
-                <div class="reg-img-infor clearfix" style="display: none;">
+                <div class="reg-img-infor clearfix">
                     <div class="reg-banner"><img src="../images/reg-banner.png" style="width: 709px" height="560px;"/>
                     </div>
                     <div class="reg-inform-right">
                         <div class="title  clearfix"><h3 class="title-item">免费注册账户</h3><i class="right-login-text"
                                                                                           href="#">已有账号？<a
                                 href="">立即登录</a></i></div>
-                        <form class="reg-form clearfix" action="/register" method="post" style="display: none;">
+                        <form class="reg-form clearfix" action="/register" method="post" style="display: block;">
                             <div class="phone">
                                 <div class="labelText"><span class="reg-icon iconfont">&#xe60c;</span>
                                     <input class="txt-area" name="Phone" placeholder="请输入您的手机号码" type="text"/></div>
@@ -185,7 +185,7 @@
                             </div>
                             <div class="btn-reg " style="margin-top: 80px;"><a href="">提交</a></div>
                         </form>
-                        <form class="reg-form clearfix">
+                        <form class="reg-form clearfix" style="display: none;">
                             <div class="reg-third">
                                 <img src="../images/pop-img/c-s-1.png">
 
@@ -198,42 +198,49 @@
 
                     </div>
                 </div>
-   <div class="reg-img-infor clearfix">
-       <div class="reg-banner"><img src="../images/login-img-banner.png" style="width: 711px" height="500px;"> </div>
-       <div class="reg-inform-right">
-           <div class="title  clearfix"><h3 class="title-item">登录账户</h3><i class="right-login-text" href="#">已有账号？<a href="">立即登录</a></i></div>
-           <form class="reg-form clearfix"  style="display: none;">
-               <div class="phone">
-                   <div class="labelText"><span class="reg-icon small-reg iconfont">&#xe60c;</span>
-                       <input class="txt-area" name="Phone" placeholder="请输入您的手机号码" type="text"/></div>
-                   <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
-                   </div>
-               </div>
-               <div class="phone">
-                   <div class="labelText"><span class="reg-icon iconfont">&#xe606;</span>
-                       <input class="txt-area" name="Phone" placeholder="请输入登录密码"
-                              type="text"/> </div>
-                   <div class="login-che clearfix">
-                      <span class="right-fl-login"> <input class="" type="checkbox"/><i class="text-item">7天内自动登录 </i></span><a href="#" class="wj-mm">忘记密码？</a>
-                   </div>
-                   <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
-                   </div>
-               </div>
-               <div class="btn-reg " style="margin-top: 80px;"><a href="">立即登录</a></div>
-               <div class="wei-login"><i>微信扫码登录</i><a href="#"><img src="../images/base/weixin_hover.png"></a> </div>
-           </form>
-           <form class="reg-form clearfix">
-             <div class="sm-wein-box">
-                 <a href=""><img src="../images/sm-wei-1.png"> </a>
-                 <br/>
-                 <i class="text-sm-w">微信扫码 安全登录</i>
-                 <p class="img-shxin"><img src="../images/shxin-img.png"> <i class="text-item-e">刷新二维码</i></p>
-             </div>
+                <div class="reg-img-infor clearfix"  style="display: none;">
+                    <div class="reg-banner"><img src="../images/login-img-banner.png" style="width: 711px"
+                                                 height="500px;"></div>
+                    <div class="reg-inform-right">
+                        <div class="title  clearfix"><h3 class="title-item">登录账户</h3><i class="right-login-text"
+                                                                                        href="#">已有账号？<a
+                                href="">立即登录</a></i></div>
+                        <form class="reg-form clearfix">
+                            <div class="phone">
+                                <div class="labelText"><span class="reg-icon small-reg iconfont">&#xe60c;</span>
+                                    <input class="txt-area" name="Phone" placeholder="请输入您的手机号码" type="text"/></div>
+                                <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
+                                </div>
+                            </div>
+                            <div class="phone">
+                                <div class="labelText"><span class="reg-icon iconfont">&#xe606;</span>
+                                    <input class="txt-area" name="Phone" placeholder="请输入登录密码"
+                                           type="text"/></div>
+                                <div class="login-che clearfix">
+                                    <span class="right-fl-login"> <input class="" type="checkbox"/><i class="text-item">7天内自动登录 </i></span><a
+                                        href="#" class="wj-mm">忘记密码？</a>
+                                </div>
+                                <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
+                                </div>
+                            </div>
+                            <div class="btn-reg " style="margin-top: 80px;"><a href="">立即登录</a></div>
+                            <div class="wei-login"><i>微信扫码登录</i><a href="#"><img src="../images/base/weixin_hover.png"></a>
+                            </div>
+                        </form>
+                        <form class="reg-form clearfix" style="display: none;">
+                            <div class="sm-wein-box">
+                                <a href=""><img src="../images/sm-wei-1.png"> </a>
+                                <br/>
+                                <i class="text-sm-w">微信扫码 安全登录</i>
 
-           </form>
-       </div>
+                                <p class="img-shxin"><img src="../images/shxin-img.png"> <i
+                                        class="text-item-e">刷新二维码</i></p>
+                            </div>
 
-   </div>
+                        </form>
+                    </div>
+
+                </div>
             </div>
 
         </div>
@@ -244,6 +251,7 @@
                 <ul class="foot-nav clearfix">
                     <li>
                         <i class="ft-icon1"></i>
+
                         <div class="ft-info">
                             <span>关于我们</span>
                             <ul class="foot-nav-item">
@@ -256,6 +264,7 @@
                     </li>
                     <li>
                         <i class="ft-icon2"></i>
+
                         <div class="ft-info">
                             <span>安全保障</span>
                             <ul class="foot-nav-item">
@@ -292,6 +301,7 @@
                 <div class="line-ft-right"></div>
                 <div class="ft-box3">
                     <h3 class="ft-title-h">客服热线</h3>
+
                     <div class="er-img-ft1">
                         <div class="clearfix"><i class="img-wx4"></i><span class="zixu-gj">4006 517 558</span></div>
                         <div class="clearfix"><a href=""><i class="img-wx5"> 在线咨询</i> <span class="time-right-fn1"> 09:00~18:30</span></a>
