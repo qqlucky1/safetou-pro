@@ -900,12 +900,21 @@ $c-e35848:#e35848;
 .bi-t1{
   text-align: center;
 .icon{
-  font-size: 50px;
+  font-size: 100px;
   text-align: center;
-  color: #ccc;
+  color:  #e6e6e6;
 }
 }
-.bi-t2{ text-align: center;}
+.bi-t2{ text-align: center;
+  font-size: 14px;
+  color: #a0a0a0;
+  .bk-text-item{
+   color: $fontColorff9933;
+    cursor: pointer;
+    margin-top: -13px;
+  }
+
+}
 .bank-info-box{
   width: 300px;
   height: 180px;
@@ -1195,7 +1204,14 @@ $c-e35848:#e35848;
   height: 80px;
   line-height: 110px;
   margin-left: 20px;
+  i{
+    margin-right: 5px;
+  }
 }
+.list-control3 i{
+  font-size: 15px;
+}
+
 .list-control1{
   width: 65px;
 }
@@ -1207,6 +1223,7 @@ $c-e35848:#e35848;
 }
 .list-control4{
   width: 130px;
+
 }
 .chk-box{
   margin: 0px 15px 0 20px;
@@ -2455,4 +2472,29 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
   }
 }
  
+ /*********************** new module Name End **************************************/
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:
+ *@time:2016/4/18 10:59
+ **/
+.tx-tab-item{
+  position: relative;
+}
+.app-img-tx{
+  position: absolute;
+  top: 213px;
+  right: 0px;
+  .img-tixian-item{
+    background: url("../images/sm-app.png") no-repeat;
+    display: inline-block;
+    width: 271px;
+    height: 164px;
+  }
+}
+
+
+
+
  /*********************** new module Name End **************************************/
