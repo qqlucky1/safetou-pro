@@ -6,7 +6,7 @@
 body {
   margin: 0;
   paddding: 0;
-  font: 12px/1.5 "Microsoft YaHei","Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,tahoma,arial,sans-serif;
+  font: 12px/1.5  "Myriad Set Pro","Microsoft YaHei","Helvetica Neue",Helvetica Neue,Helvetica,Hiragino Sans GB,tahoma,arial,sans-serif;
 }
 
 /* line 3, ../sass/base/_base.scss */
@@ -520,6 +520,24 @@ a:active, a:focus {
   content: "\e606";
 }
 
+@font-face {
+  font-family: 'Myriad Set Pro';
+  font-style: normal;
+  font-weight: 100;
+  src: local("??"), url("../stylesheets/fontfamily/myriad-set-pro_semibold.woff") format("woff");
+}
+@font-face {
+  font-family: 'Myriad Set Pro';
+  font-style: normal;
+  font-weight: 100;
+  src: local("??"), url("../stylesheets/fontfamily/myriad-set-pro_text.woff") format("woff");
+}
+@font-face {
+  font-family: 'Myriad Set Pro';
+  font-style: normal;
+  font-weight: 100;
+  src: local("??"), url("../stylesheets/fontfamily/myriad-set-pro_thin.woff") format("woff");
+}
 /* line 2, ../sass/layout/_footer.scss */
 .g-foot-w {
   background: #302f2b;
