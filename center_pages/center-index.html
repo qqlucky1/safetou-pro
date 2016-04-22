@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>个人中心首页</title>
-    <link rel="stylesheet" href="../stylesheets/style.css" type="text/css" />
+    <link rel="stylesheet" href="../stylesheets/style.css" type="text/css"/>
 
     <!--所有效果需要的css-->
     <!--<link rel="stylesheet" type="text/css" href="stylesheets/base.css"/>-->
@@ -15,7 +15,9 @@
     <script type="text/javascript" src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <style>
         /*html5*/
-        article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+        article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+            display: block
+        }
     </style>
     <![endif]-->
 
@@ -35,10 +37,12 @@
             <a class="left-fnt">返回旧版</a>
 
             <div class="ge-line mn-left ft-left"></div>
-            <div class="qq" >
+            <div class="qq">
                 <a class="top_com top01"></a>
-                <div class="qq01 qq04" >
+
+                <div class="qq01 qq04">
                     <a href="#" class="weibo-img"> <img src="../images/erweima-img/weibo-simg.png"></a>
+
                     <div class="btn-weibo">
                         <a href="">+关注安全投</a>
                     </div>
@@ -46,19 +50,22 @@
             </div>
             <div class="qq">
                 <a class="top_com top02"></a>
+
                 <div class="qq02">
                     <a href="#" class="weibo-img"> <img src="../images/erweima-img/weinxin-simg1.png"></a>
                 </div>
             </div>
             <div class="qq">
                 <a class="top_com top03"></a>
-                <div class="qq01" >
+
+                <div class="qq01">
                     <a href="#" class="weibo-img pd-img-w1"> <img src="../images/erweima-img/QQ-qun.png"></a>
                 </div>
             </div>
             <div class="app-lay">
-                <div class="qq02 qq03" >
+                <div class="qq02 qq03">
                     <a href="#" class="weibo-img"> <img src="../images/erweima-img/cc.png"></a>
+
                     <div class="btn-d">
                         <a href="#"> <img src="../images/ios-btn.png"></a>
                         <a href="#"> <img src="../images/anz-btn.png"></a>
@@ -130,9 +137,11 @@
                     <img src="../images/userPhoto.png" alt="头像" width="100px" height="100px"/>
                 </div>
                 <div class="sign-box">
-                    <a href="#" class="sign">签到</a>
+                   <!-- <a href="#" class="sign">签到</a>
                     <i>|</i>
-                    <a href="#" class="duihuan">兑换</a>
+                    <a href="#" class="duihuan">兑换</a>-->
+                    <a href="" class="s-qd">签到</a>
+                    <a href="" class="s-qd y-s-qd" style="display: none;">已签到</a>
                 </div>
             </div>
             <div class="c-user-card-box2">
@@ -163,23 +172,24 @@
                 </div>
                 <div class="c-box2-item2">
                     <div class="c-bi-item1">
-                        <img src="../images/V1-.png"  width="25px" height="25px"/>
+                        <img src="../images/V1-.png" width="25px" height="25px"/>
                         <span>推荐达人</span>
                         <i>?</i>
                     </div>
+                    <div class="clearfix lv-tq">
+                        <span class="tq1">特权:</span>
+                        <span class="tq2">奖金率+ 0.1%</span>
+                    </div>
                     <!--条形进度 百分比写在 内层div的width上-->
-                    <div class="pro-p">
+                    <div class="pro-p1 clearfix">
                         <div class="progress progress-striped active" style="height: 5px; margin-bottom: 9px;">
-                            <div class="bar" style="width: 70%; height: 9px;"> </div>
+                            <div class="bar" style="width: 70%; height: 9px;"></div>
                         </div>
                     </div>
                     <div class="lv-desc clearfix">
                         <span>距离lv2还有95000成长值</span>
                     </div>
-                    <div class="clearfix lv-tq">
-                        <span class="tq1">特权:</span>
-                        <span class="tq2">加息1%</span>
-                    </div>
+
                 </div>
             </div>
             <div class="c-user-card-box3">
@@ -204,36 +214,37 @@
         <div class="c-main">
 
             <div class="c-menu">
-                    <aside>
-                        <ul class="c-menu-item">
-                            <li class="current" ><a> <i class="nav-ico nav-cen nav-vis1" ></i>个人中心</a></li>
-                            <li class=""><a ><i class="nav-ico nav-cont nav-vis2 " ></i>账户安全</a></li>
-                            <li><a ><i class="nav-ico nav-bank nav-vis3" ></i>我的投资</a></li>
-                            <li><a><i class="nav-ico nav-touzi nav-vis4" ></i>我的融资</a></li>
-                            <li><a><i class="nav-ico nav-roz nav-vis5" ></i>账户明细</a></li>
-                            <li><a><i class="nav-ico nav-mixi nav-vis6" ></i>通知中心</a></li>
-                            <li><a><i class="nav-ico nav-tozhi nav-vis7" ></i>推荐管理</a></li>
-                            <li><a><i class="nav-ico nav-tuij nav-vis8" ></i>推荐奖励</a></li>
-                            <li><a><i class="nav-ico nav-jl nav-vis9" ></i>积分管理</a></li>
-                            <li><a href="#"><i class="nav-ico nav-jf nav-vis10" ></i>我的红包</a></li>
-                        </ul>
-                    </aside>
-                </div>
+                <aside>
+                    <ul class="c-menu-item">
+                        <li class="current"><a> <i class="nav-ico nav-cen nav-vis1"></i>个人中心</a></li>
+                        <li class=""><a><i class="nav-ico nav-cont nav-vis2 "></i>账户安全</a></li>
+                        <li><a><i class="nav-ico nav-bank nav-vis3"></i>我的投资</a></li>
+                        <li><a><i class="nav-ico nav-touzi nav-vis4"></i>我的融资</a></li>
+                        <li><a><i class="nav-ico nav-roz nav-vis5"></i>账户明细</a></li>
+                        <li><a><i class="nav-ico nav-mixi nav-vis6"></i>通知中心</a></li>
+                        <li><a><i class="nav-ico nav-tozhi nav-vis7"></i>推荐管理</a></li>
+                        <li><a><i class="nav-ico nav-tuij nav-vis8"></i>推荐奖励</a></li>
+                        <li><a><i class="nav-ico nav-jl nav-vis9"></i>福币管理</a></li>
+                       <!-- <li><a href="#"><i class="nav-ico nav-jf nav-vis10"></i>我的红包</a></li>-->
+                    </ul>
+                </aside>
+            </div>
 
             <div class="c-pages">
                 <!--个人中心-->
-                <div class="c-page1" style="display: none";>
+                <div class="c-page1" style="display: none" ;>
                     <div class="c-page1-item1">
                         <ul style="width: inherit;height: inherit">
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box1">
-                                    <span class="c-page1-t1"><span class="line-l"></span> 8888888.00</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 8888888.<small>00
+                                    </small></span>
                                     <span class="c-page1-t2">代收本金 <span style="color: #a0a0a0">（元）</span></span>
                                 </div>
                             </li>
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box2">
-                                    <span class="c-page1-t1"><span class="line-l"></span> 275.00</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 275.<small>00</small></span>
                                     <span class="c-page1-t2">
                                          代收收益<span style="color: #a0a0a0">（元）</span>
                                     </span>
@@ -241,7 +252,8 @@
                             </li>
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box3">
-                                    <span class="c-page1-t1"><span class="line-l"></span> 3000000.50</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 3000000.<small>00
+                                    </small></span>
                                     <span class="c-page1-t2">
                                          累计投资<span style="color: #a0a0a0">（元）</span>
                                     </span>
@@ -249,7 +261,7 @@
                             </li>
                             <li class="c-page1-pl col1-4">
                                 <div class="c-pl-box4">
-                                    <span class="c-page1-t1"><span class="line-l"></span> 286.50</span>
+                                    <span class="c-page1-t1"><span class="line-l"></span> 286.<small>50</small></span>
                                     <span class="c-page1-t2">
                                          累计收益<span style="color: #a0a0a0">（元）</span>
                                     </span>
@@ -301,13 +313,55 @@
                             </div>
 
                             <table class="c-table-style1">
-                                <tr><th>回款日期</th><th>回款项目</th><th>期限</th><th>回款类型</th><th>回款金额（元）</th></tr>
-                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
-                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
-                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
-                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
-                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
-                                <tr><td>2015-03-24</td><td>融资宝100110110</td><td>180天</td><td>利息</td><td>+15000.00</td></tr>
+                                <tr>
+                                    <th>回款日期</th>
+                                    <th>回款项目</th>
+                                    <th>期限</th>
+                                    <th>回款类型</th>
+                                    <th>回款金额（元）</th>
+                                </tr>
+                                <tr>
+                                    <td>2015-03-24</td>
+                                    <td>融资宝100110110</td>
+                                    <td>180天</td>
+                                    <td>利息</td>
+                                    <td>+15000.00</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-03-24</td>
+                                    <td>融资宝100110110</td>
+                                    <td>180天</td>
+                                    <td>利息</td>
+                                    <td>+15000.00</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-03-24</td>
+                                    <td>融资宝100110110</td>
+                                    <td>180天</td>
+                                    <td>利息</td>
+                                    <td>+15000.00</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-03-24</td>
+                                    <td>融资宝100110110</td>
+                                    <td>180天</td>
+                                    <td>利息</td>
+                                    <td>+15000.00</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-03-24</td>
+                                    <td>融资宝100110110</td>
+                                    <td>180天</td>
+                                    <td>利息</td>
+                                    <td>+15000.00</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-03-24</td>
+                                    <td>融资宝100110110</td>
+                                    <td>180天</td>
+                                    <td>利息</td>
+                                    <td>+15000.00</td>
+                                </tr>
                             </table>
                         </div>
                     </div>
@@ -315,7 +369,7 @@
                 <!--账户安全-->
                 <div class="c-page2" style="display: none">
                     <!--安全中心首页-->
-                    <div class="right-pd-c" style="display: none;">
+                    <div class="right-pd-c" style="display: block;">
                         <div class="title clearfix">
                             <h3 class="title-text">账户安全</h3>
                             <b class="line"></b>
@@ -483,7 +537,7 @@
                                         <td class="qyrz-col2">
                                             <span>请上传营业执照清晰彩色原件骚面件或数码照</span>
                                             <span>支持jpg/jpeg/bmp/gif</span>
-                                            <input type="file">
+                                            <span class="file-btn">选择文件</span>
                                         </td>
                                     </tr>
                                     <tr>
@@ -524,23 +578,143 @@
                             </div>
                         </div>
                     </div>
+                    <!--绑定银行卡-->
+                    <div class="right-pd-c">
+                        <div class="title clearfix" >
+                            <h3 class="title-text">绑定银行卡</h3>
+                            <b class="line"></b>
+                        </div>
+                        <div class="qyrz-title">
+                            <div class="title-text">银行卡信息</div>
+                        </div>
+                    <div class="cz-main-box"style="margin-top: 0px;">
+                    <div class="bank-box2 clearfix" style="display: block;">
+
+                        <form action="#">
+                            <ul>
+                                <li><span>银行卡号</span> 李** | 1424*********828 </li>
+                                <li>
+                                    <span>银行卡号</span>
+                                    <input type="text" class="input-p i-k"
+                                           placeholder="请输入银行卡号，只支持借记卡"/>
+                                </li>
+                                <li>
+                                    <span class="bank-name">开户银行</span>
+
+                                    <div class="sel_wrap">
+                                        <label>华夏银行</label>
+                                        <select  class="date_select date_select03 inform-border select" size="1" >
+                                            <option value="">请选择充值银行</option>
+                                            <option value="CITIC">中信银行</option>
+                                            <option value="HXB">华夏银行</option>
+                                            <option value="SPDB">浦发银行</option>
+                                            <option value="ABC">中国农业银行</option>
+                                            <option value="CIB">兴业银行</option>
+                                            <option value="CCB">中国建设银行</option>
+                                            <option value="CMBC">中国民生银行</option>
+                                            <option value="BCOM">中国交通银行</option>
+                                            <option value="ICBC">中国工商银行</option>
+                                            <option value="CEB">中国光大银行</option>
+                                            <option value="CMB">招商银行 </option>
+                                            <option value="PAB">平安银行</option>
+                                            <option value="BOC">中国银行</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="bank-name">开户地区</span>
+                                 <div class="sel_wrap short-sel_wrap">
+                                     <label>省份</label>
+                                    <select class="date_select date_select03 inform-border select" size="1" >
+                                        <option value="">省份</option>
+                                        <option value="北京">北京</option>
+                                    </select>
+                                     </div>
+                                    <div class="sel_wrap short-sel_wrap">
+                                        <label>城市</label>
+                                    <select class="date_select date_select03 inform-border select" size="1" >
+                                        <option value="">城市</option>
+                                        <option value="北京">北京</option>
+                                    </select>
+                                        </div>
+                                    <div class="sel_wrap short-sel_wrap">
+                                        <label>区</label>
+                                    <select class="date_select date_select03 inform-border select" size="1" >
+                                        <option value="">区</option>
+                                        <option value="海淀区">海淀区</option>
+                                    </select>
+                                        </div>
+                                </li>
+                                <li>
+                                    <span>支行名称</span>
+                                    <input type="text" class="input-p i-k"
+                                           placeholder="如不确定开户行，请致电银行查询"/>
+                                </li>
+                                <li>
+                                    <span>手机号码</span>
+                                    <input type="text" class="input-p i-z" placeholder="请输入银行预留手机号码"/>
+
+                                    <div class="getCheckCode-btn">
+                                        <span>获取验证码</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>短信验证</span>
+                                    <input type="text" class="input-p i-k" placeholder="请输入短信验证码"/>
+                                </li>
+
+
+                            </ul>
+                            <div class="wenxin-cc">
+                               <p>温馨提示：该银行卡将作为您快捷充值以及提现的默认银行卡。</p>
+
+                            </div>
+
+                                    <div class="btn-group pd0-left clearfix">
+                                        <div class="btn-left">
+                                            <a href="#" class="back-btn">确定</a>
+                                        </div>
+                                        <div class="btn-right">
+                                            <a href="#" class="submit-btn">取消</a>
+                                        </div>
+                                    </div>
+
+
+
+                        </form>
                     </div>
+                    </div>
+                    </div>
+                </div>
                 <!--我的投资-->
                 <div class="c-page3" style="display: none">
                     <div class="right-pd-c">
                         <div class="title clearfix"><h3 class="title-text">投资记录</h3><b class="line"></b></div>
                         <div class="sele-table clearfix ">
                             <div class="sel-screen">
-                                <ul class="sel-screen-item  multiple01">
-                                    <span>产品类型</span><li class="on-color">全部</li><li class="avtive"><i> </i>新手专享 </li><li><i></i>融资宝</li><li><i></i>优选计划</li><li><i></i>VIP专享</li>
+                                <ul class="sel-screen-item">
+                                    <span>产品类型</span>
+                                    <li class="on-color">全部</li>
+                                    <li class="avtive"><i> </i>新手专享</li>
+                                    <li><i></i>融资宝</li>
+                                    <li><i></i>优选计划</li>
+                                    <li><i></i>VIP专享</li>
                                     <a class="btn-more" href=""><i></i>多选</a>
                                 </ul>
                                 <ul class="sel-screen-item  multiple01 clearfix">
-                                    <span>投资时间</span><li  class="on-color">全部</li><li><i></i>最近三个月</li><li><i></i>最近一个月</li><li><i></i>最近七天</li>
+                                    <span>投资时间</span>
+                                    <li class="on-color">全部</li>
+                                    <li><i></i>最近三个月</li>
+                                    <li><i></i>最近一个月</li>
+                                    <li><i></i>最近七天</li>
                                     <input class="text-tiem" type="text"/>-<input class="text-tiem" type="text"/>
                                 </ul>
                                 <ul class="sel-screen-item  multiple01 clearfix">
-                                    <span>投资状态</span><li  class="on-color">全部</li><li><i></i> 进行中</li><li><i></i>已兑付</li><li><i></i>最近七天</li>
+                                    <span>投资状态</span>
+                                    <li class="on-color">全部</li>
+                                    <li><i></i> 进行中</li>
+                                    <li><i></i>已兑付</li>
+                                    <li><i></i>最近七天</li>
                                 </ul>
                                 <div class="sl-btns">
                                     <a href="" class="btn btn-primary disabled">确定</a>
@@ -549,51 +723,56 @@
                             </div>
                             <div class="tab-table clearfix">
                                 <table class="account-tb clearfix">
-                                    <tr><th>项目名称</th>
+                                    <tr>
+                                        <th>项目名称</th>
                                         <th>投资金额(元)</th>
-                                        <th> 年化收益率 </th>
-                                        <th> 投资时间 </th>
+                                        <th> 年化收益率</th>
+                                        <th> 投资时间</th>
                                         <th>预期收益(元)</th>
-                                        <th>兑付时间 </th>
+                                        <th>兑付时间</th>
                                         <th>回款计划</th>
                                         <th>合同</th>
                                     </tr>
-                                    <tr><td>ATM123456789月月盈</td>
+                                    <tr>
+                                        <td>ATM123456789月月盈</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
 
                                         <td>2015-05-16</td>
-                                        <td>10,465.00 </td>
+                                        <td>10,465.00</td>
                                         <td> 2015-05-16</td>
                                         <td><a href=""><span class="img-style hk-jh"></span></a></td>
                                         <td><a href=""><span class="img-style hetong"></span></a></td>
                                     </tr>
-                                    <tr><td>ATM123456789月月盈</td>
+                                    <tr>
+                                        <td>ATM123456789月月盈</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
 
                                         <td>2015-05-16</td>
-                                        <td>10,465.00 </td>
+                                        <td>10,465.00</td>
                                         <td> 2015-05-16</td>
                                         <td><a href=""><span class="img-style hk-jh"></span></a></td>
                                         <td><a href=""><span class="img-style hetong"></span></a></td>
                                     </tr>
-                                    <tr><td>ATM123456789月月盈</td>
+                                    <tr>
+                                        <td>ATM123456789月月盈</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
 
                                         <td>2015-05-16</td>
-                                        <td>10,465.00 </td>
+                                        <td>10,465.00</td>
                                         <td> 2015-05-16</td>
                                         <td><a href=""><span class="img-style hk-jh"></span></a></td>
                                         <td><a href=""><span class="img-style hetong"></span></a></td>
                                     </tr>
-                                    <tr><td>ATM123456789月月盈</td>
+                                    <tr>
+                                        <td>ATM123456789月月盈</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
 
                                         <td>2015-05-16</td>
-                                        <td>10,465.00 </td>
+                                        <td>10,465.00</td>
                                         <td> 2015-05-16</td>
                                         <td><a href=""><span class="img-style hk-jh"></span></a></td>
                                         <td><a href=""><span class="img-style hetong"></span></a></td>
@@ -601,10 +780,11 @@
                                 </table>
                             </div>
                             <div class="page-con">
-                                <div  class="pagegro clearfix">
+                                <div class="pagegro clearfix">
                                     <div class="pageUp"></div>
                                     <div class="pageList">
-                                        <ul><li class="on">1</li>
+                                        <ul>
+                                            <li class="on">1</li>
                                             <li>2</li>
                                         </ul>
                                     </div>
@@ -621,9 +801,15 @@
                         <div class="sele-table clearfix ">
                             <div class="rz-total clearfix">
                                 <ul class="r-total-box">
-                                    <li><u><img src="../images/center-i/rz-icons1.png" /> </u><a href=""><i>88,888,888.<small>00</small></i><br><span>累计融资<em>(元)</em></span></a></li>
-                                    <li><u><img src="../images/center-i/rz-icons2.png" /> </u><a href=""><i>88,888,888.<small>00</small></i><br><span>累计融资<em>(元)</em></span></a></li>
-                                    <li><u><img src="../images/center-i/rz-icons3.png" /> </u><a href=""><i>88,888,888.<small>00</small></i><br><span>累计融资<em>(元)</em></span></a></li>
+                                    <li><u><img src="../images/center-i/rz-icons1.png"/> </u><a href=""><i>88,888,888.
+                                        <small>00</small>
+                                    </i><br><span>累计融资<em>(元)</em></span></a></li>
+                                    <li><u><img src="../images/center-i/rz-icons2.png"/> </u><a href=""><i>88,888,888.
+                                        <small>00</small>
+                                    </i><br><span>累计融资<em>(元)</em></span></a></li>
+                                    <li><u><img src="../images/center-i/rz-icons3.png"/> </u><a href=""><i>88,888,888.
+                                        <small>00</small>
+                                    </i><br><span>累计融资<em>(元)</em></span></a></li>
 
                                 </ul>
                             </div>
@@ -641,21 +827,24 @@
                                     <option value="">2014</option>
                                     <option value="">2013</option>
                                 </select>
-                                <span>日期</span> <input class="text-tiem" type="text"/> - <input  class="text-tiem" type="text"/>
+                                <span>日期</span> <input class="text-tiem" type="text"/> - <input class="text-tiem"
+                                                                                                type="text"/>
                                 <a class="sel-cx" href="">查询</a>
                             </div>
                             <div class="tab-table clearfix">
                                 <table class="account-tb clearfix">
-                                    <tr><th>融资编号</th>
+                                    <tr>
+                                        <th>融资编号</th>
                                         <th>融资金额(万元)</th>
                                         <th>融资年化利率</th>
-                                        <th>金融服务费率 </th>
+                                        <th>金融服务费率</th>
                                         <th>融资成立日</th>
                                         <th>期限</th>
                                         <th>融资还款日</th>
                                         <th>融资状态</th>
                                     </tr>
-                                    <tr><td>ATM123456 </td>
+                                    <tr>
+                                        <td>ATM123456</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
                                         <td>0.5%</td>
@@ -664,7 +853,8 @@
                                         <td>10,465.00</td>
                                         <td>募集中</td>
                                     </tr>
-                                    <tr><td>ATM123456 </td>
+                                    <tr>
+                                        <td>ATM123456</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
                                         <td>0.5%</td>
@@ -673,7 +863,8 @@
                                         <td>10,465.00</td>
                                         <td>募集中</td>
                                     </tr>
-                                    <tr><td>ATM123456 </td>
+                                    <tr>
+                                        <td>ATM123456</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
                                         <td>0.5%</td>
@@ -682,7 +873,8 @@
                                         <td>10,465.00</td>
                                         <td>募集中</td>
                                     </tr>
-                                    <tr><td>ATM123456 </td>
+                                    <tr>
+                                        <td>ATM123456</td>
                                         <td>10,465.00</td>
                                         <td>15.1%</td>
                                         <td>0.5%</td>
@@ -694,10 +886,11 @@
                                 </table>
                             </div>
                             <div class="page-con">
-                                <div  class="pagegro clearfix">
+                                <div class="pagegro clearfix">
                                     <div class="pageUp"></div>
                                     <div class="pageList">
-                                        <ul><li class="on">1</li>
+                                        <ul>
+                                            <li class="on">1</li>
                                             <li>2</li>
                                         </ul>
                                     </div>
@@ -708,9 +901,11 @@
                     </div>
                 </div>
                 <!--账户明细-->
-                <div class="c-page5" style="display: none;" >
+                <div class="c-page5" style="display: none;">
                     <div class="right-pd-c">
-                        <div class="title clearfix"><h3 class="title-text">账户明细</h3><b class="line"></b><span class="right-text-money"><img src="../images/lj-jine.png"/> 累计金额：<i>100,000,000.00 </i>元</span></div>
+                        <div class="title clearfix"><h3 class="title-text">账户明细</h3><b class="line"></b><span
+                                class="right-text-money"><img src="../images/lj-jine.png"/> 累计金额：<i>100,000,000.00 </i>元</span>
+                        </div>
                         <div class="sele-table clearfix ">
                             <div class="sele clearfix">
                                 <ul class="account-sel">
@@ -728,36 +923,42 @@
                                     <option value="">2014</option>
                                     <option value="">2013</option>
                                 </select>
-                                <span>日期</span> <input class="text-tiem" type="text"/> - <input  class="text-tiem" type="text"/>
+                                <span>日期</span> <input class="text-tiem" type="text"/> - <input class="text-tiem"
+                                                                                                type="text"/>
                                 <a class="sel-cx" href="">查询</a>
                             </div>
                             <div class="tab-table clearfix">
                                 <table class="account-tb clearfix">
-                                    <tr><th>交易时间</th>
+                                    <tr>
+                                        <th>交易时间</th>
                                         <th> 交易类型</th>
                                         <th>操作金额</th>
                                         <th>账户余额</th>
-                                        <th>备注 </th>
+                                        <th>备注</th>
                                     </tr>
-                                    <tr><td> 2015-05-16 08:15:00   </td>
+                                    <tr>
+                                        <td> 2015-05-16 08:15:00</td>
                                         <td>充值</td>
                                         <td>操作金额</td>
-                                        <td  style="color:#30b4fc">+10,465.00</td>
+                                        <td style="color:#30b4fc">+10,465.00</td>
                                         <td>通过快捷卡充值成功</td>
                                     </tr>
-                                    <tr><td> 2015-05-16 08:15:00   </td>
+                                    <tr>
+                                        <td> 2015-05-16 08:15:00</td>
                                         <td>提现</td>
                                         <td>操作金额</td>
                                         <td style="color:#e35848">+10,465.00</td>
                                         <td>通过快捷卡充值成功</td>
                                     </tr>
-                                    <tr><td> 2015-05-16 08:15:00   </td>
+                                    <tr>
+                                        <td> 2015-05-16 08:15:00</td>
                                         <td>充值</td>
                                         <td>操作金额</td>
                                         <td>+10,465.00</td>
                                         <td>通过快捷卡充值成功</td>
                                     </tr>
-                                    <tr><td> 2015-05-16 08:15:00   </td>
+                                    <tr>
+                                        <td> 2015-05-16 08:15:00</td>
                                         <td>充值</td>
                                         <td>操作金额</td>
                                         <td>+10,465.00</td>
@@ -766,10 +967,11 @@
                                 </table>
                             </div>
                             <div class="page-con">
-                                <div  class="pagegro clearfix">
+                                <div class="pagegro clearfix">
                                     <div class="pageUp"></div>
                                     <div class="pageList">
-                                        <ul><li class="on">1</li>
+                                        <ul>
+                                            <li class="on">1</li>
                                             <li>2</li>
                                         </ul>
                                     </div>
@@ -783,7 +985,7 @@
                 <div class="c-page6" style="display: none;">
                     <div class="right-pd-c">
                         <div class="title clearfix">
-                            <h3 class="title-text">通知中心</h3>
+                            <h3 class="title-text">通知中心</h3><b class="line"></b>
                             <span class="notice-right-text">共6条消息，其中 4 条未读</span>
                         </div>
                         <div class="c-notice">
@@ -793,9 +995,12 @@
                                         <li class="box-items clearfix">
                                             <div class="list-controls">
                                                 <div class="list-control1"><a href="#">全选</a></div>
-                                                <div class="list-control2"><i class="icon iconfont">&#xe603;</i><a href="#">删除</a></div>
-                                                <div class="list-control3"><i class="icon iconfont">&#xe601;</i><a href="#">标记为已读</a></div>
-                                                <div class="list-control4"><i class="icon iconfont">&#xe602;</i><a href="#">标记为未读</a></div>
+                                                <div class="list-control2"><i class="icon iconfont">&#xe603;</i><a
+                                                        href="#">删除</a></div>
+                                                <div class="list-control3"><i class="icon iconfont">&#xe601;</i><a
+                                                        href="#">标记为已读</a></div>
+                                                <div class="list-control4"><i class="icon iconfont">&#xe602;</i><a
+                                                        href="#">标记为未读</a></div>
                                             </div>
                                         </li>
                                         <li class="notices-box-items">
@@ -809,7 +1014,7 @@
                                                         您绑定的手机号码：<span>150****6320</span>
                                                         <span style="font-size: 12px;color: #a0a0a0;margin-left: 440px;">2016-1-10 12:15:25</span>
                                                     </div>
-                                                    <div class="notice-item2-desc">
+                                                    <div class="notice-item2-desc" style="display:none;">
                                                         <span>
                                                             有时为了查看版面设计效果，一些空白的文框会预先填入假字。选取文字菜单下的“填入假字”功能，即可将一段英文字填满所选的空白文框。如果想要用自设的一段文字作为填满空白文框的预设字，则先将该段文字储存为名称。
                                                         </span>
@@ -828,8 +1033,9 @@
                                                         您绑定的手机号码：<span>150****6320</span>
                                                         <span style="font-size: 12px;color: #a0a0a0;margin-left: 440px;">2016-1-10 12:15:25</span>
                                                     </div>
-                                                    <div class="notice-item2-desc">
-                                                        <span>
+                                                    <div class="notice-item2-desc" style="display:none;">
+                                                         <span>
+                                                            有时为了查看版面设计效果，一些空白的文框会预先填入假字。选取文字菜单下的“填入假字”功能，即可将一段英文字填满所选的空白文框。如果想要用自设的一段文字作为填满空白文框的预设字，则先将该段文字储存为名称。
                                                         </span>
                                                     </div>
                                                 </div>
@@ -843,29 +1049,47 @@
                 </div>
                 <!--推荐管理-->
                 <div class="c-page7" style="display: none">
-                    <div class="right-pd-c" >
+                    <div class="right-pd-c">
                         <div class="title clearfix">
                             <h3 class="title-text">推荐方式</h3>
                             <b class="line"></b>
                         </div>
                         <div class="tj-img" style="display: none;"></div>
-                        <div class="tj-img lic-tj-img" > </div>
+                        <div class="tj-img lic-tj-img"></div>
                         <ul class="share-way">
-                            <li><div class="share-way-item"><h3 class="title-item">微信分享</h3><p class="title-text">微信扫码  分享至微信好友或朋友圈</p>
-                                <div class="img-center"><a href=""><img src="../images/serve-img.png"/> </a></div>
+                            <li>
+                                <div class="share-way-item"><h3 class="title-item">微信分享</h3>
 
-                            </div></li>
-                            <li><div class="share-way-item way-item2"><h3 class="title-item">链接分享</h3><p class="title-text">您可复制下方链接给您的好友</p>
-                                <div class="input"><input class="" type="text" value="https://www.safetou.com:443/register_extend?gister_extend?"></div>
-                                <div class="btn-border"><a href="" class="copy-i">复制链接 </a></div>
+                                    <p class="title-text">微信扫码 分享至微信好友或朋友圈</p>
 
-                            </div></li>
-                            <li style="border-right: none;"><div class="share-way-item way-item3"><h3 class="title-item">个性邀请码</h3><p class="title-text">您可自定义设置个性邀请码，默认为您的手机号码。
-                                <br> 请您的好友在注册时填写该邀请码</p>
-                                <div class="input"><input class="short-text" type="text" value="156 1136 0000"></div>
-                                <div class="btn-border"><a href="">修改</a></div>
+                                    <div class="img-center"><a href=""><img src="../images/serve-img.png"/> </a></div>
 
-                            </div></li>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="share-way-item way-item2"><h3 class="title-item">链接分享</h3>
+
+                                    <p class="title-text">您可复制下方链接给您的好友</p>
+
+                                    <div class="input"><input class="" type="text"
+                                                              value="https://www.safetou.com:443/register_extend?gister_extend?">
+                                    </div>
+                                    <div class="btn-border"><a href="" class="copy-i">复制链接 </a></div>
+
+                                </div>
+                            </li>
+                            <li style="border-right: none;">
+                                <div class="share-way-item way-item3"><h3 class="title-item">个性邀请码</h3>
+
+                                    <p class="title-text">您可自定义设置个性邀请码，默认为您的手机号码。
+                                        <br> 请您的好友在注册时填写该邀请码</p>
+
+                                    <div class="input"><input class="short-text" type="text" value="156 1136 0000">
+                                    </div>
+                                    <div class="btn-border"><a href="">修改</a></div>
+
+                                </div>
+                            </li>
 
                         </ul>
 
@@ -880,56 +1104,67 @@
 
                             <div class="c-tab-box bt-bottom-1 clearfix">
                                 <div class="tab-left">
-                                    <div class="tab-item"><span class="tab-cli tab-cli-current">推荐注册（5人） </span></div>
+                                    <div class="tab-item tab-cli-current"><span class="tab-cli ">推荐注册（5人） </span></div>
                                     <div class="tab-item mid-line"></div>
                                     <div class="tab-item"><span class="tab-cli"> 推荐投资（4）</span></div>
                                     <div class="tab-item mid-line"></div>
                                     <div class="tab-item"><span class="tab-cli"> 推荐融资（1）</span></div>
                                 </div>
                             </div>
-                            <div class="tab-tj">
-                                <table class="account-tb clearfix">
-                                    <tbody><tr><th>注册时间</th>
-                                        <th> 好友姓名</th>
-                                        <th>注册手机</th>
-                                        <th> 好友生日</th>
-                                        <th>实名认证情况 </th>
-                                    </tr>
-                                    <tr><td>2015-05-16 08:15:00 </td>
-                                        <td> 张三 </td>
-                                        <td>18010127264 </td>
-                                        <td>1995-01-01</td>
-                                        <td><a href=""><i class="n-yz-img01"></i></a></td>
+                            <div class="jianli-con">
+                                <div class="tjjl-tab-lists">
+                                    <table class="account-tb clearfix">
+                                        <tbody>
+                                        <tr>
+                                            <th>注册时间</th>
+                                            <th> 好友姓名</th>
+                                            <th>注册手机</th>
+                                            <th> 好友生日</th>
+                                            <th>实名认证情况</th>
+                                        </tr>
+                                        <tr>
+                                            <td>2015-05-16 08:15:00</td>
+                                            <td> 张三</td>
+                                            <td>18010127264</td>
+                                            <td>1995-01-01</td>
+                                            <td><a href=""><i class="n-yz-img01"></i></a></td>
 
-                                    </tr>
-                                    <tr><td>2015-05-16 08:15:00 </td>
-                                        <td> 张三 </td>
-                                        <td>18010127264 </td>
-                                        <td>1995-01-01</td>
-                                        <td><a href=""><i class="n-yz-img02"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2015-05-16 08:15:00</td>
+                                            <td> 张三</td>
+                                            <td>18010127264</td>
+                                            <td>1995-01-01</td>
+                                            <td><a href=""><i class="n-yz-img02"></i></a></td>
 
-                                    </tr>
-                                    <tr><td>2015-05-16 08:15:00 </td>
-                                        <td> 张三 </td>
-                                        <td>18010127264 </td>
-                                        <td>1995-01-01</td>
-                                        <td><a href=""><i class="n-yz-img01"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2015-05-16 08:15:00</td>
+                                            <td> 张三</td>
+                                            <td>18010127264</td>
+                                            <td>1995-01-01</td>
+                                            <td><a href=""><i class="n-yz-img01"></i></a></td>
 
-                                    </tr>
-                                    <tr><td>2015-05-16 08:15:00 </td>
-                                        <td> 张三 </td>
-                                        <td>18010127264 </td>
-                                        <td>1995-01-01</td>
-                                        <td><a href=""><i class="n-yz-img01"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2015-05-16 08:15:00</td>
+                                            <td> 张三</td>
+                                            <td>18010127264</td>
+                                            <td>1995-01-01</td>
+                                            <td><a href=""><i class="n-yz-img01"></i></a></td>
 
-                                    </tr>
-                                    </tbody></table>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
                             </div>
                             <div class="page-con">
                                 <div class="pagegro clearfix">
                                     <div class="pageUp"></div>
                                     <div class="pageList">
-                                        <ul><li class="on">1</li>
+                                        <ul>
+                                            <li class="on">1</li>
                                             <li>2</li>
                                         </ul>
                                     </div>
@@ -980,7 +1215,7 @@
                             <div class="tjjl-tab-box clearfix">
                                 <div class="c-tab-box clearfix">
                                     <div class="tab-left">
-                                        <div class="tab-item"><span class="tab-cli tab-cli-current">奖励账单</span></div>
+                                        <div class="tab-item tab-cli-current"><span class="tab-cli ">奖励账单</span></div>
                                         <div class="tab-item mid-line"></div>
                                         <div class="tab-item"><span class="tab-cli">奖励规则</span></div>
                                     </div>
@@ -993,523 +1228,550 @@
                                             </select>
                                         </div>
                                     </div>
+
                                 </div>
-                            </div>
 
-                            <!--奖励账单-->
-                            <div class="tjjl-tab-lists" style="display: none">
-                                <div class="tab-table-box">
-                                    <ul>
-                                        <li class="clearfix">
-                                            <div class="tab-li-item">
-                                                <span class="date-box">2016.04</span>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <div class="mid-text">
-                                                    <span class="item-text1">奖励金额：</span>
-                                                    <span class="item-text2">1208. <small>08元</small></span>
-                                                    <span class="item-text3">（税前：1500.18元）</span>
-                                                </div>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <span class="zkmx-btn">展开明细</span>
-                                            </div>
-                                            <!--展开细节-->
-                                            <div class="tab-li-detail clearfix" style="display: block">
-                                                <div class="li-detail-box">
-                                                    <table>
-                                                        <tr class="tr-th">
-                                                            <th class="t-w-1">投资人</th>
-                                                            <th class="t-w-2">投资项目</th>
-                                                            <th class="t-w-3">项目性质</th>
-                                                            <th class="t-w-4">投资金额</th>
-                                                            <th class="t-w-5">本期天数</th>
-                                                            <th class="t-w-6">奖金利率</th>
-                                                            <th class="t-w-7">本期奖金(税前) <i class="wenhao" style="position: relative;top: -7px;left: -2px;">?</i> </th>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                    </table>
-                                                    <div class="table-footer-box clearfix">
-                                                        <div class="tfooter-item">总计奖励金额：1500.18元</div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">个税扣除金额：200.00元 <span class="ksgz-t">扣税规则</span></div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                <!--奖励账单-->
+                                <div class="jiangli-con">
+                                    <div class="tjjl-tab-lists" style="display:block;">
+                                        <div class="tab-table-box">
+                                            <ul>
+                                                <li class="clearfix">
+                                                    <div class="tab-li-item">
+                                                        <span class="date-box">2016.04</span>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <div class="tab-li-item">
-                                                <span class="date-box">2016.04</span>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <div class="mid-text">
-                                                    <span class="item-text1">奖励金额：</span>
-                                                    <span class="item-text2">1208. <small>08元</small></span>
-                                                    <span class="item-text3">（税前：1500.18元）</span>
-                                                </div>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <span class="zkmx-btn">展开明细</span>
-                                            </div>
-                                            <div class="tab-li-detail clearfix" style="display: none">
-                                                <div class="li-detail-box">
-                                                    <table>
-                                                        <tr class="tr-th">
-                                                            <th class="t-w-1">投资人</th>
-                                                            <th class="t-w-2">投资项目</th>
-                                                            <th class="t-w-3">项目性质</th>
-                                                            <th class="t-w-4">投资金额</th>
-                                                            <th class="t-w-5">本期天数</th>
-                                                            <th class="t-w-6">奖金利率</th>
-                                                            <th class="t-w-7">本期奖金(税前)</th>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                    </table>
-                                                    <div class="table-footer-box clearfix">
-                                                        <div class="tfooter-item">总计奖励金额：1500.18元</div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">个税扣除金额：200.00元 <span>扣税规则</span></div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                    <div class="tab-li-item">
+                                                        <div class="mid-text">
+                                                            <span class="item-text1">奖励金额：</span>
+                                                            <span class="item-text2">1208. <small>08元</small></span>
+                                                            <span class="item-text3">（税前：1500.18元）</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <div class="tab-li-item">
-                                                <span class="date-box">2016.04</span>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <div class="mid-text">
-                                                    <span class="item-text1">奖励金额：</span>
-                                                    <span class="item-text2">1208. <small>08元</small></span>
-                                                    <span class="item-text3">（税前：1500.18元）</span>
-                                                </div>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <span class="zkmx-btn">展开明细</span>
-                                            </div>
-                                            <div class="tab-li-detail clearfix" style="display: none">
-                                                <div class="li-detail-box">
-                                                    <table>
-                                                        <tr class="tr-th">
-                                                            <th class="t-w-1">投资人</th>
-                                                            <th class="t-w-2">投资项目</th>
-                                                            <th class="t-w-3">项目性质</th>
-                                                            <th class="t-w-4">投资金额</th>
-                                                            <th class="t-w-5">本期天数</th>
-                                                            <th class="t-w-6">奖金利率</th>
-                                                            <th class="t-w-7">本期奖金(税前)</th>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                    </table>
-                                                    <div class="table-footer-box clearfix">
-                                                        <div class="tfooter-item">总计奖励金额：1500.18元</div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">个税扣除金额：200.00元 <span>扣税规则</span></div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                    <div class="tab-li-item">
+                                                        <span class="zkmx-btn">展开明细</span>
+
+                                                        <div class="tab-li-detail clearfix" style="display: none;">
+                                                            <div class="li-detail-box">
+                                                                <table>
+                                                                    <tr class="tr-th">
+                                                                        <th class="t-w-1">投资人</th>
+                                                                        <th class="t-w-2">投资项目</th>
+                                                                        <th class="t-w-3">项目性质</th>
+                                                                        <th class="t-w-4">投资金额</th>
+                                                                        <th class="t-w-5">本期天数</th>
+                                                                        <th class="t-w-6">奖金利率</th>
+                                                                        <th class="t-w-7">本期奖金(税前) <i class="wenhao"
+                                                                                                      style="position: relative;top: -7px;left: -2px;">?</i>
+                                                                        </th>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="table-footer-box clearfix">
+                                                                    <div class="tfooter-item">总计奖励金额：1500.18元</div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">个税扣除金额：200.00元 <span
+                                                                            class="ksgz-t">扣税规则</span></div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <div class="tab-li-item">
-                                                <span class="date-box">2016.04</span>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <div class="mid-text">
-                                                    <span class="item-text1">奖励金额：</span>
-                                                    <span class="item-text2">1208. <small>08元</small></span>
-                                                    <span class="item-text3">（税前：1500.18元）</span>
-                                                </div>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <span class="zkmx-btn">展开明细</span>
-                                            </div>
-                                            <div class="tab-li-detail clearfix" style="display: none">
-                                                <div class="li-detail-box">
-                                                    <table>
-                                                        <tr class="tr-th">
-                                                            <th class="t-w-1">投资人</th>
-                                                            <th class="t-w-2">投资项目</th>
-                                                            <th class="t-w-3">项目性质</th>
-                                                            <th class="t-w-4">投资金额</th>
-                                                            <th class="t-w-5">本期天数</th>
-                                                            <th class="t-w-6">奖金利率</th>
-                                                            <th class="t-w-7">本期奖金(税前)</th>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                    </table>
-                                                    <div class="table-footer-box clearfix">
-                                                        <div class="tfooter-item">总计奖励金额：1500.18元</div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">个税扣除金额：200.00元 <span>扣税规则</span></div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                    <!--展开细节-->
+
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="tab-li-item">
+                                                        <span class="date-box">2016.04</span>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <div class="tab-li-item">
-                                                <span class="date-box">2016.04</span>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <div class="mid-text">
-                                                    <span class="item-text1">奖励金额：</span>
-                                                    <span class="item-text2">1208. <small>08元</small></span>
-                                                    <span class="item-text3">（税前：1500.18元）</span>
-                                                </div>
-                                            </div>
-                                            <div class="tab-li-item">
-                                                <span class="zkmx-btn">展开明细</span>
-                                            </div>
-                                            <div class="tab-li-detail clearfix" style="display: none">
-                                                <div class="li-detail-box">
-                                                    <table>
-                                                        <tr class="tr-th">
-                                                            <th class="t-w-1">投资人</th>
-                                                            <th class="t-w-2">投资项目</th>
-                                                            <th class="t-w-3">项目性质</th>
-                                                            <th class="t-w-4">投资金额</th>
-                                                            <th class="t-w-5">本期天数</th>
-                                                            <th class="t-w-6">奖金利率</th>
-                                                            <th class="t-w-7">本期奖金(税前)</th>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                        <tr class="tr-td">
-                                                            <td style="text-align: center;">张三</td>
-                                                            <td>融资报001</td>
-                                                            <td>投资</td>
-                                                            <td>500，000，00.00元</td>
-                                                            <td>180天</td>
-                                                            <td>0.9%</td>
-                                                            <td>500.00元</td>
-                                                        </tr>
-                                                    </table>
-                                                    <div class="table-footer-box clearfix">
-                                                        <div class="tfooter-item">总计奖励金额：1500.18元</div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">个税扣除金额：200.00元 <span>扣税规则</span></div>
-                                                        <div class="tfooter-item mid-line-font">|</div>
-                                                        <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                    <div class="tab-li-item">
+                                                        <div class="mid-text">
+                                                            <span class="item-text1">奖励金额：</span>
+                                                            <span class="item-text2">1208. <small>08元</small></span>
+                                                            <span class="item-text3">（税前：1500.18元）</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </li>
+                                                    <div class="tab-li-item">
+                                                        <span class="zkmx-btn">展开明细</span>
+
+                                                        <div class="tab-li-detail clearfix" style="display: none">
+                                                            <div class="li-detail-box">
+                                                                <table>
+                                                                    <tr class="tr-th">
+                                                                        <th class="t-w-1">投资人</th>
+                                                                        <th class="t-w-2">投资项目</th>
+                                                                        <th class="t-w-3">项目性质</th>
+                                                                        <th class="t-w-4">投资金额</th>
+                                                                        <th class="t-w-5">本期天数</th>
+                                                                        <th class="t-w-6">奖金利率</th>
+                                                                        <th class="t-w-7">本期奖金(税前)</th>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="table-footer-box clearfix">
+                                                                    <div class="tfooter-item">总计奖励金额：1500.18元</div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">个税扣除金额：200.00元
+                                                                        <span>扣税规则</span></div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="tab-li-item">
+                                                        <span class="date-box">2016.04</span>
+                                                    </div>
+                                                    <div class="tab-li-item">
+                                                        <div class="mid-text">
+                                                            <span class="item-text1">奖励金额：</span>
+                                                            <span class="item-text2">1208. <small>08元</small></span>
+                                                            <span class="item-text3">（税前：1500.18元）</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-li-item">
+                                                        <span class="zkmx-btn">展开明细</span>
+
+                                                        <div class="tab-li-detail clearfix" style="display: none">
+                                                            <div class="li-detail-box">
+                                                                <table>
+                                                                    <tr class="tr-th">
+                                                                        <th class="t-w-1">投资人</th>
+                                                                        <th class="t-w-2">投资项目</th>
+                                                                        <th class="t-w-3">项目性质</th>
+                                                                        <th class="t-w-4">投资金额</th>
+                                                                        <th class="t-w-5">本期天数</th>
+                                                                        <th class="t-w-6">奖金利率</th>
+                                                                        <th class="t-w-7">本期奖金(税前)</th>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="table-footer-box clearfix">
+                                                                    <div class="tfooter-item">总计奖励金额：1500.18元</div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">个税扣除金额：200.00元
+                                                                        <span>扣税规则</span></div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="tab-li-item">
+                                                        <span class="date-box">2016.04</span>
+                                                    </div>
+                                                    <div class="tab-li-item">
+                                                        <div class="mid-text">
+                                                            <span class="item-text1">奖励金额：</span>
+                                                            <span class="item-text2">1208. <small>08元</small></span>
+                                                            <span class="item-text3">（税前：1500.18元）</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-li-item">
+                                                        <span class="zkmx-btn">展开明细</span>
+
+                                                        <div class="tab-li-detail clearfix" style="display: none">
+                                                            <div class="li-detail-box">
+                                                                <table>
+                                                                    <tr class="tr-th">
+                                                                        <th class="t-w-1">投资人</th>
+                                                                        <th class="t-w-2">投资项目</th>
+                                                                        <th class="t-w-3">项目性质</th>
+                                                                        <th class="t-w-4">投资金额</th>
+                                                                        <th class="t-w-5">本期天数</th>
+                                                                        <th class="t-w-6">奖金利率</th>
+                                                                        <th class="t-w-7">本期奖金(税前)</th>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="table-footer-box clearfix">
+                                                                    <div class="tfooter-item">总计奖励金额：1500.18元</div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">个税扣除金额：200.00元
+                                                                        <span>扣税规则</span></div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="tab-li-item">
+                                                        <span class="date-box">2016.04</span>
+                                                    </div>
+                                                    <div class="tab-li-item">
+                                                        <div class="mid-text">
+                                                            <span class="item-text1">奖励金额：</span>
+                                                            <span class="item-text2">1208. <small>08元</small></span>
+                                                            <span class="item-text3">（税前：1500.18元）</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-li-item">
+                                                        <span class="zkmx-btn">展开明细</span>
+
+                                                        <div class="tab-li-detail clearfix" style="display: none">
+                                                            <div class="li-detail-box">
+                                                                <table>
+                                                                    <tr class="tr-th">
+                                                                        <th class="t-w-1">投资人</th>
+                                                                        <th class="t-w-2">投资项目</th>
+                                                                        <th class="t-w-3">项目性质</th>
+                                                                        <th class="t-w-4">投资金额</th>
+                                                                        <th class="t-w-5">本期天数</th>
+                                                                        <th class="t-w-6">奖金利率</th>
+                                                                        <th class="t-w-7">本期奖金(税前)</th>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                    <tr class="tr-td">
+                                                                        <td style="text-align: center;">张三</td>
+                                                                        <td>融资报001</td>
+                                                                        <td>投资</td>
+                                                                        <td>500，000，00.00元</td>
+                                                                        <td>180天</td>
+                                                                        <td>0.9%</td>
+                                                                        <td>500.00元</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <div class="table-footer-box clearfix">
+                                                                    <div class="tfooter-item">总计奖励金额：1500.18元</div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">个税扣除金额：200.00元
+                                                                        <span>扣税规则</span></div>
+                                                                    <div class="tfooter-item mid-line-font">|</div>
+                                                                    <div class="tfooter-item">实际到帐金额：1300.18元</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </li>
 
 
-                                    </ul>
-                                </div>
-                            </div>
-                            <!--奖励规则-->
-                            <div class="tjjl-tab-lists" style="display: block">
-                                <div class="jlgz-item">
-                                    <div class="ques-t">推荐成长体系：</div>
-                                    <div class="ans-box">
-                                        <div class="ans-table">
-                                            <table border="1" style="text-align: center;
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--奖励规则-->
+                                    <div class="tjjl-tab-lists" style="display: none;">
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">推荐成长体系：</div>
+                                            <div class="ans-box">
+                                                <div class="ans-table">
+                                                    <table border="1" style="text-align: center;
     border: solid thin #e5e5e5;">
-                                                <tr>
-                                                    <th class="ans-th1">
-                                                        <span>等级</span>
-                                                    </th>
-                                                    <th class="ans-th2">
+                                                        <tr>
+                                                            <th class="ans-th1">
+                                                                <span>等级</span>
+                                                            </th>
+                                                            <th class="ans-th2">
                                                         <span class="icon-v">
                                                         <i class="icon iconfont">&#xe607;</i>
                                                           </span>
-                                                    </th>
-                                                    <th class="ans-th2">
+                                                            </th>
+                                                            <th class="ans-th2">
                                                          <span class="icon-v">
                                                         <i class="icon iconfont">&#xe608;</i>
                                                              </span>
-                                                    </th>
-                                                    <th class="ans-th2">
+                                                            </th>
+                                                            <th class="ans-th2">
                                                          <span class="icon-v">
                                                         <i class="icon iconfont">&#xe609;</i>
                                                              </span>
-                                                    </th>
-                                                    <th class="ans-th2">
+                                                            </th>
+                                                            <th class="ans-th2">
                                                          <span class="icon-v">
                                                         <i class="icon iconfont">&#xe60a;</i>
                                                              </span>
-                                                    </th>
-                                                    <th class="ans-th2">
+                                                            </th>
+                                                            <th class="ans-th2">
                                                          <span class="icon-v">
                                                         <i class="icon iconfont">&#xe60b;</i>
                                                              </span>
-                                                    </th>
-                                                </tr>
-                                                <tr class="ans-tr2">
-                                                    <td><span>等级奖金率</span></td>
-                                                    <td>0</td>
-                                                    <td>+0.05%</td>
-                                                    <td>+0.10%</td>
-                                                    <td>+0.15%</td>
-                                                    <td>+0.20%</td>
-                                                </tr>
-                                                <tr class="ans-tr2">
-                                                    <td><span>升级下一级所需成长值</span></td>
-                                                    <td>30 000</td>
-                                                    <td>70 000</td>
-                                                    <td>150 000</td>
-                                                    <td>300 000</td>
-                                                    <td>—</td>
-                                                </tr>
-                                            </table>
+                                                            </th>
+                                                        </tr>
+                                                        <tr class="ans-tr2">
+                                                            <td><span>等级奖金率</span></td>
+                                                            <td>0</td>
+                                                            <td>+0.05%</td>
+                                                            <td>+0.10%</td>
+                                                            <td>+0.15%</td>
+                                                            <td>+0.20%</td>
+                                                        </tr>
+                                                        <tr class="ans-tr2">
+                                                            <td><span>升级下一级所需成长值</span></td>
+                                                            <td>30 000</td>
+                                                            <td>70 000</td>
+                                                            <td>150 000</td>
+                                                            <td>300 000</td>
+                                                            <td>—</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="jlgz-item">
-                                    <div class="ques-t">如何获取推荐奖励资格？</div>
-                                    <div class="ans-box">
-                                        <div class="ans-text">您可以通过邀请好友进行投资，推荐记录详见 <span>推荐管理。</span></div>
-                                    </div>
-                                </div>
-                                <div class="jlgz-item">
-                                    <div class="ques-t">奖金利率是多少？</div>
-                                    <div class="ans-box">
-                                        <div class="ans-text">奖金利率为年化利率，分为基础奖金利率+等级奖金率，推荐达人基础奖金利率为0.3%，理财师基础佣金利率为1%。</div>
-                                    </div>
-                                </div>
-                                <div class="jlgz-item">
-                                    <div class="ques-t">推荐奖励是多少？</div>
-                                    <div class="ans-box">
-                                        <div class="ans-text">推荐好友投资成功后，奖励金额=好友年化投资额*奖金利率。</div>
-                                    </div>
-                                </div>
-                                <div class="jlgz-item">
-                                    <div class="ques-t">奖励金额怎样发放？</div>
-                                    <div class="ans-box">
-                                        <div class="ans-text">所有的奖励金额均按月发放，次月1日发放上月的奖金，发放奖金金额均为税后金额。</div>
-                                    </div>
-                                </div>
-                                <div class="jlgz-item">
-                                    <div class="ques-t">扣税规则</div>
-                                    <div class="ans-box">
-                                        <div class="ans-text">所有的推荐投资奖励，将根据国家劳动法规定扣除相应个人所得税。</div>
-                                        <div class="ans-table">
-                                            <table border="1" style="text-align: center;
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">如何获取推荐奖励资格？</div>
+                                            <div class="ans-box">
+                                                <div class="ans-text">您可以通过邀请好友进行投资，推荐记录详见 <span>推荐管理。</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">奖金利率是多少？</div>
+                                            <div class="ans-box">
+                                                <div class="ans-text">
+                                                    奖金利率为年化利率，分为基础奖金利率+等级奖金率，推荐达人基础奖金利率为0.3%，理财师基础佣金利率为1%。
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">推荐奖励是多少？</div>
+                                            <div class="ans-box">
+                                                <div class="ans-text">推荐好友投资成功后，奖励金额=好友年化投资额*奖金利率。</div>
+                                            </div>
+                                        </div>
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">奖励金额怎样发放？</div>
+                                            <div class="ans-box">
+                                                <div class="ans-text">所有的奖励金额均按月发放，次月1日发放上月的奖金，发放奖金金额均为税后金额。</div>
+                                            </div>
+                                        </div>
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">扣税规则</div>
+                                            <div class="ans-box">
+                                                <div class="ans-text">所有的推荐投资奖励，将根据国家劳动法规定扣除相应个人所得税。</div>
+                                                <div class="ans-table">
+                                                    <table border="1" style="text-align: center;
     border: solid thin #e5e5e5;">
-                                                <tr class="ans-tr2">
-                                                    <th style="width: 110px;" class="ans-th2">
-                                                        <span class="ans-tr2-1">级数</span>
-                                                    </th>
-                                                    <th style="width: 230px;" class="ans-th2"><span class="ans-tr2-1">应纳税所得额</span></th>
-                                                    <th style="width: 340px;" class="ans-th2"><span class="ans-tr2-1">缴纳税费</span></th>
-                                                </tr>
-                                                <tr  class="ans-tr2">
-                                                    <td>1</td>
-                                                    <td><span class="ans-tr2-1">不超过800</span></td>
-                                                    <td><span  class="ans-tr2-1">0</span></td>
-                                                </tr>
-                                                <tr  class="ans-tr2">
-                                                    <td>2</td>
-                                                    <td><span class="ans-tr2-1">超过800不超过4000</span></td>
-                                                    <td><span class="ans-tr2-1">（劳务报酬-800）*20%</span></td>
-                                                </tr>
-                                                <tr class="ans-tr2">
-                                                    <td>3</td>
-                                                    <td><span class="ans-tr2-1">超过4000不超过25000</span></td>
-                                                    <td><span class="ans-tr2-1">劳务报酬*（1-20%）*20%</span></td>
-                                                </tr>
-                                                <tr class="ans-tr2">
-                                                    <td>4</td>
-                                                    <td><span class="ans-tr2-1">超过25000不超过625000</span></td>
-                                                    <td><span class="ans-tr2-1">劳务报酬*（1-20%）*30%-2000</span></td>
-                                                </tr>
-                                                <tr class="ans-tr2">
-                                                    <td>5</td>
-                                                    <td><span class="ans-tr2-1">超过625000</span></td>
-                                                    <td><span class="ans-tr2-1">劳务报酬*（1-20%）*40%-7000</span></td>
-                                                </tr>
-                                            </table>
+                                                        <tr class="ans-tr2">
+                                                            <th style="width: 110px;" class="ans-th2">
+                                                                <span class="ans-tr2-1">级数</span>
+                                                            </th>
+                                                            <th style="width: 230px;" class="ans-th2"><span
+                                                                    class="ans-tr2-1">应纳税所得额</span></th>
+                                                            <th style="width: 340px;" class="ans-th2"><span
+                                                                    class="ans-tr2-1">缴纳税费</span></th>
+                                                        </tr>
+                                                        <tr class="ans-tr2">
+                                                            <td>1</td>
+                                                            <td><span class="ans-tr2-1">不超过800</span></td>
+                                                            <td><span class="ans-tr2-1">0</span></td>
+                                                        </tr>
+                                                        <tr class="ans-tr2">
+                                                            <td>2</td>
+                                                            <td><span class="ans-tr2-1">超过800不超过4000</span></td>
+                                                            <td><span class="ans-tr2-1">（劳务报酬-800）*20%</span></td>
+                                                        </tr>
+                                                        <tr class="ans-tr2">
+                                                            <td>3</td>
+                                                            <td><span class="ans-tr2-1">超过4000不超过25000</span></td>
+                                                            <td><span class="ans-tr2-1">劳务报酬*（1-20%）*20%</span></td>
+                                                        </tr>
+                                                        <tr class="ans-tr2">
+                                                            <td>4</td>
+                                                            <td><span class="ans-tr2-1">超过25000不超过625000</span></td>
+                                                            <td><span class="ans-tr2-1">劳务报酬*（1-20%）*30%-2000</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="ans-tr2">
+                                                            <td>5</td>
+                                                            <td><span class="ans-tr2-1">超过625000</span></td>
+                                                            <td><span class="ans-tr2-1">劳务报酬*（1-20%）*40%-7000</span>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">成长值是如何计算的？</div>
+                                            <div class="ans-box">
+                                                <div class="ans-text">1成长值=推荐年华投资额（或推荐年华融资额）/100，直接取整数位。</div>
+
+                                            </div>
+                                        </div>
+                                        <div class="jlgz-item">
+                                            <div class="ques-t">如何进行等级升级？</div>
+                                            <div class="ans-box">
+                                                <div class="ans-text">成长值达到相应等级标准时，系统自动等级升值下一等级，升值后会自动扣除相应的成长值。</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="jlgz-item">
-                                    <div class="ques-t">成长值是如何计算的？</div>
-                                    <div class="ans-box">
-                                        <div class="ans-text">1成长值=推荐年华投资额（或推荐年华融资额）/100，直接取整数位。</div>
-
-                                    </div>
-                                </div>
-                                <div class="jlgz-item">
-                                    <div class="ques-t">如何进行等级升级？</div>
-                                    <div class="ans-box">
-                                        <div class="ans-text">成长值达到相应等级标准时，系统自动等级升值下一等级，升值后会自动扣除相应的成长值。</div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -1523,10 +1785,10 @@
                     <div class="cz-main-box" style="display: block;">
                         <!--头部tab-->
                         <div class="cz-header-box">
-                          <ul class="cz-header-tab">
-                              <li><a href="" class="no-pd0 cur-tab">网银充值</a></li>
-                                <li><a href="" class="">快捷充值</a></li>
-                                <li><a href="" class="">线下充值</a></li>
+                            <ul class="cz-header-tab">
+                                <li class=""><a href="javascript:;" class="no-pd0 cur-tab">网银充值</a></li>
+                                <li class=""><a href="javascript:;" class="">快捷充值</a></li>
+                                <li class=""><a href="javascript:;" class="">线下充值</a></li>
                             </ul>
                         </div>
 
@@ -1534,71 +1796,91 @@
                         <div class="cz-tab-items clearfix">
                             <!--tab1-->
                             <div class="cz-tab-item" style="display: block;">
-                                <div class="zc-money"><span class="right-f1">充值金额</span><input class="money-text" type="text" value=""/><span class="dy-text">&nbsp&nbsp元</span></div>
+                                <div class="zc-money"><span class="right-f1">充值金额</span><input class="money-text"
+                                                                                               type="text"
+                                                                                               value=""/><span
+                                        class="dy-text">&nbsp&nbsp元</span></div>
                                 <div class="zc-money "><span class="right-f1 ft-left">选择银行</span>
-                                <div class="bank  ">
-                                    <div class="line-bottom clearfix">
-                                    <a href="#"class="selected"  ><u class="gs"></u></a> <a href="" ><u class="nongye"></u></a> <a href=""> <u class="china"></u></a> <a href="" ><u class="jianshe"></u></a>
-                                    <a href="" ><u class="zhaoshang"></u></a><a href="" ><u class="jiaotong"></u></a><a href=""><u  class="pufa"></u></a><a href="" ><u class="guangfa"></u></a><a href="" ><u class="minsheng"></u></a>
-                                    <a href="" ><u class="xingye"></u></a><a href="" ><u class="guangda"></u></a><a><u class="shenzhen"></u></a><a><u class="pingan"></u></a><a><u class="zhongxin"></u></a><a><u class="yzhchx"></u></a>
-                                    <a><u class="bj"></u></a> <a><u class="bohai"></u></a><a><u class="nongcun"></u></a><a><u class="nanjing"></u></a><a><u class="dongya"></u></a><a><u class="ningbo"></u></a><a><u class="zheshang"></u></a>
-                                    </div>
-                                    <div class="limit-illust clearfix">
-                                        <p class="text-remark">请关注您的充值金额是否超过限额</p>
-                                        <table class="limit-box">
-                                            <tr>
-                                                <th>银行卡名称</th>
-                                                <th> 客服热线 </th>
-                                                <th> 单笔限额(元)</th>
-                                                <th>每日限额(元)</th>
-                                                <th> 需要满足的条件 </th>
-                                            </tr>
-                                            <tr>
-                                                 <td rowspan="6">工商银行</td>
-                                                <td rowspan="6">95588</td>
-                                                <td>30万</td>
-                                                <td>100万</td>
-                                                <td>USBKey（U盾）客户</td>
-                                        </tr>
-                                            <tr>
-                                                <td>5万</td>
-                                                <td>5万</td>
-                                                <td>电子密码器客户</td>
-                                            </tr>
-                                            <tr>
-                                                <td>500元</td>
-                                                <td>1000元</td>
-                                                <td>电子银行口令卡客户（未开通短信认证）</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2000元</td>
-                                                <td>5000元</td>
-                                                <td>电子银行口令卡客户（开通短信认证）</td>
-                                            </tr>
-                                            <tr>
-                                                <td>300元</td>
-                                                <td>300元</td>
-                                                <td>柜面注册存量静态密码客户</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1万</td>
-                                                <td>1万</td>
-                                                <td>工银e支付客户</td>
-                                            </tr>
-                                        </table>
-                                        <div class="rech-btn-text">
-                                            <i href="" class="btn-qr">确认充值</i> <span class="bd-text">绑定微信，接收充值结果通知</span><i class="img-weixin-s"><img src="../images/weixin-icon1.png"><div class="saoma"><img src="../images/weixin-m.png"> </div></i>
+
+                                    <div class="bank  ">
+                                        <div class="line-bottom clearfix">
+                                            <a href="#" class="selected"><u class="gs"></u></a> <a href=""><u
+                                                class="nongye"></u></a> <a href=""> <u class="china"></u></a> <a
+                                                href=""><u class="jianshe"></u></a>
+                                            <a href=""><u class="zhaoshang"></u></a><a href=""><u class="jiaotong"></u></a><a
+                                                href=""><u class="pufa"></u></a><a href=""><u class="guangfa"></u></a><a
+                                                href=""><u class="minsheng"></u></a>
+                                            <a href=""><u class="xingye"></u></a><a href=""><u
+                                                class="guangda"></u></a><a><u class="shenzhen"></u></a><a><u
+                                                class="pingan"></u></a><a><u class="zhongxin"></u></a><a><u
+                                                class="yzhchx"></u></a>
+                                            <a><u class="bj"></u></a> <a><u class="bohai"></u></a><a><u
+                                                class="nongcun"></u></a><a><u class="nanjing"></u></a><a><u
+                                                class="dongya"></u></a><a><u class="ningbo"></u></a><a><u
+                                                class="zheshang"></u></a>
                                         </div>
-                                        <div class="wenxin-prompt">
-                                            <p class="title">* 温馨提示</p>
-                                            <p class="text-c">1. 为了您的账户安全，请在充值前进行身份认证、手机绑定以及提现密码设置。<br/>
-                                                2. 您的账户资金将通过第三方平台进行充值。<br/>
-                                                3. 请注意您的银行卡充值限制，以免造成不便。<br/>
-                                                4. 禁止洗钱信用卡套现、虚假交易等行为，一经发现并确认，将终止该账户的使用。</p>
+                                        <div class="limit-illust clearfix">
+                                            <p class="text-remark">请关注您的充值金额是否超过限额</p>
+                                            <table class="limit-box">
+                                                <tr>
+                                                    <th>银行卡名称</th>
+                                                    <th> 客服热线</th>
+                                                    <th> 单笔限额(元)</th>
+                                                    <th>每日限额(元)</th>
+                                                    <th> 需要满足的条件</th>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan="6">工商银行</td>
+                                                    <td rowspan="6">95588</td>
+                                                    <td>30万</td>
+                                                    <td>100万</td>
+                                                    <td>USBKey（U盾）客户</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5万</td>
+                                                    <td>5万</td>
+                                                    <td>电子密码器客户</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>500元</td>
+                                                    <td>1000元</td>
+                                                    <td>电子银行口令卡客户（未开通短信认证）</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2000元</td>
+                                                    <td>5000元</td>
+                                                    <td>电子银行口令卡客户（开通短信认证）</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>300元</td>
+                                                    <td>300元</td>
+                                                    <td>柜面注册存量静态密码客户</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1万</td>
+                                                    <td>1万</td>
+                                                    <td>工银e支付客户</td>
+                                                </tr>
+                                            </table>
+                                            <div class="rech-btn-text">
+                                                <i href="" class="btn-qr">确认充值</i> <span
+                                                    class="bd-text">绑定微信，接收充值结果通知</span><i class="img-weixin-s"><img
+                                                    src="../images/weixin-icon1.png">
+
+                                                <div class="saoma"><img src="../images/weixin-m.png"></div>
+                                            </i>
+                                            </div>
+                                            <div class="wenxin-prompt">
+                                                <p class="title">* 温馨提示</p>
+
+                                                <p class="text-c">1. 为了您的账户安全，请在充值前进行身份认证、手机绑定以及提现密码设置。<br/>
+                                                    2. 您的账户资金将通过第三方平台进行充值。<br/>
+                                                    3. 请注意您的银行卡充值限制，以免造成不便。<br/>
+                                                    4. 禁止洗钱信用卡套现、虚假交易等行为，一经发现并确认，将终止该账户的使用。</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                             </div>
                             <!--tab2-->
                             <div class="cz-tab-item" style="display: none">
@@ -1624,7 +1906,7 @@
                                         </div>
                                         <div class="box1-item3 clearfix">
                                             <div class="add-btn">
-                                                <a class="c-btn-style"  href="#">添加银行卡</a>
+                                                <a class="c-btn-style" href="#">添加银行卡</a>
                                             </div>
                                             <div class="add-info-box">
                                                 <span>*温馨提示</span>
@@ -1646,39 +1928,63 @@
                                             <ul>
                                                 <li>
                                                     <span>银行卡号</span>
-                                                    <input type="text" class="input-p i-k" placeholder="请输入银行卡号，只支持借记卡"/>
+                                                    <input type="text" class="input-p i-k"
+                                                           placeholder="请输入银行卡号，只支持借记卡"/>
                                                 </li>
                                                 <li>
                                                     <span>开户银行</span>
-                                                    <select name="banksSelect" id="bankSelect" class="select-k i-k">
-                                                        <option value="请选择充值银行">请选择充值银行</option>
-                                                        <option value="中国银行">中国银行</option>
-                                                        <option value="建设银行">建设银行</option>
-                                                        <option value="工商银行">工商银行</option>
-                                                    </select>
+                                                    <div class="sel_wrap">
+                                                        <label>华夏银行</label>
+                                                        <select  class="date_select date_select03 inform-border select" size="1" >
+                                                            <option value="">请选择充值银行</option>
+                                                            <option value="CITIC">中信银行</option>
+                                                            <option value="HXB">华夏银行</option>
+                                                            <option value="SPDB">浦发银行</option>
+                                                            <option value="ABC">中国农业银行</option>
+                                                            <option value="CIB">兴业银行</option>
+                                                            <option value="CCB">中国建设银行</option>
+                                                            <option value="CMBC">中国民生银行</option>
+                                                            <option value="BCOM">中国交通银行</option>
+                                                            <option value="ICBC">中国工商银行</option>
+                                                            <option value="CEB">中国光大银行</option>
+                                                            <option value="CMB">招商银行 </option>
+                                                            <option value="PAB">平安银行</option>
+                                                            <option value="BOC">中国银行</option>
+                                                        </select>
+                                                    </div>
                                                 </li>
                                                 <li>
-                                                    <span>开户地区</span>
-                                                    <select name="shengfen" id="1"  class="select-default i-m">
+                                                <span class="bank-name">开户地区</span>
+                                                <div class="sel_wrap short-sel_wrap">
+                                                    <label>省份</label>
+                                                    <select class="date_select date_select03 inform-border select" size="1" >
                                                         <option value="">省份</option>
                                                         <option value="北京">北京</option>
                                                     </select>
-                                                    <select name="chengshi" id="2" class="select-default i-m">
+                                                </div>
+                                                <div class="sel_wrap short-sel_wrap">
+                                                    <label>城市</label>
+                                                    <select class="date_select date_select03 inform-border select" size="1" >
                                                         <option value="">城市</option>
                                                         <option value="北京">北京</option>
                                                     </select>
-                                                    <select name="diqu" id="3" class="select-default i-m">
+                                                </div>
+                                                <div class="sel_wrap short-sel_wrap">
+                                                    <label>区</label>
+                                                    <select class="date_select date_select03 inform-border select" size="1" >
                                                         <option value="">区</option>
                                                         <option value="海淀区">海淀区</option>
                                                     </select>
-                                                </li>
+                                                </div>
                                                 <li>
                                                     <span>支行名称</span>
-                                                    <input type="text" class="input-p i-k" placeholder="如不确定开户行，请致电银行查询"/>
+                                                    <input type="text" class="input-p i-k"
+                                                           placeholder="如不确定开户行，请致电银行查询"/>
                                                 </li>
                                                 <li>
                                                     <span>手机号码</span>
                                                     <input type="text" class="input-p i-z" placeholder="请输入银行预留手机号码"/>
+
                                                     <div class="getCheckCode-btn">
                                                         <span>获取验证码</span>
                                                     </div>
@@ -1689,7 +1995,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="next-box i-k">
-                                                        <a class="c-btn-style i-k"  href="#">下一步</a>
+                                                        <a class="c-btn-style i-k" href="#">下一步</a>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -1700,11 +2006,12 @@
                                         <form action="#">
                                             <table>
                                                 <tr class="b3-b">
-                                                    <td class="left-title-t"><span >充值金额</span></td>
+                                                    <td class="left-title-t"><span>充值金额</span></td>
                                                     <td><input type="text" class="input-p w-300"/> 元</td>
                                                 </tr>
                                                 <tr class="b3-b">
-                                                    <td class="left-title-t" style="vertical-align: top;"><span >充值银行卡</span></td>
+                                                    <td class="left-title-t" style="vertical-align: top;">
+                                                        <span>充值银行卡</span></td>
                                                     <td>
                                                         <div class="bank-info-box">
                                                             <div class="card-img-box clearfix">
@@ -1725,12 +2032,13 @@
                                                             <div class="limit-illust clearfix">
                                                                 <p class="text-remark mb-m">请关注您的充值金额是否超过限额</p>
                                                                 <table class="limit-box">
-                                                                    <tbody><tr>
+                                                                    <tbody>
+                                                                    <tr>
                                                                         <th>银行卡种类</th>
-                                                                        <th> 首充限额(元 </th>
+                                                                        <th> 首充限额(元</th>
                                                                         <th> 单笔额(元)</th>
                                                                         <th>每日限额(元)</th>
-                                                                        <th> 最小限额 </th>
+                                                                        <th> 最小限额</th>
                                                                     </tr>
                                                                     <tr>
                                                                         <td rowspan="6" class="cz-t-c">储蓄卡</td>
@@ -1739,7 +2047,8 @@
                                                                         <td class="cz-t-c">500000</td>
                                                                         <td class="cz-t-c">0.01</td>
                                                                     </tr>
-                                                                    </tbody></table>
+                                                                    </tbody>
+                                                                </table>
                                                                 <div class="agree-con">
                                                                     <span class="agree-item1">
                                                                         <input type="checkbox"/>
@@ -1748,11 +2057,20 @@
                                                                     <span class="agree-item3">《快钱支付服务使用协议》</span>
                                                                 </div>
                                                                 <div class="rech-btn-text">
-                                                                    <i href="" class="btn-qr">确认充值</i> <span class="bd-text" style="margin-right: 10px">绑定微信，接收充值结果通知</span><i class="img-weixin-s"><img src="../images/weixin-icon1.png"><div class="saoma"><img src="../images/weixin-m.png"> </div></i>
+                                                                    <i href="" class="btn-qr">确认充值</i> <span
+                                                                        class="bd-text" style="margin-right: 10px">绑定微信，接收充值结果通知</span><i
+                                                                        class="img-weixin-s"><img
+                                                                        src="../images/weixin-icon1.png">
+
+                                                                    <div class="saoma"><img
+                                                                            src="../images/weixin-m.png"></div>
+                                                                </i>
                                                                 </div>
                                                                 <div class="wenxin-prompt">
                                                                     <p class="title">* 温馨提示</p>
-                                                                    <p class="text-c">1. 为了您的账户安全，请在充值前进行身份认证、手机绑定以及提现密码设置。<br>
+
+                                                                    <p class="text-c">1.
+                                                                        为了您的账户安全，请在充值前进行身份认证、手机绑定以及提现密码设置。<br>
                                                                         2. 您的账户资金将通过第三方平台进行充值。<br>
                                                                         3. 请注意您的银行卡充值限制，以免造成不便。<br>
                                                                         4. 禁止洗钱信用卡套现、虚假交易等行为，一经发现并确认，将终止该账户的使用。</p>
@@ -1767,20 +2085,23 @@
                                 </div>
                             </div>
                             <!--tab3-->
-                            <div class="cz-tab-item clearfix">
+                            <div class="cz-tab-item  clearfix"  style="display: none;">
                                 <div class="offline">
                                     <p class="acc-xinxi">您可以使用您的银行卡通过网上银行，手机银行或银行柜台等方式将充值资金充值到以下对公账户:</p>
+
                                     <div class="account">
                                         <i class="img-bank"></i>
+
                                         <p class="acco-item-text"><strong>账户名称</strong>：北京钜泷信息科技有限公司<br/>
-                                            <strong>开户行   </strong>：中国光大银行北京西城支行<br/>
-                                            <strong>账户号   </strong>：7507 0188 0001 39613<br/>
+                                            <strong>开户行 </strong>：中国光大银行北京西城支行<br/>
+                                            <strong>账户号 </strong>：7507 0188 0001 39613<br/>
                                         </p>
                                     </div>
 
                                 </div>
                                 <div class="wenxin-prompt">
                                     <p class="title">* 温馨提示</p>
+
                                     <p class="text-c">1. 为了您的账户安全，请在充值前进行身份认证、手机绑定以及提现密码设置。<br>
                                         2. 您的账户资金将通过第三方平台进行充值。<br>
                                         3. 请注意您的银行卡充值限制，以免造成不便。<br>
@@ -1788,6 +2109,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <div class="c-page-tx" style="display: none">
@@ -1800,6 +2122,7 @@
                         <div class="tx-tab-item" style="display: block;">
                             <div class="zc-money" style="padding-top: 15px;">
                                 <span class="right-f1 txk-only">提现银行卡</span>
+
                                 <div class="bank-info-box inl-bl">
                                     <!--已经添加银行卡-->
                                     <div class="bib-item" style="display:block;">
@@ -1819,7 +2142,8 @@
                                     </div>
                                     <!--没有添加银行卡-->
                                     <div class="bib-item" style="display: none;">
-                                        <p class="bi-t1"> <i class="icon iconfont">&#xe60d;</i></p>
+                                        <p class="bi-t1"><i class="icon iconfont">&#xe60d;</i></p>
+
                                         <p class="bi-t2">您尚未绑定银行卡，<a class="bk-text-item" href="">点击绑卡</a></p>
                                     </div>
                                 </div>
@@ -1833,19 +2157,23 @@
                                 <span class="right-f1">提现金额</span>
                                 <input class="money-text" type="text" value="">
                                 <span class="dy-text">&nbsp;&nbsp;元</span>
-                                <div class="sign-t-box"><span class="sign-t-o">全额提现 </span><span class="sign-t-b">提现手续费2元/笔</span></div>
+
+                                <div class="sign-t-box"><span class="sign-t-o">全额提现 </span><span class="sign-t-b">提现手续费2元/笔</span>
+                                </div>
                             </div>
                             <div class="zc-money" style="padding-top: 15px;">
-                                <span class="right-f1" >交易密码</span>
+                                <span class="right-f1">交易密码</span>
                                 <input class="money-text" type="text" value="">
                                 <span class="wjmm-sign-t"><a href="#">&nbsp;&nbsp;忘记密码？</a></span>
                             </div>
 
                             <div class="zc-money ">
                                 <span class="right-f1 ft-left">短信验证 </span>
+
                                 <div class="bank" style="margin-left: 4px;">
                                     <div class="clearfix">
                                         <input class="money-text" type="text" value="">
+
                                         <div class="checkCode-group">
                                             <button href="#" class="cg-btn"><span class="cg-g">获取短信验证码</span></button>
                                             <span class="both-pad">或</span>
@@ -1854,10 +2182,16 @@
                                     </div>
                                     <div class="limit-illust clearfix">
                                         <div class="rech-btn-text" style="margin-top: 10px;">
-                                            <i href="" class="btn-qr">提现</i> <span class="bd-text" style="margin-right: 10px">绑定微信，接收提现结果通知</span><i class="img-weixin-s"><img src="../images/weixin-icon1.png"><div class="saoma"><img src="../images/weixin-m.png"> </div></i>
+                                            <i href="" class="btn-qr">提现</i> <span class="bd-text"
+                                                                                   style="margin-right: 10px">绑定微信，接收提现结果通知</span><i
+                                                class="img-weixin-s"><img src="../images/weixin-icon1.png">
+
+                                            <div class="saoma"><img src="../images/weixin-m.png"></div>
+                                        </i>
                                         </div>
                                         <div class="wenxin-prompt">
                                             <p class="title">* 温馨提示</p>
+
                                             <p class="text-c">1. 您需要完成实名认证，交易密码设置以及银行卡绑卡设置后，方可进行提现操作；<br/>
                                                 2. 提现手续费2元/笔，该费用由银行收取；<br/>
                                                 3. 提现必须为银行借记卡，不支持存折、信用卡提现；<br/>
@@ -1880,110 +2214,188 @@
     </div>
 </div>
 <div class="g-foot-w clearfix">
-                <div class="g-foot">
-                    <div class="g-foot-layou clearfix">
-                        <ul class="foot-nav clearfix">
-                            <li>
-                                <i class="ft-icon1"></i>
-                                <div class="ft-info">
-                                    <span>关于我们</span>
-                                    <ul class="foot-nav-item">
-                                        <li class="nav-item1"><a href="">资质认证</a></li>
-                                        <li class="nav-item1"><a href="">法律合规</a></li>
-                                        <li class="nav-item1"><a href="">创始团队</a></li>
-                                        <li class="nav-item1"><a href="">联系我们</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="ft-icon2"></i>
-                                <div class="ft-info">
-                                    <span>安全保障</span>
-                                    <ul class="foot-nav-item">
-                                        <li class="nav-item1"><a href="">产品安全</a></li>
-                                        <li class="nav-item1"><a href="">资金安全</a></li>
-                                        <li class="nav-item1"><a href="">交易安全</a></li>
-                                        <li class="nav-item1"><a href="">系统安全</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <i class="ft-icon3"></i>
-                                <div class="ft-info">
-                                    <span>理财攻略</span>
-                                    <ul class="foot-nav-item">
-                                        <li class="nav-item1"><a href="">媒体报道</a></li>
-                                        <li class="nav-item1"><a href="">网站公告</a></li>
-                                        <li class="nav-item1"><a href="">加入我们</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+    <div class="g-foot">
+        <div class="g-foot-layou clearfix">
+            <ul class="foot-nav clearfix">
+                <li>
+                    <i class="ft-icon1"></i>
+
+                    <div class="ft-info">
+                        <span>关于我们</span>
+                        <ul class="foot-nav-item">
+                            <li class="nav-item1"><a href="">资质认证</a></li>
+                            <li class="nav-item1"><a href="">法律合规</a></li>
+                            <li class="nav-item1"><a href="">创始团队</a></li>
+                            <li class="nav-item1"><a href="">联系我们</a></li>
                         </ul>
-                        <div class="line-ft"></div>
-                        <div class="ft-box2">
-                            <h3 class="ft-title-h">关注我们</h3>
-                            <ul class="er-img-ft">
-                                <li><i class="img-wx1"></i><br/><span class="er-item-text">微信订阅号</span></li>
-                                <li><i class="img-wx2"></i><br/><span  class="er-item-text">微信服务号</span></li>
-                                <li style="padding-right: 0px;"><i class="img-wx3"></i><br/><span  class="er-item-text">APP下载</span></li>
-                            </ul>
-                        </div>
-                        <div class="line-ft-right"></div>
-                        <div class="ft-box3">
-                            <h3 class="ft-title-h">客服热线</h3>
-                            <div class="er-img-ft1">
-                                <div  class="clearfix"><i class="img-wx4"></i><span class="zixu-gj">4006 517 558</span></div>
-                                <div   class="clearfix"><a href=""><i class="img-wx5"> 在线咨询</i> <span class="time-right-fn1"> 09:00~18:30</span></a></div>
-                                <div class="clearfix"><i class="img-wx6"></i><span  class="zixu-gj">service@safetou.com</span></div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                <div class="ft-line-middle clearfix"></div>
-                <div class="g-foot pd-tb clearfix">
-                    <div class="lianjie-left">
-                        <p>友情链接：钜派投资集团<i>网贷之家</i><i>网贷中国 </i><i>网贷投行</i><i>钜洲资产</i><i>快钱支付</i><i>财通资产</i></p>
-                        <p>京ICP备15008579号-1  北京市海淀区西三环72号世纪经贸大厦A座1006</p>
-                    </div>
-                    <div  class="lianjie-right   ">
-                        <a href="" class="lianj-1"></a>
-                        <a href="" class="lianj-2"></a>
-                        <a href="" class="lianj-3"></a>
-                        <a href="" class="lianj-4"></a>
-                        <a href="" class="lianj-5"></a>
-                    </div>
+                </li>
+                <li>
+                    <i class="ft-icon2"></i>
 
-                </div>
+                    <div class="ft-info">
+                        <span>安全保障</span>
+                        <ul class="foot-nav-item">
+                            <li class="nav-item1"><a href="">产品安全</a></li>
+                            <li class="nav-item1"><a href="">资金安全</a></li>
+                            <li class="nav-item1"><a href="">交易安全</a></li>
+                            <li class="nav-item1"><a href="">系统安全</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <i class="ft-icon3"></i>
 
+                    <div class="ft-info">
+                        <span>理财攻略</span>
+                        <ul class="foot-nav-item">
+                            <li class="nav-item1"><a href="">媒体报道</a></li>
+                            <li class="nav-item1"><a href="">网站公告</a></li>
+                            <li class="nav-item1"><a href="">加入我们</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="line-ft"></div>
+            <div class="ft-box2">
+                <h3 class="ft-title-h">关注我们</h3>
+                <ul class="er-img-ft">
+                    <li><i class="img-wx1"></i><br/><span class="er-item-text">微信订阅号</span></li>
+                    <li><i class="img-wx2"></i><br/><span class="er-item-text">微信服务号</span></li>
+                    <li style="padding-right: 0px;"><i class="img-wx3"></i><br/><span class="er-item-text">APP下载</span>
+                    </li>
+                </ul>
             </div>
+            <div class="line-ft-right"></div>
+            <div class="ft-box3">
+                <h3 class="ft-title-h">客服热线</h3>
+
+                <div class="er-img-ft1">
+                    <div class="clearfix"><i class="img-wx4"></i><span class="zixu-gj">4006 517 558</span></div>
+                    <div class="clearfix"><a href=""><i class="img-wx5"> 在线咨询</i> <span class="time-right-fn1"> 09:00~18:30</span></a>
+                    </div>
+                    <div class="clearfix"><i class="img-wx6"></i><span class="zixu-gj">service@safetou.com</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ft-line-middle clearfix"></div>
+    <div class="g-foot pd-tb clearfix">
+        <div class="lianjie-left">
+            <p>友情链接：钜派投资集团<i>网贷之家</i><i>网贷中国 </i><i>网贷投行</i><i>钜洲资产</i><i>快钱支付</i><i>财通资产</i></p>
+
+            <p>京ICP备15008579号-1 北京市海淀区西三环72号世纪经贸大厦A座1006</p>
+        </div>
+        <div class="lianjie-right   ">
+            <a href="" class="lianj-1"></a>
+            <a href="" class="lianj-2"></a>
+            <a href="" class="lianj-3"></a>
+            <a href="" class="lianj-4"></a>
+            <a href="" class="lianj-5"></a>
+        </div>
+
+    </div>
+
+</div>
 </body>
 <script>
-
-//    console.log($('.c-menu-item>li'));
-    $('.c-menu-item>li').each(function(index,element){
-        var showName = '.c-page' + (index+1);
-        $(showName).css('display',index == 0 ? 'block' : 'none');
-        $(this).click(function(){
+    //个人中心导航切换
+    //    console.log($('.c-menu-item>li'));
+    $('.c-menu-item li').each(function (index, element) {
+        var showName = '.c-page' + (index + 1);
+        $(showName).css('display', index == 0 ? 'block' : 'none');
+        $(this).click(function () {
 //            $(this).addClass("current").siblings().removeClass("current");
 //            $('.c-menu-item>li').filter('.current').removeClass('current');
-            $(this).addClass('current').siblings().removeClass("current");;
+            $(this).addClass('current').siblings().removeClass("current");
+            ;
 
-            if($(showName).css('display') == 'none'){
-                $('.c-pages>div').css('display','none');
+            if ($(showName).css('display') == 'none') {
+                $('.c-pages>div').css('display', 'none');
                 //显示page页面
-                $(showName).css('display','block');
+                $(showName).css('display', 'block');
             }
         });
     });
 
-    $('.c-btn-cz').click(function(){
-        $('.c-pages>div').css('display','none');
-        $('.c-page-cz').css('display','block');
+    $('.c-btn-cz').click(function () {
+        $('.c-pages>div').css('display', 'none');
+        $('.c-page-cz').css('display', 'block');
     });
 
-    $('.c-btn-tx').click(function(){
-        $('.c-pages>div').css('display','none');
-        $('.c-page-tx').css('display','block');
+    $('.c-btn-tx').click(function () {
+        $('.c-pages>div').css('display', 'none');
+        $('.c-page-tx').css('display', 'block');
+    });
+
+    //个人中心里tab切换
+    $(function () {
+        $(".tab-left div.tab-item:not('.mid-line')").click(function () {
+            var index = $(this).parent().children("div:not('.mid-line')").index(this);
+            $(this).siblings().removeClass("tab-cli-current");
+            //增加当前选中项的样式
+            $(this).addClass("tab-cli-current");
+            $(".jiangli-con .tjjl-tab-lists").css('display', 'none');
+            $(".jiangli-con .tjjl-tab-lists").eq(index).css('display', 'block');
+        });
+    })
+
+    //个人中心展开隐藏
+
+    $(document).ready(function () {
+        $('.tab-li-item .zkmx-btn').click(function () {
+            $(this).next('.tab-li-detail').slideToggle().parents('.tab-li-item .zkmx-btn').siblings('.tab-li-item .zkmx-btn').next('.tab-li-detail').hide();
+        })
+    });
+
+    //通知中心的显示隐藏
+
+    $(document).ready(function () {
+        $('.state1 .notice-item2-title').click(function () {
+            $(this).next('.notice-item2-desc').slideToggle().parents('.state1 .notice-item2-title').siblings('.state1 .notice-item2-title').next('.notice-item2-desc').hide();
+        })
+    });
+    //充值tab切换
+    $(function () {
+        $(".cz-header-tab li a").click(function ( ) {
+            var index = $(this).parent().index();
+            $(this).parent().siblings().children("a").removeClass("cur-tab");
+            //增加当前选中项的样式
+            $(this).addClass("cur-tab");
+            $(".cz-tab-items .cz-tab-item").css('display', 'none');
+            $(".cz-tab-items .cz-tab-item").eq(index).css('display', 'block');
+        });
+    });
+
+
+
+
+  //投资记录帅选
+
+    $('.sel-screen-item .btn-more').each(function (index, element) {
+        $(this).click(function () {
+         $('.sel-screen-item>li').addClass('.multiple01').show();
+        });
+    });
+//下来菜单js
+    $(function() {
+        $(".sel_wrap").each(
+                function(i) {
+                    $(this).find('label').html(
+                            $(this).find("select option:selected")
+                                    .text());
+                });
+        //select 修改样式所需js
+        $(document).delegate('.sel_wrap select', 'change', function() {
+            var o;
+            var opt = $(this).find('option');
+            opt.each(function(i) {
+                if (opt[i].selected == true) {
+                    o = opt[i].innerHTML;
+                }
+            })
+            $(this).parents(".sel_wrap").find('label').html(o);
+        }).trigger('change');
     });
 
 </script>

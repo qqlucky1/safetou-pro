@@ -672,7 +672,7 @@
 
 
 .progress {
-    height: 9px;
+    height: 5px;
     margin-bottom: 20px;
     border-radius: 4px;
     margin-top: 19px;
@@ -694,7 +694,7 @@
 
 .progress-striped .bar {
     background-size: 40px 40px;
-    background-color: #f5a825;
+    background-color: #ff9933;
     border-radius: 2px;
 }
 .pro-m-textpro {
