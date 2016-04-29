@@ -343,4 +343,140 @@ line-height: 30px;
   }
 }
 
+/*签到*/
+.width-big{
+  width: 800px;
+}
+.top-pro{
+   background: #fcae26;
+   height: 104px;
+  margin: 0 auto;
+  text-align: center;
+  .sm-round{
+    position: absolute;
+    left: -1px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    border-radius: 50px;
 
+    i{
+      font-size: 22px;
+    }
+  }
+.long-r{
+  position: relative;
+  display: inline-block;
+  width: 470px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+}
+
+/*签到样式*/
+.rili{
+  margin: 0px auto;
+  width: 560px;
+}
+.clndr-controls {
+  position: relative;
+  width:248px;
+  margin: 0 auto;
+  color: #5e5e5e;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 23px;
+  text-align: center;
+  margin-left: 118px;
+}
+.clndr-controls{
+  div{
+    float: left;
+  }
+  p{
+    width: 24px;
+    height: 24px;
+    color: #5e5e5e;
+    cursor: pointer;
+    margin: 0px 31px;
+  }
+  .clndr-previous-button{
+    background: url("../images/rili-left.png") no-repeat center;
+
+  }
+  .clndr-previous-button:hover{
+    background-color: #e5e5e5;
+    border-radius: 2px;
+  }
+  .clndr-next-button{
+    background: url("../images/rili-right.png") no-repeat center;
+  }
+  .clndr-next-button:hover{
+    background-color: #e5e5e5;
+    border-radius: 2px;
+  }
+}
+.clndr-table{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  td{
+    position: relative;
+    color: #5e5e5e;
+    text-align: center;
+    width: 48px;
+    .day-contents ,.today-day{
+
+      .qiandao-doing{
+        background: url("../images/qd-doing.png") no-repeat;
+        display: inline-block;
+        width: 24px;
+        height: 16px;
+        position: absolute;
+        top: 20px;
+        right: 24px;
+      }
+    }
+  .today-day{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: #59c3fd;
+    border-radius: 40px;
+    line-height: 30px;
+    color: #fff;
+  }
+    .adjacent-month{
+      color: #cccccc;
+    }
+  }
+  thead {
+   /* background: url("../images/round-img-grey.png") no-repeat;
+    width: 650px;
+    height: 34px;
+    display: inline-block;*/
+  }
+}
+.gird{
+  background: #e3e3e3;
+  border-radius: 20px;
+  & h3{
+    float: left;
+    font-size: 16px;
+    color: #5e5e5e;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+  }
+}
