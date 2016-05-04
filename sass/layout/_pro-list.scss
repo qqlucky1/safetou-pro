@@ -78,11 +78,24 @@
         border: 1px solid #e5e5e5;
       }
       ul {
+
+        li.current{
+          background: orange;
+          border-radius: 10px;
+          color: #fff;
+        }
+        li:not(.current):hover{
+          background: #ffdab9;
+          color: #d2691e;
+          border-radius: 10px;
+        }
         li {
           float: left;
+          color: #666;
+          margin: 0px 15px;
           a {
             position: relative;
-            margin: 0 15px;
+
             display: inline-block;
             font-size: 13px;
             height: 20px;
@@ -95,12 +108,9 @@
             -moz-transition: background .2s, color .2s;
             -o-transition: background .2s, color .2s;
             transition: background .2s, color .2s;
-            color: #666;
+
             cursor: pointer;
 
-          }
-          a:hover {
-            color: orange;
           }
 
         }
@@ -301,6 +311,8 @@
       width: 260px;
       .new-list{
         @extend  %title-1;
+        color: #ff9933;
+        border: 1px solid #ff9933;
       }
       .blue{
        border: 1px solid #30b4fc;
