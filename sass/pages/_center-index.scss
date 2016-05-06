@@ -697,6 +697,7 @@ $c-f2f2f2:#f2f2f2;
       border: 1px solid #d9d9d9;
       border-radius: 2px;
       padding-left: 10px;
+      outline: none;
     }
     .qyrz-col1{
       width: 65px;
@@ -875,6 +876,7 @@ $c-f2f2f2:#f2f2f2;
   padding-left: 10px;
   @include border-radius(2px);
   @include box-sizing(border-box);
+  outline: none;
 }
 .select-k{
   height: 32px;
@@ -1084,9 +1086,19 @@ $c-e35848:#e35848;
   .agree-con{
     margin-top:30px;
     font-size: 14px;
-    .agree-item1{
+    i{
+      display: inline-block;
+      background: url(../images/small_03.png) no-repeat transparent -999px -999px;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #ff9933;
 
     }
+   i.agree-item1{
+      display: inline-block;
+      background-position: 2px -30px;
+    }
+
     .agree-item2{
       margin-left: 15px;
       color: $c-a0a0a0;
@@ -2449,6 +2461,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
     border: 1px solid #e5e5e5;
     padding-left: 5px;
     @include  border-radius(2px);
+    outline: none;
   }
 }
 .bank {
@@ -2716,8 +2729,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
   width: 320px;
   background: transparent url("../images/arrow-two_03.png") no-repeat scroll 300px 1px;
   border-radius: 2px;
-
 }
+.middle-short-w{
+  width: 148px;
+  background: transparent url("../images/arrow-two_03.png") no-repeat scroll 128px 1px;
+  margin-right: 19px;
+}
+
 .short-sel_wrap{ width: 100px;  background: transparent url("../images/arrow-two_03.png") no-repeat scroll 80px 1px;}
 .sel_wrap label {
   padding-left: 10px;

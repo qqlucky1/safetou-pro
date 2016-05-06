@@ -201,7 +201,7 @@
   .banner-con .rzb-con-num {
     width: 432px;
     position: absolute;
-    top: 104px;
+    top: 92px;
     left: 4px;
     margin: 0px auto;
     text-align: center;
@@ -268,13 +268,14 @@
   }
 }
 
+.rzb-good .rzb-good-item  .mn-right30 {
+  margin-left: 60px;
+}
 .rzb-good-item {
   width: 1200px;
   height: 496px;
   margin: 0 auto;
-  .mn-right30 {
-    margin-left: 45px;
-  }
+
   .left-con {
     float: left;
     margin: 80px 35px 0;
@@ -287,7 +288,7 @@
       margin-top: 40px;
       line-height: 30px;
       color: #5e5e5e;
-      width: 602px;
+      width: 576px;
     }
     .short-text-con {
       width: 454px;
@@ -350,11 +351,11 @@
 
   .step-three-rzb {
     position: relative;
-    margin: 60px 92px 0 53px;
+    margin: 60px 0px 0 0px;
     overflow: hidden;
     li {
       float: left;
-      padding: 0px 30px;
+      padding: 0px 61px 0 38px;
     }
     li:after {
       content: "";
@@ -364,7 +365,7 @@
       width: 8px;
       height: 16px;
       background: url("../images/arrow-rzb.png") no-repeat;
-      margin-left: 25px;
+      margin-left: 39px;
     }
     li:last-child:after {
       display: none;
@@ -385,7 +386,7 @@
       color: #fff;
       width: 200px;
       font-size: 14px;
-      text-align: left;
+      /*text-align: left;*/
     }
     li a span {
       background: #fca89e;
@@ -403,5 +404,6 @@
     }
   }
 }
+
 
 /*********************** new module Name End **************************************/

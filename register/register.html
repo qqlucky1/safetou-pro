@@ -5,6 +5,7 @@
     <title>注册</title>
     <link rel="stylesheet" href="../stylesheets/style.css" type="text/css"/>
     <link href="../stylesheets/print.css" media="print" rel="stylesheet" type="text/css"/>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
 </head>
 <body>
 <div class="warp-bg-mod">
@@ -114,7 +115,7 @@
     <div class="reg-warp">
         <div class="reg-con">
             <div class="reg-con-item">
-
+                <!--注册页面-->
                 <div class="reg-img-infor clearfix">
                     <div class="reg-banner"><img src="../images/reg-banner.png" style="width: 709px" height="560px;"/>
                     </div>
@@ -124,20 +125,20 @@
                                 href="">立即登录</a></i></div>
                         <form class="reg-form clearfix" action="/register" method="post" style="display: block;">
                             <div class="phone">
-                                <div class="labelText"><span class="reg-icon iconfont">&#xe60c;</span>
+                                <div class="labelText"><span class="reg-icon iconfont border-color">&#xe60c;</span>
                                     <input class="txt-area" name="Phone" placeholder="请输入您的手机号码" type="text"/></div>
                                 <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>手机号码不正确
                                 </div>
                             </div>
                             <div class="pwd2 clearfix">
-                                <div class="labelText ft-left width-sht-item"><span class="reg-icon yanzhma1 iconfont">&#xe600;</span>
+                                <div class="labelText ft-left width-sht-item"><span class="reg-icon yanzhma1 iconfont border-color">&#xe600;</span>
                                     <input class="txt-area txt-short-area" name="Phone" placeholder="请输入图中字符"
                                            type="text"/></div>
                                 <div class="pw-img"><img src="../images/tux-yzh.png"></div>
 
                             </div>
                             <div class="phone">
-                                <div class="labelText"><span class="reg-icon iconfont">&#xe612;</span>
+                                <div class="labelText"><span class="reg-icon iconfont border-color">&#xe612;</span>
                                     <input class="txt-area" name="Phone" placeholder="请输入手机验证码" type="text"/> <span
                                             class="yz-bg">获取验证码</span></div>
                                 <p class="sound-prot">点击 <i>语音</i> 获取验证码</p>
@@ -159,22 +160,23 @@
 
                             <div class="btn-reg"><a href="">立即注册</a></div>
                         </form>
+                        <!--下一步-->
                         <form class="reg-form clearfix" style="display: none;">
                             <div class="phone">
-                                <div class="labelText"><span class="reg-icon small-reg iconfont">&#xe611;</span>
+                                <div class="labelText"><span class="reg-icon small-reg iconfont border-color">&#xe611;</span>
                                     <input class="txt-area" name="Phone" placeholder="请设置您的昵称" type="text"/></div>
                                 <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
                                 </div>
                             </div>
                             <div class="phone">
-                                <div class="labelText"><span class="reg-icon iconfont">&#xe606;</span>
+                                <div class="labelText"><span class="reg-icon iconfont border-color">&#xe606;</span>
                                     <input class="txt-area" name="Phone" placeholder="请设置6-16位字母与数字组合的登录密码"
                                            type="text"/> <i class="icon iconfont">&#xe610;</i></div>
                                 <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
                                 </div>
                             </div>
                             <div class="phone">
-                                <div class="labelText"><span class="reg-icon iconfont">&#xe606;</span>
+                                <div class="labelText"><span class="reg-icon iconfont border-color">&#xe606;</span>
                                     <input class="txt-area" name="Phone" placeholder="请再次输入登录密码" type="text"/> <i
                                             class="icon iconfont">&#xe610;</i></div>
                                 <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
@@ -185,6 +187,7 @@
                             </div>
                             <div class="btn-reg " style="margin-top: 80px;"><a href="">提交</a></div>
                         </form>
+                        <!--下一步-->
                         <form class="reg-form clearfix" style="display: none;">
                             <div class="reg-third">
                                 <img src="../images/pop-img/c-s-1.png">
@@ -198,6 +201,7 @@
 
                     </div>
                 </div>
+                <!--登录页面-->
                 <div class="reg-img-infor clearfix"  style="display: none;">
                     <div class="reg-banner"><img src="../images/login-img-banner.png" style="width: 711px"
                                                  height="500px;"></div>
@@ -207,13 +211,13 @@
                                 href="">立即登录</a></i></div>
                         <form class="reg-form clearfix">
                             <div class="phone">
-                                <div class="labelText"><span class="reg-icon small-reg iconfont">&#xe60c;</span>
+                                <div class="labelText"><span class="reg-icon small-reg iconfont border-color">&#xe60c;</span>
                                     <input class="txt-area" name="Phone" placeholder="请输入您的手机号码" type="text"/></div>
                                 <div class="pwd_grade" style="display: none;"><i class="icon iconfont">&#xe60e;</i>输入不正确
                                 </div>
                             </div>
                             <div class="phone">
-                                <div class="labelText"><span class="reg-icon iconfont">&#xe606;</span>
+                                <div class="labelText"><span class="reg-icon iconfont border-color">&#xe606;</span>
                                     <input class="txt-area" name="Phone" placeholder="请输入登录密码"
                                            type="text"/></div>
                                 <div class="login-che clearfix">
@@ -227,6 +231,7 @@
                             <div class="wei-login"><i>微信扫码登录</i><a href="#"><img src="../images/base/weixin_hover.png"></a>
                             </div>
                         </form>
+                        <!--下一步-->
                         <form class="reg-form clearfix" style="display: none;">
                             <div class="sm-wein-box">
                                 <a href=""><img src="../images/sm-wei-1.png"> </a>
@@ -330,4 +335,18 @@
     </div>
 </div>
 </body>
+<script type="text/javascript">
+    $(function () {
+      $("input").on("focus", function () {
+  $(this).parent(".labelText").addClass("focus")
+      })
+        $('input').on('blur', function () {
+            $(this).parent(".labelText").removeClass("focus");
+        });
+          })
+</script>
+
+
+
+
 </html>
