@@ -482,3 +482,45 @@ line-height: 30px;
     line-height: 40px;
   }
 }
+
+/*汇款计划*/
+.hk-table{
+  padding: 20px;
+  margin: 0 auto;
+  table{
+    width: 100%;
+
+    th{
+      line-height:40px ;
+      background: #fff6e5;
+      color: #302f2b;
+    }
+    td{
+      line-height: 40px;
+      text-align: center;
+      border-bottom: 1px solid #e5e5e5;
+      color: #5e5e5e;
+      margin: 10px 0;
+    }
+    .hk-icon-img{
+      line-height: 30px;
+
+    }
+    .hk-icon-img a{
+      margin-top: 15px;
+      display: inline-block;
+    }
+    .hk-icon-img a i{
+      background: url("../images/hk_img_icons.png") no-repeat 999px 999px;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+    }
+    .hk-icon-img a .hk-icons01{
+      background-position: 0px 0px;
+    }
+    .hk-icon-img a .hk-icons02{
+      background-position: 0px -31px;
+    }
+  }
+}

@@ -314,9 +314,17 @@
         color: #ff9933;
         border: 1px solid #ff9933;
       }
+      .red{
+        color: #fe4850;
+        border: 1px solid #fe4850;
+      }
       .blue{
        border: 1px solid #30b4fc;
         color: #30b4fc;
+      }
+     .blue1{
+       border: 1px solid #44d7c4;
+       color: #44d7c4;
       }
       .title{
         @extend  %title-2;

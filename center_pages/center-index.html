@@ -2617,6 +2617,16 @@
             $(this).parents(".sel_wrap").find('label').html(o);
         }).trigger('change');
 
+        $("select").on("click", function () {
+            $(this).parent(".sel_wrap").addClass("focus")
+        })
+        $('input').on('blur', function () {
+            $(this).parent(".sel_wrap").removeClass("focus");
+        });
+
+
+
+
         //福币tab
         var $li = $('.fubi-tab-item li');
         var $div = $('.fubi-con-warp .fubi-con');
@@ -2636,6 +2646,8 @@
         $('input').on('blur', function () {
             $(this).closest(".input-text-f").attr("style", "");
         });
+
+         //筛选选择器
 
 
 

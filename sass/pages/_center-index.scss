@@ -2714,6 +2714,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
  *@desc:bank-seclct
  *@time:2016/4/22 16:15
  **/
+.sel_wrap.foucs{
+  border: 1px solid orange;
+}
 .sel_wrap {
   margin-top: 1px;
   height: 36px;
@@ -2722,7 +2725,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcae26', endC
   font-size: 12px;
   float: left;
   margin-right: 10px;
-  border: 1px solid #FDB323;
+  border: 1px solid #D1D1D1;
   cursor: pointer;
   position: relative;
   _filter: alpha(opacity=0);
