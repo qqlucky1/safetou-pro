@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>vip融资宝产品详情</title>
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+
     <link rel="stylesheet" href="../stylesheets/style.css" type="text/css"/>
     <link href="../stylesheets/print.css" media="print" rel="stylesheet" type="text/css"/>
     <!--jquery cdn加速-->
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+
     <!--进度圆需要js-->
     <script type="text/javascript" src="../js/cycle.js"></script>
     <script type="text/javascript" src="../js/raphael.js"></script>
-
+    <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+    <!--新  -->
+    <script type="text/javascript" src="../js/lunbo/jquery.silver_track.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/lunbo/jquery.silver_track.navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/lunbo/jquery.silver_track.bullet_navigator.js" charset="utf-8"></script>
 </head>
 
 <div class="warp-bg-mod">
@@ -23,9 +29,11 @@
             </div>
             <div class="ge-line mn-left ft-left"></div>
             <a class="left-fnt">返回旧版</a>
+
             <div class="ge-line mn-left ft-left"></div>
             <div class="qq">
                 <a class="top_com top01"></a>
+
                 <div class="qq01 qq04">
                     <a href="#" class="weibo-img"> <img src="../images/erweima-img/weibo-simg.png"></a>
 
@@ -236,7 +244,7 @@
                         <ul class="vip-rzv-box-item">
                             <li>
                                 <div class="vip-rzb-item">
-                                <a href="#" class="v-rzb-icon01"></a>
+                                    <a href="#" class="v-rzb-icon01"></a>
                                     <span class="right-text"> <p>有质押，融资不裸奔</p>
                                         <i>融资宝是国内首创的理财产品质押贷款业务，质押产品金额可以双倍覆盖融资金额</i></span>
                                 </div>
@@ -400,39 +408,23 @@
                         <li><a href=""><i class="jk-icon7"></i>
                             <br> 其他</a></li>
                     </ul>
-                    <div class="mod-prove clearfix">
-                        <div class="mod-prove-bd">
-                            <ul class="mod-pr-item">
-                                <li class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery"
-                                           href="#"><img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
-                                <li  class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery"
-                                           href="#"><img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
-                                <li  class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery" href="#">
-                                            <img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
-                                <li  class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery" href="#">
-                                            <img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
-
+                    <div class="warp_p  track clearfix ">
+                        <div class="carousel-con view-port">
+                            <ul class="gallery img  slider-container"   >
+                                <li class="item"><a href="../images/1.jpg" rel="prettyPhoto[]"><img src="../images/1.jpg"></a></li>
+                                <li class="item"><a href="../images/3.jpg" rel="prettyPhoto[]"><img src="../images/3.jpg"></a></li>
+                                <li class="item"><a href="../images/img_3.png" rel="prettyPhoto[]"><img src="../images/img_3.png"></a></li>
+                                <li class="item"><a href="../images/2.jpg" rel="prettyPhoto[]"><img src="../images/2.jpg"></a></li>
+                                <li class="item"><a href="../images/img_5.png" rel="prettyPhoto[]"><img src="../images/img_5.png"></a></li>
+                                <li class="item"><a href="../images/img_1.png " rel="prettyPhoto[]"><img src="../images/img_1.png"></a></li>
+                                <li class="item"><a href="../images/img_2.png" rel="prettyPhoto[]"><img src="../images/img_2.png"></a></li>
+                                <li class="item"><a href="../images/img_3.png" rel="prettyPhoto[]"><img src="../images/img_3.png"></a></li>
+                                <li class="item"><a href="../images/img_4.png" rel="prettyPhoto[]"><img src="../images/img_4.png"></a></li>
+                                <li class="item"><a href="../images/img_5.png" rel="prettyPhoto[]"><img src="../images/img_5.png"></a></li>
                             </ul>
                         </div>
-                        <div class="arrow clearfix">
-                            <a href="javascript:void(0)" class="unslider-arrow prev"></a>
-                            <a href="javascript:void(0)" class="unslider-arrow next"></a></div>
+                        <div class="btn-silver  prev btn_l">&lt;</div>
+                        <div  class="btn-silver  next btn_r">&gt;</div>
                     </div>
                 </div>
                 <!--投资记录 -->
@@ -572,7 +564,12 @@
 </body>
 <script>
     $(function () {
-        window.onload = function () {
+        $("area[rel^='prettyPhoto']").prettyPhoto();
+        $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({
+            animation_speed: 'fast',
+            slideshow: 10000,
+            hideflash: true
+        });
             var $li = $('.pro-nav02 li');
             var $pro = $('.pro-itemdetael-02 .pro-itemdetail-1');
 
@@ -584,7 +581,15 @@
                 $pro.css('display', 'none');
                 $pro.eq($t).css('display', 'block');
             })
-        }
+        var track = $(".slider-container").silverTrack();
+        var parent = track.container.parents(".track");
+// 左右箭头
+        track.install(new SilverTrack.Plugins.Navigator({
+            prev: $(".prev", parent),
+            next: $(".next", parent)
+        }));
+//下面三个小圆点
+        track.start();
     });
 </script>
 </html>

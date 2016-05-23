@@ -430,6 +430,18 @@
             $(this).parents(".sel_wrap").find('label').html(o);
         }).trigger('change');
 
+        $("select").on("focus", function () {
+            $(this).closest(".sel_wrap").attr("style", "border-color: #fcae26; box-shadow: 0 0 5px rgba(252,174,38,0.5);background-position:300px -20px;");
+            $(this).closest(".middle-short-w").attr("style", "border-color: #fcae26; box-shadow: 0 0 5px rgba(252,174,38,0.5);background-position:128px -20px;");
+            $(this).closest(".short-sel_wrap").attr("style", "border-color: #fcae26; box-shadow: 0 0 5px rgba(252,174,38,0.5);background-position:80px -20px;");
+        });
+        $('select').on('blur', function () {
+            $(this).closest(".sel_wrap").attr("style", "");
+            $(this).closest(".short-sel_wrap").attr("style", "");
+            $(this).closest(".middle-short-w").attr("style", "");
+        });
+
+
     });
 </script>
 </html>

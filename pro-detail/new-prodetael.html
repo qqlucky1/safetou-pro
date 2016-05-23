@@ -11,9 +11,12 @@
     <!--进度圆需要js-->
     <script type="text/javascript" src="../js/cycle.js"></script>
     <script type="text/javascript" src="../js/raphael.js"></script>
-
+    <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+    <!--新  -->
+    <script type="text/javascript" src="../js/lunbo/jquery.silver_track.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/lunbo/jquery.silver_track.navigator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/lunbo/jquery.silver_track.bullet_navigator.js" charset="utf-8"></script>
 </head>
-
 <div class="warp-bg-mod">
     <div class="header">
         <div class="topbar clearfix">
@@ -38,14 +41,12 @@
             </div>
             <div class="qq">
                 <a class="top_com top02"></a>
-
                 <div class="qq02">
                     <a href="#" class="weibo-img"> <img src="../images/erweima-img/weinxin-simg1.png"></a>
                 </div>
             </div>
             <div class="qq">
                 <a class="top_com top03"></a>
-
                 <div class="qq01">
                     <a href="#" class="weibo-img pd-img-w1"> <img src="../images/erweima-img/QQ-qun.png"></a>
                 </div>
@@ -411,39 +412,24 @@
                         <li><a href=""><i class="jk-icon7"></i>
                             <br> 其他</a></li>
                     </ul>
-                    <div class="mod-prove clearfix">
-                        <div class="mod-prove-bd">
-                            <ul class="mod-pr-item">
-                                <li class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery"
-                                           href="#"><img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
-                                <li  class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery"
-                                           href="#"><img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
-                                <li  class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery" href="#">
-                                            <img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
-                                <li  class="cf">
-                                    <div class="mod-prove-sub">
-                                        <a class="fancybox-thumbs" data-fancybox-group="gallery" href="#">
-                                            <img src="../images/juxing-img.png"></a>
-                                    </div>
-                                </li>
 
+                    <div class="warp_p  track clearfix ">
+                        <div class="carousel-con view-port">
+                            <ul class="gallery img  slider-container"   >
+                                <li class="item"><a href="../images/1.jpg" rel="prettyPhoto[]"><img src="../images/1.jpg"></a></li>
+                                <li class="item"><a href="../images/3.jpg" rel="prettyPhoto[]"><img src="../images/3.jpg"></a></li>
+                                <li class="item"><a href="../images/img_3.png" rel="prettyPhoto[]"><img src="../images/img_3.png"></a></li>
+                                <li class="item"><a href="../images/2.jpg" rel="prettyPhoto[]"><img src="../images/2.jpg"></a></li>
+                                <li class="item"><a href="../images/img_5.png" rel="prettyPhoto[]"><img src="../images/img_5.png"></a></li>
+                                <li class="item"><a href="../images/img_1.png " rel="prettyPhoto[]"><img src="../images/img_1.png"></a></li>
+                                <li class="item"><a href="../images/img_2.png" rel="prettyPhoto[]"><img src="../images/img_2.png"></a></li>
+                                <li class="item"><a href="../images/img_3.png" rel="prettyPhoto[]"><img src="../images/img_3.png"></a></li>
+                                <li class="item"><a href="../images/img_4.png" rel="prettyPhoto[]"><img src="../images/img_4.png"></a></li>
+                                <li class="item"><a href="../images/img_5.png" rel="prettyPhoto[]"><img src="../images/img_5.png"></a></li>
                             </ul>
                         </div>
-                        <div class="arrow clearfix">
-                        <a href="javascript:void(0)" class="unslider-arrow prev"></a>
-                        <a href="javascript:void(0)" class="unslider-arrow next"></a></div>
+                        <div class="btn-silver  prev btn_l">&lt;</div>
+                        <div  class="btn-silver  next btn_r">&gt;</div>
                     </div>
                 </div>
                 <!--投资记录 -->
@@ -583,19 +569,32 @@
 </body>
 <script>
     $(function () {
-        window.onload = function () {
-            var $li = $('.pro-nav02 li');
-            var $pro = $('.pro-itemdetael-02 .pro-itemdetail-1');
+        $("area[rel^='prettyPhoto']").prettyPhoto();
+        $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({
+            animation_speed: 'fast',
+            slideshow: 10000,
+            hideflash: true
+        });
+        var $li = $('.pro-nav02 li');
+        var $pro = $('.pro-itemdetael-02 .pro-itemdetail-1');
 
-            $li.click(function () {
-                var $this = $(this);
-                var $t = $this.index();
-                $li.removeClass();
-                $this.addClass('active1');
-                $pro.css('display', 'none');
-                $pro.eq($t).css('display', 'block');
-            })
-        }
+        $li.click(function () {
+            var $this = $(this);
+            var $t = $this.index();
+            $li.removeClass();
+            $this.addClass('active1');
+            $pro.css('display', 'none');
+            $pro.eq($t).css('display', 'block');
+        })
+        var track = $(".slider-container").silverTrack();
+        var parent = track.container.parents(".track");
+// 左右箭头
+        track.install(new SilverTrack.Plugins.Navigator({
+            prev: $(".prev", parent),
+            next: $(".next", parent)
+        }));
+//下面三个小圆点
+        track.start();
     });
 </script>
 </html>
