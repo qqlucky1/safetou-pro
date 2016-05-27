@@ -111,12 +111,59 @@
         </div>
     </div>
     <div class="main-con">
-   <div class="safe_banner-warp">
+ <!--  <div class="safe_banner-warp">
        <div class="safe-top-img">
            <img src="../images/banner-top1.png">
            <span class="arrow-img-top"></span>
        </div>
-   </div>
+   </div>-->
+        <div class="banner-warp_s">
+
+
+            <div class="center_sec" id="safe-project">
+                <div class="round  ">
+                    <span class="project-num-1" ><img src="../images/fk_01.png">  </span>
+                    <span class="project-num-2" ><img src="../images/fk_02.png"> </span>
+                    <span class="project-num-3" ><img src="../images/fk_03.png"></span>
+                    <span class="project-num-4" ><img src="../images/fk_04.png"></span>
+                    <span class="project-num-5" ><img src="../images/fk_05.png"></span>
+                    <span class="project-num-6"><img src="../images/fk_06.png"></span>
+                    <span class="project-num-7"><img src="../images/fk_07.png"></span>
+                    <span class="project-num-8"><img src="../images/fk_08.png"></span>
+                    <span class="project-num-10"><img src="../images/fk_09.png"></span>
+                    <span class="project-num-11"><img src="../images/fk_10.png"></span>
+                    <span class="project-num-12"><img src="../images/fk_11.png"></span>
+                    <span class="project-num-13"><img src="../images/fk_12.png"></span>
+                    <span class="project-num-14"><img src="../images/fk_13.png"></span>
+                    <span  class="project-num-15"><img src="../images/kf_15.png"></span>
+                    <span  class="project-num-16"><img src="../images/kf_16.png"></span>
+                    <span  class="project-num-17"><img src="../images/kf_17.png"></span>
+                    <span  class="project-num-18"> <img src="../images/kf_19.png"></span>
+                    <span class="project-num-19"><img src="../images/r_18.png"> </span>
+                    <span class="project-num-19_1"><img src="../images/le_add-1_03.png"> </span>
+                    <span class="project-num-20"><img src="../images/r_17.png"> </span>
+                    <span class="project-num-21"><img src="../images/r_16.png"></span>
+                    <span class="project-num-22"><img src="../images/r_15.png"></span>
+                    <span class="project-num-23"><img src="../images/r_14.png"></span>
+                    <span class="project-num-24"><img src="../images/r_13.png"></span>
+                    <span class="project-num-25"><img src="../images/ri_12.png"></span>
+                    <span class="project-num-26"><img src="../images/r_11.png"></span>
+                    <span class="project-num-27"><img src="../images/ri_10.png"><</span>
+                    <span class="project-num-28"><img src="../images/r_9.png"><</span>
+                    <span class="project-num-29"><img src="../images/r_8.png"></span>
+                    <span class="project-num-30"><img src="../images/r_07.png"></span>
+                    <span class="project-num-31"><img src="../images/rig_06.png"></span>
+                    <span  class="project-num-32"><img src="../images/rig_05.png"></span>
+                    <span class="project-num-33"><img src="../images/rig_04.png"></span>
+                    <span  class="project-num-34"><img src="../images/rig_03.png"></span>
+                    <span  class="project-num-35"> <img src="../images/rig_2.png"> </span>
+                    <span  class="project-num-36"><img src="../images/rig_1.png">  </span>
+                    <div class="b_text02 "><img src="../images/banner_text01.png"></div>
+                    <div class="b_text03"><img src="../images/banner_text02.png"></div>
+                    <span class="arrow-img-top arrow-img-top1"></span>
+                </div>
+            </div>
+        </div>
     <div class="two-mode section">
         <div class="two-mode-con">
             <div class="title-con">
@@ -172,9 +219,7 @@
                        <p  class="text-con-six">世界领先的财务管理流程，对公账户与自有资金完全物理隔离，资金同人进出一致，防范被盗风险</p>
                    </div>
                </div>
-
                </div>
-
             </div>
    </div>
    </div>
@@ -216,12 +261,9 @@
             </ul>
             <div class="five-btn-bottom">
                 <a href="">立即注册</a>
-
             </div>
         </div>
     </div>
-
-
      <div class="g-foot-w clearfix">
         <div class="g-foot">
             <div class="g-foot-layou clearfix">
@@ -306,16 +348,33 @@
         </div>
     </div>
 </div>
+
 </div>
 </div>
+<div class="ui-sidebar">
+<!--    <a class="ui-sidebar-block jsj" href="#" target="_blank"></a>
+    <a class="ui-sidebar-block service" href="#" ></a>-->
+    <a class="ui-sidebar-block backtop" href="javascript:void(0)"></a>
+</div>
+
 </body>
 <script>
  $(function(){
-     var $img_1=$(".safe-top-img img");
-     $img_1.animate({
-         "opacity":'1'
-     }, 900);
-
+         var j = 0;
+     setTimeout(function() {
+         $(".center_sec").animate({ "opacity": "1" }, 1000/(j+1), 'linear');
+         var animate2 = setInterval(function() {
+             $(".round>span:eq(" + j + ")").fadeIn(200);
+             if (j === 3) {
+                 $(".b_text02").addClass("active");
+                 $(".b_text03").addClass("active");
+             }
+             if (j === 16) {
+                 $(".arrow-img-top1 ").animate({ "opacity": "1" },1000);
+             }
+             j++
+         }, 100);
+     }, 1000);
       function addclass(e){
           var win_h=$(window).height()*0.5;
           var t=$(e).offset().top;
@@ -343,7 +402,20 @@
               "top":20
           }, 2000);
       });
-  });
+
+     //返回顶部
+     $(window).scroll(function(){
+         var t=$(this).scrollTop()
+         if(t>200){
+             $(".ui-sidebar a.backtop").stop().css("display","block");
+         }else{
+             $(".ui-sidebar a.backtop").stop().css("display","none");
+         }
+     })
+     $(".ui-sidebar a.backtop").click(function(){
+         $("body,html").stop().animate({scrollTop:0},300)
+     });
+ });
 
 
 

@@ -163,3 +163,54 @@
   padding-right: 80px;
 }
 
+/*返回顶部*/
+
+.ui-sidebar {
+  width: 50px;
+  position: fixed;
+  left: 50%;
+  margin-left: 620px;
+  bottom: 20px;
+  display: block;
+  z-index: 1001;
+}
+.ui-sidebar a.ui-sidebar-block {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 2px;
+  display:inline-block;
+  position: relative;
+  background: url(../images/top_img_icon_01.png) -9999px -9999px no-repeat;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -ms-transition: all .2s;
+  transition: all .2s;
+}
+.ui-sidebar a.jsj {
+  background-position: 0px 0px;
+  position: relative;
+}
+.ui-sidebar a.jsj:hover{
+  background-position: 0px -41px;
+}
+
+.ui-sidebar a.service {
+  background-position: -41px 0;
+  position: relative;
+}
+.ui-sidebar a.service:hover{
+  background-position: -41px -41px;
+}
+
+.ui-sidebar a.backtop {
+  background-position: -81px 0;
+  position: relative;
+  display: none;
+}
+
+
+.ui-sidebar a.backtop:hover {
+  background-position: -81px -41px;
+  position: relative;
+}
