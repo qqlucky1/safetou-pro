@@ -41,7 +41,38 @@
     position: relative;
     top: -6px;
   }
+}
 
+.wzggLists{
+  .wzggList{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+.slist_title{
+  float: left;
+  color: #302f2b;
+  font-size: 14px;
+  line-height: 60px;
+  &:before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    @include border-radius(3px);
+    background-color: #a0a0a0;
+    margin: 0 5px;
+    position: relative;
+    top: -3px;
+  }
+}
+.slist_time{
+  float: right;
+  color: #5e5e5e;
+  font-size: 14px;
+  line-height: 60px;
 }
 
 
