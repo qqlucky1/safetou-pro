@@ -236,13 +236,23 @@
 
     </div>
     <script type="text/javascript">
+        ///点击返回列表
+        $(".comeBackList").click(function(){
+//            $(".scontentBox").css('display','none').siblings().css('display','block');
+            $(".scontentBox").fadeOut('fast',function(){
+                ///公告详情动画消失完成执行的回掉写在这里
+                $(".scontentBox").siblings().fadeIn('fast',function(){
+                    ///公告列表显示完成执行的回掉写在这里
+                });
+            });
+        });
+
         ///网站公告点击
         $(".wzggList").each(function (index, el) {
             $(this).click(function(){
-                $(".wzggLists").css('display','none');
-
-
-                $(".scontentBox").css('display','block');
+                $(".wzggLists").fadeOut('fast',function(){
+                    $(".scontentBox").fadeIn('fast');
+                });
             });
         })
 
