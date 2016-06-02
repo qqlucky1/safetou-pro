@@ -11149,48 +11149,179 @@ yx-axis
 
 /* line 9, ../sass/layout/_sever_a.scss */
 .sever_left {
-  width: 190px;
-  border-right: 1px solid #e5e5e5;
+  width: 189px;
+  float: left;
 }
-/* line 13, ../sass/layout/_sever_a.scss */
-.sever_left .sever-nav li {
+/* line 12, ../sass/layout/_sever_a.scss */
+.sever_left .current {
+  color: orange;
+}
+
+/* line 17, ../sass/layout/_sever_a.scss */
+.sever_right {
+  width: 1010px;
+  min-height: 600px;
+  border-left: 1px solid #e5e5e5;
+  float: left;
+}
+
+/* line 23, ../sass/layout/_sever_a.scss */
+.wzggBox {
+  min-height: 660px;
+}
+
+/* line 26, ../sass/layout/_sever_a.scss */
+.ser_listsBox {
+  margin: 50px 55px 50px 50px;
+}
+/* line 29, ../sass/layout/_sever_a.scss */
+.ser_listsBox .ser_titleT span {
+  display: inline-block;
+  color: #ff9933;
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 92px;
+  text-align: center;
+}
+/* line 37, ../sass/layout/_sever_a.scss */
+.ser_listsBox .t-line {
+  display: inline-block;
+  background-color: orange;
+  height: 1px;
+  position: relative;
+  top: -6px;
+}
+
+/* line 48, ../sass/layout/_sever_a.scss */
+.info-sidebar {
+  position: relative;
+  width: 189px;
+}
+
+/* line 49, ../sass/layout/_sever_a.scss */
+.info-sidebar .icon {
+  display: inline-block;
+  width: 52px;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+/* line 50, ../sass/layout/_sever_a.scss */
+.info-sidebar .caret, .info-sidebar .caret-up {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  vertical-align: middle;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* line 51, ../sass/layout/_sever_a.scss */
+.info-sidebar .caret {
+  border-bottom: 0;
+  border-top: 4px solid;
+}
+
+/* line 52, ../sass/layout/_sever_a.scss */
+.info-sidebar .caret-up, .info-sidebar .caret.up {
+  border-top: 0;
+  border-bottom: 4px solid;
+}
+
+/* line 53, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .item-cont > li, .info-sidebar .list h2 {
+  padding: 0 24px;
+  height: 50px;
+  cursor: pointer;
   line-height: 50px;
 }
-/* line 16, ../sass/layout/_sever_a.scss */
-.sever_left .sever-nav li a {
-  text-align: center;
-  display: block;
+
+/* line 54, ../sass/layout/_sever_a.scss */
+.info-sidebar .list {
+  font-size: 14px;
+  background: #fff;
+  margin-top: 1px;
 }
-/* line 20, ../sass/layout/_sever_a.scss */
-.sever_left .sever-nav li a:hover {
-  background: #ebebeb;
-  width: 191px;
-  /* border-left: 3px solid orange;*/
-  color: orange;
+
+/* line 55, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .item {
   position: relative;
-  top: 0px;
-  left: 0px;
+  color: #5e5e5e;
 }
-/* line 30, ../sass/layout/_sever_a.scss */
-.sever_left .sever-nav li a:hover i {
+
+/* line 56, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .item a {
+  display: block;
+  text-align: left;
+}
+
+/* line 57, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .item + .item {
+  border-top: 1px solid #ebebeb;
+}
+
+/* line 58, ../sass/layout/_sever_a.scss */
+.info-sidebar .list h2 {
+  font-size: 18px;
+}
+
+/* line 59, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .strong {
+  font-size: 16px;
+}
+
+/* line 60, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .item-cont > li {
+  position: relative;
+  font-size: 14px;
+  color: #666;
+  overflow: hidden;
+}
+
+/* line 61, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .item-cont {
+  height: 0;
+  overflow: hidden;
+  transition: height .2s ease-in;
+  -webkit-transition: height .2s ease-out;
+}
+
+/* line 62, ../sass/layout/_sever_a.scss */
+.info-sidebar .list .current, .info-sidebar .list h2:hover {
   color: orange;
 }
-/* line 34, ../sass/layout/_sever_a.scss */
-.sever_left .sever-nav li a i {
-  display: inline-block;
-  font-size: 24px;
-  color: #a0a0a0;
-  padding-right: 12px;
-  width: 36px;
-  height: 36px;
+
+/* line 63, ../sass/layout/_sever_a.scss */
+.info-sidebar .list-nav-label {
+  position: absolute;
+  top: 121px;
+  left: 0px;
+  width: 182px;
+  height: 50px;
+  background-color: #ebebeb;
+  border-left: 7px solid orange;
+  transition: top .2s ease-in;
+  -webkit-transition: top .2s ease-out;
 }
-/* line 42, ../sass/layout/_sever_a.scss */
-.sever_left .sever-nav li a span {
-  font-size: 16px;
-  color: #5e5e5e;
-  line-height: 24px;
-  display: inline-block;
-  width: 80px;
+
+/* line 64, ../sass/layout/_sever_a.scss */
+.infoMenu-wrap.zixun .info-sidebar .list h2 {
+  padding: 0 14px;
+}
+
+/* line 65, ../sass/layout/_sever_a.scss */
+.infoMenu-wrap.zixun .info-sidebar .caret, .infoMenu-wrap.zixun .info-sidebar .caret-up {
+  margin-left: 3px;
+}
+
+/* line 66, ../sass/layout/_sever_a.scss */
+.infoMenu-wrap.zixun .info-sidebar .list .item-cont a {
+  display: block;
+  width: 120px;
 }
 
 /*********************** other module Start **************************************
