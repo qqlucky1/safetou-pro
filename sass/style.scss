@@ -5,9 +5,11 @@
 @import "base/base";
 @import "base/reset";
 @import "base/typography";
+
 //components
 @import "components/_icons";
 @import "components/_fonticons";
+@import "components/_fontfamily";
 //layout
 @import "layout/footer";
 @import "layout/forms";
@@ -18,6 +20,15 @@
 @import "layout/banner";
 @import "layout/product";
 @import "layout/popup";
+@import "layout/_register-login";
+@import "layout/_find-password";
+@import "layout/pro-tetail";
+@import "layout/pro-list";
+@import "layout/_rzb-app-con";
+@import "layout/_safety";
+@import "layout/_abour_our";
+@import "layout/sever_a";
+
 //page
 @import "pages/contact";
 @import "pages/home";
@@ -30,6 +41,7 @@
 @import "utils/helpers";
 @import "utils/mixins";
 @import "utils/_variables";
+
 
 
 

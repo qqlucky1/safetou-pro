@@ -26,6 +26,7 @@ $lte-ie:true !default;
 }
 .nav-item-title li a i.icon{
   font-size: 12px;
+  display: inline-block;
 }
 .nav-item-title li a:hover > .icon{
   transform: rotate(180deg);
@@ -61,7 +62,7 @@ $lte-ie:true !default;
 .nav-dropdown span {  display: block; width: 11px; height: 7px; position: absolute; top: -7px; left: 52px; }
 .nav-dropdown-item { text-align: center; position: relative;border-bottom: 1px solid #e5e5e5;}
 .nav-dropdown-item a { line-height: 30px; text-decoration: none; color: #6F6F6F; width: 100px; display: block; font-size: 14px; border-bottom: 1px solid #FFF; }
-.nav-dropdown-item a:hover { color: #ffa200; border-bottom: 1px solid #FFF; }
+.nav-dropdown-item a:hover { color: #ffa200; border-bottom: 1px solid #FFF;cursor: pointer; }
 .dline{height: 1px;width:0px;background-color: #fde6ba;position: absolute;top:30px;left:59px;}
 .nav-item-title li:hover > ul {
   display: block;

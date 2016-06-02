@@ -174,8 +174,10 @@ font-size: 20px;}
   display: inline-block;
   background:sprite($foot, line-midle);
   @include sprite-background-position($foot, line-midle);
-  @include  sprite-dimensions($foot,line-midle);
+  height: 2px;
+  width: 100%;
 }
+
 .lianjie-left p{
   color: #a0a0a0;
   font-size: 14px;
