@@ -11193,13 +11193,50 @@ yx-axis
   top: -6px;
 }
 
-/* line 49, ../sass/layout/_sever_a.scss */
+/* line 48, ../sass/layout/_sever_a.scss */
+.wzggLists .wzggList {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 55, ../sass/layout/_sever_a.scss */
+.slist_title {
+  float: left;
+  color: #302f2b;
+  font-size: 14px;
+  line-height: 60px;
+}
+/* line 60, ../sass/layout/_sever_a.scss */
+.slist_title:before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #a0a0a0;
+  margin: 0 5px;
+  position: relative;
+  top: -3px;
+}
+
+/* line 72, ../sass/layout/_sever_a.scss */
+.slist_time {
+  float: right;
+  color: #5e5e5e;
+  font-size: 14px;
+  line-height: 60px;
+}
+
+/* line 80, ../sass/layout/_sever_a.scss */
 .info-sidebar {
   position: relative;
   width: 189px;
 }
 
-/* line 50, ../sass/layout/_sever_a.scss */
+/* line 81, ../sass/layout/_sever_a.scss */
 .info-sidebar .icon {
   display: inline-block;
   width: 52px;
@@ -11210,7 +11247,7 @@ yx-axis
   top: -2px;
 }
 
-/* line 51, ../sass/layout/_sever_a.scss */
+/* line 82, ../sass/layout/_sever_a.scss */
 .info-sidebar .caret, .info-sidebar .caret-up {
   display: inline-block;
   width: 0;
@@ -11221,19 +11258,19 @@ yx-axis
   border-left: 4px solid transparent;
 }
 
-/* line 52, ../sass/layout/_sever_a.scss */
+/* line 83, ../sass/layout/_sever_a.scss */
 .info-sidebar .caret {
   border-bottom: 0;
   border-top: 4px solid;
 }
 
-/* line 53, ../sass/layout/_sever_a.scss */
+/* line 84, ../sass/layout/_sever_a.scss */
 .info-sidebar .caret-up, .info-sidebar .caret.up {
   border-top: 0;
   border-bottom: 4px solid;
 }
 
-/* line 54, ../sass/layout/_sever_a.scss */
+/* line 85, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item-cont > li, .info-sidebar .list h2 {
   padding: 0 24px;
   height: 50px;
@@ -11241,41 +11278,41 @@ yx-axis
   line-height: 50px;
 }
 
-/* line 55, ../sass/layout/_sever_a.scss */
+/* line 86, ../sass/layout/_sever_a.scss */
 .info-sidebar .list {
   font-size: 14px;
   background: #fff;
   margin-top: 1px;
 }
 
-/* line 56, ../sass/layout/_sever_a.scss */
+/* line 87, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item {
   position: relative;
   color: #5e5e5e;
 }
 
-/* line 57, ../sass/layout/_sever_a.scss */
+/* line 88, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item a {
   display: block;
   text-align: left;
 }
 
-/* line 58, ../sass/layout/_sever_a.scss */
+/* line 89, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item + .item {
   border-top: 1px solid #ebebeb;
 }
 
-/* line 59, ../sass/layout/_sever_a.scss */
+/* line 90, ../sass/layout/_sever_a.scss */
 .info-sidebar .list h2 {
   font-size: 18px;
 }
 
-/* line 60, ../sass/layout/_sever_a.scss */
+/* line 91, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .strong {
   font-size: 16px;
 }
 
-/* line 61, ../sass/layout/_sever_a.scss */
+/* line 92, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item-cont > li {
   position: relative;
   font-size: 14px;
@@ -11283,7 +11320,7 @@ yx-axis
   overflow: hidden;
 }
 
-/* line 62, ../sass/layout/_sever_a.scss */
+/* line 93, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item-cont {
   height: 0;
   overflow: hidden;
@@ -11291,12 +11328,12 @@ yx-axis
   -webkit-transition: height .2s ease-out;
 }
 
-/* line 63, ../sass/layout/_sever_a.scss */
+/* line 94, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .current, .info-sidebar .list h2:hover {
   color: orange;
 }
 
-/* line 64, ../sass/layout/_sever_a.scss */
+/* line 95, ../sass/layout/_sever_a.scss */
 .info-sidebar .list-nav-label {
   position: absolute;
   top: 121px;
@@ -11309,17 +11346,17 @@ yx-axis
   -webkit-transition: top .2s ease-out;
 }
 
-/* line 65, ../sass/layout/_sever_a.scss */
+/* line 96, ../sass/layout/_sever_a.scss */
 .infoMenu-wrap.zixun .info-sidebar .list h2 {
   padding: 0 14px;
 }
 
-/* line 66, ../sass/layout/_sever_a.scss */
+/* line 97, ../sass/layout/_sever_a.scss */
 .infoMenu-wrap.zixun .info-sidebar .caret, .infoMenu-wrap.zixun .info-sidebar .caret-up {
   margin-left: 3px;
 }
 
-/* line 67, ../sass/layout/_sever_a.scss */
+/* line 98, ../sass/layout/_sever_a.scss */
 .infoMenu-wrap.zixun .info-sidebar .list .item-cont a {
   display: block;
   width: 120px;
@@ -11353,7 +11390,7 @@ yx-axis
   font-size: 25px;
 }
 
-/* line 13, ../sass/layout/_sever_b.scss */
+/* line 14, ../sass/layout/_sever_b.scss */
 .mo_title dl dd {
   color: #302f2b;
   font-size: 16px;
