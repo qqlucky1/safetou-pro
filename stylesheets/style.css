@@ -11171,11 +11171,49 @@ yx-axis
   /* min-height: 660px;*/
 }
 
-/* line 27, ../sass/layout/_sever_a.scss */
+/* line 29, ../sass/layout/_sever_a.scss */
+.scontentBox .con_title {
+  font-size: 20px;
+  text-align: center;
+  color: #302f2b;
+}
+/* line 34, ../sass/layout/_sever_a.scss */
+.scontentBox .con_time {
+  color: #5e5e5e;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0 25px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 41, ../sass/layout/_sever_a.scss */
+.scontentBox .con_content {
+  padding: 35px 55px 65px 55px;
+  color: #302f2b;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+/* line 49, ../sass/layout/_sever_a.scss */
+.scontentBox .bothPages .fontPage, .scontentBox .bothPages .nextPage {
+  color: #302f2b;
+  font-size: 14px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+/* line 55, ../sass/layout/_sever_a.scss */
+.scontentBox .bothPages .comeBackList {
+  float: right;
+  position: relative;
+  top: -28px;
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+/* line 66, ../sass/layout/_sever_a.scss */
 .ser_listsBox {
   margin: 50px 55px 50px 50px;
 }
-/* line 30, ../sass/layout/_sever_a.scss */
+/* line 68, ../sass/layout/_sever_a.scss */
 .ser_listsBox .ser_titleT span {
   display: inline-block;
   color: #ff9933;
@@ -11184,7 +11222,7 @@ yx-axis
   width: 92px;
   text-align: center;
 }
-/* line 38, ../sass/layout/_sever_a.scss */
+/* line 76, ../sass/layout/_sever_a.scss */
 .ser_listsBox .t-line {
   display: inline-block;
   background-color: orange;
@@ -11193,21 +11231,22 @@ yx-axis
   top: -6px;
 }
 
-/* line 48, ../sass/layout/_sever_a.scss */
+/* line 86, ../sass/layout/_sever_a.scss */
 .wzggLists .wzggList {
   height: 60px;
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
 }
 
-/* line 55, ../sass/layout/_sever_a.scss */
+/* line 94, ../sass/layout/_sever_a.scss */
 .slist_title {
   float: left;
   color: #302f2b;
   font-size: 14px;
   line-height: 60px;
 }
-/* line 60, ../sass/layout/_sever_a.scss */
+/* line 99, ../sass/layout/_sever_a.scss */
 .slist_title:before {
   content: "";
   display: inline-block;
@@ -11222,7 +11261,7 @@ yx-axis
   top: -3px;
 }
 
-/* line 72, ../sass/layout/_sever_a.scss */
+/* line 111, ../sass/layout/_sever_a.scss */
 .slist_time {
   float: right;
   color: #5e5e5e;
@@ -11230,13 +11269,13 @@ yx-axis
   line-height: 60px;
 }
 
-/* line 80, ../sass/layout/_sever_a.scss */
+/* line 119, ../sass/layout/_sever_a.scss */
 .info-sidebar {
   position: relative;
   width: 189px;
 }
 
-/* line 81, ../sass/layout/_sever_a.scss */
+/* line 120, ../sass/layout/_sever_a.scss */
 .info-sidebar .icon {
   display: inline-block;
   width: 52px;
@@ -11247,7 +11286,7 @@ yx-axis
   top: -2px;
 }
 
-/* line 82, ../sass/layout/_sever_a.scss */
+/* line 121, ../sass/layout/_sever_a.scss */
 .info-sidebar .caret, .info-sidebar .caret-up {
   display: inline-block;
   width: 0;
@@ -11258,19 +11297,19 @@ yx-axis
   border-left: 4px solid transparent;
 }
 
-/* line 83, ../sass/layout/_sever_a.scss */
+/* line 122, ../sass/layout/_sever_a.scss */
 .info-sidebar .caret {
   border-bottom: 0;
   border-top: 4px solid;
 }
 
-/* line 84, ../sass/layout/_sever_a.scss */
+/* line 123, ../sass/layout/_sever_a.scss */
 .info-sidebar .caret-up, .info-sidebar .caret.up {
   border-top: 0;
   border-bottom: 4px solid;
 }
 
-/* line 85, ../sass/layout/_sever_a.scss */
+/* line 124, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item-cont > li, .info-sidebar .list h2 {
   padding: 0 24px;
   height: 50px;
@@ -11278,41 +11317,41 @@ yx-axis
   line-height: 50px;
 }
 
-/* line 86, ../sass/layout/_sever_a.scss */
+/* line 125, ../sass/layout/_sever_a.scss */
 .info-sidebar .list {
   font-size: 14px;
   background: #fff;
   margin-top: 1px;
 }
 
-/* line 87, ../sass/layout/_sever_a.scss */
+/* line 126, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item {
   position: relative;
   color: #5e5e5e;
 }
 
-/* line 88, ../sass/layout/_sever_a.scss */
+/* line 127, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item a {
   display: block;
   text-align: left;
 }
 
-/* line 89, ../sass/layout/_sever_a.scss */
+/* line 128, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item + .item {
   border-top: 1px solid #ebebeb;
 }
 
-/* line 90, ../sass/layout/_sever_a.scss */
+/* line 129, ../sass/layout/_sever_a.scss */
 .info-sidebar .list h2 {
   font-size: 18px;
 }
 
-/* line 91, ../sass/layout/_sever_a.scss */
+/* line 130, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .strong {
   font-size: 16px;
 }
 
-/* line 92, ../sass/layout/_sever_a.scss */
+/* line 131, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item-cont > li {
   position: relative;
   font-size: 14px;
@@ -11320,7 +11359,7 @@ yx-axis
   overflow: hidden;
 }
 
-/* line 93, ../sass/layout/_sever_a.scss */
+/* line 132, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .item-cont {
   height: 0;
   overflow: hidden;
@@ -11328,12 +11367,12 @@ yx-axis
   -webkit-transition: height .2s ease-out;
 }
 
-/* line 94, ../sass/layout/_sever_a.scss */
+/* line 133, ../sass/layout/_sever_a.scss */
 .info-sidebar .list .current, .info-sidebar .list h2:hover {
   color: orange;
 }
 
-/* line 95, ../sass/layout/_sever_a.scss */
+/* line 134, ../sass/layout/_sever_a.scss */
 .info-sidebar .list-nav-label {
   position: absolute;
   top: 121px;
@@ -11346,17 +11385,17 @@ yx-axis
   -webkit-transition: top .2s ease-out;
 }
 
-/* line 96, ../sass/layout/_sever_a.scss */
+/* line 135, ../sass/layout/_sever_a.scss */
 .infoMenu-wrap.zixun .info-sidebar .list h2 {
   padding: 0 14px;
 }
 
-/* line 97, ../sass/layout/_sever_a.scss */
+/* line 136, ../sass/layout/_sever_a.scss */
 .infoMenu-wrap.zixun .info-sidebar .caret, .infoMenu-wrap.zixun .info-sidebar .caret-up {
   margin-left: 3px;
 }
 
-/* line 98, ../sass/layout/_sever_a.scss */
+/* line 137, ../sass/layout/_sever_a.scss */
 .infoMenu-wrap.zixun .info-sidebar .list .item-cont a {
   display: block;
   width: 120px;

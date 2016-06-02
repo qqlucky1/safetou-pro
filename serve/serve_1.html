@@ -141,7 +141,9 @@
                             <span>网站公告</span>
                             <i class="t-line" style="width: 776px"></i>
                         </div>
-                        <div class="wzggLists clearfix">
+
+                        <div class="wzggLists clearfix" style="display: block">
+
                             <div class="wzggList">
                                 <div class="slist_title">安全投劳动节放假公告</div>
                                 <div class="slist_time">2016-05-27</div>
@@ -166,6 +168,27 @@
                                 <div class="slist_title">安全投劳动节放假公告</div>
                                 <div class="slist_time">2016-05-27</div>
                             </div>
+                        </div>
+                        <div class="scontentBox" style="display: none">
+                            <div class="con_title">安全投劳动节放假公告</div>
+                            <div class="con_time">2016-06-27</div>
+                            <div class="con_content">
+                                <pre>为了更好地服务广大会员，网站定于2016年5月20日（星期五）晚进行升级维护，届时主站和手机客户端将短时间无法访问。
+在此期间，客服热线及客服邮箱等功能可正常使用；如您在维护期间内遇问题需咨询，请拨打客服热线400-801-8131或者发送邮
+件至kefu@safetou.com，客服人员将在第一时间内解答您的疑问。
+对此造成的不便，深表歉意！
+感谢您一直以来对安全投的关注和支持。安全，财能安心。
+
+                                                                                                                                                    安全投
+                                                                                                                                                  2016年5月20日
+                                </pre>
+                            </div>
+                            <div class="bothPages">
+                                <div class="fontPage">上一篇：没有了</div>
+                                <div class="nextPage">下一篇：银行维护公告</div>
+                                <div class="comeBackList"><i class="iconfont">&#xe62d;</i>返回列表</div>
+                            </div>
+
                         </div>
                     </div>
                     <!--理财攻略-->
@@ -294,6 +317,27 @@
 
     </div>
     <script type="text/javascript">
+        ///点击返回列表
+        $(".comeBackList").click(function(){
+//            $(".scontentBox").css('display','none').siblings().css('display','block');
+            $(".scontentBox").fadeOut('fast',function(){
+                ///公告详情动画消失完成执行的回掉写在这里
+                $(".scontentBox").siblings().fadeIn('fast',function(){
+                    ///公告列表显示完成执行的回掉写在这里
+                });
+            });
+        });
+
+        ///网站公告点击
+        $(".wzggList").each(function (index, el) {
+            $(this).click(function(){
+                $(".wzggLists").fadeOut('fast',function(){
+                    $(".scontentBox").fadeIn('fast');
+                });
+            });
+        })
+
+
         //导航栏info-sidebar的label移动
         var defaultTop = $(".sever_left a:eq(0)").offset().top;
         var $dataFilter = $(".sever_left [data-filter]");
