@@ -1,3 +1,15 @@
 @charset "UTF-8";
-.mo_title dl{ float: left;}
-.mo_title dl dd span{ width: 80px; height: 80px;}
+.mo_title dl{ float: left;padding: 36px 50px; }
+.mo_title dl dd{ text-align: center;}
+.mo_title dl dd span{width: 80px;
+  height: 80px;
+  display: inline-block;
+  border: 1px solid orange;
+  border-radius: 50%;
+  text-align: center;}
+.mo_title dl dd span i{ color: orange;
+  line-height: 80px;
+  font-size: 25px; }
+
+
+.mo_title dl dd{ color: #302f2b; font-size: 16px; line-height: 36px; }
