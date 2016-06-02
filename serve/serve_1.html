@@ -236,6 +236,11 @@
 
     </div>
     <script type="text/javascript">
+        ///点击返回列表
+        $(".comeBackList").click(function(){
+            $(".scontentBox").css('display','none').siblings().css('display','block');
+        });
+
         ///网站公告点击
         $(".wzggList").each(function (index, el) {
             $(this).click(function(){
