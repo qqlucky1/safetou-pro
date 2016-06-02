@@ -77,26 +77,28 @@
 })(jQuery);
 $(function() {
     var c = $('.processingbar');
+    console.log(c.width)
     animateEle();
     $(window).scroll(function() {
         animateEle()
     });
-
     function animateEle() {
         var b = {
             top: $(window).scrollTop(),
             bottom: $(window).scrollTop() + $(window).height()
         };
+        console.log(c)
         c.each(function() {
+            var width = this.clientWidth
             if (b.top <= $(this).offset().top && b.bottom >= $(this).offset().top && !$(this).data('bPlay')) {
                 $(this).data('bPlay', true);
                 var a = $(this).find('span').text().replace(/\%/, '');
                 if ($(this).find("span").text() !== "0%") {
                     $(this).svgCircle({
                         parent: $(this)[0],
-                        w: 145,
-                        R: 65,
-                        sW: 6,
+                        w: width,
+                        R: width/2 - 5,
+                        sW: 4,
                         color: ["#ff9933", "#ff9933", "#ff9933"],
                         perent: [100, a],
                         speed: 150,
@@ -107,9 +109,9 @@ $(function() {
                     $(this).find("span").css("color", "#a9a9a9");
                     $(this).svgCircle({
                         parent: $(this)[0],
-                        w: 145,
-                        R: 65,
-                        sW: 6,
+                        w: width,
+                        R: width/2 - 5,
+                        sW: 4,
                         color: ["#e3e3e3", "#e3e3e3", "#e3e3e3"],
                         perent: [100, a],
                         speed: 150,

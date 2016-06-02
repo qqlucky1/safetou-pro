@@ -22,3 +22,32 @@
   font-size: 16px;
   cursor: pointer;
 }
+%title-1{
+  float: left;
+  display: inline-block;
+
+  font-size: 14px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 2px;
+  margin: 2px 5px 0px 0px;
+  padding: 2px;
+}
+%title-2{
+  float: left;
+  color: #302f2b;
+  font-size: 18px;
+  cursor: pointer;
+}
+%title-3{
+  display: inline-block;
+  background: url("../images/bq-icon.png") no-repeat;
+  width: 54px;
+  height: 18px;
+  color: #ff9933;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 4px;
+}

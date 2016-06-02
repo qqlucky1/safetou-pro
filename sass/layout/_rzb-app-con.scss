@@ -1,0 +1,409 @@
+@charset "UTF-8";
+.rzb-apply-con {
+  width: 1200px;
+  margin: 40px auto;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 3px solid #f74b3a;
+}
+
+.mn-top80 {
+  margin: 90px 0 50px 0;
+}
+
+.width918-rzb {
+  width: 918px;
+}
+
+.stepflex .width306-add {
+  width: 306px;
+}
+
+.rzb-apply-form {
+  margin: 60px 80px 80px 140px;
+  .rzb-app-third {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    .btn-close {
+      display: inline-block;
+      margin-top: 45px;
+      width: 320px;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+      background: #ff9933;
+      text-align: center;
+      border-radius: 2px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    p {
+      margin-top: 32px;
+      color: #363636;
+      font-size: 20px;
+    }
+  }
+  .zhiyxx-con {
+    margin: 25px 0 30px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .title-two02 {
+    color: #a0a0a0;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 35px;
+    padding-left: 4px;
+  }
+  .btn-rzb-a {
+    margin: 40px 150px;
+    a {
+      display: inline-block;
+      width: 320px;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+      background: #ff9933;
+      text-align: center;
+      border-radius: 2px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+
+  .rzb-app-item {
+    margin-bottom: 30px;
+    position: relative;
+    .add-pro1 {
+      float: right;
+      width: 67px;
+      height: 33px;
+      border: 1px solid orange;
+      border-radius: 2px;
+      line-height: 28px;
+      color: orange;
+      padding-left: 11px;
+      cursor: pointer;
+      font-size: 16px;
+      b {
+        display: inline-block;
+        font-size: 27px;
+        padding-right: 6px;
+      }
+    }
+    .bor-round {
+      position: absolute;
+      border: 1px solid #ff9933;
+      width: 15px;
+      height: 15px;
+      line-height: 15px;
+      text-align: center;
+      color: #ff9933;
+      border-radius: 50%;
+      left: -1px;
+      top: 12px;
+    }
+
+    .time-two {
+      margin-left: 45px;
+      float: left;
+      position: relative;
+      .text-color-po {
+        position: absolute;
+        right: -107px;
+        color: #a0a0a0;
+        font-size: 14px;
+        top: 8px;
+      }
+      .text-line-color {
+        display: inline-block;
+        color: #a0a0a0;
+        padding: 0px 2px;
+      }
+    }
+    .input-p1 {
+      position: absolute;
+      color: #302f2b;
+      font-size: 14px;
+      line-height: 40px;
+      left: 443px;
+    }
+    .prom-red {
+      position: absolute;
+      top: 44px;
+      margin-left: 150px;
+      color: #fe4850;
+      font-size: 14px;
+      i {
+        color: #fe4850;
+        font-size: 16px;
+        padding-right: 4px;
+      }
+    }
+    .right-pro-rzb {
+      margin-right: 8px;
+      color: #a0a0a0;
+      font-size: 14px;
+      width: 188px;
+    }
+    span {
+      float: left;
+      display: inline-block;
+      width: 105px;
+      font-size: 14px;
+      color: #302f2b;
+      margin-top: 10px;
+      text-align: right;
+    }
+
+    .input-text-f {
+      width: 310px;
+      border: 1px solid #e5e5e5;
+      padding-left: 10px;
+      height: 40px;
+      margin-left: 45px;
+      float: left;
+      color: #302f2b;
+      border-radius: 2px;
+      position: relative;
+      outline: none;
+    }
+    .input-short-time {
+      width: 145px;
+      height: 35px;
+      border: 1px solid #e5e5e5;
+      border-radius: 2px;
+      padding-left: 5px;
+    }
+
+  }
+}
+
+/*********************** new module Name Start **************************************
+ *@moduleName:
+ *@author:Caorh
+ *@desc:rzb-h
+ *@time:2016/5/5 15:33
+ **/
+.banner-warp {
+  background: url("../images/rzb_img-banner_02.png") no-repeat center center;
+  display: inline-block;
+  width: 100%;
+  height: 510px;
+  .banner-con {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+  }
+  .banner-con .rzb-con-num {
+    width: 432px;
+    position: absolute;
+    top: 92px;
+    left: 4px;
+    margin: 0px auto;
+    text-align: center;
+    .rzb-btn-img {
+      width: 200px;
+      height: 46px;
+      background: #ff9933;
+      display: inline-block;
+      line-height: 46px;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 16px;
+      margin-top: 21px;
+      cursor: pointer;
+    }
+    .text-youdian {
+      text-align: center;
+      margin: 25px auto 0px 53px;
+      li {
+        float: left;
+        padding: 0px 12px;
+      }
+      li a {
+        display: inline-block;
+        text-align: center;
+        width: 83px;
+        color: #fff;
+        line-height: 36px;
+      }
+      li a span {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      li a span i {
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+      }
+    }
+    .num-1 {
+      .num-item {
+        font-size: 62px;
+        color: #fff;
+        font-weight: bold;
+      }
+      .num-item small {
+        margin-left: -14px;
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 60%;
+        vertical-align: top;
+      }
+      .text-bottom {
+        color: #fff;
+        font-size: 14px;
+        margin-top: -14px;
+      }
+    }
+  }
+}
+
+.rzb-good .rzb-good-item  .mn-right30 {
+  margin-left: 60px;
+}
+.rzb-good-item {
+  width: 1200px;
+  height: 496px;
+  margin: 0 auto;
+
+  .left-con {
+    float: left;
+    margin: 80px 35px 0;
+    .title-bottom {
+      color: #5e5e5e;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    p {
+      margin-top: 40px;
+      line-height: 30px;
+      color: #5e5e5e;
+      width: 576px;
+    }
+    .short-text-con {
+      width: 454px;
+    }
+  }
+  .title-one {
+    font-size: 36px;
+    font-weight: bold;
+    color: #302f2b;
+    text-align: center;
+    padding-top: 69px;
+  }
+  .step-two-rzb {
+    width: 1200px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px auto 0px 100px;
+    li {
+      float: left;
+      padding: 66px 135px 50px 10px;
+    }
+    li a {
+      text-align: center;
+      display: inline-block;
+    }
+    li a .title-02 {
+      color: #302f2b;
+      font-size: 20px;
+      margin-top: 15px;
+    }
+    li a .text {
+      color: #5e5e5e;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    li a span {
+      width: 135px;
+      height: 135px;
+      display: inline-block;
+      border-radius: 50%;
+      border: 1px solid #ff9933;
+      line-height: 135px;
+      i {
+        font-size: 80px;
+        color: #ff9933;
+        text-align: center;
+      }
+      i.small {
+        font-size: 55px;
+      }
+    }
+  }
+}
+
+.bg-img-rzb {
+  background: url(../images/bg-jb-x_03.png) repeat-x center center;
+  display: inline-block;
+  width: 100%;
+  height: 479px;
+
+  .step-three-rzb {
+    position: relative;
+    margin: 60px 0px 0 0px;
+    overflow: hidden;
+    li {
+      float: left;
+      padding: 0px 61px 0 38px;
+    }
+    li:after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      top: 53px;
+      width: 8px;
+      height: 16px;
+      background: url("../images/arrow-rzb.png") no-repeat;
+      margin-left: 39px;
+    }
+    li:last-child:after {
+      display: none;
+      content: "inherit";
+    }
+
+    li a {
+      display: inline-block;
+      text-align: center;
+    }
+    li a .title {
+      font-size: 20px;
+      color: #fff;
+      margin-top: 15px;
+    }
+    li a .text {
+      margin-top: 10px;
+      color: #fff;
+      width: 200px;
+      font-size: 14px;
+      /*text-align: left;*/
+    }
+    li a span {
+      background: #fca89e;
+      width: 115px;
+      height: 115px;
+      line-height: 115px;
+      border-radius: 50%;
+      text-align: center;
+      display: inline-block;
+    }
+    li a span i {
+      color: #ef2d2f;
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+}
+
+
+/*********************** new module Name End **************************************/

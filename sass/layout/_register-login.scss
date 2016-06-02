@@ -11,6 +11,7 @@
   }
 }
 
+
 .reg-inform-right {
   float: right;
   margin: 30px 50px;
@@ -219,6 +220,14 @@
         margin-left: 8px;
       }
     }
+    .labelText.focus{
+      border-color: #fcae26;
+      box-shadow: 0 0 5px rgba(252,174,38,0.5);
+    }
+    .labelText.focus .border-color{
+      border-color:#ff9933;
+    }
+
 
     .labelText {
       border: 1px solid #e5e5e5;
@@ -249,13 +258,13 @@
       .yz-bg {
         display: inline-block;
         width: 127px;
-        height: 39px;
+        height: 38px;
         background: #e5e5e5;
         position: absolute;
         top: 0px;
         right: 0px;
         text-align: center;
-        line-height: 39px;
+        line-height: 38px;
         color: #999999;
         font-size: 14px;
       }
@@ -264,6 +273,7 @@
         width: 140px;
       }
     }
+
     .reg-icon {
       display: inline-block;
       width: 48px;

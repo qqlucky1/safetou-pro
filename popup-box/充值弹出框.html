@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="../stylesheets/style.css"/>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
 </head>
 <body>
 <div class="popup-con">
@@ -16,8 +17,7 @@
                 <span class="bind-phone">短信验证码已发送至您的手机<i>156****6320</i></span>
             </div>
             <div class="input-text">
-                <input class="text-input" type="text" value="请输入短信验证码"/>
-
+                <input class="text-input input-text-f" type="text" value="" placeholder="请输入短信验证码"/>
                 <p class="prompt pd-left10">没有获取到验证码？<i>重新获取</i></p>
             </div>
             <div class="input-text short-item">
@@ -48,7 +48,6 @@
 
     </div>
 </div>
-
 <div class="popup-con">
     <div class="popup-title">
         <h3 class="title">确认提现</h3><span><a href="#" class="close"></a></span>
@@ -88,13 +87,19 @@
             </div>
             <div class="input-text short">
                 <a href="" class="cl-btn">关闭窗口</a>
-
             </div>
-
-
         </div>
-
     </div>
 </div>
 </body>
+<script type="text/javascript">
+    $(function () {
+        $("input").on("focus", function () {
+            $(this).closest(".input-text-f").attr("style", "border-color: #fcae26; box-shadow: 0 0 5px rgba(252,174,38,0.5);");
+        });
+        $('input').on('blur', function () {
+            $(this).closest(".input-text-f").attr("style", "");
+        });
+    });
+</script>
 </html>
