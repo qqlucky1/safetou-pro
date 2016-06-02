@@ -372,13 +372,31 @@
   margin-left: 12px;
   float: left;
   margin-top: 30px;
+  width: 270px;
+  height: 168px;
 }
-.vip-r-img .img-vip-c{
+.img-vip-c  .animation-scale-item{
+  cursor: pointer;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease
+}
+.img-vip-c:hover .animation-scale-item{
+  -moz-transform: scale3d(.98, .98, 1);
+  -ms-transform: scale3d(.98, .98, 1);
+  -webkit-transform: scale3d(.98, .98, 1);
+  transform: scale3d(.98, .98, 1);
+}
+/*.vip-r-img .img-vip-c{
   display: inline-block;
   background:sprite($product, avite-img);
   @include sprite-background-position($product, avite-img);
   @include  sprite-dimensions($product, avite-img);
-}
+}*/
+
+
+
 .bg-pd{
   border-right: 1px solid #e5e5e5;
 }

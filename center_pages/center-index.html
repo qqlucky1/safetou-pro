@@ -3305,7 +3305,7 @@
         });
         //通知中心隐藏
         $(".state1").find(".notice-item2-title").click(function () {
-            $(this).toggleClass(".notice-item2-desc").next().slideToggle();
+            $(this).toggleClass("notice-item2-desc").next().slideToggle();
         });
         //个人中心里tab切换
         $(".tab-left div.tab-item:not('.mid-line')").click(function () {
@@ -3358,12 +3358,17 @@
         var $li = $('.fubi-tab-item li');
         var $div = $('.fubi-con-warp .fubi-con');
         $li.click(function () {
-            var $this = $(this);
+           var $this = $(this);
             var $t = $this.index();
             $li.removeClass();
             $this.addClass('current');
             $div.css('display', 'none');
             $div.eq($t).css('display', 'block');
+            if($t=1 && $div.eq($t)){
+                $('.time-sele').css('display', 'none');
+            }else{
+                $('.time-sele').css('display', 'block');
+            }
         })
 
         //输入框变化

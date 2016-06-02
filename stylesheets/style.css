@@ -445,9 +445,9 @@ a:active, a:focus {
 
 @font-face {
   font-family: "iconfont";
-  src: url("iconsfont/iconfont.eot?t=1462352029");
+  src: url("iconsfont/iconfont.eot?t=1464770950");
   /* IE9*/
-  src: url("iconsfont/iconfont.eot?t=1462352029#iefix") format("embedded-opentype"), url("iconsfont/iconfont.woff?t=1462352029") format("woff"), url("iconsfont/iconfont.ttf?t=1462352029") format("truetype"), url("iconsfont/iconfont.svg?t=1462352029#iconfont") format("svg");
+  src: url("iconsfont/iconfont.eot?t=1464770950#iefix") format("embedded-opentype"), url("iconsfont/iconfont.woff?t=1464770950") format("woff"), url("iconsfont/iconfont.ttf?t=1464770950") format("truetype"), url("iconsfont/iconfont.svg?t=1464770950#iconfont") format("svg");
   /* iOS 4.1- */
 }
 /* line 12, ../sass/components/_fonticons.scss */
@@ -611,183 +611,233 @@ a:active, a:focus {
 }
 
 /* line 50, ../sass/components/_fonticons.scss */
+.icon-zhuce:before {
+  content: "\e643";
+}
+
+/* line 51, ../sass/components/_fonticons.scss */
 .icon-vip:before {
   content: "\e620";
 }
 
-/* line 51, ../sass/components/_fonticons.scss */
+/* line 52, ../sass/components/_fonticons.scss */
+.icon-chongzhi:before {
+  content: "\e644";
+}
+
+/* line 53, ../sass/components/_fonticons.scss */
 .icon-zizhirongyu:before {
   content: "\e621";
 }
 
-/* line 52, ../sass/components/_fonticons.scss */
+/* line 54, ../sass/components/_fonticons.scss */
 .icon-fengxiankongzhi:before {
   content: "\e622";
 }
 
-/* line 53, ../sass/components/_fonticons.scss */
+/* line 55, ../sass/components/_fonticons.scss */
 .icon-zizhi1:before {
   content: "\e623";
 }
 
-/* line 54, ../sass/components/_fonticons.scss */
+/* line 56, ../sass/components/_fonticons.scss */
 .icon-fu:before {
   content: "\e624";
 }
 
-/* line 55, ../sass/components/_fonticons.scss */
+/* line 57, ../sass/components/_fonticons.scss */
 .icon-zhankai:before {
   content: "\e604";
 }
 
-/* line 56, ../sass/components/_fonticons.scss */
+/* line 58, ../sass/components/_fonticons.scss */
 .icon-baozhengjin:before {
   content: "\e625";
 }
 
-/* line 57, ../sass/components/_fonticons.scss */
+/* line 59, ../sass/components/_fonticons.scss */
 .icon-shenfenrenzheng2:before {
   content: "\e626";
 }
 
-/* line 58, ../sass/components/_fonticons.scss */
+/* line 60, ../sass/components/_fonticons.scss */
 .icon-recovery_line:before {
   content: "\e627";
 }
 
-/* line 59, ../sass/components/_fonticons.scss */
+/* line 61, ../sass/components/_fonticons.scss */
 .icon-tizaofangkuan:before {
   content: "\e63b";
 }
 
-/* line 60, ../sass/components/_fonticons.scss */
+/* line 62, ../sass/components/_fonticons.scss */
 .icon-iconfontsuo:before {
   content: "\e60f";
 }
 
-/* line 61, ../sass/components/_fonticons.scss */
+/* line 63, ../sass/components/_fonticons.scss */
+.icon-toufangpingtai:before {
+  content: "\e645";
+}
+
+/* line 64, ../sass/components/_fonticons.scss */
 .icon-sanjiao-copy:before {
   content: "\e605";
 }
 
-/* line 62, ../sass/components/_fonticons.scss */
+/* line 65, ../sass/components/_fonticons.scss */
+.icon-gonggao:before {
+  content: "\e646";
+}
+
+/* line 66, ../sass/components/_fonticons.scss */
 .icon-iconfont1:before {
   content: "\e610";
 }
 
-/* line 63, ../sass/components/_fonticons.scss */
+/* line 67, ../sass/components/_fonticons.scss */
 .icon-tijiaoshenhe:before {
   content: "\e63c";
 }
 
-/* line 64, ../sass/components/_fonticons.scss */
+/* line 68, ../sass/components/_fonticons.scss */
 .icon-anquan2:before {
   content: "\e628";
 }
 
-/* line 65, ../sass/components/_fonticons.scss */
+/* line 69, ../sass/components/_fonticons.scss */
 .icon-yiyuanqitou:before {
   content: "\e629";
 }
 
-/* line 66, ../sass/components/_fonticons.scss */
+/* line 70, ../sass/components/_fonticons.scss */
 .icon-shang-copy:before {
   content: "\e62a";
 }
 
-/* line 67, ../sass/components/_fonticons.scss */
+/* line 71, ../sass/components/_fonticons.scss */
 .icon-tianjia2:before {
   content: "\e60d";
 }
 
-/* line 68, ../sass/components/_fonticons.scss */
+/* line 72, ../sass/components/_fonticons.scss */
 .icon-tubiao86:before {
   content: "\e62b";
 }
 
-/* line 69, ../sass/components/_fonticons.scss */
+/* line 73, ../sass/components/_fonticons.scss */
 .icon-iconfontjijin:before {
   content: "\e62c";
 }
 
-/* line 70, ../sass/components/_fonticons.scss */
+/* line 74, ../sass/components/_fonticons.scss */
 .icon-zuo:before {
   content: "\e62d";
 }
 
-/* line 71, ../sass/components/_fonticons.scss */
+/* line 75, ../sass/components/_fonticons.scss */
 .icon-xianshi:before {
   content: "\e63d";
 }
 
-/* line 72, ../sass/components/_fonticons.scss */
+/* line 76, ../sass/components/_fonticons.scss */
 .icon-nicheng:before {
   content: "\e611";
 }
 
-/* line 73, ../sass/components/_fonticons.scss */
+/* line 77, ../sass/components/_fonticons.scss */
+.icon-zanfuwutubiao06:before {
+  content: "\e647";
+}
+
+/* line 78, ../sass/components/_fonticons.scss */
 .icon-dui:before {
   content: "\e62e";
 }
 
-/* line 74, ../sass/components/_fonticons.scss */
+/* line 79, ../sass/components/_fonticons.scss */
 .icon-shouyi:before {
   content: "\e63e";
 }
 
-/* line 75, ../sass/components/_fonticons.scss */
+/* line 80, ../sass/components/_fonticons.scss */
 .icon-xiaofeimingxi:before {
   content: "\e63f";
 }
 
-/* line 76, ../sass/components/_fonticons.scss */
+/* line 81, ../sass/components/_fonticons.scss */
 .icon-yanzhengma1:before {
   content: "\e612";
 }
 
-/* line 77, ../sass/components/_fonticons.scss */
+/* line 82, ../sass/components/_fonticons.scss */
 .icon-icon:before {
   content: "\e62f";
 }
 
-/* line 78, ../sass/components/_fonticons.scss */
+/* line 83, ../sass/components/_fonticons.scss */
 .icon-yifukuan:before {
   content: "\e640";
 }
 
-/* line 79, ../sass/components/_fonticons.scss */
+/* line 84, ../sass/components/_fonticons.scss */
 .icon-information:before {
   content: "\e630";
 }
 
-/* line 80, ../sass/components/_fonticons.scss */
+/* line 85, ../sass/components/_fonticons.scss */
 .icon-qianzhengyajin:before {
   content: "\e631";
 }
 
-/* line 81, ../sass/components/_fonticons.scss */
+/* line 86, ../sass/components/_fonticons.scss */
 .icon-xingxiangbaogao:before {
   content: "\e632";
 }
 
-/* line 82, ../sass/components/_fonticons.scss */
+/* line 87, ../sass/components/_fonticons.scss */
+.icon-faq:before {
+  content: "\e648";
+}
+
+/* line 88, ../sass/components/_fonticons.scss */
 .icon-gold:before {
   content: "\e633";
 }
 
-/* line 83, ../sass/components/_fonticons.scss */
+/* line 89, ../sass/components/_fonticons.scss */
 .icon-yduigerenzhongxin:before {
   content: "\e634";
 }
 
-/* line 84, ../sass/components/_fonticons.scss */
+/* line 90, ../sass/components/_fonticons.scss */
 .icon-yduishuaxin:before {
   content: "\e635";
 }
 
-/* line 85, ../sass/components/_fonticons.scss */
+/* line 91, ../sass/components/_fonticons.scss */
 .icon-suo2:before {
   content: "\e606";
+}
+
+/* line 92, ../sass/components/_fonticons.scss */
+.icon-yinxingqia:before {
+  content: "\e649";
+}
+
+/* line 93, ../sass/components/_fonticons.scss */
+.icon-you1:before {
+  content: "\e642";
+}
+
+/* line 94, ../sass/components/_fonticons.scss */
+.icon-gonglve:before {
+  content: "\e64a";
+}
+
+/* line 95, ../sass/components/_fonticons.scss */
+.icon-wodejiangli:before {
+  content: "\e64b";
 }
 
 @font-face {
@@ -1735,22 +1785,35 @@ a:active, a:focus {
 }
 
 /* line 11, ../sass/layout/_sidebar.scss */
-.video-img {
-  display: inline-block;
-  background: url('../images/icons-s7c7e55f7b4.png') 0 -158px;
-  background-position: 0 -158px;
-  height: 140px;
+.play-icon {
+  background: url("../images/p_icon_m_05.png") no-repeat;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
   width: 270px;
-  vertical-align: middle;
+  height: 140px;
 }
 
-/* line 18, ../sass/layout/_sidebar.scss */
+/* line 21, ../sass/layout/_sidebar.scss */
+.play-icon:hover {
+  background: url("../images/p_icons_h_05.png") no-repeat;
+}
+
+/*.video-img{
+  display: inline-block;
+  background:sprite($icons, play-img);
+  @include sprite-background-position($icons, play-img);
+  @include  sprite-dimensions($icons,play-img);
+  vertical-align: middle;
+}*/
+/* line 31, ../sass/layout/_sidebar.scss */
 .i-mod-warp {
   border-bottom: 1px solid #e5e5e5;
   background: #fff;
 }
 
-/* line 23, ../sass/layout/_sidebar.scss */
+/* line 36, ../sass/layout/_sidebar.scss */
 .infor-box-c {
   position: relative;
   width: 1200px;
@@ -1758,14 +1821,14 @@ a:active, a:focus {
   padding: 20px 0;
 }
 
-/* line 29, ../sass/layout/_sidebar.scss */
+/* line 42, ../sass/layout/_sidebar.scss */
 .infor-item li {
   float: left;
   padding-right: 30px;
   font-size: 14px;
 }
 
-/* line 32, ../sass/layout/_sidebar.scss */
+/* line 45, ../sass/layout/_sidebar.scss */
 .ifor-img1 {
   display: inline-block;
   background: url('../images/icons-s7c7e55f7b4.png') -26px -96px;
@@ -1775,7 +1838,7 @@ a:active, a:focus {
   vertical-align: middle;
 }
 
-/* line 39, ../sass/layout/_sidebar.scss */
+/* line 52, ../sass/layout/_sidebar.scss */
 .ifor-img2 {
   display: inline-block;
   background: url('../images/icons-s7c7e55f7b4.png') -52px -96px;
@@ -1785,7 +1848,7 @@ a:active, a:focus {
   vertical-align: middle;
 }
 
-/* line 46, ../sass/layout/_sidebar.scss */
+/* line 59, ../sass/layout/_sidebar.scss */
 .ifor-img3 {
   display: inline-block;
   background: url('../images/icons-s7c7e55f7b4.png') -78px -96px;
@@ -1795,7 +1858,7 @@ a:active, a:focus {
   vertical-align: middle;
 }
 
-/* line 53, ../sass/layout/_sidebar.scss */
+/* line 66, ../sass/layout/_sidebar.scss */
 .ifor-img4 {
   display: inline-block;
   background: url('../images/icons-s7c7e55f7b4.png') 0 -96px;
@@ -1805,20 +1868,20 @@ a:active, a:focus {
   vertical-align: middle;
 }
 
-/* line 63, ../sass/layout/_sidebar.scss */
+/* line 76, ../sass/layout/_sidebar.scss */
 .ifor-foon {
   line-height: 30px;
   margin-left: 5px;
 }
 
-/* line 67, ../sass/layout/_sidebar.scss */
+/* line 80, ../sass/layout/_sidebar.scss */
 .ifor-num {
   color: #ff9933;
   padding: 0 3px;
   font-size: 18px;
 }
 
-/* line 73, ../sass/layout/_sidebar.scss */
+/* line 86, ../sass/layout/_sidebar.scss */
 .ifor-img5 {
   position: relative;
   display: inline-block;
@@ -1829,7 +1892,7 @@ a:active, a:focus {
   float: left;
 }
 
-/* line 81, ../sass/layout/_sidebar.scss */
+/* line 94, ../sass/layout/_sidebar.scss */
 .ifor-img5 u {
   /*animation-play-state: paused;
   -moz-animation-play-state: paused;
@@ -1838,7 +1901,7 @@ a:active, a:focus {
   transition: .4s top ease;*/
 }
 
-/* line 88, ../sass/layout/_sidebar.scss */
+/* line 101, ../sass/layout/_sidebar.scss */
 .ifor-img5 .h-spin01 {
   display: inline-block;
   background: url('../images/icons-s7c7e55f7b4.png') -200px -96px;
@@ -1856,12 +1919,12 @@ a:active, a:focus {
   right: 7px;
 }
 
-/* line 103, ../sass/layout/_sidebar.scss */
+/* line 116, ../sass/layout/_sidebar.scss */
 .item .ifor-img5 > u:hover {
   top: -3px;
 }
 
-/* line 106, ../sass/layout/_sidebar.scss */
+/* line 119, ../sass/layout/_sidebar.scss */
 .ifor-img5 .h-spin02 {
   display: inline-block;
   background: url('../images/icons-s7c7e55f7b4.png') -104px -96px;
@@ -1879,7 +1942,7 @@ a:active, a:focus {
   right: 19px;
 }
 
-/* line 121, ../sass/layout/_sidebar.scss */
+/* line 134, ../sass/layout/_sidebar.scss */
 .ifor-img5 .h-spin03 {
   display: inline-block;
   background: url('../images/icons-s7c7e55f7b4.png') -146px -96px;
@@ -1897,12 +1960,12 @@ a:active, a:focus {
   right: 8px;
 }
 
-/* line 138, ../sass/layout/_sidebar.scss */
+/* line 151, ../sass/layout/_sidebar.scss */
 .infor-item .item {
   border-right: 1px solid #e5e5e5;
 }
 
-/* line 141, ../sass/layout/_sidebar.scss */
+/* line 154, ../sass/layout/_sidebar.scss */
 .infor-ff-c {
   float: left;
   padding: 25px 15px;
@@ -1910,34 +1973,34 @@ a:active, a:focus {
   color: #6f6f6f;
 }
 
-/* line 147, ../sass/layout/_sidebar.scss */
+/* line 160, ../sass/layout/_sidebar.scss */
 .infor-item .pd-item {
   padding: 0px 30px;
 }
 
-/* line 150, ../sass/layout/_sidebar.scss */
+/* line 163, ../sass/layout/_sidebar.scss */
 .inf-item-pd {
   padding: 16px 15px;
 }
 
 /*合作伙伴*/
-/* line 155, ../sass/layout/_sidebar.scss */
+/* line 168, ../sass/layout/_sidebar.scss */
 .coop-box {
   padding: 20px;
 }
 
-/* line 159, ../sass/layout/_sidebar.scss */
+/* line 172, ../sass/layout/_sidebar.scss */
 .pd-left-01 {
   padding: 30px 0px;
 }
 
-/* line 162, ../sass/layout/_sidebar.scss */
+/* line 175, ../sass/layout/_sidebar.scss */
 .infor-item1 li {
   padding-right: 80px;
 }
 
 /*返回顶部*/
-/* line 168, ../sass/layout/_sidebar.scss */
+/* line 181, ../sass/layout/_sidebar.scss */
 .ui-sidebar {
   width: 50px;
   position: fixed;
@@ -1948,7 +2011,7 @@ a:active, a:focus {
   z-index: 1001;
 }
 
-/* line 177, ../sass/layout/_sidebar.scss */
+/* line 190, ../sass/layout/_sidebar.scss */
 .ui-sidebar a.ui-sidebar-block {
   width: 40px;
   height: 40px;
@@ -1963,36 +2026,36 @@ a:active, a:focus {
   transition: all .2s;
 }
 
-/* line 190, ../sass/layout/_sidebar.scss */
+/* line 203, ../sass/layout/_sidebar.scss */
 .ui-sidebar a.jsj {
   background-position: 0px 0px;
   position: relative;
 }
 
-/* line 194, ../sass/layout/_sidebar.scss */
+/* line 207, ../sass/layout/_sidebar.scss */
 .ui-sidebar a.jsj:hover {
   background-position: 0px -41px;
 }
 
-/* line 198, ../sass/layout/_sidebar.scss */
+/* line 211, ../sass/layout/_sidebar.scss */
 .ui-sidebar a.service {
   background-position: -41px 0;
   position: relative;
 }
 
-/* line 202, ../sass/layout/_sidebar.scss */
+/* line 215, ../sass/layout/_sidebar.scss */
 .ui-sidebar a.service:hover {
   background-position: -41px -41px;
 }
 
-/* line 206, ../sass/layout/_sidebar.scss */
+/* line 219, ../sass/layout/_sidebar.scss */
 .ui-sidebar a.backtop {
   background-position: -81px 0;
   position: relative;
   display: none;
 }
 
-/* line 213, ../sass/layout/_sidebar.scss */
+/* line 226, ../sass/layout/_sidebar.scss */
 .ui-sidebar a.backtop:hover {
   background-position: -81px -41px;
   position: relative;
@@ -2742,23 +2805,39 @@ a:active, a:focus {
   margin-left: 12px;
   float: left;
   margin-top: 30px;
-}
-
-/* line 376, ../sass/layout/_product.scss */
-.vip-r-img .img-vip-c {
-  display: inline-block;
-  background: url('../images/product-s4026e23c86.png') 0 0;
-  background-position: 0 0;
-  height: 168px;
   width: 270px;
+  height: 168px;
 }
 
-/* line 382, ../sass/layout/_product.scss */
+/* line 378, ../sass/layout/_product.scss */
+.img-vip-c .animation-scale-item {
+  cursor: pointer;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 385, ../sass/layout/_product.scss */
+.img-vip-c:hover .animation-scale-item {
+  -moz-transform: scale3d(0.98, 0.98, 1);
+  -ms-transform: scale3d(0.98, 0.98, 1);
+  -webkit-transform: scale3d(0.98, 0.98, 1);
+  transform: scale3d(0.98, 0.98, 1);
+}
+
+/*.vip-r-img .img-vip-c{
+  display: inline-block;
+  background:sprite($product, avite-img);
+  @include sprite-background-position($product, avite-img);
+  @include  sprite-dimensions($product, avite-img);
+}*/
+/* line 400, ../sass/layout/_product.scss */
 .bg-pd {
   border-right: 1px solid #e5e5e5;
 }
 
-/* line 385, ../sass/layout/_product.scss */
+/* line 403, ../sass/layout/_product.scss */
 .jx-position {
   display: inline-block;
   width: 62px;
@@ -10834,6 +10913,284 @@ yx-axis
   text-align: center;
   font-size: 14px;
   color: #a0a0a0;
+}
+
+/*放大样式*/
+/* line 2482, ../sass/layout/_abour_our.scss */
+.center_con {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 2483, ../sass/layout/_abour_our.scss */
+.left_1 {
+  float: left;
+  margin-right: 8px;
+}
+
+/* line 2484, ../sass/layout/_abour_our.scss */
+.left_1 p {
+  font-size: 14px;
+  color: #302f2b;
+  line-height: 24px;
+}
+
+/* line 2485, ../sass/layout/_abour_our.scss */
+.left_1 p.small_i {
+  margin-bottom: 15px;
+}
+
+/* line 2486, ../sass/layout/_abour_our.scss */
+.left_1 p img {
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+/* line 2487, ../sass/layout/_abour_our.scss */
+.left_1 p.small_i img {
+  width: 295px;
+  height: 211px;
+}
+
+/* line 2488, ../sass/layout/_abour_our.scss */
+.left_1 p.big_i img {
+  width: 256px;
+  height: 464px;
+}
+
+/* line 2490, ../sass/layout/_abour_our.scss */
+.galleria-overlay {
+  background: #000;
+  opacity: .9;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+/* line 2501, ../sass/layout/_abour_our.scss */
+.galleria-popup, .galleria-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* line 2509, ../sass/layout/_abour_our.scss */
+.galleria-stage {
+  position: absolute;
+  top: 20px;
+  bottom: 40px;
+  left: 50px;
+  right: 50px;
+  overflow: visible;
+}
+
+/* line 2517, ../sass/layout/_abour_our.scss */
+.galleria-thumbnails {
+  overflow: hidden;
+}
+
+/* line 2520, ../sass/layout/_abour_our.scss */
+.galleria-thumbnails .galleria-image {
+  width: 100px;
+  height: 60px;
+  float: left;
+  cursor: pointer;
+  margin: 0 1px 1px 0;
+}
+
+/* line 2529, ../sass/layout/_abour_our.scss */
+.galleria-images img {
+  border: 10px solid #fff;
+  -moz-border-radius: 3px;
+}
+
+/* line 2533, ../sass/layout/_abour_our.scss */
+.galleria-image-nav {
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  width: 100%;
+  display: none;
+}
+
+/* line 2541, ../sass/layout/_abour_our.scss */
+.galleria-image-nav-left, .galleria-image-nav-right {
+  cursor: pointer;
+  width: 50px;
+  height: 300px;
+  left: -45px;
+  background: url(../images/p.png) no-repeat 50% 50%;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+/* line 2551, ../sass/layout/_abour_our.scss */
+.galleria-image-nav-right {
+  right: -45px;
+  left: auto;
+  background-image: url(../images/n.png);
+}
+
+/* line 2556, ../sass/layout/_abour_our.scss */
+.galleria-square {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: #fff;
+}
+
+/* line 2562, ../sass/layout/_abour_our.scss */
+.galleria-info {
+  position: absolute;
+  padding: 10px;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  left: 10px;
+  right: 10px;
+}
+
+/* line 2571, ../sass/layout/_abour_our.scss */
+.galleria-info {
+  font: 12px/1.4 arial, sans-serif;
+  text-align: center;
+}
+
+/* line 2575, ../sass/layout/_abour_our.scss */
+.galleria-info-description {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+/* line 2579, ../sass/layout/_abour_our.scss */
+.galleria-counter {
+  opacity: .4;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  z-index: 2;
+  color: #bbb;
+  font: 12px/1.4 arial, sans-serif;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+}
+
+/* line 2590, ../sass/layout/_abour_our.scss */
+.galleria-counter span {
+  color: #fff;
+}
+
+/* line 2593, ../sass/layout/_abour_our.scss */
+.galleria-info-text * {
+  display: inline;
+}
+
+/* line 2596, ../sass/layout/_abour_our.scss */
+.galleria-loader {
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  background: #fff url("../images/loader.gif") no-repeat 50% 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -24px;
+  margin-top: -24px;
+  opacity: .6;
+  z-index: 2;
+  display: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+}
+
+/* line 2611, ../sass/layout/_abour_our.scss */
+.galleria-close {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  color: #fff;
+  font: 12px/1.4 arial, sans-serif;
+  z-index: 2;
+  text-indent: -10000px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/close.png) no-repeat;
+  opacity: .5;
+  cursor: pointer;
+}
+
+/* line 2625, ../sass/layout/_abour_our.scss */
+.galleria-close:hover {
+  opacity: 1;
+}
+
+/* line 2628, ../sass/layout/_abour_our.scss */
+.galleria-square {
+  -moz-border-radius: 3px;
+}
+
+/* line 2, ../sass/layout/_sever_a.scss */
+.sever-con {
+  width: 1200px;
+  margin: 45px auto;
+  background: #fff;
+  height: 600px;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 9, ../sass/layout/_sever_a.scss */
+.sever_left {
+  width: 190px;
+  border-right: 1px solid #e5e5e5;
+}
+/* line 13, ../sass/layout/_sever_a.scss */
+.sever_left .sever-nav li {
+  line-height: 50px;
+}
+/* line 16, ../sass/layout/_sever_a.scss */
+.sever_left .sever-nav li a {
+  text-align: center;
+  display: block;
+}
+/* line 20, ../sass/layout/_sever_a.scss */
+.sever_left .sever-nav li a:hover {
+  background: #ebebeb;
+  width: 191px;
+  /* border-left: 3px solid orange;*/
+  color: orange;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+/* line 30, ../sass/layout/_sever_a.scss */
+.sever_left .sever-nav li a:hover i {
+  color: orange;
+}
+/* line 34, ../sass/layout/_sever_a.scss */
+.sever_left .sever-nav li a i {
+  display: inline-block;
+  font-size: 24px;
+  color: #a0a0a0;
+  padding-right: 12px;
+  width: 36px;
+  height: 36px;
+}
+/* line 42, ../sass/layout/_sever_a.scss */
+.sever_left .sever-nav li a span {
+  font-size: 16px;
+  color: #5e5e5e;
+  line-height: 24px;
+  display: inline-block;
+  width: 80px;
 }
 
 /*********************** other module Start **************************************

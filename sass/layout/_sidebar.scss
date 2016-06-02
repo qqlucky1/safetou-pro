@@ -8,13 +8,26 @@
   z-index: 999;
   top: 8px;
 }
-.video-img{
+.play-icon{
+  background: url("../images/p_icon_m_05.png") no-repeat;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 270px;
+  height: 140px;
+
+}
+.play-icon:hover{
+  background: url("../images/p_icons_h_05.png") no-repeat;
+}
+/*.video-img{
   display: inline-block;
   background:sprite($icons, play-img);
   @include sprite-background-position($icons, play-img);
   @include  sprite-dimensions($icons,play-img);
   vertical-align: middle;
-}
+}*/
 .i-mod-warp{
 
   border-bottom: 1px solid #e5e5e5;
