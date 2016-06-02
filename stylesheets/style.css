@@ -11365,7 +11365,7 @@ yx-axis
 /* line 2, ../sass/layout/_sever_b.scss */
 .mo_title dl {
   float: left;
-  padding: 36px 50px;
+  padding: 0px 45px;
 }
 
 /* line 3, ../sass/layout/_sever_b.scss */
@@ -11383,18 +11383,104 @@ yx-axis
   text-align: center;
 }
 
-/* line 10, ../sass/layout/_sever_b.scss */
+/* line 5, ../sass/layout/_sever_b.scss */
 .mo_title dl dd span i {
   color: orange;
   line-height: 80px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
-/* line 14, ../sass/layout/_sever_b.scss */
-.mo_title dl dd {
+/* line 6, ../sass/layout/_sever_b.scss */
+.mo_title dl dt {
   color: #302f2b;
   font-size: 16px;
   line-height: 36px;
+}
+
+/* line 7, ../sass/layout/_sever_b.scss */
+.mo_title dl dt:hover, .mo_title dl dt.current {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 8, ../sass/layout/_sever_b.scss */
+.gl_item {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+
+/* line 9, ../sass/layout/_sever_b.scss */
+.gl_item .img_r_gl {
+  float: left;
+}
+
+/* line 10, ../sass/layout/_sever_b.scss */
+.img_l_gl {
+  float: left;
+  float: right;
+  width: 720px;
+}
+/* line 11, ../sass/layout/_sever_b.scss */
+.img_l_gl .title {
+  font-size: 16px;
+  color: #302f2b;
+}
+/* line 12, ../sass/layout/_sever_b.scss */
+.img_l_gl .title:hover, .img_l_gl .title.active {
+  color: orange;
+  cursor: pointer;
+}
+/* line 13, ../sass/layout/_sever_b.scss */
+.img_l_gl .time {
+  color: #a0a0a0;
+  font-size: 14px;
+  line-height: 32px;
+}
+/* line 14, ../sass/layout/_sever_b.scss */
+.img_l_gl .gl_text {
+  color: #a0a0a0;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* line 15, ../sass/layout/_sever_b.scss */
+.img_l_gl .gl_text i {
+  color: orange;
+}
+
+/* line 20, ../sass/layout/_sever_b.scss */
+.cjwt_item {
+  margin: 11px 0px;
+  padding: 11px 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 21, ../sass/layout/_sever_b.scss */
+.cjwt_item h3 {
+  color: #302f2b;
+  font-size: 14px;
+  line-height: 35px;
+  cursor: pointer;
+}
+/* line 22, ../sass/layout/_sever_b.scss */
+.cjwt_item h3 .ronud_1 {
+  width: 5px;
+  height: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #a0a0a0;
+  display: inline-block;
+  margin-right: 5px;
+}
+/* line 23, ../sass/layout/_sever_b.scss */
+.cjwt_item .arrow_cj {
+  background: url("../images/cjwt_arrow1_03.png") no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin-top: 12px;
 }
 
 /*********************** other module Start **************************************
