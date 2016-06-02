@@ -1,10 +1,11 @@
 @charset "UTF-8";
 .sever-con{
   width: 1200px;
-   margin: 45px auto;
+  margin: 45px auto;
   background: #fff;
-  height: 600px;
+  height: auto;
   border: 1px solid #e5e5e5;
+  overflow: hidden;
 }
 .sever_left{
   width: 189px;
@@ -21,7 +22,7 @@
   float: left;
 }
 .wzggBox{
-  min-height: 660px;
+ /* min-height: 660px;*/
 }
 .ser_listsBox{
   margin:50px 55px 50px 50px;
