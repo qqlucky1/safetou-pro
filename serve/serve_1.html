@@ -109,21 +109,57 @@
             </div>
         </div>
     </div>
-    <div class="sever-warp">
+    <div class="sever-warp clearfix">
         <div class="sever-con">
         <div class="sever_left">
-            <p><img src="../images/sever_i_03.png"> </p>
-            <ul class="sever-nav">
-                <li><a href=""><!--<i class="iconfont icon">&#xe646;</i>--><span class="txt">网站公告</span></a></li>
-                <li><a href=""><!--<i class="iconfont icon">&#xe64a;</i>--><span class="txt">理财攻略</span></a></li>
-                <li><a href=""><!--<i class="iconfont icon">&#xe648;</i>--><span class="txt">常见问题</span></a></li>
-                <li><a href=""><!--<i class="iconfont icon">&#xe61c;</i>--><span class="txt">合同范本</span></a></li>
-                <li><a href=""><!--<i class="iconfont icon">&#xe647;</i>--><span class="txt">法律法规</span></a></li>
-            </ul>
+            <div class="info-sidebar">
+                <img src="../images/sever_i_03.png" height="120"/>
+                <div id="PP_NavLabel" class="list-nav-label"></div>
+                <ul class="list">
+                    <li>
+                        <h2 class="strong item" data-filter><a href="#" data-url="news/ppgg"><i class="iconfont icon" style="font-size:25px;">&#xe646;</i><span>网站公告</span></a></h2>
+
+                    </li>
+                    <li>
+                        <h2 class="strong item" data-filter><a href="#" data-url="news/mtbd"><i class="iconfont icon">&#xe64a;</i>理财攻略</a></h2>
+                    </li>
+                    <li>
+                        <h2 class="strong item" data-filter><a href="#" data-url="news/khzs"><i class="iconfont icon" style="font-size:18px;">&#xe648;</i>常见问题</a></h2>
+                    </li>
+                    <li>
+                        <h2 class="strong item" data-filter><a href="#" data-url="news/ryzs"><i class="iconfont icon">&#xe61c;</i>合同范本</a></h2>
+                    </li>
+
+
+                    <li>
+                        <h2 class="strong item" data-filter><a href="#" data-url="news/pfhd"><i class="iconfont icon">&#xe647;</i>法律法规</a></h2>
+                    </li>
+                </ul>
+            </div>
         </div>
             <div class="sever_right">
+                <div class="ser_listsBox">
+                    <!--网站公告-->
+                    <div class="wzggBox">
+                        <div class="ser_titleT">
+                            <i class="t-line" style="width: 30px"></i>
+                            <span>网站公告</span>
+                            <i class="t-line" style="width: 776px"></i>
+                        </div>
+                        <div class="wzggLists">
 
+                        </div>
+                    </div>
 
+                    <!--理财攻略-->
+                    <div class="clglBox"></div>
+                    <!--常见问题-->
+                    <div class="cjwtBox"></div>
+                    <!--合同范本-->
+                    <div class="htfbBox"></div>
+                    <!--法律法规-->
+                    <div class="flvgBox"></div>
+                </div>
 
             </div>
         </div>
@@ -131,7 +167,49 @@
 
 
     </div>
+    <script type="text/javascript">
+        //导航栏info-sidebar的label移动
+        var defaultTop = $(".sever_left a:eq(0)").offset().top;
+        var $dataFilter = $(".sever_left [data-filter]");
+        $dataFilter.on({
+            "mouseover": function () {
+                $("#PP_NavLabel").css({ "top": $(this).offset().top - $(".info-sidebar").offset().top });
+            },
+            "mouseout": function () {
+                $("#PP_NavLabel").css({ "top": defaultTop - $(".info-sidebar").offset().top });
+            }
+        });
 
+        $(".info-sidebar h2").each(function (index, el) {
+//            var reg = new RegExp($(this).attr("data-url"), "gi");
+//            if (location.href.match(reg)) {
+            $(this).click(function(){
+                defaultTop = $(this).offset().top
+                $("#PP_NavLabel").css({ "top": defaultTop - $(".info-sidebar").offset().top });
+
+                $(".info-sidebar h2").removeClass("current");
+                $(this).addClass('current');
+            })
+
+//            }
+        });
+
+        //sidebar的subnav实现
+        $('.item-sub').toggle(function () {
+            var child = $(this).next('.item-cont');
+            if (child.length) {
+                var len = child.children('li').length;
+                child.height(len * 60);
+            }
+            $('.caret').removeClass('caret').addClass('caret-up');
+        }, function () {
+            $(this).next('.item-cont').height(0);
+            $('.caret-up').removeClass('caret-up').addClass('caret');
+        });
+
+
+
+    </script>
 
 
     <div class="g-foot-w clearfix">
