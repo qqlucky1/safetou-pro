@@ -283,9 +283,11 @@
                                 </div>
                             </div>
                             <div class="scontentBox" style="display: none">
-                                <div class="con_title">安全投劳动节放假公告</div>
-                                <div class="con_time">2016-06-27</div>
-                                <div class="con_content">
+                                <div class="scontentLists">
+                                    <div class="scontentList">
+                                        <div class="con_title">安全投劳动节放假公告</div>
+                                        <div class="con_time">2016-06-27</div>
+                                        <div class="con_content">
                                 <pre>为了更好地服务广大会员，网站定于2016年5月20日（星期五）晚进行升级维护，届时主站和手机客户端将短时间无法访问。
 在此期间，客服热线及客服邮箱等功能可正常使用；如您在维护期间内遇问题需咨询，请拨打客服热线400-801-8131或者发送邮
 件至kefu@safetou.com，客服人员将在第一时间内解答您的疑问。
@@ -295,7 +297,41 @@
                                                                                                                                                     安全投
                                                                                                                                                   2016年5月20日
                                 </pre>
+                                        </div>
+                                    </div>
+                                    <div class="scontentList">
+                                        <div class="con_title">安全投劳动节放假公告</div>
+                                        <div class="con_time">2016-06-27</div>
+                                        <div class="con_content">
+                                <pre>为了更好地服务广大会员，网站定于2016年5月20日（星期五）晚进行升级维护，届时主站和手机客户端将短时间无法访问。
+在此期间，客服热线及客服邮箱等功能可正常使用；如您在维护期间内遇问题需咨询，请拨打客服热线400-801-8131或者发送邮
+件至kefu@safetou.com，客服人员将在第一时间内解答您的疑问。
+对此造成的不便，深表歉意！
+感谢您一直以来对安全投的关注和支持。安全，财能安心。
+
+                                                                                                                                                    安全投
+                                                                                                                                                  2016年5月20日
+                                </pre>
+                                        </div>
+                                    </div>
+                                    <div class="scontentList">
+                                        <div class="con_title">安全投劳动节放假公告</div>
+                                        <div class="con_time">2016-06-27</div>
+                                        <div class="con_content">
+                                <pre>为了更好地服务广大会员，网站定于2016年5月20日（星期五）晚进行升级维护，届时主站和手机客户端将短时间无法访问。
+在此期间，客服热线及客服邮箱等功能可正常使用；如您在维护期间内遇问题需咨询，请拨打客服热线400-801-8131或者发送邮
+件至kefu@safetou.com，客服人员将在第一时间内解答您的疑问。
+对此造成的不便，深表歉意！
+感谢您一直以来对安全投的关注和支持。安全，财能安心。
+
+                                                                                                                                                    安全投
+                                                                                                                                                  2016年5月20日
+                                </pre>
+                                        </div>
+                                    </div>
                                 </div>
+
+
                                 <div class="bothPages">
                                     <div class="fontPage">上一篇：没有了</div>
                                     <div class="nextPage">下一篇：银行维护公告</div>
@@ -577,84 +613,83 @@
     </div>
     <script type="text/javascript">
 
-        ///上一篇 下一篇点击效果切换
-        var $fontPage = $(".fontPage");
-        var $nextPage = $(".nextPage");
-        var nameArr = [];
-        var nowWZGGIndex = 0;
-
-        $(".slist_title").each(function(index,elm){
-            nameArr[index] = $(this)[0].innerText
-        });
-//        console.log(nameArr)
-        $fontPage.click(function(){
-            if( $(this).children()[0].innerHTML != "没有了") {
-                nowWZGGIndex--;
-                $(".scontentList").each(function(index,element){
-//                     console.log(index + "当前被选中的索引是：" + nowWZGGIndex)
-//                    $($(".scontentList")[nowWZGGIndex]).show().siblings().hide();
-                    $($(".scontentList")[nowWZGGIndex]).slideDown().siblings().slideUp();
-
-                    var fontPageText = '';
-                    if(nowWZGGIndex == 0){
-                        fontPageText = "没有了";
-                    }else{
-                        fontPageText = nameArr[nowWZGGIndex - 1]
-                    }
-                    $fontPage.children()[0].innerHTML = fontPageText
-                    $nextPage.children()[0].innerHTML = nameArr[nowWZGGIndex + 1];
-                });
-
-            }
-
-        });
-        ///下一篇
-        $nextPage.click(function(){
-            if( $(this).children()[0].innerHTML != "没有了") {
-                nowWZGGIndex++;
-                $(".scontentList").each(function(index,element){
-//                    console.log(index + "当前被选中的索引是：" + nowWZGGIndex + nameArr)
-                    $($(".scontentList")[nowWZGGIndex]).slideDown().siblings().slideUp();
-                    var fontPageText = '';
-                    var nextPageText = '';
-
-                    fontPageText = nameArr[nowWZGGIndex - 1];
-
-                    if(nowWZGGIndex+1 > nameArr.length - 1){
-                        nextPageText = "没有了";
-                    }else{
-                        nextPageText = nameArr[nowWZGGIndex + 1];
-                    }
-                    $fontPage.children()[0].innerHTML = fontPageText;
-
-                    $nextPage.children()[0].innerHTML = nextPageText;
-                });
-
-            }
-
-        })
-
+        ///上一篇 下一篇点击效果切换 start
+//        var $fontPage = $(".fontPage");
+//        var $nextPage = $(".nextPage");
+//        var nameArr = [];
+//        var nowWZGGIndex = 0;
+//
+//        $(".slist_title").each(function(index,elm){
+//            nameArr[index] = $(this)[0].innerText
+//        });
+////        console.log(nameArr)
+//        $fontPage.click(function(){
+//            if( $(this).children()[0].innerHTML != "没有了") {
+//                nowWZGGIndex--;
+//                $(".scontentList").each(function(index,element){
+//                    $($(".scontentList")[nowWZGGIndex]).slideDown().siblings().slideUp();
+//
+//                    var fontPageText = '';
+//                    if(nowWZGGIndex == 0){
+//                        fontPageText = "没有了";
+//                    }else{
+//                        fontPageText = nameArr[nowWZGGIndex - 1]
+//                    }
+//                    $fontPage.children()[0].innerHTML = fontPageText
+//                    $nextPage.children()[0].innerHTML = nameArr[nowWZGGIndex + 1];
+//                });
+//
+//            }
+//
+//        });
+//        ///下一篇
+//        $nextPage.click(function(){
+//            if( $(this).children()[0].innerHTML != "没有了") {
+//                nowWZGGIndex++;
+//                $(".scontentList").each(function(index,element){
+////                    console.log(index + "当前被选中的索引是：" + nowWZGGIndex + nameArr)
+//                    $($(".scontentList")[nowWZGGIndex]).slideDown().siblings().slideUp();
+//                    var fontPageText = '';
+//                    var nextPageText = '';
+//
+//                    fontPageText = nameArr[nowWZGGIndex - 1];
+//
+//                    if(nowWZGGIndex+1 > nameArr.length - 1){
+//                        nextPageText = "没有了";
+//                    }else{
+//                        nextPageText = nameArr[nowWZGGIndex + 1];
+//                    }
+//                    $fontPage.children()[0].innerHTML = fontPageText;
+//
+//                    $nextPage.children()[0].innerHTML = nextPageText;
+//                });
+//
+//            }
+//
+//        })
+// end
 
         ///网站公告点击
         $(".wzggList").each(function (index, el) {
 
             $(this).click(function(){
-                ///用于上一篇  下一篇索引
-                nowWZGGIndex = index;
-                var fontNameText = "";
-                var nextNameText = "";
-                if (index == 0) {
-                    fontNameText = "没有了";
-                    nextNameText = nameArr[index + 1];
-                }else if(index == nameArr.length - 1){
-                    fontNameText = nameArr[index - 1];
-                    nextNameText = "没有了";
-                }else{
-                    fontNameText = nameArr[index - 1];
-                    nextNameText = nameArr[index + 1];
-                }
-                $fontPage.children()[0].innerHTML = fontNameText;
-                $nextPage.children()[0].innerHTML = nextNameText;
+                ///start用于上一篇  下一篇索引   已经被注释 有bug
+//                nowWZGGIndex = index;
+//                var fontNameText = "";
+//                var nextNameText = "";
+//                if (index == 0) {
+//                    fontNameText = "没有了";
+//                    nextNameText = nameArr[index + 1];
+//                }else if(index == nameArr.length - 1){
+//                    fontNameText = nameArr[index - 1];
+//                    nextNameText = "没有了";
+//                }else{
+//                    fontNameText = nameArr[index - 1];
+//                    nextNameText = nameArr[index + 1];
+//                }
+//                $fontPage.children()[0].innerHTML = fontNameText;
+//                $nextPage.children()[0].innerHTML = nextNameText;
+                //end
 
                 ///显示当前选中的公告内容，隐藏其他
                 $($(".scontentList")[index]).show().siblings().hide();
@@ -667,14 +702,13 @@
         })
 
         //理财攻略点击
-        $(".wzggList").each(function (index, el) {
-
+        $(".clglBox .title").each(function (index, el) {
             $(this).click(function(){
                 ///显示当前选中的内容，隐藏其他
-                $($(".scontentList")[index]).show().siblings().hide();
+                $($(".clglBox .scontentList")[index]).show().siblings().hide();
 
-                $(".wzggLists").fadeOut('fast',function(){
-                    $(".scontentBox").fadeIn('fast');
+                $(".clglBox .gl_item").fadeOut('fast',function(){
+                    $(".clglBox .scontentBox").fadeIn('fast');
                 });
             });
         })
