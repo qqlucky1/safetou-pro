@@ -320,6 +320,12 @@ padding-left: 8px;
     @include sprite-background-position($pop-img, c-s-1);
     @include  sprite-dimensions($pop-img, c-s-1);
   }
+  .img_wx00{
+    display: inline-block;
+    background:sprite($pop-img,img_1111);
+    @include sprite-background-position($pop-img, img_1111);
+    @include  sprite-dimensions($pop-img, img_1111);
+  }
   p{
     color: #363636;
     font-size: 20px;
