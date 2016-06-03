@@ -4,7 +4,9 @@
 .mo_title dl dd span{width: 80px;  height: 80px;  display: inline-block; border: 1px solid orange; border-radius: 50%; text-align: center;}
 .mo_title dl dd span i{ color: orange;  line-height: 80px;      font-size: 35px;}
 .mo_title dl dt{ color: #302f2b; font-size: 16px; line-height: 36px; }
-.mo_title dl dt:hover , .mo_title dl dt.current{  color: orange;  text-decoration: underline; cursor: pointer;}
+.mo_title dl:hover , .mo_title dl.current{
+  > dd,dt{  color: orange;  text-decoration: underline; cursor: pointer;  }
+        }
 .gl_item{ padding-bottom: 25px; border-bottom: 1px solid #e5e5e5; margin-bottom: 30px;}
 .gl_item .img_r_gl{ float: left;}
 .img_l_gl{ float: left; float: right;  width: 720px;
@@ -15,10 +17,15 @@
   i{ color: orange;}
   }
 }
-
-
 .cjwt_item{margin: 11px 0px; padding: 11px 0px;  border-bottom: 1px solid #e5e5e5;
+ .active .cjwt_com_zk {
+    display: block;
+    cursor: pointer;
+  }
  h3{color: #302f2b;  font-size: 14px;  line-height: 35px;  cursor: pointer;
  .ronud_1{width: 5px;  height: 5px;  -moz-border-radius: 3px;  -webkit-border-radius: 3px;  border-radius: 3px; background-color:#a0a0a0;display: inline-block;  margin-right: 5px; } }
- .arrow_cj{ background: url("../images/cjwt_arrow1_03.png") no-repeat; display: inline-block; width: 25px; height: 25px; float: right;margin-top: 12px; }
+  b{ background: url("../images/cjwt_arrow1_03.png") no-repeat 999px 999px; display: inline-block; width: 25px; height: 25px; float: right;margin-top: 12px; }
+  b.arrow_cj{ background-position: 0px -27px;}
 }
+.cjwt_item.active b.top_arr_z{ background-position: 0px 0px;}
+.cjwt_com_zk p{ color: #302f2b;}
