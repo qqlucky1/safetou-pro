@@ -87,6 +87,18 @@
       padding-left: 11px;
       cursor: pointer;
       font-size: 16px;
+      margin-right: 8px;
+
+      .text{
+        line-height: 36px;
+        text-decoration: none;
+        margin-left: 5px;
+      }
+      > .icon{
+        font-size: 19px;
+
+      }
+
       b {
         display: inline-block;
         font-size: 27px;
